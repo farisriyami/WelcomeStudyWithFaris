@@ -1595,8 +1595,12 @@ function parseData(raw) {
   return { courses };
 }
 
-let SHARED = { courses: [] };
-try { SHARED = parseData(JSON.parse(document.getElementById("bank").textContent)); } catch (e) {}
+let BASE = { courses: [] };   // questions built into the page
+try { BASE = parseData(JSON.parse(document.getElementById("bank").textContent)); } catch (e) {}
+const REMOTE_KEY = "quizhub-remote-ops-v1";
+let REMOTE_OPS = [];          // chapters and questions the owner added or deleted on the site
+let SHARED = BASE;            // BASE with REMOTE_OPS applied: what every visitor sees
+let pendingHash = "";
 const localSaved = lsJSON(LOCAL_DATA_KEY);
 let usingLocal = isObj(localSaved) && isObj(localSaved.data) && Array.isArray(localSaved.data.courses);
 let DATA = usingLocal ? parseData(localSaved.data) : SHARED;
@@ -1648,14 +1652,15 @@ function findChapter(data, id) {
   return null;
 }
 const hasQuestion = (data, qid) => data.courses.some(c => c.chapters.some(ch => ch.questions.some(q => q.id === qid)));
+function applyOp(d, o) {
+  if (o.op === "addCh") { const c = findCourse(d, o.course); if (c && !findChapter(d, o.ch.id)) c.chapters.push(clone(o.ch)); }
+  else if (o.op === "delCh") d.courses.forEach(c => { c.chapters = c.chapters.filter(ch => ch.id !== o.ch); });
+  else if (o.op === "addQ") { const f = findChapter(d, o.ch); if (f && !f.chapter.questions.some(q => q.id === o.q.id)) f.chapter.questions.push(clone(o.q)); }
+  else if (o.op === "delQ") { const f = findChapter(d, o.ch); if (f) f.chapter.questions = f.chapter.questions.filter(q => q.id !== o.id); }
+}
 function applyOps(data, ops) {
   const d = clone(data);
-  ops.forEach(o => {
-    if (o.op === "addCh") { const c = findCourse(d, o.course); if (c && !findChapter(d, o.ch.id)) c.chapters.push(clone(o.ch)); }
-    else if (o.op === "delCh") d.courses.forEach(c => { c.chapters = c.chapters.filter(ch => ch.id !== o.ch); });
-    else if (o.op === "addQ") { const f = findChapter(d, o.ch); if (f) f.chapter.questions.push(clone(o.q)); }
-    else if (o.op === "delQ") { const f = findChapter(d, o.ch); if (f) f.chapter.questions = f.chapter.questions.filter(q => q.id !== o.id); }
-  });
+  ops.forEach(o => applyOp(d, o));
   return d;
 }
 const effective = () => applyOps(DATA, OPS);
@@ -1682,7 +1687,41 @@ function cleanOps(raw) {
   });
   return out;
 }
-const saveDraft = () => (OPS.length ? lsSet(DRAFT_KEY, JSON.stringify(OPS)) : lsDel(DRAFT_KEY));
+// Keep only well-formed shared edits that still fit the built-in questions, in order.
+function cleanRemote(raw) {
+  const d = clone(BASE), out = [];
+  (Array.isArray(raw) ? raw : []).forEach(o => {
+    if (!isObj(o)) return;
+    let op = null;
+    if (o.op === "addCh" && isObj(o.ch) && typeof o.ch.id === "string" && typeof o.ch.name === "string" && findCourse(d, o.course) && !findChapter(d, o.ch.id))
+      op = { op: "addCh", course: o.course, ch: { id: o.ch.id, label: str(o.ch.label), name: o.ch.name, questions: [] } };
+    else if (o.op === "delCh" && findChapter(d, o.ch)) op = { op: "delCh", ch: o.ch };
+    else if (o.op === "addQ" && validQuestion(o.q) && findChapter(d, o.ch) && !hasQuestion(d, o.q.id)) op = { op: "addQ", ch: o.ch, q: o.q };
+    else if (o.op === "delQ" && typeof o.id === "string" && findChapter(d, o.ch)) op = { op: "delQ", ch: o.ch, id: o.id };
+    if (op) { out.push(op); applyOp(d, op); }
+  });
+  return { ops: out, data: d };
+}
+function setRemote(ops) {
+  const r = cleanRemote(ops);
+  REMOTE_OPS = r.ops;
+  SHARED = r.data;
+  if (REMOTE_OPS.length) lsSet(REMOTE_KEY, JSON.stringify(REMOTE_OPS)); else lsDel(REMOTE_KEY);
+}
+// Load the owner's latest saved edits so every visitor sees the same chapters and questions.
+async function refreshContent() {
+  let d;
+  try { d = await adminPost({ action: "content" }); } catch (e) { return; }
+  if (!d || !d.ok || !Array.isArray(d.ops)) return;
+  const before = JSON.stringify(REMOTE_OPS);
+  setRemote(d.ops);
+  if (JSON.stringify(REMOTE_OPS) !== before && !usingLocal && !saving) applyData(SHARED, false);
+  if (pendingHash && !route.chapter && !adminMode && chapterRef(pendingHash)) openChapter(pendingHash);
+  pendingHash = "";
+}
+// Only the site owner, signed in on the Admin page in this tab, can add or delete chapters and questions.
+const canEdit = () => !!(TRACK_URL && ADMIN.key);
+const saveDraft = () => { if (canEdit()) (OPS.length ? lsSet(DRAFT_KEY, JSON.stringify(OPS)) : lsDel(DRAFT_KEY)); };
 
 /* ---------- Quiz rounds ---------- */
 function makeRound(ids, label, shuffleOrder) {
@@ -1809,35 +1848,24 @@ function commitLocal(newData, msg) {
   setBarMsg(msg);
 }
 async function saveChanges() {
-  if (saving || !OPS.length) return;
-  const newData = applyOps(DATA, OPS);
-  if (usingLocal) { commitLocal(newData, "Saved in this browser."); return; }
+  if (saving || !OPS.length || !canEdit()) return;
+  const ops = OPS.slice();
   saving = true; discardArmed = false;
-  setBarMsg("Saving your changes…", false);
-  const art = await artifactP;
-  if (!art || typeof art.publish !== "function") {
-    commitLocal(newData, "Saving to the shared page isn't available here, so your changes were saved in this browser only.");
-    return;
-  }
+  setBarMsg("Saving your changes for everyone…", false);
   try {
-    await art.publish(buildDocument(newData));
-    SHARED = newData;
+    const d = await adminPost({ action: "saveContent", key: ADMIN.key, ops });
+    if (!d || !d.ok) throw new Error((d && d.error) || "error");
+    setRemote(REMOTE_OPS.concat(ops));
     saving = false;
-    applyData(newData, true);
-    setBarMsg("Saved. The page is reloading with your changes.");
+    if (usingLocal) { lsDel(LOCAL_DATA_KEY); usingLocal = false; }
+    applyData(SHARED, true);
+    setBarMsg("Saved. Everyone who opens the site now sees your changes.");
   } catch (err) {
-    const code = err && err.code;
-    if (code === "conflict") {
-      setBarMsg("A newer version was saved first. It is loading now, and your unsaved changes will come back.", false);
-      return;
-    }
     saving = false;
-    if (LOCAL_ONLY_CODES.includes(code)) {
-      commitLocal(newData, "You can't change the shared page from here, so your changes were saved in this browser only.");
-      return;
-    }
-    if (code === "rate_limited") setBarMsg("Saving too often. Wait a minute, then save again.");
-    else if (code === "too_large") setBarMsg("The question bank is too big to save. Delete some questions, then save again.");
+    if (err && err.message === "wrong password") {
+      ADMIN.key = ""; ADMIN.rows = null; ssDel("quizhub-admin-key");
+      setBarMsg("Your admin sign-in has ended. Open Admin at the bottom of the home page, sign in, then save again.", false);
+    } else if (err && err.message === "too large") setBarMsg("That's too much to save at once. Save a few questions at a time.");
     else setBarMsg("Couldn't save your changes. Check your connection and try again.");
   }
 }
@@ -1858,6 +1886,7 @@ function renderTop() {
         <h1 id="page-h" tabindex="-1">UTAS Course Quizzes</h1>
         <p class="intro">Pick a course, then a chapter. Every question shows its definition after you answer, and you get a percentage at the end.</p>
         ${TRACK_URL && studentName ? `<p class="name-line muted">Studying as <b>${esc(studentName)}</b> · <button class="linkbtn" id="change-name">Change name</button></p>` : ""}
+        ${canEdit() ? `<p class="name-line muted"><b>Editing is on.</b> Only you can see the tools to add and delete chapters and questions. · <a href="#admin">Dashboard</a></p>` : ""}
       </header>
       <div class="tabs course-tabs" role="tablist" aria-label="Courses">
         ${eff.courses.map(c => `<button class="tab" role="tab" data-course="${esc(c.id)}" aria-selected="${c.id === route.course}">${esc(c.name)} <span class="count">${c.chapters.length}</span></button>`).join("")}
@@ -1876,7 +1905,7 @@ function renderTop() {
     <div class="tabs" role="tablist" aria-label="Sections">
       <button class="tab" role="tab" data-view="quiz" aria-selected="${route.view === "quiz"}">Quiz</button>
       ${wn ? `<button class="tab" role="tab" data-view="written" aria-selected="${route.view === "written"}">Written Q&amp;A</button>` : ""}
-      <button class="tab" role="tab" data-view="manage" aria-selected="${route.view === "manage"}">Manage <span class="count">${n + wn}</span></button>
+      ${canEdit() ? `<button class="tab" role="tab" data-view="manage" aria-selected="${route.view === "manage"}">Manage <span class="count">${n + wn}</span></button>` : ""}
     </div>`;
 }
 
@@ -1925,8 +1954,8 @@ function renderHome() {
       <h2>${esc(course.name)}</h2>
       ${course.sub ? `<p class="muted">${esc(course.sub)}</p>` : ""}
     </section>
-    ${rows.length ? `<ol class="chapters">${rows.map(r => chapterCard(r, eff)).join("")}</ol>` : `<p class="muted">No chapters yet. Add the first one below.</p>`}
-    <article class="card">
+    ${rows.length ? `<ol class="chapters">${rows.map(r => chapterCard(r, eff)).join("")}</ol>` : `<p class="muted">No chapters yet.${canEdit() ? " Add the first one below." : ""}</p>`}
+    ${canEdit() ? `<article class="card">
       <div class="q-head">
         <div class="meta"><span class="topic">Add a chapter</span><span>to ${esc(course.name)}</span></div>
         <form id="addch" class="addch" novalidate>
@@ -1938,7 +1967,7 @@ function renderHome() {
         </form>
         <p class="form-msg" id="ch-msg" role="status"></p>
       </div>
-    </article>
+    </article>` : ""}
     <p class="site-foot">${TRACK_URL ? "Your name, quiz scores and activity are shared with the site owner. · " : ""}<a href="#admin">Admin</a></p>`;
 }
 
@@ -2082,8 +2111,8 @@ function renderQuizView() {
         <div class="q-head">
           <div class="meta"><span class="topic">No questions</span></div>
           <h2>This chapter has no quiz questions yet.</h2>
-          <p class="muted">Add questions under Manage questions, save them, and they will show up here.</p>
-          <div class="actions"><button class="btn primary" data-view="manage">Add a question</button></div>
+          ${canEdit() ? `<p class="muted">Add questions under Manage questions, save them, and they will show up here.</p>
+          <div class="actions"><button class="btn primary" data-view="manage">Add a question</button></div>` : `<p class="muted">Questions for this chapter are coming soon.</p>`}
         </div>
       </article>`;
     return;
@@ -2382,6 +2411,7 @@ function setBarMsg(msg, autoClear = true) {
 
 function renderAll() {
   if (adminMode) { renderAdmin(); return; }
+  if (route.view === "manage" && !canEdit()) route.view = "quiz";
   renderTop();
   if (!route.chapter) renderHome();
   else if (route.view === "manage") renderManage();
@@ -2423,7 +2453,7 @@ function goHome() {
   focusHeading();
 }
 function setView(v) {
-  if (v === route.view) return;
+  if (v === route.view || (v === "manage" && !canEdit())) return;
   route.view = v;
   delChArmed = false;
   renderAll();
@@ -2479,6 +2509,7 @@ function afterDraftChange(focusSel) {
 const newId = prefix => prefix + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
 
 function onAdd() {
+  if (!canEdit()) return;
   const v = id => (document.getElementById(id)?.value || "").trim();
   const type = (app.querySelector('input[name="f-type"]:checked') || {}).value || "mc";
   const isTF = type === "tf";
@@ -2527,6 +2558,7 @@ function onAdd() {
 }
 
 function onAddChapter() {
+  if (!canEdit()) return;
   const input = document.getElementById("ch-name"), msg = document.getElementById("ch-msg");
   const name = (input.value || "").trim();
   if (!name) {
@@ -2624,7 +2656,7 @@ function onClick(e) {
     case "w-review": W = newWritten(W.order.filter(id => W.marks[id] !== true)); renderAll(); scrollToApp(); focusQuestion(); break;
     case "change-name": askName(true); break;
     case "admin-refresh": ADMIN.rows = null; loadAdmin(ADMIN.key); break;
-    case "admin-logout": ADMIN.key = ""; ADMIN.rows = null; ADMIN.error = ""; ADMIN.student = null; ssDel("quizhub-admin-key"); renderAdmin(); break;
+    case "admin-logout": ADMIN.key = ""; ADMIN.rows = null; ADMIN.error = ""; ADMIN.student = null; ssDel("quizhub-admin-key"); OPS = []; renderAdmin(); break;
     case "admin-csv": downloadCSV(); break;
     case "use-shared": useShared(); break;
     case "save": saveChanges(); break;
@@ -2964,6 +2996,7 @@ function renderDashboard() {
       <select id="admin-course" aria-label="Filter by course">${courseOpts}</select>
       <button class="btn secondary small" id="admin-refresh">Refresh</button>
       <button class="btn secondary small" id="admin-csv">Download CSV</button>
+      <a class="linkbtn" href="#">Edit quizzes</a>
       <button class="linkbtn" id="admin-logout">Sign out</button>
     </div>
     <div class="kpis">
@@ -3063,21 +3096,24 @@ function init() {
   window.addEventListener("resize", setDockVar);
   if (window.ResizeObserver) new ResizeObserver(setDockVar).observe(document.getElementById("dock"));
 
+  setRemote(lsJSON(REMOTE_KEY));
+  if (!usingLocal) DATA = SHARED;
   const p = lsJSON(PROGRESS_KEY); PROG = isObj(p) ? p : {};
   const r = lsJSON(RESULTS_KEY); RESULTS = isObj(r) ? r : {};
   const wp = lsJSON(WRITTEN_KEY); WPROG = isObj(wp) ? wp : {};
   if (!PROG["tot-ch1"] && findChapter(DATA, "tot-ch1")) { const old = lsJSON(OLD_PROGRESS_KEY); if (isObj(old)) PROG["tot-ch1"] = old; }
   pruneStored();
-  OPS = cleanOps(lsJSON(DRAFT_KEY));
+  OPS = canEdit() ? cleanOps(lsJSON(DRAFT_KEY)) : [];
   saveDraft();
 
   const saved = lsJSON(ROUTE_KEY);
-  if (isObj(saved)) route = { course: str(saved.course) || null, chapter: str(saved.chapter) || null, view: saved.view === "manage" ? "manage" : "quiz" };
+  if (isObj(saved)) route = { course: str(saved.course) || null, chapter: str(saved.chapter) || null, view: saved.view === "manage" && canEdit() ? "manage" : "quiz" };
   let hash = "";
   try { hash = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
   if (hash) {
     if (chapterRef(hash)) { route.chapter = hash; route.view = "quiz"; }
     else if (findCourse(DATA, hash)) { route.course = hash; route.chapter = null; }
+    else if (hash !== "admin") pendingHash = hash;
   }
   if (route.chapter && !chapterRef(route.chapter)) route.chapter = null;
   if (route.chapter) route.course = chapterRef(route.chapter).course.id;
@@ -3087,9 +3123,14 @@ function init() {
   adminMode = location.hash === "#admin";
   window.addEventListener("hashchange", () => {
     const a = location.hash === "#admin";
-    if (a !== adminMode) { adminMode = a; window.scrollTo(0, 0); renderAll(); }
+    if (a !== adminMode) {
+      adminMode = a;
+      if (!a && canEdit() && !OPS.length) OPS = cleanOps(lsJSON(DRAFT_KEY));
+      window.scrollTo(0, 0); renderAll();
+    }
   });
   renderAll();
+  if (TRACK_URL) refreshContent();
   if (!adminMode) {
     if (!ssGet("quizhub-visit")) { ssSet("quizhub-visit", "1"); track("visit"); }
     askName(false);
