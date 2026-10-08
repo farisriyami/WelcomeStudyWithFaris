@@ -1,0 +1,427 @@
+{
+ "id": "mg-ch2",
+ "label": "Chapter 2",
+ "name": "Planning and Decision Making",
+ "questions": [
+  {
+   "id": "mg2-01",
+   "t": "Meaning of planning",
+   "q": "According to Koontz and O'Donnell, a plan bridges the gap between:",
+   "o": [
+    "Where we are and where we want to go",
+    "Managers and employees",
+    "Income and expenses",
+    "The past and the present"
+   ],
+   "d": "Planning (Koontz & O'Donnell): deciding in advance what is to be done in future.",
+   "w": "A plan connects the current position to the desired future position."
+  },
+  {
+   "id": "mg2-02",
+   "t": "Need for planning",
+   "q": "Which is a reason organizations need planning, according to the slides?",
+   "o": [
+    "To facilitate control by establishing a standard for later activity",
+    "To remove all future uncertainty permanently",
+    "To avoid setting objectives",
+    "To replace decision-making"
+   ],
+   "d": "Need for planning: to offset uncertainty and change, focus activity on objectives, provide a coordinated road map, increase economic efficiency, and facilitate control.",
+   "w": "Planning reduces (offsets) uncertainty but cannot remove it. It also sets the standards that controlling measures against."
+  },
+  {
+   "id": "mg2-03",
+   "t": "Types of plans",
+   "q": "Long-range plans typically look:",
+   "o": [
+    "Three or more years into the future",
+    "One year or less into the future",
+    "One month ahead",
+    "Only at the past year"
+   ],
+   "d": "Long-range plans: three or more years ahead. Short-range plans: one year or less.",
+   "w": "This is the classification of plans on the basis of time."
+  },
+  {
+   "id": "mg2-04",
+   "t": "Types of plans",
+   "q": "Strategic plans are:",
+   "o": [
+    "Broad, long-term plans for the whole organization, made by top management",
+    "Narrow, short-term plans made by lower management",
+    "Functional plans made by middle management",
+    "Plans used only once for a single problem"
+   ],
+   "d": "Strategic plans: broad, comprehensive, longer-term directions for the entire organization; made by top management; include the vision.",
+   "w": "Narrow short-term plans are operational; functional plans are tactical."
+  },
+  {
+   "id": "mg2-05",
+   "t": "Types of plans",
+   "q": "Production, marketing, HR and financial plans that help implement the strategy are:",
+   "o": [
+    "Tactical plans",
+    "Strategic plans",
+    "Operational plans",
+    "Contingency plans"
+   ],
+   "d": "Tactical plans: help implement all or parts of the strategic plan; functional plans made by middle management.",
+   "w": "They translate the overall strategy into plans for each function."
+  },
+  {
+   "id": "mg2-06",
+   "t": "Types of plans",
+   "q": "Short-term, specific plans made by lower management for a particular area are:",
+   "o": [
+    "Operational plans",
+    "Strategic plans",
+    "Tactical plans",
+    "Long-range plans"
+   ],
+   "d": "Operational plans: identify short-term activities to implement strategic plans; narrow, specific and usually standing; made by lower management.",
+   "w": "They are the most detailed level of the planning hierarchy."
+  },
+  {
+   "id": "mg2-07",
+   "t": "Types of plans",
+   "q": "Projects, budgets and programmes for non-recurring problems are examples of:",
+   "o": [
+    "Single-use plans",
+    "Standing plans",
+    "Policies",
+    "Rules"
+   ],
+   "d": "Single-use (specific) plans: made for non-recurring, unique problems and cannot be used again.",
+   "w": "Once the project or programme is finished, the plan is not reused."
+  },
+  {
+   "id": "mg2-08",
+   "t": "Types of plans",
+   "q": "Objectives, policies, procedures, methods, rules and strategies used again and again are:",
+   "o": [
+    "Standing plans",
+    "Single-use plans",
+    "Projects",
+    "Budgets"
+   ],
+   "d": "Standing (repeated-use) plans: guide decisions and actions on recurring problems at various levels.",
+   "w": "They are designed to be used repeatedly for situations that keep coming back."
+  },
+  {
+   "id": "mg2-09",
+   "t": "Hierarchy of plans",
+   "q": "General statements or understandings that guide thinking and action in decision-making are:",
+   "o": [
+    "Policies",
+    "Rules",
+    "Procedures",
+    "Budgets"
+   ],
+   "d": "Policies: general statements that guide or direct thinking and action in decision-making.",
+   "w": "Policies leave room for judgement; rules and procedures are more specific."
+  },
+  {
+   "id": "mg2-10",
+   "t": "Hierarchy of plans",
+   "q": "Plans that spell out a specific required action or non-action, allowing NO discretion, are:",
+   "o": [
+    "Rules",
+    "Policies",
+    "Strategies",
+    "Objectives"
+   ],
+   "d": "Rules: spell out specific required action or non-action, allowing no discretion or choice.",
+   "w": "Unlike policies, rules leave no room for personal judgement."
+  },
+  {
+   "id": "mg2-11",
+   "t": "Hierarchy of plans",
+   "q": "Plans that detail the exact manner in which an activity must be done (a standardised way of performing a task) are:",
+   "o": [
+    "Procedures",
+    "Policies",
+    "Strategies",
+    "Objectives"
+   ],
+   "d": "Procedures: establish a desired method of handling future activities; guides to action rather than thinking.",
+   "w": "They describe the exact sequence of steps to follow."
+  },
+  {
+   "id": "mg2-12",
+   "t": "Hierarchy of plans",
+   "q": "A statement of expected results in numbers, sometimes called a 'numerical programme', is a:",
+   "o": [
+    "Budget",
+    "Policy",
+    "Rule",
+    "Strategy"
+   ],
+   "d": "Budget: a statement of expected results in numerical terms, e.g. cash, sales or capital expenditure budgets.",
+   "w": "The key word is 'numbers'."
+  },
+  {
+   "id": "mg2-13",
+   "t": "Hierarchy of plans",
+   "q": "Determining the basic long-term objectives of an enterprise and the courses of action and resources needed to achieve them is:",
+   "o": [
+    "Strategy",
+    "Procedure",
+    "Rule",
+    "Programme"
+   ],
+   "d": "Strategy: determining basic long-term objectives and adopting courses of action and allocating resources to achieve them.",
+   "w": "Strategy is about long-term direction and resource allocation, not detailed steps."
+  },
+  {
+   "id": "mg2-14",
+   "t": "Steps in planning",
+   "q": "Analysing internal strengths and weaknesses and external technological, economic and political factors is which planning step?",
+   "o": [
+    "Being aware of opportunities and strengths",
+    "Developing premises",
+    "Selecting a course",
+    "Budgeting"
+   ],
+   "d": "Step 1 of planning: being aware of opportunities and strengths through internal and external environmental analysis.",
+   "w": "Planning starts by understanding where the organization stands."
+  },
+  {
+   "id": "mg2-15",
+   "t": "Steps in planning",
+   "q": "A new competitor entering your home market is a:",
+   "o": [
+    "Threat",
+    "Weakness",
+    "Strength",
+    "Opportunity"
+   ],
+   "d": "SWOT: strengths and weaknesses are internal; opportunities and threats are external.",
+   "w": "A competitor is outside the organization and can harm it, so it is a threat."
+  },
+  {
+   "id": "mg2-16",
+   "t": "Steps in planning",
+   "q": "Poor quality of a company's goods and services is a:",
+   "o": [
+    "Weakness",
+    "Threat",
+    "Opportunity",
+    "Strength"
+   ],
+   "d": "Weakness: an internal factor that limits the organization.",
+   "w": "Product quality is inside the company's control, and poor quality is negative, so it is a weakness."
+  },
+  {
+   "id": "mg2-17",
+   "t": "Steps in planning",
+   "q": "Making assumptions about the future environment, e.g. what new markets or technologies will emerge, is called:",
+   "o": [
+    "Developing premises",
+    "Establishing objectives",
+    "Formulating derivative plans",
+    "Evaluating alternatives"
+   ],
+   "d": "Premises: assumptions about the environment (forecasts, policies, guidelines) that all planning managers should share.",
+   "w": "The slides' MCQ also calls this 'setting planning premises'."
+  },
+  {
+   "id": "mg2-18",
+   "t": "Steps in planning",
+   "q": "Policies, procedures, rules, programmes and schedules prepared as secondary plans are:",
+   "o": [
+    "Derivative plans",
+    "Planning premises",
+    "Alternative courses",
+    "Strategic plans"
+   ],
+   "d": "Formulating derivative plans (step 7): sub-plans or secondary plans that support the main plan.",
+   "w": "They are derived from the selected course of action."
+  },
+  {
+   "id": "mg2-19",
+   "t": "Decision-making",
+   "q": "Koontz and Weihrich describe decision-making as:",
+   "o": [
+    "The selection of a course of action from among alternatives, and the core of planning",
+    "Following rules without choice",
+    "Measuring actual performance",
+    "Grouping work into departments"
+   ],
+   "d": "Decision-making: the process of choosing the best from among alternative solutions under a given set of circumstances.",
+   "w": "Without alternatives there is no decision, and every plan requires decisions."
+  },
+  {
+   "id": "mg2-20",
+   "t": "Types of decisions",
+   "q": "Diversification or introducing a new product is a:",
+   "o": [
+    "Strategic decision",
+    "Operational decision",
+    "Minor decision",
+    "Programmed decision"
+   ],
+   "d": "Strategic decisions: unified, integrated and comprehensive issues affecting the whole organization; require trade-offs.",
+   "w": "A new product or diversification changes the organization's direction."
+  },
+  {
+   "id": "mg2-21",
+   "t": "Types of decisions",
+   "q": "Refunding a customer, based on company policy, when a product does not meet their specifications is a:",
+   "o": [
+    "Programmed decision",
+    "Non-programmed decision",
+    "Strategic decision",
+    "Complex decision"
+   ],
+   "d": "Programmed decisions: based on company policy and procedures, for routine and repetitive situations.",
+   "w": "The policy already says what to do, so no new analysis is needed."
+  },
+  {
+   "id": "mg2-22",
+   "t": "Types of decisions",
+   "q": "Downsizing employees or closing a regional office is a:",
+   "o": [
+    "Non-programmed decision",
+    "Programmed decision",
+    "Minor decision",
+    "Simple decision"
+   ],
+   "d": "Non-programmed decisions: non-repetitive, complex, novel and unstructured problems needing creative problem-solving.",
+   "w": "There is no ready-made rule for such unusual, important decisions."
+  },
+  {
+   "id": "mg2-23",
+   "t": "Types of decisions",
+   "q": "A wage increase affected by productivity, trade union influence, government policy and company profitability is a:",
+   "o": [
+    "Complex decision",
+    "Simple decision",
+    "Minor decision",
+    "Individual decision"
+   ],
+   "d": "Complex decisions: many variables affect the decision. Simple decisions: few variables.",
+   "w": "Several variables are involved here, which makes it complex."
+  },
+  {
+   "id": "mg2-24",
+   "t": "Decision process",
+   "q": "Ranking alternative solutions by their strengths, weaknesses, opportunities and threats happens in which step of decision-making?",
+   "o": [
+    "Evaluation of alternative solutions",
+    "Problem awareness",
+    "Problem diagnosis",
+    "Implementation"
+   ],
+   "d": "Decision process: 1 problem awareness, 2 problem diagnosis, 3 develop alternatives, 4 evaluate alternatives, 5 select the best solution, 6 implement.",
+   "w": "Evaluation weighs each alternative using SWOT before the best one is selected."
+  },
+  {
+   "id": "mg2-25",
+   "t": "Types of plans",
+   "tf": true,
+   "ans": false,
+   "q": "Single-use plans can be used again and again.",
+   "d": "Single-use plans handle non-recurring problems and cannot be used again; standing plans are for repeated use.",
+   "w": "The name 'single-use' tells you they are used once."
+  },
+  {
+   "id": "mg2-26",
+   "t": "Types of plans",
+   "tf": true,
+   "ans": true,
+   "q": "Short-range plans typically cover one year or less.",
+   "d": "Short-range plans: one year or less. Long-range: three or more years.",
+   "w": "This is the time-based classification of plans."
+  },
+  {
+   "id": "mg2-27",
+   "t": "Types of decisions",
+   "tf": true,
+   "ans": true,
+   "q": "Group decisions usually include strategic, non-programmed, complex and major decisions.",
+   "d": "Group decisions are made by a group of people (teams, committees). Individual decisions are mostly routine, simple and programmed.",
+   "w": "Important, complex decisions benefit from many people's input."
+  },
+  {
+   "id": "mg2-28",
+   "t": "Types of decisions",
+   "tf": true,
+   "ans": false,
+   "q": "Minor decisions affect the whole company and most of its functional areas.",
+   "d": "Major decisions affect the company's policies and most functional areas. Minor decisions affect only one functional area and are mostly made at lower levels.",
+   "w": "The statement describes major decisions, not minor ones."
+  },
+  {
+   "id": "mg2-29",
+   "t": "Types of decisions",
+   "tf": true,
+   "ans": false,
+   "q": "Operational decisions change the organization's direction.",
+   "d": "Operational decisions relate to routine operational activities, need less analysis and do not change the organization's direction.",
+   "w": "Changing direction is a feature of strategic decisions."
+  },
+  {
+   "id": "mg2-30",
+   "t": "Decision process",
+   "tf": true,
+   "ans": true,
+   "q": "Problem awareness mostly occurs at the lower level, such as among salespeople.",
+   "d": "Step 1, problem awareness: individuals feel something is wrong; this mostly occurs at the lower level.",
+   "w": "People closest to daily operations notice problems first."
+  },
+  {
+   "id": "mg2-w1",
+   "t": "Need for planning",
+   "wr": true,
+   "q": "Explain why organizations need planning.",
+   "a": "1. To offset uncertainty and change: managers foresee problems and prepare for them.\n2. To focus organizational activity on a set of objectives.\n3. To provide a coordinated, systematic road map for future activities.\n4. To increase economic efficiency.\n5. To facilitate control by establishing a standard for later activity.\nPlanning also helps organizations approach their environment systematically and adjust goals to unforeseen conditions.",
+   "d": "Planning: deciding in advance what is to be done in future; bridging the gap between where we are and where we want to go.",
+   "w": "Five needs are listed on the slides; each should be named and briefly explained."
+  },
+  {
+   "id": "mg2-w2",
+   "t": "Types of plans",
+   "wr": true,
+   "q": "Explain the classification of plans on the basis of time, hierarchy and use.",
+   "a": "Time:\n- Long-range plans: three or more years ahead.\n- Short-range plans: one year or less.\nHierarchy:\n- Strategic plans: broad, long-term, for the whole organization, by top management; include the vision.\n- Tactical plans: functional plans (production, marketing, HR, finance) by middle management to implement the strategy.\n- Operational plans: narrow, short-term, specific plans by lower management.\nUse:\n- Single-use plans: for non-recurring problems (projects, budgets, programmes).\n- Standing plans: for recurring problems (objectives, policies, procedures, methods, rules, strategies).",
+   "d": "Classification of plans: by time, by hierarchy and by use.",
+   "w": "Organise your answer under the three bases so each type is clearly placed."
+  },
+  {
+   "id": "mg2-w3",
+   "t": "Steps in planning",
+   "wr": true,
+   "q": "Explain the eight steps in planning.",
+   "a": "1. Being aware of opportunities and strengths: internal (strengths, weaknesses) and external analysis.\n2. Establishing objectives and goals: the ends towards which activity is aimed.\n3. Developing premises: assumptions about the future environment.\n4. Determining alternative courses: e.g. expansion, diversification, joint ventures, mergers.\n5. Evaluating alternative courses: using SWOT analysis.\n6. Selecting a course: ranking alternatives; the best has the highest strengths and opportunities and lowest threats and weaknesses.\n7. Formulating derivative plans: policies, procedures, rules, programmes, schedules.\n8. Budgeting: expressing plans in numerical terms.",
+   "d": "Planning process: eight steps from environmental awareness to budgeting.",
+   "w": "The steps move from analysis, to choosing a course, to detailed supporting plans and budgets."
+  },
+  {
+   "id": "mg2-w4",
+   "t": "Types of decisions",
+   "wr": true,
+   "q": "Differentiate between programmed and non-programmed decisions, with examples.",
+   "a": "Programmed decisions:\n- Made in response to routine and repetitive situations.\n- Based on company policies, procedures, budgets, rules and regulations.\n- Examples: payment of DA, product delivery, handling customer grievances, refunding a customer when a product does not meet specifications.\nNon-programmed decisions:\n- Novel, complex, non-routine and unstructured problems.\n- Need creative problem-solving.\n- Examples: new product introduction, downsizing, mergers and expansion, closing a regional office.",
+   "d": "Programmed decisions are routine and rule-based; non-programmed decisions are new and need creativity.",
+   "w": "The key difference is whether a ready-made rule or procedure already exists."
+  },
+  {
+   "id": "mg2-w5",
+   "t": "Decision process",
+   "wr": true,
+   "q": "Explain the six steps of the decision-making process.",
+   "a": "1. Problem awareness: individuals feel something is wrong (often at lower levels).\n2. Problem diagnosis: managers gather information and define the problem.\n3. Development of alternative solutions: through memory, passive search, past experience, discussions and brainstorming.\n4. Evaluation of alternative solutions: by strengths, weaknesses, opportunities and threats (SWOT), then ranking.\n5. Selection of the best solution: using managerial judgement and consultation.\n6. Implementation: secure top management support and a detailed action programme (what, who, when, resources, how and coordination).",
+   "d": "Decision-making: choosing the best from among alternative solutions under a given set of circumstances.",
+   "w": "Each step depends on the previous one; you cannot evaluate alternatives you have not developed."
+  },
+  {
+   "id": "mg2-w6",
+   "t": "Types of plans",
+   "wr": true,
+   "q": "Compare strategic, tactical and operational plans.",
+   "a": "Strategic plans:\n- Broad, comprehensive, long-term and directional.\n- For the entire organization; made by top management; include the vision.\nTactical plans:\n- Help implement all or part of the strategic plan.\n- Functional plans (production, marketing, HR, finance, logistics); made by middle management.\nOperational plans:\n- Narrow, short-term, specific and usually standing.\n- For a particular area; made by lower management to carry out daily activities.",
+   "d": "Planning hierarchy: strategic (top), tactical (middle), operational (lower).",
+   "w": "Moving down the hierarchy, plans become narrower, shorter-term and more specific."
+  }
+ ]
+}

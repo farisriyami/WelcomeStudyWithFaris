@@ -1,0 +1,231 @@
+{
+ "id": "fin-ch3",
+ "label": "Chapter 3",
+ "name": "Demand and Inventory Management",
+ "questions": [
+  {
+   "id": "f3-01",
+   "t": "Forecasting basics",
+   "q": "Which forecast use is a LONG-range plan?",
+   "o": [
+    "Facility location",
+    "Workforce levels",
+    "Purchasing",
+    "Budgeting"
+   ],
+   "d": "Planning the system uses long-range plans: types of products and services, facility and equipment levels, and facility location. Planning the use of the system uses short- and medium-range plans: inventory, workforce levels, purchasing and budgeting."
+  },
+  {
+   "id": "f3-02",
+   "t": "Forecasting basics",
+   "q": "Which statement is a common feature of forecasts?",
+   "o": [
+    "Accuracy decreases as the time horizon increases",
+    "They are more accurate for individual items than for groups",
+    "They are perfect if enough data is used",
+    "They assume the future is unrelated to the past"
+   ],
+   "d": "Common features: forecasts assume a causal system (past → future), are rarely perfect because of randomness, are more accurate for groups than individuals, and become less accurate as the time horizon increases."
+  },
+  {
+   "id": "f3-03",
+   "t": "Forecasting basics",
+   "q": "What is Step 2 of the forecasting process?",
+   "o": [
+    "Establish a time horizon",
+    "Determine the purpose of the forecast",
+    "Select a forecasting technique",
+    "Gather and analyse data"
+   ],
+   "d": "The six steps: 1 determine the purpose, 2 establish a time horizon, 3 select a technique, 4 gather and analyse data, 5 make the forecast, 6 monitor the forecast."
+  },
+  {
+   "id": "f3-04",
+   "t": "Forecasting basics",
+   "q": "Which type of forecast uses explanatory variables to predict the future?",
+   "o": [
+    "Associative models",
+    "Time series",
+    "Judgmental forecasts",
+    "Naïve forecasts"
+   ],
+   "d": "Judgmental forecasts use subjective inputs (qualitative). Time series use historical data assuming the future will be like the past (quantitative). Associative models use explanatory variables to predict the future."
+  },
+  {
+   "id": "f3-05",
+   "t": "Qualitative forecasting",
+   "q": "Which method surveys internal and external experts over several rounds, sending them a summary of responses each round?",
+   "o": [
+    "Delphi method",
+    "Jury of executive opinion",
+    "Sales force composite",
+    "Consumer survey"
+   ],
+   "d": "Delphi method: experts are surveyed during several rounds; a summary of responses is sent to all experts, who can modify their answers in the next round. It suits high-risk technology forecasting, large expensive projects and major new product introductions."
+  },
+  {
+   "id": "f3-06",
+   "t": "Qualitative forecasting",
+   "q": "Which judgmental method has a tendency to UNDER-forecast?",
+   "o": [
+    "Sales force composite",
+    "Delphi method",
+    "Jury of executive opinion",
+    "Consumer survey"
+   ],
+   "d": "Sales force composite is based on the sales force's knowledge of the market and estimates of customer needs, and it tends to under-forecast."
+  },
+  {
+   "id": "f3-07",
+   "t": "Qualitative forecasting",
+   "q": "Jury of executive opinion is described as good for:",
+   "o": [
+    "Long-range planning and new product introductions",
+    "High-risk technology forecasting and large, expensive projects",
+    "Short-term inventory control",
+    "Measuring forecast error"
+   ],
+   "d": "Jury of executive opinion: senior executives collectively develop the forecast; good for long-range planning and new product introductions. The Delphi method is the one suited to high-risk technology and large, expensive projects."
+  },
+  {
+   "id": "f3-08",
+   "t": "Time series",
+   "q": "Wave-like variations in data lasting more than one year are called:",
+   "o": [
+    "Cycles",
+    "Seasonality",
+    "Trend",
+    "Irregular variations"
+   ],
+   "d": "Time series components: trend (long-term movement), seasonality (short-term regular variations), irregular variations (unusual circumstances), random variations (chance), and cycles (wave-like variations lasting more than one year)."
+  },
+  {
+   "id": "f3-09",
+   "t": "Time series",
+   "q": "Sales drop sharply for two weeks because of a one-off strike at the port. In time series terms this is:",
+   "o": [
+    "An irregular variation",
+    "A random variation",
+    "Seasonality",
+    "A trend"
+   ],
+   "d": "Irregular variations are caused by unusual circumstances, such as a strike. Random variations are caused by chance."
+  },
+  {
+   "id": "f3-10",
+   "t": "Forecast accuracy",
+   "q": "How is the forecast error for period t calculated?",
+   "o": [
+    "Actual demand minus the forecast (At − Ft)",
+    "The forecast minus actual demand (Ft − At)",
+    "The forecast divided by actual demand",
+    "Actual demand plus the forecast"
+   ],
+   "d": "Forecast error is the difference between the actual quantity and the forecast: et = At − Ft."
+  },
+  {
+   "id": "f3-11",
+   "t": "Forecast accuracy",
+   "q": "Actual demand in a period is 120 units and the forecast was 100 units. What is the forecast error?",
+   "o": [
+    "+20 units",
+    "−20 units",
+    "220 units",
+    "0.2 units"
+   ],
+   "d": "et = At − Ft = 120 − 100 = +20 units."
+  },
+  {
+   "id": "f3-12",
+   "t": "Forecast accuracy",
+   "q": "Which accuracy measure is analogous to variance and heavily penalises large forecast errors?",
+   "o": [
+    "Mean squared error (MSE)",
+    "Mean absolute deviation (MAD)",
+    "Mean absolute percentage error (MAPE)",
+    "Naïve forecast"
+   ],
+   "d": "A MAD of 0 means the forecast exactly predicted demand. MAPE gives perspective on the true magnitude of the error. MSE is analogous to variance, and large errors are heavily penalised."
+  },
+  {
+   "id": "f3-13",
+   "t": "Inventory costs",
+   "q": "The costs of preparing and processing purchase orders and of receiving and inspecting items are:",
+   "o": [
+    "Acquisition costs",
+    "Carrying costs",
+    "Stockout costs",
+    "Shortage costs"
+   ],
+   "d": "Acquisition costs arise during PO preparation and processing and during receiving and inspection. Carrying costs come from keeping stock in storage. Stockout (shortage) costs occur when an item is out of stock."
+  },
+  {
+   "id": "f3-14",
+   "t": "EOQ",
+   "q": "Using the slides' EOQ example (annual demand 2,000 units, order quantity 1,000 units, holding cost 2 per unit, ordering cost 3), what is the total annual cost?",
+   "o": [
+    "1,006",
+    "1,000",
+    "2,006",
+    "6"
+   ],
+   "d": "Total annual cost = annual ordering cost + annual holding cost = (2,000 ÷ 1,000) × 3 + (1,000 ÷ 2) × 2 = 6 + 1,000 = 1,006."
+  },
+  {
+   "id": "f3-15",
+   "t": "ABC classification",
+   "q": "In ABC classification, A items are typically:",
+   "o": [
+    "About 20% of the items, accounting for about 80% of inventory value",
+    "About 50% of the items, accounting for about 5% of inventory value",
+    "About 30% of the items, accounting for about 15% of inventory value",
+    "About 80% of the items, accounting for about 20% of inventory value"
+   ],
+   "d": "A items: about 20% of items and 80% of value (use the Q system). B items: an additional 30% of items and 15% of value (Q or P). C items: the remaining 50% of items and only 5% of value (P system)."
+  },
+  {
+   "id": "f3-16",
+   "t": "ABC classification",
+   "q": "Which review system do the slides recommend for C items?",
+   "o": [
+    "P system",
+    "Q system",
+    "Either Q or P",
+    "No review is needed"
+   ],
+   "d": "A items use the Q system, B items use Q or P, and C items use the P system."
+  },
+  {
+   "id": "f3-17",
+   "t": "Forecasting basics",
+   "tf": true,
+   "ans": true,
+   "q": "Forecasts are more accurate for groups of items than for individual items.",
+   "d": "One of the common features of forecasts: they are more accurate for groups than for individuals."
+  },
+  {
+   "id": "f3-18",
+   "t": "Inventory costs",
+   "tf": true,
+   "ans": false,
+   "q": "Carrying costs are incurred when an item is out of stock.",
+   "d": "Carrying costs are incurred in maintaining a stock of goods in storage. Costs incurred when an item is out of stock are stockout (shortage) costs."
+  },
+  {
+   "id": "f3-19",
+   "t": "Forecasting basics",
+   "tf": true,
+   "ans": false,
+   "q": "Cloud-based forecasting is usually bought outright as a one-time purchase.",
+   "d": "Cloud-based forecasting is supplier-hosted or software-as-a-service (SaaS), provided on a subscription basis."
+  },
+  {
+   "id": "f3-20",
+   "t": "Time series",
+   "tf": true,
+   "ans": true,
+   "q": "Time series forecasts use historical data, assuming the future will be like the past.",
+   "d": "Time series forecasts are quantitative: they use historical data assuming the future will be like the past."
+  }
+ ]
+}

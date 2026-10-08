@@ -1,0 +1,378 @@
+{
+ "id": "fn-ch5",
+ "label": "Chapter 5",
+ "name": "Investment in Shares",
+ "questions": [
+  {
+   "id": "fn5-01",
+   "t": "Shares vs deposits",
+   "q": "Compared with bank deposits, shares typically offer:",
+   "o": [
+    "Higher returns but higher risk, because share values fluctuate",
+    "Lower returns and lower risk",
+    "Guaranteed returns",
+    "Better liquidity than bank deposits"
+   ],
+   "d": "Investing in shares: higher potential returns than deposits, but higher risk; deposits are more liquid.",
+   "w": "Share prices go up and down, so returns are not guaranteed. Bank deposits are easier to access than shares."
+  },
+  {
+   "id": "fn5-02",
+   "t": "Company types",
+   "q": "Which business form suits large enterprises that need substantial funds and is governed by company law?",
+   "o": [
+    "Joint stock company",
+    "Sole proprietor",
+    "Partnership",
+    "Limited liability company (LLC)"
+   ],
+   "d": "Joint stock company: a large enterprise requiring substantial funds, governed by company law, which raises capital by issuing shares.",
+   "w": "Sole proprietors and partnerships are small; LLCs suit micro, small and medium enterprises."
+  },
+  {
+   "id": "fn5-03",
+   "t": "Share capital",
+   "q": "A capital of RO 5 million is divided into shares with a face value of 500 baisa. How many shares is that?",
+   "o": [
+    "10 million",
+    "5 million",
+    "2.5 million",
+    "500,000"
+   ],
+   "d": "Shares: capital divided into units, each with a face (par or nominal) value.",
+   "w": "500 baisa = RO 0.500. 5,000,000 ÷ 0.500 = 10,000,000 shares."
+  },
+  {
+   "id": "fn5-04",
+   "t": "Types of shares",
+   "q": "Which shares usually pay a fixed dividend and have priority over equity shares, but often carry no voting rights?",
+   "o": [
+    "Preference shares",
+    "Equity (common) shares",
+    "Bonus shares",
+    "Right shares"
+   ],
+   "d": "Preference shares: fixed dividends and priority in dividends and return of capital, but usually no voting rights except on specific issues.",
+   "w": "Equity shares carry voting rights and variable dividends."
+  },
+  {
+   "id": "fn5-05",
+   "t": "Types of shares",
+   "q": "In a liquidation, common shareholders are paid:",
+   "o": [
+    "After all debts and preferred shareholders",
+    "Before all creditors",
+    "Before preferred shareholders",
+    "Only if the company is profitable"
+   ],
+   "d": "Common (ordinary) shares: voting rights and possible dividends, but paid last in bankruptcy or liquidation.",
+   "w": "Creditors come first, then preferred shareholders, and common shareholders last."
+  },
+  {
+   "id": "fn5-06",
+   "t": "Features of shares",
+   "q": "Limited liability means shareholders:",
+   "o": [
+    "Are not personally liable for company debts beyond their investment",
+    "Cannot sell their shares",
+    "Always receive dividends",
+    "Are liable for all company debts"
+   ],
+   "d": "Limited liability: a shareholder's liability is limited to the amount they invested.",
+   "w": "If the company fails, you can lose your investment but not your personal assets."
+  },
+  {
+   "id": "fn5-07",
+   "t": "Issue of shares",
+   "q": "Selling a company's new shares to the general public for the first time is called:",
+   "o": [
+    "An Initial Public Offering (IPO)",
+    "A bonus issue",
+    "A rights issue",
+    "Dematerialisation"
+   ],
+   "d": "IPO: a joint stock company raising capital by issuing new shares to institutional investors and the general public.",
+   "w": "Bonus and right shares go to existing shareholders, not the general public."
+  },
+  {
+   "id": "fn5-08",
+   "t": "Issue of shares",
+   "q": "What is the correct order of the share issue process?",
+   "o": [
+    "Issue of prospectus → receiving applications → allotment of shares",
+    "Allotment → prospectus → applications",
+    "Applications → allotment → prospectus",
+    "Prospectus → allotment → applications"
+   ],
+   "d": "Issue process: 1 issue of prospectus (invitation to buy), 2 receiving applications, 3 allotment of shares.",
+   "w": "The public must first be invited, then apply, and only then can shares be allotted."
+  },
+  {
+   "id": "fn5-09",
+   "t": "Issue of shares",
+   "q": "Shares with a face value of RO 1 are issued at RO 1.200. They are issued:",
+   "o": [
+    "At a premium of RO 0.200",
+    "At par",
+    "At a discount of RO 0.200",
+    "As bonus shares"
+   ],
+   "d": "At par: issue price = face value. At a premium: issue price = face value + premium.",
+   "w": "The issue price (1.200) is higher than the face value (1.000), so the 0.200 difference is a premium."
+  },
+  {
+   "id": "fn5-10",
+   "t": "Issue of shares",
+   "q": "Shares offered to EXISTING shareholders at a discounted price, before an IPO, are:",
+   "o": [
+    "Right shares",
+    "Bonus shares",
+    "Preference shares",
+    "Demat shares"
+   ],
+   "d": "Right shares: issued at a discount to existing shareholders. Bonus shares: given free to existing shareholders.",
+   "w": "The key words are 'discounted price' (right shares), not 'free' (bonus shares)."
+  },
+  {
+   "id": "fn5-11",
+   "t": "Trading",
+   "q": "In Oman, brokerage for trades of up to 200,000 shares is typically:",
+   "o": [
+    "0.35% plus VAT (minimum RO 1.000)",
+    "0.175% plus VAT",
+    "1% flat",
+    "3 baisa per share"
+   ],
+   "d": "Brokerage rates in Oman: 0.35% + VAT up to 200,000 shares; 0.175% + VAT beyond 200,000 shares.",
+   "w": "0.175% applies only to the shares beyond 200,000."
+  },
+  {
+   "id": "fn5-12",
+   "t": "Trading",
+   "q": "Shares held in electronic form by depository participants (MCD) are called:",
+   "o": [
+    "Dematerialised (demat) shares",
+    "Bonus shares",
+    "Off-market shares",
+    "Preference shares"
+   ],
+   "d": "Dematerialisation: shares are in electronic format and held by depository participants (Muscat Clearing & Depository).",
+   "w": "'Demat' simply means the share certificates are electronic, not paper."
+  },
+  {
+   "id": "fn5-13",
+   "t": "Buying and selling",
+   "q": "Rashid buys 500 shares at RO 1.250 each with 0.35% brokerage. How much does he pay?",
+   "o": [
+    "RO 627.188",
+    "RO 625.000",
+    "RO 622.812",
+    "RO 627.500"
+   ],
+   "d": "Buying cost = number of shares × market price × (1 + brokerage rate). Brokerage is ADDED when buying.",
+   "w": "Value = 500 × 1.250 = 625. Brokerage = 625 × 0.0035 = RO 2.188. Total = RO 627.188."
+  },
+  {
+   "id": "fn5-14",
+   "t": "Buying and selling",
+   "q": "RML shares trade at RO 3.000. Brokerage is 3 baisa per rial. What do 1,000 shares cost?",
+   "o": [
+    "RO 3,009.000",
+    "RO 3,000.000",
+    "RO 2,991.000",
+    "RO 3,003.000"
+   ],
+   "d": "Brokerage of 3 baisa per rial = 0.003 = 0.3% of the value.",
+   "w": "Value = 1,000 × 3 = 3,000. Brokerage = 3,000 × 0.003 = 9. Total = RO 3,009."
+  },
+  {
+   "id": "fn5-15",
+   "t": "Buying and selling",
+   "q": "Mohammed sells 400 shares (face value RO 0.500) at RO 2.250 each with 0.4% brokerage. How much does he receive?",
+   "o": [
+    "RO 896.400",
+    "RO 900.000",
+    "RO 903.600",
+    "RO 199.200"
+   ],
+   "d": "Selling proceeds = number of shares × market price × (1 − brokerage rate). Brokerage is DEDUCTED when selling.",
+   "w": "Value = 400 × 2.250 = 900. Brokerage = 3.6. Received = RO 896.400. The face value does not matter for trading."
+  },
+  {
+   "id": "fn5-16",
+   "t": "Buying and selling",
+   "q": "Basma invests RO 4,518 in 100-baisa shares trading at 250 baisa, with 0.4% brokerage. How many shares does she buy?",
+   "o": [
+    "18,000",
+    "18,072",
+    "45,180",
+    "17,928"
+   ],
+   "d": "Shares bought = amount invested ÷ cost per share including brokerage.",
+   "w": "Cost per share = 0.250 × 1.004 = 0.251. Shares = 4,518 ÷ 0.251 = 18,000."
+  },
+  {
+   "id": "fn5-17",
+   "t": "Buying and selling",
+   "q": "Asif sells shares at 800 baisa each and receives a net RO 1,992 after 0.4% brokerage. How many shares did he sell?",
+   "o": [
+    "2,500",
+    "2,490",
+    "2,510",
+    "1,992"
+   ],
+   "d": "Shares sold = net amount ÷ net price per share after brokerage.",
+   "w": "Net per share = 0.800 × 0.996 = 0.7968. Shares = 1,992 ÷ 0.7968 = 2,500."
+  },
+  {
+   "id": "fn5-18",
+   "t": "Intraday trading",
+   "q": "Rafael buys 500 XYZ shares at RO 1.600 and sells them the same day at RO 2.200. Brokerage is 0.40% on the sale only. What is his capital gain?",
+   "o": [
+    "RO 295.600",
+    "RO 300.000",
+    "RO 304.400",
+    "RO 291.600"
+   ],
+   "d": "Intraday trading: buying and selling the same shares on the same day to earn a capital gain.",
+   "w": "Cost = 500 × 1.6 = 800. Sale = 500 × 2.2 = 1,100, less 0.4% = 1,095.600. Gain = 1,095.6 − 800 = RO 295.600."
+  },
+  {
+   "id": "fn5-19",
+   "t": "Intraday trading",
+   "q": "An investor buys at RO 3.500 and sells the same day at RO 4.200, with 0.2% brokerage on the sale, gaining RO 414.960. How many shares were traded?",
+   "o": [
+    "600",
+    "593",
+    "700",
+    "414"
+   ],
+   "d": "Gain per share = selling price × (1 − brokerage) − buying price.",
+   "w": "Gain per share = 4.2 × 0.998 − 3.5 = 4.1916 − 3.5 = 0.6916. Shares = 414.96 ÷ 0.6916 = 600."
+  },
+  {
+   "id": "fn5-20",
+   "t": "Dividends",
+   "q": "A dividend is always calculated as a percentage of the share's:",
+   "o": [
+    "Face value",
+    "Market value",
+    "Purchase price including brokerage",
+    "Selling price"
+   ],
+   "d": "Dividend: the part of profits (after taxes and reserves) distributed to shareholders, expressed as a percentage of face (nominal) value.",
+   "w": "Even if you paid more than face value in the market, the dividend uses face value."
+  },
+  {
+   "id": "fn5-21",
+   "t": "Dividends",
+   "q": "An investor buys 10,000 shares (face value RO 1.000) at a market price of RO 2.500. The company declares a 40% dividend. How much dividend does the investor receive?",
+   "o": [
+    "RO 4,000.000",
+    "RO 10,000.000",
+    "RO 1,000.000",
+    "RO 25,000.000"
+   ],
+   "d": "Dividend per share = dividend % × face value. Total = dividend per share × number of shares.",
+   "w": "Per share = 40% × 1.000 = 0.400. Total = 0.400 × 10,000 = RO 4,000. Using market value would wrongly give RO 10,000."
+  },
+  {
+   "id": "fn5-22",
+   "t": "Bonus shares",
+   "q": "ALC declares a 3:5 bonus. Ahmed holds 200 shares and the price after the bonus is RO 2.500. What is his holding worth?",
+   "o": [
+    "RO 800.000",
+    "RO 500.000",
+    "RO 300.000",
+    "RO 1,300.000"
+   ],
+   "d": "Bonus shares: free extra shares in a ratio (3:5 = 3 new for every 5 held).",
+   "w": "Bonus = 200 × 3/5 = 120. Total = 320 shares. Worth = 320 × 2.500 = RO 800."
+  },
+  {
+   "id": "fn5-23",
+   "t": "Bonus shares",
+   "q": "Bonus shares are also called:",
+   "o": [
+    "Scrip dividends or capitalisation issues",
+    "Right shares",
+    "Preference shares",
+    "Demat shares"
+   ],
+   "d": "Bonus shares: additional free shares to existing shareholders; also called scrip dividends or capitalisation issues.",
+   "w": "They capitalise the company's reserves into shares instead of paying cash."
+  },
+  {
+   "id": "fn5-24",
+   "t": "Trading",
+   "tf": true,
+   "ans": true,
+   "q": "There is no capital gains tax on profits from buying and selling shares in Oman.",
+   "d": "Capital gains tax in Oman: there is no tax on profits from buying and selling shares.",
+   "w": "The notes state this under both trading and intraday transactions."
+  },
+  {
+   "id": "fn5-25",
+   "t": "Bonus shares",
+   "tf": true,
+   "ans": true,
+   "q": "Bonus shares increase the number of shares a holder owns but keep their proportional ownership the same.",
+   "d": "Impact of bonus shares: more shares outstanding, but each shareholder's proportion is unchanged.",
+   "w": "Everyone receives bonus shares in the same ratio, so their percentage of the company does not change."
+  },
+  {
+   "id": "fn5-w1",
+   "t": "Buying and selling",
+   "wr": true,
+   "q": "Ali buys 25,000 shares at a market value of RO 0.800 each with 0.5% brokerage. How much does he need, and what is the effective purchase price per share?",
+   "a": "Value = 25,000 × 0.800 = RO 20,000\nBrokerage = 20,000 × 0.005 = RO 100\nTotal needed = RO 20,100\nEffective price per share = 20,100 ÷ 25,000 = RO 0.804 (or 0.800 × 1.005)",
+   "d": "Buying cost = shares × price × (1 + brokerage rate).",
+   "w": "Brokerage is added when buying, which raises the effective price per share."
+  },
+  {
+   "id": "fn5-w2",
+   "t": "Buying and selling",
+   "wr": true,
+   "q": "Maryam sells 2,500 shares (face value RO 3.000) at RO 5.000 each with 0.4% brokerage. How much does she receive, and what is the effective selling price per share?",
+   "a": "Value = 2,500 × 5.000 = RO 12,500\nBrokerage = 12,500 × 0.004 = RO 50\nAmount received = RO 12,450\nEffective selling price = 12,450 ÷ 2,500 = RO 4.980 (or 5.000 × 0.996)",
+   "d": "Selling proceeds = shares × price × (1 − brokerage rate).",
+   "w": "Brokerage is deducted when selling, which lowers the effective price. Face value is not used in trading."
+  },
+  {
+   "id": "fn5-w3",
+   "t": "Buying and selling",
+   "wr": true,
+   "q": "An investor buys 2,000 shares (face value RO 0.100) at RO 0.250 and sells them a month later at RO 0.300, paying 0.2% brokerage on both purchase and sale. Find the gain or loss.",
+   "a": "Purchase cost = 2,000 × 0.250 × 1.002 = RO 501.000\nSale proceeds = 2,000 × 0.300 × 0.998 = RO 598.800\nGain = 598.800 − 501.000 = RO 97.800",
+   "d": "Gain = net sale proceeds − total purchase cost.",
+   "w": "Brokerage is paid twice, so it raises the cost and lowers the proceeds."
+  },
+  {
+   "id": "fn5-w4",
+   "t": "Buying and selling",
+   "wr": true,
+   "q": "Abeer buys 4,000 shares (face value RO 1) at RO 1.200 and later sells all of them at RO 1.600. Brokerage is 0.4% on purchase and sale. Find her gain or loss.",
+   "a": "Purchase cost = 4,000 × 1.200 × 1.004 = RO 4,819.200\nSale proceeds = 4,000 × 1.600 × 0.996 = RO 6,374.400\nGain = 6,374.400 − 4,819.200 = RO 1,555.200",
+   "d": "Gain = net sale proceeds − total purchase cost.",
+   "w": "Without brokerage the gain would be 4,000 × 0.400 = 1,600; brokerage on both sides reduces it to 1,555.200."
+  },
+  {
+   "id": "fn5-w5",
+   "t": "Bonus shares",
+   "wr": true,
+   "q": "Basil holds 550 LMN shares. LMN declares a 1:5 bonus. How many bonus shares does he get, and what is his holding worth at RO 1.250 per share?",
+   "a": "Bonus shares = 550 × 1/5 = 110\nTotal shares = 550 + 110 = 660\nNet worth = 660 × 1.250 = RO 825.000",
+   "d": "Bonus ratio 1:5 means 1 free share for every 5 shares held.",
+   "w": "Bonus shares are free, so the number of shares rises without any extra payment."
+  },
+  {
+   "id": "fn5-w6",
+   "t": "Types of shares",
+   "wr": true,
+   "q": "Compare common (equity) shares and preferred (preference) shares.",
+   "a": "Common shares:\n- Also called ordinary shares; represent ownership.\n- Have voting rights (e.g. board elections).\n- May receive dividends, but these are not guaranteed.\n- Paid last in liquidation, after debts and preferred shareholders.\nPreferred shares:\n- Have priority over common shares for dividends and return of capital.\n- Usually pay a fixed dividend.\n- Usually no voting rights, except on specific issues.\n- May be callable (the company can buy them back at a set price and time).",
+   "d": "Equity shares: ownership with dividends and voting rights. Preference shares: fixed dividends and priority, usually without voting rights.",
+   "w": "The trade-off is control versus safety: common shareholders get votes, preferred shareholders get priority and fixed dividends."
+  }
+ ]
+}

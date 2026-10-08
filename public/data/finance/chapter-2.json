@@ -1,0 +1,370 @@
+{
+ "id": "fn-ch2",
+ "label": "Chapter 2",
+ "name": "Time Value of Money: Simple and Compound Interest",
+ "questions": [
+  {
+   "id": "fn2-01",
+   "t": "Interest basics",
+   "q": "How do banks make a profit margin on interest?",
+   "o": [
+    "By paying lower interest on deposits than they charge on loans",
+    "By paying higher interest on deposits than on loans",
+    "By charging interest only on deposits",
+    "By lending only their own money"
+   ],
+   "d": "Interest rate margin: banks pay lower interest on deposits and charge higher interest on loans.",
+   "w": "The difference between the two rates is the bank's profit margin. In Oman, deposit rates are about 0.5% to 5% p.a. and lending rates about 1.50% to 7% p.a."
+  },
+  {
+   "id": "fn2-02",
+   "t": "Interest basics",
+   "q": "According to the notes, deposit interest rates in Oman range from about:",
+   "o": [
+    "0.5% to 5% per annum",
+    "1.50% to 7% per annum",
+    "5% to 10% per annum",
+    "0% to 0.5% per annum"
+   ],
+   "d": "Interest rates in Oman: deposit rates 0.5% to 5% p.a.; lending rates 1.50% to 7% p.a., depending on the product.",
+   "w": "1.50% to 7% is the lending range. Deposit rates are lower, which creates the bank's margin."
+  },
+  {
+   "id": "fn2-03",
+   "t": "Simple interest",
+   "q": "Simple interest is calculated on:",
+   "o": [
+    "The principal only",
+    "The principal plus interest from previous periods",
+    "The interest only",
+    "The final amount"
+   ],
+   "d": "Simple interest: interest calculated only on the principal deposited or borrowed. I = P × r × t.",
+   "w": "Interest on accumulated interest is compound interest. Simple interest always uses the original principal."
+  },
+  {
+   "id": "fn2-04",
+   "t": "Simple interest",
+   "q": "How much interest does RO 1,000 earn at 4% simple interest for 15 months?",
+   "o": [
+    "RO 50.000",
+    "RO 40.000",
+    "RO 600.000",
+    "RO 48.000"
+   ],
+   "d": "Simple interest: I = P × r × t, where t must be in years.",
+   "w": "15 months = 15 ÷ 12 = 1.25 years. I = 1,000 × 0.04 × 1.25 = RO 50. Using 15 as years would give RO 600, which is wrong."
+  },
+  {
+   "id": "fn2-05",
+   "t": "Simple interest",
+   "q": "A deposit of RO 4,000 earned RO 360 simple interest in 3 years. What is the rate?",
+   "o": [
+    "3%",
+    "9%",
+    "4%",
+    "12%"
+   ],
+   "d": "Rate from simple interest: r = I ÷ (P × t).",
+   "w": "r = 360 ÷ (4,000 × 3) = 360 ÷ 12,000 = 0.03 = 3%. Forgetting the 3 years gives 9%."
+  },
+  {
+   "id": "fn2-06",
+   "t": "Simple interest",
+   "q": "What principal earns RO 250 simple interest in 5 years at 5%?",
+   "o": [
+    "RO 1,000.000",
+    "RO 5,000.000",
+    "RO 1,250.000",
+    "RO 12.500"
+   ],
+   "d": "Principal from simple interest: P = I ÷ (r × t).",
+   "w": "P = 250 ÷ (0.05 × 5) = 250 ÷ 0.25 = RO 1,000."
+  },
+  {
+   "id": "fn2-07",
+   "t": "Simple interest",
+   "q": "How long must RO 2,500 be deposited at 4% simple interest to earn RO 500?",
+   "o": [
+    "5 years",
+    "2 years",
+    "4 years",
+    "20 years"
+   ],
+   "d": "Time from simple interest: t = I ÷ (P × r).",
+   "w": "t = 500 ÷ (2,500 × 0.04) = 500 ÷ 100 = 5 years. (For RO 5,000 at 5% it would be 2 years.)"
+  },
+  {
+   "id": "fn2-08",
+   "t": "Compound interest",
+   "q": "If interest is compounded quarterly, the compounding factor n is:",
+   "o": [
+    "4",
+    "3",
+    "12",
+    "2"
+   ],
+   "d": "Compounding factor n: annually 1, semi-annually 2, quarterly 4, monthly 12, daily 365 or 366.",
+   "w": "There are four quarters in a year, so interest is added 4 times."
+  },
+  {
+   "id": "fn2-09",
+   "t": "Compound interest",
+   "q": "Which formula gives the compound INTEREST (not the final amount)?",
+   "o": [
+    "P(1 + r/n)^(nt) − P",
+    "P(1 + r/n)^(nt)",
+    "P × r × t",
+    "P(1 + rt)"
+   ],
+   "d": "Compound interest: I = P(1 + r/n)^(nt) − P.",
+   "w": "P(1 + r/n)^(nt) is the total amount (future value). Subtracting P leaves only the interest. P × r × t is simple interest."
+  },
+  {
+   "id": "fn2-10",
+   "t": "Compound interest",
+   "q": "How much interest does RO 500 earn at 12% for 2 years, compounded annually?",
+   "o": [
+    "RO 127.200",
+    "RO 120.000",
+    "RO 627.200",
+    "RO 134.867"
+   ],
+   "d": "Compound interest: I = P(1 + r/n)^(nt) − P.",
+   "w": "I = 500 × (1 + 0.12)^2 − 500 = 500 × 1.2544 − 500 = RO 127.200. RO 120 is simple interest; RO 627.200 is the total amount."
+  },
+  {
+   "id": "fn2-11",
+   "t": "Compound interest",
+   "q": "RO 500 is invested at 12% for 2 years. Which compounding frequency earns the MOST interest?",
+   "o": [
+    "Monthly",
+    "Quarterly",
+    "Semi-annually",
+    "Annually"
+   ],
+   "d": "More frequent compounding means interest is added and starts earning interest sooner.",
+   "w": "Annually RO 127.200, semi-annually RO 131.238, quarterly RO 133.385, monthly RO 134.867. Monthly is highest."
+  },
+  {
+   "id": "fn2-12",
+   "t": "SI vs CI",
+   "q": "For a 5-year deposit, which is better: 12% compounded monthly or 12.5% compounded annually?",
+   "o": [
+    "12% compounded monthly",
+    "12.5% compounded annually",
+    "They are exactly equal",
+    "It depends on the principal"
+   ],
+   "d": "Compare schemes by their growth factor (1 + r/n)^(nt) over the same period.",
+   "w": "12% monthly: (1.01)^60 = 1.8167. 12.5% annually: (1.125)^5 = 1.8020. The monthly scheme grows more, whatever the principal."
+  },
+  {
+   "id": "fn2-13",
+   "t": "SI vs CI",
+   "q": "For a 4-year deposit, which is better: 5% compounded monthly or 5.25% simple interest?",
+   "o": [
+    "5% compounded monthly",
+    "5.25% simple interest",
+    "They are exactly equal",
+    "It depends on the principal"
+   ],
+   "d": "Simple interest grows by r × t; compound interest grows by (1 + r/n)^(nt) − 1.",
+   "w": "Compound: (1 + 0.05/12)^48 − 1 = 22.09% total. Simple: 5.25% × 4 = 21% total. Compound gives more."
+  },
+  {
+   "id": "fn2-14",
+   "t": "Compound interest",
+   "q": "RO 420 interest was earned in 2 years at 10% compounded annually. What was the principal?",
+   "o": [
+    "RO 2,000.000",
+    "RO 2,100.000",
+    "RO 4,200.000",
+    "RO 1,735.537"
+   ],
+   "d": "Principal from compound interest: P = I ÷ [(1 + r/n)^(nt) − 1].",
+   "w": "(1.10)^2 − 1 = 0.21. P = 420 ÷ 0.21 = RO 2,000."
+  },
+  {
+   "id": "fn2-15",
+   "t": "SI vs CI",
+   "q": "Ali borrows RO 1,000 for 4 years at 5% simple interest and invests it at 6% compounded quarterly for 4 years. What is his net benefit?",
+   "o": [
+    "RO 68.986",
+    "RO 268.986",
+    "RO 40.000",
+    "RO 200.000"
+   ],
+   "d": "Benefit = interest earned on the investment − interest paid on the loan.",
+   "w": "Interest paid = 1,000 × 0.05 × 4 = RO 200. Interest earned = 1,000 × (1.015)^16 − 1,000 = RO 268.986. Benefit = RO 268.986 − 200 = RO 68.986."
+  },
+  {
+   "id": "fn2-16",
+   "t": "Compound interest",
+   "q": "Sameer deposits RO 2,000 at 10% compounded quarterly. How much does he receive after 9 months?",
+   "o": [
+    "RO 2,153.781",
+    "RO 2,150.000",
+    "RO 2,148.199",
+    "RO 153.781"
+   ],
+   "d": "Future amount: A = P(1 + r/n)^(nt).",
+   "w": "9 months = 0.75 years, so nt = 4 × 0.75 = 3 quarters. A = 2,000 × (1.025)^3 = RO 2,153.781, so interest = RO 153.781."
+  },
+  {
+   "id": "fn2-17",
+   "t": "Rule of 72",
+   "q": "Using the Rule of 72, how long does money take to double at 9% per annum?",
+   "o": [
+    "8 years",
+    "9 years",
+    "6.5 years",
+    "12 years"
+   ],
+   "d": "Rule of 72: years to double ≈ 72 ÷ interest rate (compounded annually).",
+   "w": "72 ÷ 9 = 8 years."
+  },
+  {
+   "id": "fn2-18",
+   "t": "Rule of 72",
+   "q": "You want your investment to double in 6 years. Using the Rule of 72, what rate do you need?",
+   "o": [
+    "12%",
+    "6%",
+    "8%",
+    "18%"
+   ],
+   "d": "Rule of 72 rearranged: rate ≈ 72 ÷ years to double.",
+   "w": "72 ÷ 6 = 12%."
+  },
+  {
+   "id": "fn2-19",
+   "t": "Rule of 72",
+   "q": "At 12% for 18 years, how many times will an investment DOUBLE, using the Rule of 72?",
+   "o": [
+    "3 times",
+    "2 times",
+    "6 times",
+    "8 times"
+   ],
+   "d": "Rule of 72: doubling time = 72 ÷ rate. Number of doublings = total years ÷ doubling time.",
+   "w": "Doubling time = 72 ÷ 12 = 6 years. 18 ÷ 6 = 3 doublings, so the money grows 2 × 2 × 2 = 8 times its original value."
+  },
+  {
+   "id": "fn2-20",
+   "t": "Rule of 72",
+   "q": "The Rule of 72 has a high estimation error when:",
+   "o": [
+    "Interest rates are very low or very high",
+    "Interest is compounded annually",
+    "The investment is in a bank",
+    "The amount is large"
+   ],
+   "d": "Rule of 72: a quick estimate of doubling time, assuming annual compounding.",
+   "w": "It is only an approximation. The notes warn the error is high at very low or very high interest rates."
+  },
+  {
+   "id": "fn2-21",
+   "t": "Excel",
+   "q": "How do you calculate simple interest in Excel?",
+   "o": [
+    "Type a formula such as =Principal*Rate*Time; there is no built-in function",
+    "Use the =SI() function",
+    "Use the =INTEREST() function",
+    "Use =FV() with type 1"
+   ],
+   "d": "Excel has no built-in simple interest function; you build the equation yourself.",
+   "w": "The slides say to calculate interest using =Principal*Rate*Time and press Enter."
+  },
+  {
+   "id": "fn2-22",
+   "t": "SI vs CI",
+   "tf": true,
+   "ans": true,
+   "q": "At the same rate, it is better to borrow at simple interest and invest at compound interest.",
+   "d": "Over the same period and rate, compound interest is higher than simple interest after the first year.",
+   "w": "Borrowing at simple interest means paying less; investing at compound interest means earning more."
+  },
+  {
+   "id": "fn2-23",
+   "t": "Compound interest",
+   "tf": true,
+   "ans": false,
+   "q": "For daily compounding, n = 52.",
+   "d": "Compounding factor for daily compounding: n = 365 or 366.",
+   "w": "52 is the number of weeks in a year, not days."
+  },
+  {
+   "id": "fn2-24",
+   "t": "SI vs CI",
+   "tf": true,
+   "ans": true,
+   "q": "At 7%, RO 1,000 earns RO 140 simple interest and RO 144.90 compound interest (annual) over 2 years.",
+   "d": "Simple: P × r × t. Compound: P(1 + r)^t − P.",
+   "w": "Simple: 1,000 × 0.07 × 2 = 140. Compound: 1,000 × 1.07^2 − 1,000 = 1,144.90 − 1,000 = 144.90."
+  },
+  {
+   "id": "fn2-25",
+   "t": "Compound interest",
+   "tf": true,
+   "ans": true,
+   "q": "Under compound interest, interest is also earned on the interest added in previous periods.",
+   "d": "Compound interest: interest is calculated on the outstanding principal and on the interest accumulated from previous periods.",
+   "w": "That is exactly what 'compounding' means."
+  },
+  {
+   "id": "fn2-w1",
+   "t": "Simple interest",
+   "wr": true,
+   "q": "You deposit RO 5,000 in Bank Muscat at 5% simple interest and RO 2,500 in Bank Ahli at 4% simple interest. For each, how long will it take to earn RO 500 interest?",
+   "a": "t = I ÷ (P × r)\nBank Muscat: t = 500 ÷ (5,000 × 0.05) = 500 ÷ 250 = 2 years\nBank Ahli: t = 500 ÷ (2,500 × 0.04) = 500 ÷ 100 = 5 years",
+   "d": "Simple interest: I = P × r × t, so t = I ÷ (P × r).",
+   "w": "Bank Muscat reaches the target faster because both its principal and rate are higher, so it earns RO 250 a year against Bank Ahli's RO 100."
+  },
+  {
+   "id": "fn2-w2",
+   "t": "SI vs CI",
+   "wr": true,
+   "q": "A bank offers a 5-year fixed deposit at (I) 12% compounded monthly or (II) 12.5% compounded annually. Which is better? Show the working for a deposit of RO 1,000.",
+   "a": "Scheme I: A = 1,000 × (1 + 0.12/12)^(12×5) = 1,000 × (1.01)^60 = RO 1,816.697\nScheme II: A = 1,000 × (1 + 0.125)^5 = RO 1,802.032\nScheme I is better by RO 14.664.",
+   "d": "Future amount with compound interest: A = P(1 + r/n)^(nt).",
+   "w": "Even with a lower stated rate, monthly compounding adds interest 60 times, and each addition earns interest. That beats one annual addition at 12.5%."
+  },
+  {
+   "id": "fn2-w3",
+   "t": "SI vs CI",
+   "wr": true,
+   "q": "Ali borrowed RO 1,000 for 4 years at 5% simple interest and invested it at 6% compounded quarterly for 4 years. How much does he benefit?",
+   "a": "Interest paid on loan = 1,000 × 0.05 × 4 = RO 200.000\nAmount from investment = 1,000 × (1 + 0.06/4)^(4×4) = 1,000 × (1.015)^16 = RO 1,268.986\nInterest earned = RO 268.986\nBenefit = RO 268.986 − 200.000 = RO 68.986",
+   "d": "Benefit = interest earned − interest paid.",
+   "w": "He gains because he pays simple interest at 5% but earns compound interest at 6%."
+  },
+  {
+   "id": "fn2-w4",
+   "t": "Compound interest",
+   "wr": true,
+   "q": "Zubin invested some money at 4% p.a. simple interest for 3 years and received RO 11,200 in total. He kept the interest aside and invested the same principal at 10% compound interest (annual) for 4 more years. Find the amount from the second investment and the total interest from both.",
+   "a": "First investment: A = P(1 + rt) → 11,200 = P × (1 + 0.04 × 3) = P × 1.12 → P = RO 10,000\nInterest from first = 11,200 − 10,000 = RO 1,200\nSecond investment: A = 10,000 × (1.10)^4 = RO 14,641.000\nInterest from second = RO 4,641.000\nTotal interest = 1,200 + 4,641 = RO 5,841.000",
+   "d": "Simple interest amount: A = P(1 + rt). Compound amount: A = P(1 + r)^t.",
+   "w": "Find the principal first from the simple interest total, then grow the same principal with compound interest."
+  },
+  {
+   "id": "fn2-w5",
+   "t": "Compound interest",
+   "wr": true,
+   "q": "Find the interest on RO 20,000 invested for 4 years at 12% compounded (a) annually, (b) semi-annually, (c) quarterly, (d) monthly.",
+   "a": "(a) Annually: 20,000 × (1 + 0.12/1)^(1×4) − 20,000 = RO 11,470.387\n(b) Semi-annually: 20,000 × (1 + 0.12/2)^(2×4) − 20,000 = RO 11,876.961\n(c) Quarterly: 20,000 × (1 + 0.12/4)^(4×4) − 20,000 = RO 12,094.129\n(d) Monthly: 20,000 × (1 + 0.12/12)^(12×4) − 20,000 = RO 12,244.522",
+   "d": "Compound interest: I = P(1 + r/n)^(nt) − P.",
+   "w": "The more often interest is compounded, the higher the interest, because each addition starts earning interest sooner."
+  },
+  {
+   "id": "fn2-w6",
+   "t": "Rule of 72",
+   "wr": true,
+   "q": "Rafael is 22 and invests RO 2,000 in Oman development bonds at 7.5%. Using the Rule of 72, how many times will his money double by age 70, and what will it grow to?",
+   "a": "Years invested = 70 − 22 = 48 years\nDoubling time = 72 ÷ 7.5 = 9.6 years\nNumber of doublings = 48 ÷ 9.6 = 5\nValue = 2,000 × 2^5 = 2,000 × 32 = RO 64,000",
+   "d": "Rule of 72: years to double ≈ 72 ÷ rate.",
+   "w": "Each doubling multiplies the money by 2, so 5 doublings multiply it by 32."
+  }
+ ]
+}

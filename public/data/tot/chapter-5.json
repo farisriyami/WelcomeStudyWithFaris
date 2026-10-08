@@ -1,0 +1,427 @@
+{
+ "id": "tot-ch5",
+ "label": "Chapter 5",
+ "name": "Tourism Distribution System",
+ "questions": [
+  {
+   "id": "t5-01",
+   "t": "Distribution channels",
+   "q": "A distribution channel in tourism is:",
+   "o": [
+    "The method tourism providers use to get their products to customers",
+    "A type of tourist attraction",
+    "A government tourism policy",
+    "A hotel grading system"
+   ],
+   "d": "Distribution channel: the method or channel through which a tourism product moves to reach the consumer.",
+   "w": "It connects the provider with the customer."
+  },
+  {
+   "id": "t5-02",
+   "t": "Distribution channels",
+   "q": "Choosing the right distribution channels affects a company's:",
+   "o": [
+    "Marketing strategy and business model",
+    "Only its building design",
+    "Only its staff uniforms",
+    "Nothing important"
+   ],
+   "d": "Every tourism business, small or giant, needs a distribution strategy.",
+   "w": "The channel shapes how the business markets and earns money."
+  },
+  {
+   "id": "t5-03",
+   "t": "Distribution channels",
+   "q": "A provider selling directly to customers through its own website, phone or office, with no intermediaries, uses:",
+   "o": [
+    "Direct distribution",
+    "Indirect distribution",
+    "Dual distribution",
+    "Horizontal integration"
+   ],
+   "d": "Direct distribution: providers sell directly to customers (physical location, phone, fax, email, website).",
+   "w": "No middleman is involved."
+  },
+  {
+   "id": "t5-04",
+   "t": "Distribution channels",
+   "q": "A provider that uses wholesalers and retailers to sell its product uses:",
+   "o": [
+    "Indirect distribution",
+    "Direct distribution",
+    "Level zero distribution",
+    "Vertical integration"
+   ],
+   "d": "Indirect distribution: providers use wholesalers and retailers to make products available.",
+   "w": "Intermediaries sit between provider and customer."
+  },
+  {
+   "id": "t5-05",
+   "t": "Distribution channels",
+   "q": "A provider that uses BOTH direct and indirect channels uses:",
+   "o": [
+    "Dual distribution",
+    "Direct distribution",
+    "Indirect distribution",
+    "Level three distribution"
+   ],
+   "d": "Dual distribution: providers use both direct and indirect channels.",
+   "w": "'Dual' means two channels at once."
+  },
+  {
+   "id": "t5-06",
+   "t": "Levels",
+   "q": "A level ZERO distribution channel is:",
+   "o": [
+    "A direct sale from the provider to the tourist with no intermediary",
+    "A sale through one retailer",
+    "A sale through a wholesaler and retailer",
+    "A sale through an agent or broker"
+   ],
+   "d": "Level zero: the simplest channel; direct sale with no intermediary.",
+   "w": "Zero intermediaries = level zero."
+  },
+  {
+   "id": "t5-07",
+   "t": "Levels",
+   "q": "A level ONE channel has:",
+   "o": [
+    "One intermediary, such as a travel agent between an airline and passengers",
+    "No intermediaries",
+    "Two intermediaries",
+    "Three intermediaries"
+   ],
+   "d": "Level one: one intermediary (a retailer) between producer and consumer.",
+   "w": "The retailer is usually a travel agent."
+  },
+  {
+   "id": "t5-08",
+   "t": "Levels",
+   "q": "A wholesaler selling to a retailer, who then sells to the consumer, is a:",
+   "o": [
+    "Level two channel",
+    "Level one channel",
+    "Level zero channel",
+    "Level three channel"
+   ],
+   "d": "Level two: two intermediaries (wholesaler and retailer).",
+   "w": "Count the intermediaries: wholesaler + retailer = 2."
+  },
+  {
+   "id": "t5-09",
+   "t": "Levels",
+   "q": "In a level THREE channel, who is added?",
+   "o": [
+    "An agent or broker who works on behalf of companies and deals mainly with wholesalers",
+    "The government",
+    "A second customer",
+    "A hotel"
+   ],
+   "d": "Level three: agent or broker → wholesaler → retailer → consumer.",
+   "w": "The agent/broker is the third intermediary."
+  },
+  {
+   "id": "t5-10",
+   "t": "Intermediaries",
+   "q": "In the tourism distribution chain, tour operators act as:",
+   "o": [
+    "Wholesalers",
+    "Retailers",
+    "Customers",
+    "Regulators"
+   ],
+   "d": "Wholesalers = tour operators; retailers = travel agents.",
+   "w": "Tour operators assemble products and sell them on, usually through travel agents."
+  },
+  {
+   "id": "t5-11",
+   "t": "Intermediaries",
+   "q": "In the tourism distribution chain, travel agents act as:",
+   "o": [
+    "Retailers",
+    "Wholesalers",
+    "Brokers",
+    "Providers"
+   ],
+   "d": "Retailers = travel agents, who sell to the final customer.",
+   "w": "They are the last link before the tourist."
+  },
+  {
+   "id": "t5-12",
+   "t": "Levels",
+   "q": "A tourist buys a ticket directly on an airline's own website. Which channel level is this?",
+   "o": [
+    "Level zero",
+    "Level one",
+    "Level two",
+    "Level three"
+   ],
+   "d": "Level zero: direct sale, no intermediaries.",
+   "w": "The airline sells straight to the tourist."
+  },
+  {
+   "id": "t5-13",
+   "t": "Levels",
+   "q": "A tourist buys a holiday package from a travel agent; the package was put together by a tour operator. Which level is this?",
+   "o": [
+    "Level two",
+    "Level one",
+    "Level zero",
+    "Level three"
+   ],
+   "d": "Level two: provider → tour operator (wholesaler) → travel agent (retailer) → customer.",
+   "w": "Two intermediaries are involved."
+  },
+  {
+   "id": "t5-14",
+   "t": "Internet",
+   "q": "How has the Internet affected tourism distribution?",
+   "o": [
+    "It became a communication hub linking stakeholders and increased competition",
+    "It removed all competition",
+    "It made distribution impossible",
+    "It only affects hotels"
+   ],
+   "d": "Internet and distribution: a communication hub that changed distribution and increased competition among stakeholders.",
+   "w": "Online booking lets more players compete directly."
+  },
+  {
+   "id": "t5-15",
+   "t": "Integration",
+   "q": "Integration in the distribution channel is:",
+   "o": [
+    "Formal linking between organisations, where functions stay the same but participants decrease",
+    "Adding more participants to the channel",
+    "Closing all travel agencies",
+    "A type of tourist attraction"
+   ],
+   "d": "Integration: an economic concept for formal linking arrangements between organisations; the number of participants falls while functions remain.",
+   "w": "Organisations join together, so there are fewer of them."
+  },
+  {
+   "id": "t5-16",
+   "t": "Integration",
+   "q": "Which is a BENEFIT of integration?",
+   "o": [
+    "Reducing distribution costs",
+    "Raising distribution costs",
+    "Losing control of how the product is represented",
+    "Increasing the number of intermediaries"
+   ],
+   "d": "Benefits of integration: reduce distribution costs, control how the product is represented, match channels to market segments.",
+   "w": "Integration aims to make firms more efficient and competitive."
+  },
+  {
+   "id": "t5-17",
+   "t": "Integration",
+   "q": "Why is the Internet reducing some advantages of integration?",
+   "o": [
+    "It has reduced the number of links in the channel, so cost savings are lower",
+    "It increased the number of intermediaries",
+    "It banned mergers",
+    "It raised prices"
+   ],
+   "d": "The Internet shortens the distribution chain on its own.",
+   "w": "With fewer links already, integration saves less."
+  },
+  {
+   "id": "t5-18",
+   "t": "Integration",
+   "q": "An airline merging with a tour operator or travel agency is:",
+   "o": [
+    "Vertical integration",
+    "Horizontal integration",
+    "Dual distribution",
+    "Level zero distribution"
+   ],
+   "d": "Vertical integration: merging with organisations at DIFFERENT levels of the chain, or setting up your own business at another level.",
+   "w": "Airline (supplier) and tour operator (wholesaler) are at different levels."
+  },
+  {
+   "id": "t5-19",
+   "t": "Integration",
+   "q": "Two airlines merging, or an airline merging with a hotel, at the supplier level is:",
+   "o": [
+    "Horizontal integration",
+    "Vertical integration",
+    "Indirect distribution",
+    "Level three distribution"
+   ],
+   "d": "Horizontal integration: merging at the SAME level (competitive products such as two airlines, or complementary products such as an airline and a hotel).",
+   "w": "Both are suppliers, so they are on the same level."
+  },
+  {
+   "id": "t5-20",
+   "t": "Integration",
+   "q": "Oman Air plans to open its own sales offices in Nizwa, Sohar and Sur. What type of integration is this?",
+   "o": [
+    "Vertical integration",
+    "Horizontal integration",
+    "No integration",
+    "Dual distribution"
+   ],
+   "d": "Vertical integration includes setting up your own business at a different level of the chain.",
+   "w": "The airline (supplier) is creating its own retail outlets."
+  },
+  {
+   "id": "t5-21",
+   "t": "Integration",
+   "q": "Hotels in Nizwa develop one shared website for online bookings. What type of integration is this?",
+   "o": [
+    "Horizontal integration",
+    "Vertical integration",
+    "Level zero distribution",
+    "Indirect distribution"
+   ],
+   "d": "Horizontal integration: organisations at the same level linking together.",
+   "w": "All the hotels are suppliers at the same level."
+  },
+  {
+   "id": "t5-22",
+   "t": "Integration",
+   "q": "Oman Air offers one free night at a Crowne Plaza hotel with every ticket to Salalah in Khareef season. What type of integration is this?",
+   "o": [
+    "Horizontal integration",
+    "Vertical integration",
+    "Level three distribution",
+    "No integration"
+   ],
+   "d": "Horizontal integration at the supplier level can link complementary products, such as an airline and a hotel.",
+   "w": "Airline and hotel are both suppliers."
+  },
+  {
+   "id": "t5-23",
+   "t": "Integration",
+   "q": "A Hajj company sets up its own bus company instead of renting buses. What type of integration is this?",
+   "o": [
+    "Vertical integration",
+    "Horizontal integration",
+    "Dual distribution",
+    "Level one distribution"
+   ],
+   "d": "Vertical integration: setting up your own business at a different level of the chain.",
+   "w": "The Hajj company (an operator) takes over its own transport supply."
+  },
+  {
+   "id": "t5-24",
+   "t": "Intermediaries",
+   "q": "A tour operator in Oman that organises trips for foreign tourists coming INTO Oman is a:",
+   "o": [
+    "Inbound tour operator",
+    "Outbound tour operator",
+    "Domestic tour operator",
+    "Home-based travel agent"
+   ],
+   "d": "Tour operator types: inbound (visitors coming into the country), outbound (residents travelling abroad), domestic (residents travelling within their own country).",
+   "w": "'Inbound' follows the Chapter 1 meaning: non-residents travelling to a country."
+  },
+  {
+   "id": "t5-25",
+   "t": "Distribution channels",
+   "tf": true,
+   "ans": true,
+   "q": "Every tourism business, small or giant, needs a distribution strategy.",
+   "d": "Whether small-scale or a giant producer, a tourism business needs a distribution strategy.",
+   "w": "Products must reach customers somehow."
+  },
+  {
+   "id": "t5-26",
+   "t": "Levels",
+   "tf": true,
+   "ans": false,
+   "q": "A level three channel has no intermediaries.",
+   "d": "Level zero has no intermediaries; level three has three (agent/broker, wholesaler, retailer).",
+   "w": "The level number counts the intermediaries."
+  },
+  {
+   "id": "t5-27",
+   "t": "Integration",
+   "tf": true,
+   "ans": false,
+   "q": "Integration increases the number of participants in the distribution process.",
+   "d": "Integration reduces the number of participants while the functions stay the same.",
+   "w": "Organisations combine, so there are fewer of them."
+  },
+  {
+   "id": "t5-28",
+   "t": "Levels",
+   "tf": true,
+   "ans": true,
+   "q": "Agents or brokers work on behalf of companies and deal primarily with wholesalers.",
+   "d": "Level three: agents work on behalf of companies and deal primarily with wholesalers.",
+   "w": "That is how the third intermediary enters the chain."
+  },
+  {
+   "id": "t5-29",
+   "t": "Integration",
+   "tf": true,
+   "ans": false,
+   "q": "Horizontal integration happens between organisations at different levels of the chain.",
+   "d": "Horizontal integration: the SAME level. Vertical integration: DIFFERENT levels.",
+   "w": "The statement describes vertical integration."
+  },
+  {
+   "id": "t5-30",
+   "t": "Integration",
+   "tf": true,
+   "ans": true,
+   "q": "Integration helps enterprises control how their product is represented.",
+   "d": "Benefits of integration include control over how the product is represented.",
+   "w": "Owning more of the chain means more control over selling."
+  },
+  {
+   "id": "t5-w1",
+   "t": "Distribution channels",
+   "wr": true,
+   "q": "Define a distribution channel and explain the three types of distribution based on the use of intermediaries.",
+   "a": "Distribution channel: the method tourism providers use to get their products to customers; the channel through which a product moves to reach the consumer.\n1. Direct distribution: providers sell directly to customers with no intermediaries (physical location, phone, fax, email, website).\n2. Indirect distribution: providers use wholesalers and retailers.\n3. Dual distribution: providers use both direct and indirect channels.",
+   "d": "Sales distribution: how tourism products reach tourists.",
+   "w": "Define the term, then explain each type with an example."
+  },
+  {
+   "id": "t5-w2",
+   "t": "Levels",
+   "wr": true,
+   "q": "Explain the four levels of distribution channels with examples.",
+   "a": "Level zero: direct sale from provider to tourist (e.g. booking on an airline's website).\nLevel one: one intermediary, a retailer (travel agent) between provider and customer.\nLevel two: two intermediaries, a wholesaler (tour operator) selling to a retailer (travel agent), who sells to the customer.\nLevel three: an agent or broker works on behalf of companies, dealing with wholesalers, who sell to retailers, who sell to customers.",
+   "d": "Levels of distribution: counted by the number of intermediaries.",
+   "w": "The level number equals the number of intermediaries."
+  },
+  {
+   "id": "t5-w3",
+   "t": "Integration",
+   "wr": true,
+   "q": "Explain the meaning and benefits of integration in the distribution channel.",
+   "a": "Meaning: an economic concept describing formal linking arrangements between organisations; the industry consolidates so the number of functions stays the same but the number of participants decreases.\nBenefits:\n1. Reduces distribution costs.\n2. Lets enterprises control how their product is represented.\n3. Matches distribution channels more closely to particular market segments.\nNote: the Internet reduces some advantages, because it has already cut the number of links in the channel.",
+   "d": "Integration: linking organisations in the distribution chain.",
+   "w": "Integration is a way to be more efficient and competitive."
+  },
+  {
+   "id": "t5-w4",
+   "t": "Integration",
+   "wr": true,
+   "q": "Differentiate between vertical and horizontal integration, with examples.",
+   "a": "Vertical integration: organisations merge with others at DIFFERENT levels of the chain, or set up their own business at a different level. Example: an airline integrating with a tour operator or travel agency.\nHorizontal integration: organisations merge with others at the SAME level (supplier with supplier, wholesaler with wholesaler, retailer with retailer). Examples: two airlines (competitive products) or an airline and a hotel (complementary products).",
+   "d": "Types of integration: vertical and horizontal.",
+   "w": "Ask: are the two organisations at the same level of the chain or different levels?"
+  },
+  {
+   "id": "t5-w5",
+   "t": "Integration",
+   "wr": true,
+   "q": "Determine the type of integration in each case: (a) Oman Air opens sales offices in Nizwa, Sohar and Sur; (b) hotels in Nizwa develop one booking website; (c) Oman Air gives a free night at Crowne Plaza with every Khareef ticket to Salalah; (d) a Hajj company sets up its own bus company.",
+   "a": "(a) Vertical: the airline (supplier) sets up its own retail outlets at a different level.\n(b) Horizontal: hotels at the same level link together.\n(c) Horizontal: airline and hotel are both suppliers offering complementary products.\n(d) Vertical: the Hajj company sets up its own transport supplier at a different level.",
+   "d": "Vertical = different levels; horizontal = same level.",
+   "w": "Place each organisation on the chain (supplier, wholesaler, retailer) before deciding."
+  },
+  {
+   "id": "t5-w6",
+   "t": "Internet",
+   "wr": true,
+   "q": "Explain how the Internet has changed tourism distribution.",
+   "a": "1. The Internet has become the communication hub linking all stakeholders.\n2. It has changed the way of distribution, letting providers sell directly to customers.\n3. It has increased competition among stakeholders in the distribution chain.\n4. It has reduced the number of links in the channel, so the cost savings from integration are now lower.",
+   "d": "Internet and distribution: technology reshaping how tourism products are sold.",
+   "w": "Link the Internet's effect to both competition and integration."
+  }
+ ]
+}

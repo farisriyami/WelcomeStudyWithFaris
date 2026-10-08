@@ -1,0 +1,374 @@
+{
+ "id": "fn-ch8",
+ "label": "Chapter 8",
+ "name": "MS Excel for Finance Functions",
+ "questions": [
+  {
+   "id": "fn8-01",
+   "t": "Uses of Excel",
+   "q": "Building complex models to analyse investment opportunities or a company's financial health is called:",
+   "o": [
+    "Financial modelling",
+    "Financial reporting",
+    "Data analysis",
+    "Loan amortisation"
+   ],
+   "d": "Financial modelling: creating financial models to analyse investments or evaluate a company's financial health, identify trends, forecast performance and assess risk.",
+   "w": "Reporting produces statements; modelling builds forward-looking analysis."
+  },
+  {
+   "id": "fn8-02",
+   "t": "Uses of Excel",
+   "q": "A table showing each loan payment broken into interest, principal and remaining balance is a:",
+   "o": [
+    "Loan amortisation schedule",
+    "Budget",
+    "Balance sheet",
+    "Cash flow statement"
+   ],
+   "d": "Amortisation schedule: shows the payment schedule of a loan over time, with payment, interest, principal and remaining balance.",
+   "w": "It helps borrowers understand how interest affects their loan."
+  },
+  {
+   "id": "fn8-03",
+   "t": "Interest and values",
+   "q": "With principal in B1, rate in B2 and years in B3, which formula gives simple interest?",
+   "o": [
+    "=B1*B2*B3",
+    "=B1*(1+B2)^B3",
+    "=B1/(1+B2)^B3",
+    "=FV(B2,B3,0,-B1)"
+   ],
+   "d": "Simple interest in Excel: =Principal*Rate*Time (no built-in function).",
+   "w": "For RO 10,000 at 5% for 3 years this gives RO 1,500. The other formulas compute compound amounts or present values."
+  },
+  {
+   "id": "fn8-04",
+   "t": "Interest and values",
+   "q": "What does the formula =B1/(1+B2)^B3 calculate (B1 = future value, B2 = rate, B3 = years)?",
+   "o": [
+    "Present value",
+    "Future value",
+    "Simple interest",
+    "Monthly payment"
+   ],
+   "d": "Present value = Future value ÷ (1 + rate)^years.",
+   "w": "Dividing a future amount by the growth factor brings it back to today's value."
+  },
+  {
+   "id": "fn8-05",
+   "t": "Interest and values",
+   "q": "Using =B1/(1+B2)^B3, what is the present value of RO 5,000 received in 5 years at 7%?",
+   "o": [
+    "RO 3,564.931",
+    "RO 7,012.759",
+    "RO 3,703.704",
+    "RO 3,500.000"
+   ],
+   "d": "Present value = FV ÷ (1 + r)^n.",
+   "w": "5,000 ÷ 1.07^5 = 5,000 ÷ 1.402552 = RO 3,564.931."
+  },
+  {
+   "id": "fn8-06",
+   "t": "Interest and values",
+   "q": "What does =FV(5%, 5, 0, -10000) return?",
+   "o": [
+    "RO 12,762.816",
+    "RO 12,500.000",
+    "RO 10,000.000",
+    "RO 7,835.262"
+   ],
+   "d": "FV function: =FV(rate, nper, pmt, [pv], [type]).",
+   "w": "It grows RO 10,000 at 5% for 5 years: 10,000 × 1.05^5 = RO 12,762.816."
+  },
+  {
+   "id": "fn8-07",
+   "t": "Interest and values",
+   "q": "In =FV(5%, 5, 0, -10000), what does the 0 represent?",
+   "o": [
+    "The payment per period (there are no regular payments)",
+    "The interest rate",
+    "The number of years",
+    "Payments due at the beginning"
+   ],
+   "d": "FV arguments: rate, nper (number of periods), pmt (payment per period), pv (present value), type.",
+   "w": "The third argument is pmt. It is 0 because this is a single lump-sum investment."
+  },
+  {
+   "id": "fn8-08",
+   "t": "Interest and values",
+   "q": "Using =B1*(1+B2)^B3, what does RO 1,000 grow to at 5% compounded annually for 10 years?",
+   "o": [
+    "RO 1,628.895",
+    "RO 1,500.000",
+    "RO 1,050.000",
+    "RO 2,250.000"
+   ],
+   "d": "Compound value in Excel: =Principal*(1+Rate)^Years.",
+   "w": "1,000 × 1.05^10 = RO 1,628.895, matching the growth table in the notes."
+  },
+  {
+   "id": "fn8-09",
+   "t": "Annuities",
+   "q": "What does =PV(5%, 5, -1000) return?",
+   "o": [
+    "RO 4,329.477",
+    "RO 5,000.000",
+    "RO 5,525.631",
+    "RO 4,000.000"
+   ],
+   "d": "PV of an ordinary annuity = PMT × [1 − (1 + r)^(−n)] ÷ r; Excel: =PV(rate, nper, pmt, [fv], [type]).",
+   "w": "1,000 × [1 − 1.05^(−5)] ÷ 0.05 = RO 4,329.477. You would invest this today to receive RO 1,000 a year for 5 years."
+  },
+  {
+   "id": "fn8-10",
+   "t": "Annuities",
+   "q": "What does =FV(8%, 10, -1000, 0) return?",
+   "o": [
+    "RO 14,486.562",
+    "RO 10,000.000",
+    "RO 21,589.250",
+    "RO 10,800.000"
+   ],
+   "d": "FV of an ordinary annuity = PMT × [(1 + r)^n − 1] ÷ r.",
+   "w": "1,000 × [(1.08)^10 − 1] ÷ 0.08 = 1,000 × 14.486562 = RO 14,486.562."
+  },
+  {
+   "id": "fn8-11",
+   "t": "Loan functions",
+   "q": "A loan has four components; if you know three you can calculate the fourth. Which is NOT one of them?",
+   "o": [
+    "The borrower's credit score",
+    "The loan amount",
+    "The interest rate",
+    "The number of payment periods"
+   ],
+   "d": "Loan components: loan amount, interest rate, number of payment periods, periodic payment amount.",
+   "w": "Excel functions (PMT, RATE, NPER, PV) each solve for one of these four."
+  },
+  {
+   "id": "fn8-12",
+   "t": "Loan functions",
+   "q": "The PMT function returns:",
+   "o": [
+    "The loan payment (principal plus interest) per period",
+    "The principal part of one payment",
+    "The interest part of one payment",
+    "The number of periods"
+   ],
+   "d": "PMT: loan payment per period assuming constant payments and a fixed rate. Syntax =PMT(rate, nper, pv, fv, type).",
+   "w": "PPMT gives the principal part and IPMT the interest part."
+  },
+  {
+   "id": "fn8-13",
+   "t": "Loan functions",
+   "q": "The PPMT function returns:",
+   "o": [
+    "The principal part of a loan payment for a given period",
+    "The interest part of a payment",
+    "The total payment",
+    "The interest rate"
+   ],
+   "d": "PPMT: principal part of a loan payment for a given period. Syntax =PPMT(rate, per, nper, pv, fv, type).",
+   "w": "The extra 'P' stands for principal."
+  },
+  {
+   "id": "fn8-14",
+   "t": "Loan functions",
+   "q": "Which function returns the number of payment periods for a loan?",
+   "o": [
+    "NPER",
+    "RATE",
+    "PV",
+    "PMT"
+   ],
+   "d": "NPER: number of payment periods given the loan amount, interest rate and periodic payment.",
+   "w": "N-PER = number of periods."
+  },
+  {
+   "id": "fn8-15",
+   "t": "Loan functions",
+   "q": "Which function returns the original loan amount, given the rate, number of periods and payment?",
+   "o": [
+    "PV",
+    "FV",
+    "NPER",
+    "IPMT"
+   ],
+   "d": "PV: the present value (original loan amount) given rate, number of periods and payment.",
+   "w": "The amount borrowed today is a present value."
+  },
+  {
+   "id": "fn8-16",
+   "t": "Loan functions",
+   "q": "For a monthly loan at 6% per annum, the rate argument in PMT should be:",
+   "o": [
+    "6%/12",
+    "6%",
+    "6%*12",
+    "12/6%"
+   ],
+   "d": "rate: the interest rate per period. For monthly payments, rate per period = annual rate ÷ 12.",
+   "w": "The rate must match the payment period; monthly payments need a monthly rate."
+  },
+  {
+   "id": "fn8-17",
+   "t": "Loan functions",
+   "q": "What is the monthly payment on a RO 18,500 loan at 7.25% for 3 years?",
+   "o": [
+    "RO 573.343",
+    "RO 513.889",
+    "RO 551.146",
+    "RO 633.959"
+   ],
+   "d": "PMT = P × r ÷ [1 − (1 + r)^(−n)], with r = 7.25% ÷ 12 and n = 36.",
+   "w": "=PMT(7.25%/12, 36, -18500) = RO 573.343."
+  },
+  {
+   "id": "fn8-18",
+   "t": "Loan functions",
+   "q": "A RO 5,000 loan at 6% is repaid with monthly payments of RO 346.82 at the end of each month. What does NPER return?",
+   "o": [
+    "15 months",
+    "12 months",
+    "14.4 months",
+    "24 months"
+   ],
+   "d": "NPER(rate, pmt, pv): number of periods to repay.",
+   "w": "=NPER(6%/12, -346.82, 5000) = 15. Check: the PMT for RO 5,000 at 0.5% a month over 15 months is RO 346.82."
+  },
+  {
+   "id": "fn8-19",
+   "t": "Loan functions",
+   "q": "A loan at 6% is repaid over 15 months with payments of RO 346.82 at the end of each month. What does PV return?",
+   "o": [
+    "RO 4,999.974",
+    "RO 5,202.300",
+    "RO 5,300.000",
+    "RO 4,500.000"
+   ],
+   "d": "PV(rate, nper, pmt): the original loan amount.",
+   "w": "=PV(6%/12, 15, -346.82) = RO 4,999.974, about RO 5,000. It is less than 15 × 346.82 because part of each payment is interest."
+  },
+  {
+   "id": "fn8-20",
+   "t": "Amortisation",
+   "q": "In an amortisation schedule for a monthly loan at 5%, the interest in each row is:",
+   "o": [
+    "The remaining balance × 5%/12",
+    "The loan amount × 5%",
+    "The payment × 5%",
+    "The principal paid × 12"
+   ],
+   "d": "Interest paid each period = remaining balance × (annual rate ÷ payment frequency).",
+   "w": "Interest is charged only on what is still owed, for one month."
+  },
+  {
+   "id": "fn8-21",
+   "t": "Amortisation",
+   "q": "In an amortisation schedule, each row's remaining balance equals:",
+   "o": [
+    "Previous remaining balance − principal paid in the row",
+    "Previous balance − the full payment",
+    "Loan amount − interest paid",
+    "Payment − interest"
+   ],
+   "d": "Remaining balance: subtract the principal paid from the previous remaining balance.",
+   "w": "Only the principal part reduces the debt; the interest part is the cost of borrowing."
+  },
+  {
+   "id": "fn8-22",
+   "t": "Amortisation",
+   "q": "In Excel's PV, FV and PMT functions, type = 0 means:",
+   "o": [
+    "Payments are due at the end of each period (the default)",
+    "Payments are due at the beginning of each period",
+    "No interest is charged",
+    "The loan has no future value"
+   ],
+   "d": "type: 0 = end of period (default); 1 = beginning of period.",
+   "w": "Most loans are paid at the end of each month, so 0 is the default."
+  },
+  {
+   "id": "fn8-23",
+   "t": "Interest and values",
+   "tf": true,
+   "ans": false,
+   "q": "Excel has a built-in function for simple interest.",
+   "d": "Simple interest in Excel: use the formula =Principal*Rate*Time.",
+   "w": "There is no inbuilt simple interest function; you create the equation yourself."
+  },
+  {
+   "id": "fn8-24",
+   "t": "Interest and values",
+   "tf": true,
+   "ans": true,
+   "q": "In the growth table, RO 1,000 invested at 5% compounded annually is worth RO 1,276.29 after 5 years.",
+   "d": "Compound value = Principal × (1 + rate)^years.",
+   "w": "1,000 × 1.05^5 = 1,276.28, shown as RO 1,276.29 in the table after rounding each year."
+  },
+  {
+   "id": "fn8-25",
+   "t": "Loan functions",
+   "tf": true,
+   "ans": true,
+   "q": "IPMT returns the interest part of a loan payment for a given period.",
+   "d": "IPMT syntax: =IPMT(rate, per, nper, pv, fv, type).",
+   "w": "'I' is for interest; 'per' tells Excel which payment period you want."
+  },
+  {
+   "id": "fn8-w1",
+   "t": "Interest and values",
+   "wr": true,
+   "q": "Describe the steps to calculate simple interest in Excel on RO 10,000 at 5% for 3 years. What is the result?",
+   "a": "1. Open a new workbook.\n2. A1: 'Principal Amount', B1: 10000.\n3. A2: 'Interest Rate', B2: 5%.\n4. A3: 'Time in Years', B3: 3.\n5. A4: 'Simple Interest', B4: =B1*B2*B3.\n6. Press Enter. Result = RO 1,500.",
+   "d": "Simple interest = Principal × Rate × Time.",
+   "w": "Excel has no simple interest function, so the formula multiplies the three input cells."
+  },
+  {
+   "id": "fn8-w2",
+   "t": "Interest and values",
+   "wr": true,
+   "q": "Show how to calculate in Excel the present value of RO 5,000 received in 5 years at 7%, both with a formula and with the PV function.",
+   "a": "Formula method: B1 = 5000 (future value), B2 = 7%, B3 = 5. B4: =B1/(1+B2)^B3 → RO 3,564.931\nFunction method: =PV(7%, 5, 0, -5000) → RO 3,564.931",
+   "d": "Present value = Future value ÷ (1 + rate)^years.",
+   "w": "Both methods discount the RO 5,000 back 5 years at 7%."
+  },
+  {
+   "id": "fn8-w3",
+   "t": "Loan functions",
+   "wr": true,
+   "q": "Explain the PMT, PPMT and IPMT functions with their syntax.",
+   "a": "PMT: returns the total loan payment (principal + interest) per period, assuming constant payments and a fixed rate. =PMT(rate, nper, pv, fv, type)\nPPMT: returns the principal part of a payment for a given period. =PPMT(rate, per, nper, pv, fv, type)\nIPMT: returns the interest part of a payment for a given period. =IPMT(rate, per, nper, pv, fv, type)\nFor any period, PPMT + IPMT = PMT.",
+   "d": "rate = rate per period; per = the period number; nper = total periods; pv = loan amount; fv and type are optional.",
+   "w": "PMT gives the whole payment; PPMT and IPMT split it into its two parts."
+  },
+  {
+   "id": "fn8-w4",
+   "t": "Amortisation",
+   "wr": true,
+   "q": "List the steps to create a loan amortisation schedule in Excel.",
+   "a": "1. Set up the table: Payment Number, Payment Amount, Interest Paid, Principal Paid, Remaining Balance.\n2. Enter the inputs: loan amount, interest rate, loan term and payment frequency.\n3. Calculate the payment with PMT.\n4. Remaining balance: first row = loan amount; each next row = previous balance − principal paid.\n5. Interest paid = remaining balance × rate ÷ payment frequency (e.g. =B2*(5%/12)).\n6. Principal paid = payment − interest paid.\n7. Copy the formulas down to the end of the loan term.\n8. Format amounts as currency.",
+   "d": "Amortisation schedule: a table showing each payment's interest, principal and remaining balance.",
+   "w": "The last remaining balance should be zero, which confirms the schedule is correct."
+  },
+  {
+   "id": "fn8-w5",
+   "t": "Amortisation",
+   "wr": true,
+   "q": "A person borrows RO 15,000 repayable in equal monthly instalments at the end of each month for 48 months at 6%. Find the monthly payment and the first two rows of the amortisation schedule.",
+   "a": "Payment: =PMT(6%/12, 48, -15000) = RO 352.275\nMonth 1: interest = 15,000 × 0.005 = RO 75.000; principal = RO 277.275; balance = RO 14,722.725\nMonth 2: interest = RO 73.614; principal = RO 278.662; balance = RO 14,444.063",
+   "d": "PMT = P × r ÷ [1 − (1 + r)^(−n)] with r = 0.06/12 = 0.005.",
+   "w": "Interest is charged on the falling balance, so the principal part grows each month."
+  },
+  {
+   "id": "fn8-w6",
+   "t": "Loan functions",
+   "wr": true,
+   "q": "A company borrows RO 5,000 at 6%, repayable by equal monthly payments of RO 346.82 at the end of each month. Using Excel, find (a) the number of payments and (b) the loan amount if the term were given as 15 months.",
+   "a": "(a) =NPER(6%/12, -346.82, 5000) = 15 monthly payments\n(b) =PV(6%/12, 15, -346.82) = RO 4,999.974 ≈ RO 5,000",
+   "d": "NPER returns the number of periods; PV returns the original loan amount.",
+   "w": "The two answers check each other: 15 payments of RO 346.82 at 0.5% a month repay exactly RO 5,000."
+  }
+ ]
+}

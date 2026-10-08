@@ -1,0 +1,427 @@
+{
+ "id": "tot-ch7",
+ "label": "Chapter 7",
+ "name": "Government and Tourism",
+ "questions": [
+  {
+   "id": "t7-01",
+   "t": "Organisations",
+   "q": "An international tourism organisation is one that:",
+   "o": [
+    "Draws its membership from more than one country",
+    "Serves only one country",
+    "Is always privately owned",
+    "Only operates hotels"
+   ],
+   "d": "International organisations draw membership from more than one country; national organisations serve only one country.",
+   "w": "'International' means more than one nation."
+  },
+  {
+   "id": "t7-02",
+   "t": "Organisations",
+   "q": "The UNWTO is best classified as:",
+   "o": [
+    "Inter-governmental, global, with a general interest in tourism",
+    "Non-governmental, regional, with a partial interest",
+    "A national public-sector body",
+    "A private airline association"
+   ],
+   "d": "UNWTO: inter-governmental (created by treaties), global scope, general interest in tourism.",
+   "w": "It covers all aspects of tourism worldwide."
+  },
+  {
+   "id": "t7-03",
+   "t": "Organisations",
+   "q": "IATA (International Air Transport Association) is:",
+   "o": [
+    "Non-governmental, with a specific interest in tourism",
+    "Inter-governmental, with a general interest",
+    "A national tourism organisation",
+    "A partial-interest health body"
+   ],
+   "d": "Non-governmental bodies draw members from individuals or organisations, not governments. Specific interest: one sector of the industry.",
+   "w": "IATA focuses on air transport only."
+  },
+  {
+   "id": "t7-04",
+   "t": "Organisations",
+   "q": "The WHO is an example of an organisation with a:",
+   "o": [
+    "Partial interest in tourism",
+    "General interest in tourism",
+    "Specific interest in tourism",
+    "Purely commercial interest"
+   ],
+   "d": "Partial interest: not a tourism organisation, but some operations link to tourism.",
+   "w": "Health affects travel, but tourism is not the WHO's main purpose."
+  },
+  {
+   "id": "t7-05",
+   "t": "Organisations",
+   "q": "PATA, the GCC and the League of Arab States are international organisations concerned with:",
+   "o": [
+    "Specific regions of the world",
+    "Global tourism",
+    "A single city",
+    "Only hotels"
+   ],
+   "d": "Geographical scope: global (e.g. UNWTO) or specific regions (e.g. PATA, GCC, League of Arab States).",
+   "w": "Each covers one region."
+  },
+  {
+   "id": "t7-06",
+   "t": "Organisations",
+   "q": "Public sector tourism organisations are:",
+   "o": [
+    "Government owned, funded and/or controlled",
+    "Owned by commercial businesses",
+    "Always international",
+    "Run by tourists"
+   ],
+   "d": "Ownership: public sector (government) or private sector (commercial enterprises).",
+   "w": "'Public' means government."
+  },
+  {
+   "id": "t7-07",
+   "t": "Organisations",
+   "q": "A tourism organisation whose operations cover a specific city or town is a:",
+   "o": [
+    "Local Tourism Organisation (LTO)",
+    "National Tourism Organisation (NTO)",
+    "Regional Tourism Organisation (RTO)",
+    "International organisation"
+   ],
+   "d": "Geographical scope (national): NTO covers the whole country, RTO a region, LTO a specific location such as a city or town.",
+   "w": "A city is a local level."
+  },
+  {
+   "id": "t7-08",
+   "t": "Organisations",
+   "q": "Oman's Ministry of Heritage and Tourism is a national organisation with a:",
+   "o": [
+    "General interest in tourism",
+    "Specific interest in tourism",
+    "Partial interest in tourism",
+    "No interest in tourism"
+   ],
+   "d": "General interest: concerned with all aspects of tourism.",
+   "w": "The ministry covers the whole tourism sector."
+  },
+  {
+   "id": "t7-09",
+   "t": "Organisations",
+   "q": "OMRAN and Oman Airports Management Company are national organisations with a:",
+   "o": [
+    "Specific interest in tourism",
+    "General interest in tourism",
+    "Partial interest in tourism",
+    "Global interest"
+   ],
+   "d": "Specific interest: concerned with one aspect or sector of the industry.",
+   "w": "Each handles one part (development or airports)."
+  },
+  {
+   "id": "t7-10",
+   "t": "Organisations",
+   "q": "The Royal Oman Police, Ministry of Health and banks have a:",
+   "o": [
+    "Partial interest in tourism",
+    "General interest in tourism",
+    "Specific interest in tourism",
+    "Inter-governmental interest"
+   ],
+   "d": "Partial interest: not tourism organisations, but some operations are linked to tourism.",
+   "w": "Their main work is something else."
+  },
+  {
+   "id": "t7-11",
+   "t": "Government involvement",
+   "q": "The extent of government involvement in tourism varies according to a country's:",
+   "o": [
+    "Economic and political structures",
+    "Climate only",
+    "Number of hotels only",
+    "Population size only"
+   ],
+   "d": "The more important tourism is to the economy, the greater the government involvement; political structures shape its nature.",
+   "w": "Involvement ranges from simple policy-making to owning tourism facilities."
+  },
+  {
+   "id": "t7-12",
+   "t": "Government involvement",
+   "q": "Which is NOT a reason for government involvement in tourism listed on the slides?",
+   "o": [
+    "To raise the world price of oil",
+    "To maximise tourism benefits",
+    "To protect natural resources",
+    "Education and training"
+   ],
+   "d": "Reasons: maximise benefits, protect resources, economic stability, employment, welfare of citizens, market regulation and promotion, statistics, planning and control, education and training.",
+   "w": "Oil prices are not on the list."
+  },
+  {
+   "id": "t7-13",
+   "t": "NTOs",
+   "q": "Which is NOT one of the standard functions of an NTO?",
+   "o": [
+    "Selling airline tickets to tourists",
+    "Planning",
+    "Promotion",
+    "Control"
+   ],
+   "d": "NTO functions: planning, organising, development, promotion and control.",
+   "w": "Selling tickets is the job of airlines and travel agents."
+  },
+  {
+   "id": "t7-14",
+   "t": "NTOs",
+   "q": "The Ministry of Heritage and Tourism (MOHT) in Oman is responsible for:",
+   "o": [
+    "Promoting and preserving Omani heritage and tourism",
+    "Running Oman's airports",
+    "Managing Oman's banks",
+    "Building roads"
+   ],
+   "d": "MOHT: the governmental body responsible for promoting and preserving Omani heritage and tourism.",
+   "w": "Airports are run by Oman Airports."
+  },
+  {
+   "id": "t7-15",
+   "t": "NTOs",
+   "q": "Which of these is NOT a directorate of Oman's Ministry of Heritage and Tourism?",
+   "o": [
+    "Directorate General of Civil Aviation",
+    "Directorate General of Tourism Promotion",
+    "Directorate General of Antiquities",
+    "Directorate General of Museums"
+   ],
+   "d": "MOHT directorates: Tourism Development, Tourism Promotion, Antiquities, Museums, Admin & Finance, Planning, Heritage & Tourism in Dhofar, Heritage & Tourism in Governorates.",
+   "w": "Civil aviation is not one of its directorates."
+  },
+  {
+   "id": "t7-16",
+   "t": "Oman 2040",
+   "q": "Oman's tourism vision is to become, by 2040, a top-of-mind destination for vacations, discovery and meetings, attracting more than:",
+   "o": [
+    "11 million international and local tourists",
+    "1 million tourists",
+    "500,000 tourists",
+    "100 million tourists"
+   ],
+   "d": "Vision: by 2040, a top-of-mind destination for vacations, discovery and meetings, attracting 11 million international and local tourists.",
+   "w": "11 million is the target number."
+  },
+  {
+   "id": "t7-17",
+   "t": "Oman 2040",
+   "q": "Oman's tourism mission is:",
+   "o": [
+    "To diversify the economy and create jobs by offering enriching tourism experiences with Omani personality",
+    "To replace all other industries with tourism",
+    "To reduce the number of tourists",
+    "To build only luxury hotels"
+   ],
+   "d": "Mission: to diversify our economy and to create jobs by offering the world enriching tourism experiences with Omani personality.",
+   "w": "The mission explains why tourism should grow in Oman."
+  },
+  {
+   "id": "t7-18",
+   "t": "Oman 2040",
+   "q": "Which of these is NOT one of the core values of Oman Tourism Strategy 2040?",
+   "o": [
+    "Luxury",
+    "Friendliness",
+    "Pride in our identity",
+    "Generosity"
+   ],
+   "d": "Core values: friendliness, kindness, respect, pride in our identity, honesty, generosity.",
+   "w": "Luxury is not listed."
+  },
+  {
+   "id": "t7-19",
+   "t": "Oman 2040",
+   "q": "Which are the REGIONAL target markets in Oman's 2040 strategy?",
+   "o": [
+    "UAE and Saudi Arabia",
+    "Germany and France",
+    "India and the United Kingdom",
+    "China and Japan"
+   ],
+   "d": "Target markets: international (Germany, France, India, UK) and regional (UAE, Saudi Arabia).",
+   "w": "Germany, France, India and the UK are the international markets."
+  },
+  {
+   "id": "t7-20",
+   "t": "Tourism policy",
+   "q": "Controlling access through visas and immigration policy is a tool for:",
+   "o": [
+    "Managing tourism demand",
+    "Managing tourism supply",
+    "Hotel grading",
+    "Cultural exchange"
+   ],
+   "d": "Demand tools: marketing and promotion, information, pricing, visas and immigration, security and safety.",
+   "w": "Visas control how many visitors can come, which is demand."
+  },
+  {
+   "id": "t7-21",
+   "t": "Tourism policy",
+   "q": "Land-use planning, taxation, investment incentives and ownership of tourism plant are tools for:",
+   "o": [
+    "Managing tourism supply",
+    "Managing tourism demand",
+    "Distribution channels",
+    "Travel motivation"
+   ],
+   "d": "Supply tools: land-use planning and building regulations, market regulation, research and planning, taxation, education and training, ownership of plant, investment incentives.",
+   "w": "These tools shape what facilities exist."
+  },
+  {
+   "id": "t7-22",
+   "t": "Tourism planning",
+   "q": "Tourism planning is:",
+   "o": [
+    "The process of setting objectives and then deciding how they will be achieved",
+    "Selling tours to tourists",
+    "Building one hotel",
+    "Grading hotels"
+   ],
+   "d": "Tourism planning: setting objectives and determining the means to achieve them.",
+   "w": "Planning starts with objectives."
+  },
+  {
+   "id": "t7-23",
+   "t": "Tourism planning",
+   "q": "What is the FIRST step in any planning process?",
+   "o": [
+    "Establish a goal or objective",
+    "Monitor performance",
+    "Develop action plans",
+    "Identify aids and barriers"
+   ],
+   "d": "Planning steps: establish a goal → define the present situation → identify aids and barriers → develop action plans → monitor performance.",
+   "w": "You need a goal before anything else."
+  },
+  {
+   "id": "t7-24",
+   "t": "Tourism planning",
+   "q": "Planning for a whole country or a region within it is called:",
+   "o": [
+    "Destination planning (the geographical level)",
+    "Business-level planning",
+    "Franchise planning",
+    "Demand management"
+   ],
+   "d": "Scope of planning: geographical level (destination planning) and business level (individual projects).",
+   "w": "A country or region is a destination."
+  },
+  {
+   "id": "t7-25",
+   "t": "Organisations",
+   "tf": true,
+   "ans": true,
+   "q": "Inter-governmental bodies are created by treaties between sovereign states.",
+   "d": "Inter-governmental bodies (e.g. UNWTO) are created by treaties entered into by sovereign states.",
+   "w": "Their members are governments."
+  },
+  {
+   "id": "t7-26",
+   "t": "Organisations",
+   "tf": true,
+   "ans": false,
+   "q": "Private sector tourism organisations are owned by the government.",
+   "d": "Private sector organisations are owned and operated by commercial enterprises, not the government.",
+   "w": "Government-owned bodies are public sector."
+  },
+  {
+   "id": "t7-27",
+   "t": "Tourism policy",
+   "tf": true,
+   "ans": false,
+   "q": "Determining tourism policy is a one-time process.",
+   "d": "Determining tourism policy is continuous, with constant revisions and iterations.",
+   "w": "Policy must adapt as conditions change."
+  },
+  {
+   "id": "t7-28",
+   "t": "Tourism planning",
+   "tf": true,
+   "ans": true,
+   "q": "Planning the construction of a single hotel or theme park is planning at the business level.",
+   "d": "Business level: developing individual tourism projects, such as a hotel or theme park.",
+   "w": "It concerns one project, not a whole destination."
+  },
+  {
+   "id": "t7-29",
+   "t": "Oman 2040",
+   "tf": true,
+   "ans": true,
+   "q": "Oman's tourism strategy supports economic diversification away from an oil-based economy.",
+   "d": "Oman Tourism Strategy 2040: Oman is committed to economic diversification away from oil.",
+   "w": "Tourism creates income and jobs outside oil."
+  },
+  {
+   "id": "t7-30",
+   "t": "Tourism policy",
+   "tf": true,
+   "ans": false,
+   "q": "Taxation is a policy tool for managing tourism demand.",
+   "d": "Taxation is listed as a tool for managing tourism SUPPLY.",
+   "w": "Demand tools include marketing, pricing, visas and safety."
+  },
+  {
+   "id": "t7-w1",
+   "t": "Organisations",
+   "wr": true,
+   "q": "Discuss the classification of international tourism organisations, with examples.",
+   "a": "International organisations draw membership from more than one country. Three criteria:\n1. Membership: inter-governmental (created by treaties between states, e.g. UNWTO) or non-governmental (members are individuals or organisations, e.g. IATA).\n2. Geographical scope: global (e.g. UNWTO) or regional (e.g. PATA, GCC, League of Arab States).\n3. Level of interest: general (all aspects, e.g. UNWTO), specific (one sector, e.g. IATA) or partial (some operations linked to tourism, e.g. WHO).",
+   "d": "International tourism organisations: classified by membership, geographical scope and level of interest.",
+   "w": "Use one example per category."
+  },
+  {
+   "id": "t7-w2",
+   "t": "Organisations",
+   "wr": true,
+   "q": "Discuss the classification of national tourism organisations, with Omani examples.",
+   "a": "National organisations serve one country. Three criteria:\n1. Ownership: public sector (government owned, funded or controlled) or private sector (commercial businesses).\n2. Geographical scope: NTO (whole country), RTO (a region), LTO (a city or town).\n3. Level of interest: general (e.g. Ministry of Heritage and Tourism), specific (e.g. OMRAN, Oman Airports Management Company), partial (e.g. Royal Oman Police, Ministry of Health, banks).",
+   "d": "National tourism organisations: classified by ownership, geographical scope and level of interest.",
+   "w": "The slides give Omani examples for the level of interest."
+  },
+  {
+   "id": "t7-w3",
+   "t": "Government involvement",
+   "wr": true,
+   "q": "Explain why governments get involved in tourism and what affects the extent of their involvement.",
+   "a": "Reasons: maximise tourism benefits; protect natural resources; economic stability; employment; welfare of citizens; market regulation and promotion; statistics and information; planning and control; education and training.\nExtent and nature vary with:\n- Economic structures: the more important tourism is to the economy, the greater the involvement.\n- Political structures: involvement ranges from simple policy-making to owning tourism infrastructure and superstructure.",
+   "d": "Government involvement: the role of the state in the tourism industry.",
+   "w": "Give the reasons, then explain what makes involvement greater or smaller."
+  },
+  {
+   "id": "t7-w4",
+   "t": "NTOs",
+   "wr": true,
+   "q": "Explain the role of an NTO and describe Oman's Ministry of Heritage and Tourism.",
+   "a": "NTO: established by a country to serve national goals and carry out public policy; its role is to ensure the appropriate development and promotion of the country as a destination. Standard functions: planning, organising, development, promotion, control.\nMOHT: the governmental body responsible for promoting and preserving Omani heritage and tourism. Directorates: Tourism Development, Tourism Promotion, Antiquities, Museums, Admin & Finance, Planning, Heritage & Tourism in Dhofar, Heritage & Tourism in Governorates.",
+   "d": "NTO: National Tourism Organisation.",
+   "w": "Explain the general NTO role first, then Oman's example."
+  },
+  {
+   "id": "t7-w5",
+   "t": "Tourism policy",
+   "wr": true,
+   "q": "Define tourism policy and explain the two types of policy instruments governments use.",
+   "a": "UNWTO: tourism policy is all the actions carried out under the coordination of public administrations to achieve defined aims in the analysis, attraction, reception and evaluation of the impacts of tourism flows. It is a continuous process.\n1. Managing demand: marketing and promotion; information and networks for incoming tourists; pricing intervention; controlling access (visas, immigration); security and safety.\n2. Managing supply: land-use planning, building regulations and environmental control; market regulation; market research and planning; taxation; education and training; ownership of tourism plant; investment incentives.",
+   "d": "Tourism policy: coordinated public actions to achieve tourism aims.",
+   "w": "Demand tools affect visitors; supply tools affect facilities and businesses."
+  },
+  {
+   "id": "t7-w6",
+   "t": "Oman 2040",
+   "wr": true,
+   "q": "Explain the vision, mission, core values and target markets of Oman Tourism Strategy 2040.",
+   "a": "Vision: by 2040, a top-of-mind destination for vacations, discovery and meetings, attracting more than 11 million international and local tourists.\nMission: to diversify the economy and create jobs by offering the world enriching tourism experiences with Omani personality.\nCore values: friendliness, kindness, respect, pride in our identity, honesty, generosity.\nTarget markets: international (Germany, France, India, UK) and regional (UAE, Saudi Arabia).\nThe strategy supports economic diversification away from oil and identifies 9 target business sectors.",
+   "d": "Oman Tourism Strategy 2040: the national plan for tourism development.",
+   "w": "The vision says what Oman wants to become; the mission says why tourism should grow."
+  }
+ ]
+}

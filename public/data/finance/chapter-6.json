@@ -1,0 +1,378 @@
+{
+ "id": "fn-ch6",
+ "label": "Chapter 6",
+ "name": "Investment in Mutual Funds",
+ "questions": [
+  {
+   "id": "fn6-01",
+   "t": "Mutual fund basics",
+   "q": "A mutual fund is:",
+   "o": [
+    "A professionally managed vehicle that pools money from many investors to invest in stocks and securities",
+    "A bank deposit with a fixed interest rate",
+    "A loan given by investors to the government",
+    "A single company's shares"
+   ],
+   "d": "Mutual fund: a financial vehicle managed by professionals that pools money from multiple investors to invest in stocks and securities.",
+   "w": "Its goal is to diversify investments, minimise unsystematic risk and maximise returns."
+  },
+  {
+   "id": "fn6-02",
+   "t": "Mutual fund basics",
+   "q": "Who regulates mutual funds in Oman?",
+   "o": [
+    "The Capital Market Authority (CMA)",
+    "The Central Bank of Oman",
+    "The Muscat Clearing & Depository",
+    "The fund manager"
+   ],
+   "d": "Regulation: the CMA oversees mutual fund registration, operations and supervision in Oman.",
+   "w": "Units listed on the MSM must also be registered with the Muscat Clearing & Depository Company, but the regulator is the CMA."
+  },
+  {
+   "id": "fn6-03",
+   "t": "Benefits",
+   "q": "Which is a benefit of mutual funds over direct share trading?",
+   "o": [
+    "Lower transaction costs because of economies of scale",
+    "Guaranteed returns with no risk",
+    "No fees of any kind",
+    "The investor chooses every share personally"
+   ],
+   "d": "Benefits of mutual funds: diversification, professional management, convenience, lower transaction costs.",
+   "w": "Mutual funds are NOT risk-free, and they charge entry and exit loads."
+  },
+  {
+   "id": "fn6-04",
+   "t": "Units and fund types",
+   "q": "The nominal value of a mutual fund unit in Oman is typically:",
+   "o": [
+    "RO 1.000",
+    "RO 0.100",
+    "RO 10.000",
+    "RO 100.000"
+   ],
+   "d": "Mutual fund units: schemes are divided into equal units with a nominal value, typically RO 1.000 in Oman.",
+   "w": "Minimum investments usually start around RO 1,000 to RO 2,000."
+  },
+  {
+   "id": "fn6-05",
+   "t": "Units and fund types",
+   "q": "A fund that raises a fixed amount of capital for a set period and then returns the money is:",
+   "o": [
+    "A closed-ended fund",
+    "An open-ended fund",
+    "An index fund",
+    "A money market fund"
+   ],
+   "d": "Closed-ended fund: fixed capital for a set period. Open-ended fund: no limit on units and no time limit.",
+   "w": "The fixed amount and fixed period define a closed-ended fund."
+  },
+  {
+   "id": "fn6-06",
+   "t": "Units and fund types",
+   "q": "Which fund invests in short-term debt such as treasury bills for liquidity and capital preservation?",
+   "o": [
+    "Money market fund",
+    "Equity fund",
+    "Sector fund",
+    "Alternative fund"
+   ],
+   "d": "Money market fund: invests in short-term debt instruments like treasury bills, focusing on liquidity and preserving capital.",
+   "w": "Equity funds aim for long-term growth through stocks; sector and alternative funds take more risk."
+  },
+  {
+   "id": "fn6-07",
+   "t": "Units and fund types",
+   "q": "A passively managed fund that tracks a specific stock market index is:",
+   "o": [
+    "An index fund",
+    "A balanced fund",
+    "A sector fund",
+    "A fixed income fund"
+   ],
+   "d": "Index fund: passively managed, tracking a specific stock market index.",
+   "w": "'Passive' means the fund copies an index instead of picking stocks actively."
+  },
+  {
+   "id": "fn6-08",
+   "t": "Classifications",
+   "q": "Classifying equity funds as large-cap, mid-cap or small-cap is based on:",
+   "o": [
+    "Market capitalisation",
+    "Load structure",
+    "Geographical focus",
+    "Expense ratio"
+   ],
+   "d": "Market capitalisation: the size of the companies an equity fund invests in.",
+   "w": "'Cap' is short for capitalisation, the market value of a company."
+  },
+  {
+   "id": "fn6-09",
+   "t": "Classifications",
+   "q": "Classifying funds as actively managed or passively managed is based on:",
+   "o": [
+    "Investment style",
+    "Asset class",
+    "Sector focus",
+    "Expense ratio"
+   ],
+   "d": "Investment style: funds are divided into actively managed and passively managed funds.",
+   "w": "Active versus passive describes HOW the fund is managed, which is its investment style."
+  },
+  {
+   "id": "fn6-10",
+   "t": "Classifications",
+   "q": "Classifying funds as front-end load or no-load is based on:",
+   "o": [
+    "Load structure",
+    "Risk profile",
+    "Investment style",
+    "Asset class"
+   ],
+   "d": "Load structure: classification by the sales charge, such as front-end load or no-load funds.",
+   "w": "A 'load' is a sales charge, so this is the load structure."
+  },
+  {
+   "id": "fn6-11",
+   "t": "NAV and loads",
+   "q": "How is the Net Asset Value (NAV) per unit calculated?",
+   "o": [
+    "(Current value of all assets − current value of all liabilities) ÷ total units outstanding",
+    "Total assets × number of units",
+    "Face value + entry load",
+    "Total liabilities ÷ total assets"
+   ],
+   "d": "NAV = (current value of all assets − current value of all liabilities) ÷ total number of units outstanding.",
+   "w": "It is the fund's net worth shared equally across all units. Every fund must declare its NAV daily."
+  },
+  {
+   "id": "fn6-12",
+   "t": "NAV and loads",
+   "q": "A fund has assets worth RO 12,500,000, liabilities of RO 500,000 and 8,000,000 units. What is its NAV per unit?",
+   "o": [
+    "RO 1.500",
+    "RO 1.562",
+    "RO 1.438",
+    "RO 12.000"
+   ],
+   "d": "NAV = (assets − liabilities) ÷ units outstanding.",
+   "w": "(12,500,000 − 500,000) ÷ 8,000,000 = 12,000,000 ÷ 8,000,000 = RO 1.500."
+  },
+  {
+   "id": "fn6-13",
+   "t": "NAV and loads",
+   "q": "During a New Fund Offer (NFO), investors buy units at:",
+   "o": [
+    "Face (nominal) value",
+    "The NAV after one year",
+    "The redemption price",
+    "Market price plus exit load"
+   ],
+   "d": "NFO: the initial offer when units are subscribed at face value. After that, units trade at the NAV.",
+   "w": "There is no performance history yet during the NFO, so units are sold at their nominal value."
+  },
+  {
+   "id": "fn6-14",
+   "t": "NAV and loads",
+   "q": "In Oman, the effective entry load (2% plus 5% VAT) is:",
+   "o": [
+    "2.1%",
+    "2%",
+    "7%",
+    "3.15%"
+   ],
+   "d": "Entry load: 2% plus 5% VAT on the load = 2% × 1.05 = 2.1%. Exit load: 3% × 1.05 = 3.15%.",
+   "w": "VAT is 5% OF the 2% load, not an extra 5 percentage points."
+  },
+  {
+   "id": "fn6-15",
+   "t": "NAV and loads",
+   "q": "The 3.15% exit load in Oman applies when units are redeemed:",
+   "o": [
+    "Before 3 months",
+    "After 3 months",
+    "After 1 year only",
+    "At any time"
+   ],
+   "d": "Exit load: 3.15% (3% + 5% VAT) if redeemed before 3 months; no exit load after 3 months.",
+   "w": "The exit load discourages very short-term investing."
+  },
+  {
+   "id": "fn6-16",
+   "t": "NAV and loads",
+   "q": "The price an investor receives when selling units (the redemption price) is:",
+   "o": [
+    "NAV − exit load",
+    "NAV + entry load",
+    "NAV + exit load",
+    "Face value − entry load"
+   ],
+   "d": "Entry: price paid = NAV + entry load. Exit: amount received = NAV − exit load (redemption price).",
+   "w": "Loads are the fund's revenue: added when you buy and deducted when you sell."
+  },
+  {
+   "id": "fn6-17",
+   "t": "NAV and loads",
+   "q": "Ahmed invests RO 10,000 when the NAV is RO 2.500, with an entry load of 2% plus 5% VAT. How many units does he get?",
+   "o": [
+    "3,917.728 units",
+    "4,000.000 units",
+    "3,921.569 units",
+    "3,916.000 units"
+   ],
+   "d": "Units = amount invested ÷ adjusted NAV, where adjusted NAV = NAV × (1 + effective entry load).",
+   "w": "Effective load = 2.1%. Adjusted NAV = 2.500 × 1.021 = 2.5525. Units = 10,000 ÷ 2.5525 = 3,917.728."
+  },
+  {
+   "id": "fn6-18",
+   "t": "NAV and loads",
+   "q": "Watiqa sells units at a NAV of RO 2.500 with an exit load of 3% plus 5% VAT and receives RO 4,842.500. How many units did she sell?",
+   "o": [
+    "2,000.000 units",
+    "2,100.000 units",
+    "1,996.907 units",
+    "1,937.000 units"
+   ],
+   "d": "Units sold = amount received ÷ redemption price, where redemption price = NAV × (1 − effective exit load).",
+   "w": "Effective exit load = 3.15%. Redemption price = 2.500 × 0.9685 = 2.42125. Units = 4,842.5 ÷ 2.42125 = 2,000."
+  },
+  {
+   "id": "fn6-19",
+   "t": "Returns",
+   "q": "Raja invests RO 28,000 at an adjusted NAV of RO 1.400 and later sells all units at an adjusted NAV of RO 1.600. What is his return on investment?",
+   "o": [
+    "14.286%",
+    "16.000%",
+    "12.500%",
+    "4.000%"
+   ],
+   "d": "Return on investment = Total gain ÷ Amount invested × 100.",
+   "w": "Units = 28,000 ÷ 1.400 = 20,000. Sale = 20,000 × 1.600 = 32,000. Gain = 4,000. ROI = 4,000 ÷ 28,000 × 100 = 14.286%."
+  },
+  {
+   "id": "fn6-20",
+   "t": "Returns",
+   "q": "Basil invests RO 900 when the NAV is RO 0.450 and sells when it reaches RO 1.650 (no loads). What is his rate of return?",
+   "o": [
+    "266.667%",
+    "366.667%",
+    "120.000%",
+    "73.333%"
+   ],
+   "d": "ROI = Total gain ÷ Amount invested × 100.",
+   "w": "Units = 900 ÷ 0.450 = 2,000. Sale = 2,000 × 1.650 = 3,300. Gain = 2,400. ROI = 2,400 ÷ 900 × 100 = 266.667%."
+  },
+  {
+   "id": "fn6-21",
+   "t": "SIP",
+   "q": "Which statement describes a Systematic Investment Plan (SIP)?",
+   "o": [
+    "Investing a fixed amount at regular intervals, usually monthly, debited automatically",
+    "Investing one large lump sum when prices are lowest",
+    "Buying shares directly on the stock market each day",
+    "Withdrawing a fixed amount from a fund every month"
+   ],
+   "d": "SIP: regular investment of a fixed amount (from as low as RO 50), usually monthly, automatically debited from the bank account.",
+   "w": "SIPs build discipline and remove the need to time the market."
+  },
+  {
+   "id": "fn6-22",
+   "t": "SIP",
+   "q": "Why is the average unit cost under a SIP lower than the average market price?",
+   "o": [
+    "A fixed amount buys more units when prices are low and fewer when prices are high",
+    "SIPs have no entry load",
+    "SIP units always rise in value",
+    "The fund manager chooses the lowest price each month"
+   ],
+   "d": "SIP (Systematic Investment Plan): investing a fixed amount at regular intervals. It benefits from cost averaging.",
+   "w": "Average cost uses the harmonic mean, which is always lower than the arithmetic mean of the prices when prices vary."
+  },
+  {
+   "id": "fn6-23",
+   "t": "SIP",
+   "q": "An investor puts RO 75 a month into a SIP for 4 months at adjusted NAVs of RO 7.5, 6, 2.5 and 5. What is the average unit cost (harmonic mean)?",
+   "o": [
+    "RO 4.444",
+    "RO 5.250",
+    "RO 5.000",
+    "RO 4.000"
+   ],
+   "d": "Average unit cost = total amount invested ÷ total units purchased.",
+   "w": "Units: 10, 12.5, 30, 15 = 67.5 units. Average cost = 300 ÷ 67.5 = RO 4.444, lower than the arithmetic mean price of RO 5.250."
+  },
+  {
+   "id": "fn6-24",
+   "t": "Mutual fund basics",
+   "tf": true,
+   "ans": false,
+   "q": "Mutual funds are risk-free because they are professionally managed.",
+   "d": "Despite professional management, mutual funds are not risk-free, similar to the stock market.",
+   "w": "Their NAV can fall when the underlying stocks and securities fall."
+  },
+  {
+   "id": "fn6-25",
+   "t": "NAV and loads",
+   "tf": true,
+   "ans": true,
+   "q": "Mutual fund units can be bought in fractions, such as a quarter or half unit.",
+   "d": "Mutual fund units can be purchased in fractions (e.g. 1/4 or 1/2 unit).",
+   "w": "That is why unit numbers in calculations often have decimals."
+  },
+  {
+   "id": "fn6-w1",
+   "t": "NAV and loads",
+   "wr": true,
+   "q": "Ahmed invests RO 10,000 in a mutual fund with NAV RO 2.500 per unit. The entry load is 2% plus 5% VAT. Find (a) the effective entry load rate, (b) the adjusted NAV, (c) units acquired, (d) the entry load paid.",
+   "a": "(a) Effective entry load = 2% × 1.05 = 2.1%\n(b) Adjusted NAV = 2.500 × 1.021 = RO 2.5525\n(c) Units = 10,000 ÷ 2.5525 = 3,917.728 units\n(d) Entry load paid = 10,000 − (3,917.728 × 2.500) = RO 205.681",
+   "d": "Adjusted NAV (buying) = NAV × (1 + effective entry load).",
+   "w": "The investor pays the NAV plus the load on every unit, so fewer units are bought than 10,000 ÷ 2.5 = 4,000."
+  },
+  {
+   "id": "fn6-w2",
+   "t": "NAV and loads",
+   "wr": true,
+   "q": "An investor invests RO 20,420 when the NAV is RO 1.250, with an entry load of 2% plus 5% VAT. Find the adjusted NAV, units acquired and entry load paid.",
+   "a": "Effective entry load = 2.1%\nAdjusted NAV = 1.250 × 1.021 = RO 1.27625\nUnits = 20,420 ÷ 1.27625 = 16,000.000 units\nEntry load paid = 16,000 × 1.250 × 0.021 = RO 420.000",
+   "d": "Entry load paid = units × NAV × effective entry load.",
+   "w": "Check: 16,000 × 1.250 = 20,000 at NAV, plus 420 load = 20,420 invested."
+  },
+  {
+   "id": "fn6-w3",
+   "t": "NAV and loads",
+   "wr": true,
+   "q": "Watiqa sells units when the NAV is RO 2.500 with an exit load of 3% plus 5% VAT, and receives RO 4,842.500. Find (a) the effective exit load, (b) the redemption price, (c) units sold, (d) exit load paid.",
+   "a": "(a) Effective exit load = 3% × 1.05 = 3.15%\n(b) Redemption price = 2.500 × (1 − 0.0315) = RO 2.42125\n(c) Units sold = 4,842.5 ÷ 2.42125 = 2,000 units\n(d) Exit load paid = 2,000 × 2.500 × 0.0315 = RO 157.500",
+   "d": "Redemption price = NAV − exit load = NAV × (1 − effective exit load).",
+   "w": "The exit load is deducted from the NAV, so the investor receives less per unit than the NAV."
+  },
+  {
+   "id": "fn6-w4",
+   "t": "Returns",
+   "wr": true,
+   "q": "Raja invests RO 28,000 when the adjusted NAV is RO 1.400. He later sells all units at an adjusted NAV of RO 1.600. Find (a) units bought, (b) sale proceeds, (c) capital gain, (d) return on investment.",
+   "a": "(a) Units = 28,000 ÷ 1.400 = 20,000 units\n(b) Sale proceeds = 20,000 × 1.600 = RO 32,000\n(c) Capital gain = 32,000 − 28,000 = RO 4,000\n(d) ROI = 4,000 ÷ 28,000 × 100 = 14.286%",
+   "d": "Return on investment = Total gain ÷ Amount invested × 100.",
+   "w": "The adjusted NAVs already include the loads, so use them directly."
+  },
+  {
+   "id": "fn6-w5",
+   "t": "SIP",
+   "wr": true,
+   "q": "An investor puts RO 200 a month into a SIP for 4 months at adjusted NAVs of RO 4, 5, 6 and 3. Find the average unit cost and the arithmetic mean price, and comment on SIP benefits.",
+   "a": "Units: 200 ÷ 4 = 50; 200 ÷ 5 = 40; 200 ÷ 6 = 33.333; 200 ÷ 3 = 66.667\nTotal units = 190.000; total invested = RO 800\nAverage unit cost (harmonic) = 800 ÷ 190.000 = RO 4.211\nArithmetic mean price = (4 + 5 + 6 + 3) ÷ 4 = RO 4.500\nComment: the SIP's average cost is lower than the average market price, because the fixed RO 200 buys more units when the NAV is low.",
+   "d": "SIP cost averaging: average unit cost (harmonic mean) is lower than the arithmetic mean of prices.",
+   "w": "This shows why SIPs remove the need to time the market."
+  },
+  {
+   "id": "fn6-w6",
+   "t": "Benefits",
+   "wr": true,
+   "q": "Explain four benefits of investing in mutual funds instead of trading shares directly.",
+   "a": "1. Diversification: the fund spreads money across many securities, reducing risk; doing this directly would need a large investment.\n2. Professional management: experts research and manage the portfolio, which helps novice investors.\n3. Convenience: units are easy to buy and sell, with low minimum investments and less time and effort.\n4. Lower transaction costs: the fund benefits from economies of scale.\nDirect share trading may suit knowledgeable investors who want to manage their own portfolio, but it carries higher risk and costs.",
+   "d": "Mutual fund: a professionally managed pool of investors' money invested in stocks and securities.",
+   "w": "Each benefit addresses a weakness of direct trading: risk, expertise, effort and cost."
+  }
+ ]
+}

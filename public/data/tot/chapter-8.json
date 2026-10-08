@@ -1,0 +1,427 @@
+{
+ "id": "tot-ch8",
+ "label": "Chapter 8",
+ "name": "Tourism Education and Jobs",
+ "questions": [
+  {
+   "id": "t8-01",
+   "t": "Education",
+   "q": "Which of these is listed as a tourism and hospitality higher education institution in Oman?",
+   "o": [
+    "Oman Tourism College (OTC)",
+    "Royal Oman Police",
+    "Oman Airports",
+    "Ministry of Health"
+   ],
+   "d": "T&H education in Oman: SQU, Oman Tourism College, Majan University College, University of Nizwa, National Hospitality Institute, Muscat Hospitality Academy.",
+   "w": "The other options are employers, not colleges."
+  },
+  {
+   "id": "t8-02",
+   "t": "Education",
+   "q": "Which institution is NOT on the slides' list of T&H education providers in Oman?",
+   "o": [
+    "Oman Medical College",
+    "Sultan Qaboos University",
+    "National Hospitality Institute",
+    "Muscat Hospitality Academy"
+   ],
+   "d": "The slides list six T&H education providers in Oman.",
+   "w": "A medical college does not offer tourism and hospitality degrees."
+  },
+  {
+   "id": "t8-03",
+   "t": "Employment",
+   "q": "Under Oman's Tanfeedh plan, which sectors are targeted for development alongside tourism?",
+   "o": [
+    "Industrial and logistics",
+    "Oil and gas only",
+    "Banking only",
+    "Agriculture only"
+   ],
+   "d": "Tourism, industrial and logistics sectors are targeted under Tanfeedh for economic diversification.",
+   "w": "The government wants new jobs in these sectors prioritised for Omanis."
+  },
+  {
+   "id": "t8-04",
+   "t": "Employment",
+   "q": "How many jobs are predicted to be created by Oman Tourism Strategy 2016–2040?",
+   "o": [
+    "More than 500,000",
+    "About 75,000",
+    "About 50,000",
+    "About 11 million"
+   ],
+   "d": "Job opportunities: more than 500,000 jobs predicted from the strategy.",
+   "w": "11 million is the tourist target, not jobs."
+  },
+  {
+   "id": "t8-05",
+   "t": "Employment",
+   "q": "About how many DIRECT tourism jobs are forecast by 2040?",
+   "o": [
+    "321,863",
+    "500,000",
+    "73,224",
+    "137,000"
+   ],
+   "d": "Direct jobs by 2040: about 321,863.",
+   "w": "73,224 is the hospitality share; 137,000 is diploma-to-bachelor jobs."
+  },
+  {
+   "id": "t8-06",
+   "t": "Employment",
+   "q": "What share of direct tourism jobs in 2040 will be in the hospitality sector?",
+   "o": [
+    "22.75% (73,224 jobs)",
+    "77.25% (248,639 jobs)",
+    "70%",
+    "90%"
+   ],
+   "d": "Hospitality: 22.75% (73,224); other tourism-related sectors: 77.25% (248,639).",
+   "w": "Most direct jobs are outside hospitality."
+  },
+  {
+   "id": "t8-07",
+   "t": "Employment",
+   "q": "Overall Omanization in tourism jobs by 2040 is expected to be around:",
+   "o": [
+    "70% (almost 222,815 jobs)",
+    "90%",
+    "22.75%",
+    "37%"
+   ],
+   "d": "Omanization: around 70% overall; around 90% in managerial and middle-management positions.",
+   "w": "90% applies to managerial positions only."
+  },
+  {
+   "id": "t8-08",
+   "t": "Employment",
+   "q": "Omanization in managerial and middle-management tourism positions is expected to be around:",
+   "o": [
+    "90%",
+    "70%",
+    "61%",
+    "22.75%"
+   ],
+   "d": "Managerial and middle-management Omanization: about 90%.",
+   "w": "The overall figure is 70%."
+  },
+  {
+   "id": "t8-09",
+   "t": "Employment",
+   "q": "Jobs requiring a diploma, advanced diploma or bachelor's degree are expected to be about:",
+   "o": [
+    "137,000 (about 61% of jobs)",
+    "321,863",
+    "73,224",
+    "500,000"
+   ],
+   "d": "Diploma, advanced diploma and bachelor jobs: around 137,000, about 61% of total jobs.",
+   "w": "This shows the value of tourism education."
+  },
+  {
+   "id": "t8-10",
+   "t": "Employment",
+   "q": "Most of the new tourism jobs will be in the:",
+   "o": [
+    "Private sector",
+    "Public sector",
+    "Military",
+    "Oil sector"
+   ],
+   "d": "Job opportunities: most jobs will be in the private sector.",
+   "w": "Hotels, transport and tour companies are mostly private businesses."
+  },
+  {
+   "id": "t8-11",
+   "t": "Job levels",
+   "q": "Directors and managers who lead and supervise an area, programme or project are at the:",
+   "o": [
+    "Superior level",
+    "Medium technical level",
+    "Basic level",
+    "Entry level"
+   ],
+   "d": "Job levels (2040): superior (directors, managers), medium technical (specialised and skilled), basic (wage-earning manual work).",
+   "w": "Leadership positions are superior level."
+  },
+  {
+   "id": "t8-12",
+   "t": "Job levels",
+   "q": "Positions needing theoretical and conceptual knowledge of a specialisation, plus technical or skilled support roles, are at the:",
+   "o": [
+    "Medium technical level",
+    "Superior level",
+    "Basic level",
+    "Volunteer level"
+   ],
+   "d": "Medium technical level: specialised knowledge and support, operational, technical, skilled or semi-skilled positions.",
+   "w": "It sits between managers and manual work."
+  },
+  {
+   "id": "t8-13",
+   "t": "Job levels",
+   "q": "Wage-earning jobs, especially manual-labour and industrial work, are at the:",
+   "o": [
+    "Basic level",
+    "Superior level",
+    "Medium technical level",
+    "Executive level"
+   ],
+   "d": "Basic level: positions employed for wages, mainly manual and skilled labour.",
+   "w": "Manual work is basic level."
+  },
+  {
+   "id": "t8-14",
+   "t": "Where to work",
+   "q": "Working for a travel agent or tour operator is employment in the:",
+   "o": [
+    "Sales distribution sector",
+    "Accommodation sector",
+    "Attractions sector",
+    "Events sector"
+   ],
+   "d": "Tourism suppliers: transportation, accommodation, F&B, attractions, sales distribution (travel agents, tour operators), events.",
+   "w": "Travel agents and tour operators sell tourism products."
+  },
+  {
+   "id": "t8-15",
+   "t": "Where to work",
+   "q": "Forts, museums, the opera house and protected areas offer jobs in the:",
+   "o": [
+    "Attractions sector",
+    "Transportation sector",
+    "Sales distribution sector",
+    "F&B sector"
+   ],
+   "d": "Attractions: forts, museums, opera house, protected areas.",
+   "w": "These are places tourists visit."
+  },
+  {
+   "id": "t8-16",
+   "t": "Where to work",
+   "q": "Starting your own tourism or hospitality business is called:",
+   "o": [
+    "Tourism entrepreneurship",
+    "Omanization",
+    "Franchising",
+    "Self-assessment"
+   ],
+   "d": "Tourism entrepreneurship: establishing a business in the tourism and hospitality industry.",
+   "w": "Creating your own business is entrepreneurship."
+  },
+  {
+   "id": "t8-17",
+   "t": "Careers",
+   "q": "Which of these is an example of a HOSPITALITY career on the slides?",
+   "o": [
+    "Front office manager",
+    "Tour guide",
+    "Airline ground staff",
+    "Museum manager"
+   ],
+   "d": "Hospitality careers: hotel/resort, restaurant, front office, housekeeping, F&B, banquet, events, guest relations managers, etc.",
+   "w": "The other options are listed as tourism careers."
+  },
+  {
+   "id": "t8-18",
+   "t": "Careers",
+   "q": "Which of these is an example of a TOURISM career on the slides?",
+   "o": [
+    "Tour guide",
+    "Housekeeping manager",
+    "Banquet supervisor",
+    "Food and beverage manager"
+   ],
+   "d": "Tourism careers: tour guide, tour manager, tourism officer, travel agency manager, ticketing manager, airline ground staff, travel consultant, museum manager, etc.",
+   "w": "The other options are hospitality careers."
+  },
+  {
+   "id": "t8-19",
+   "t": "Skills",
+   "q": "Which of these is NOT one of the soft skills listed for working in tourism and hospitality?",
+   "o": [
+    "Computer programming",
+    "Patience",
+    "Multitasking",
+    "Adaptability and flexibility"
+   ],
+   "d": "Soft skills: patience, communication, customer service, outgoing and enthusiastic, multitasking, problem-solving, teamwork, adaptability, stress and time management, professionalism.",
+   "w": "Programming is a technical skill, not a listed soft skill."
+  },
+  {
+   "id": "t8-20",
+   "t": "Working in T&H",
+   "q": "Which is a POSITIVE side of working in tourism and hospitality?",
+   "o": [
+    "No two days are the same, and you meet new people",
+    "Long hours in the peak season",
+    "Night shifts",
+    "High staff turnover"
+   ],
+   "d": "Positive sides: largest and fastest-growing industry, many jobs, easy entry, wide variety, faster promotion, good work environment, no two days the same, meeting people, work anywhere, part-time jobs.",
+   "w": "The other options are negative sides."
+  },
+  {
+   "id": "t8-21",
+   "t": "Working in T&H",
+   "q": "Which is a NEGATIVE side of working in tourism and hospitality?",
+   "o": [
+    "Many jobs are seasonal and informal",
+    "Employees can be promoted faster",
+    "You can work anywhere in the world",
+    "Part-time jobs are easy to find"
+   ],
+   "d": "Negative sides: long hours, 24/365 operations, working holidays and nights, high turnover, negative public perception, part-time and casual work, low entry pay, seasonal jobs.",
+   "w": "The other options are positive sides."
+  },
+  {
+   "id": "t8-22",
+   "t": "Working in T&H",
+   "q": "Tourism and hospitality create about how many of all jobs?",
+   "o": [
+    "About 1 in every 10 jobs (almost 10%)",
+    "About 1 in every 2 jobs",
+    "About 1 in every 100 jobs",
+    "Almost no jobs"
+   ],
+   "d": "Positive sides: tourism creates many jobs, about one job in ten.",
+   "w": "That is almost 10% of all jobs."
+  },
+  {
+   "id": "t8-23",
+   "t": "Career planning",
+   "q": "What is the FIRST step in career planning in tourism and hospitality?",
+   "o": [
+    "Conduct a self-assessment and know yourself",
+    "Engage in networking",
+    "Gain work experience",
+    "Visit organisations"
+   ],
+   "d": "Career planning steps: self-assessment → learn about careers → explore organisations → understand required skills → network → gain work experience.",
+   "w": "You must know yourself before choosing a career."
+  },
+  {
+   "id": "t8-24",
+   "t": "Career planning",
+   "q": "Internships, training, student clubs and volunteering belong to which career planning step?",
+   "o": [
+    "Work experience",
+    "Self-assessment",
+    "Networking",
+    "Learning about careers"
+   ],
+   "d": "Work experience: internship, training, students' clubs, volunteering.",
+   "w": "These give practical experience."
+  },
+  {
+   "id": "t8-25",
+   "t": "Working in T&H",
+   "tf": true,
+   "ans": true,
+   "q": "Tourism and hospitality jobs generally have easy entry requirements.",
+   "d": "Positive side: easy entry requirements and jobs for all age groups, even without experience.",
+   "w": "This makes the sector accessible."
+  },
+  {
+   "id": "t8-26",
+   "t": "Working in T&H",
+   "tf": true,
+   "ans": true,
+   "q": "Some hospitality businesses, such as hotels, must open 24 hours a day, 365 days a year.",
+   "d": "Negative side: some businesses like hotels must open 24/365.",
+   "w": "This leads to night shifts and holiday work."
+  },
+  {
+   "id": "t8-27",
+   "t": "Working in T&H",
+   "tf": true,
+   "ans": false,
+   "q": "Tourism and hospitality jobs are always perceived positively by the public.",
+   "d": "Negative side: the sector is sometimes negatively perceived by the public.",
+   "w": "This is listed among the negatives."
+  },
+  {
+   "id": "t8-28",
+   "t": "Working in T&H",
+   "tf": true,
+   "ans": true,
+   "q": "Small firms are likely to employ more part-time workers than large firms.",
+   "d": "Negative side: evidence suggests small firms employ more part-time workers.",
+   "w": "Part-time work can mean less job security."
+  },
+  {
+   "id": "t8-29",
+   "t": "Working in T&H",
+   "tf": true,
+   "ans": false,
+   "q": "Entry-level jobs in tourism and hospitality always pay high salaries.",
+   "d": "Negative side: low salaries for entry-level jobs; good salaries mainly for top positions.",
+   "w": "High pay comes with promotion to top roles."
+  },
+  {
+   "id": "t8-30",
+   "t": "Career planning",
+   "tf": true,
+   "ans": true,
+   "q": "Engaging in networking is one of the steps of career planning.",
+   "d": "Career planning steps include engaging in networking.",
+   "w": "Contacts help you find opportunities."
+  },
+  {
+   "id": "t8-w1",
+   "t": "Education",
+   "wr": true,
+   "q": "Which organisations offer degree and vocational qualifications in tourism and hospitality in Oman?",
+   "a": "1. Sultan Qaboos University (SQU)\n2. Oman Tourism College (OTC)\n3. Majan University College\n4. University of Nizwa\n5. National Hospitality Institute (NHI)\n6. Muscat Hospitality Academy (MHA)\n(UTAS also offers the Bachelor of Tourism and Hospitality Management.)",
+   "d": "Tourism education: institutions preparing people for tourism and hospitality careers.",
+   "w": "List all six institutions from the slides."
+  },
+  {
+   "id": "t8-w2",
+   "t": "Employment",
+   "wr": true,
+   "q": "Discuss the job opportunities expected from Oman Tourism Strategy 2040.",
+   "a": "- More than 500,000 jobs created by the strategy (2016–2040).\n- About 321,863 direct tourism jobs by 2040.\n- Hospitality: 22.75% (73,224); other tourism sectors: 77.25% (248,639).\n- Omanization about 70% (almost 222,815 jobs), and about 90% in managerial and middle-management positions.\n- Diploma, advanced diploma and bachelor jobs about 137,000 (around 61%).\n- Most jobs in the private sector.\nTourism is targeted under the Tanfeedh plan, with jobs prioritised for Omanis.",
+   "d": "Employment in tourism: jobs created by tourism development in Oman.",
+   "w": "Quote the slides' figures accurately."
+  },
+  {
+   "id": "t8-w3",
+   "t": "Where to work",
+   "wr": true,
+   "q": "Outline the sectors and organisations that offer jobs to tourism and hospitality graduates.",
+   "a": "1. National Tourism Organisations: Oman Ministry of Heritage and Tourism.\n2. Tourism suppliers: transportation (airports, airlines, car rentals, ports, bus companies); accommodation (hotels, motels, apartments, camps, heritage inns); F&B (restaurants, coffee shops); attractions (forts, museums, opera house, protected areas); sales distribution (travel agents, tour operators); events (Oman Convention and Exhibition Centre, festivals).\n3. Other government organisations: OMRAN, Oman Airports Management Company, Royal Oman Police, Royal Court, ministries, embassies.\n4. International organisations: GCC, Arab Tourism Organisation, UNWTO.\n5. Tourism entrepreneurship: your own business.",
+   "d": "Where to work: the employers available to tourism and hospitality graduates.",
+   "w": "Group the employers into these five categories."
+  },
+  {
+   "id": "t8-w4",
+   "t": "Skills",
+   "wr": true,
+   "q": "What soft skills are needed to work in tourism and hospitality?",
+   "a": "1. Patience\n2. Communication skills\n3. Customer service skills\n4. Outgoing personality and enthusiasm\n5. Multitasking skills\n6. Problem-solving\n7. Teamwork\n8. Adaptability and flexibility\n9. Stress and time management\n10. Professionalism",
+   "d": "Soft skills: personal and interpersonal skills needed to work with people.",
+   "w": "The slides list ten skills; name all ten."
+  },
+  {
+   "id": "t8-w5",
+   "t": "Working in T&H",
+   "wr": true,
+   "q": "Discuss the positive and negative sides of working in tourism and hospitality.",
+   "a": "Positive:\n- One of the largest and fastest-growing industries; about 1 in 10 jobs.\n- Many tourism projects in Oman, so more job opportunities.\n- Easy entry; jobs for all ages, even without experience.\n- Transferable skills, so you can work anywhere; faster promotion.\n- Excellent work environment (hotels, resorts, airports); no two days the same; meeting new people.\n- Easy part-time work; good salaries for top positions.\nNegative:\n- Long hours, especially in peak season; 24/365 operations; working holidays and night shifts.\n- High turnover; negative public perception.\n- More part-time and casual workers; low entry-level pay.\n- Seasonal and informal jobs; competition from unskilled labour; labour moving between sectors.",
+   "d": "Working in tourism and hospitality has both advantages and challenges.",
+   "w": "Balance the answer with several points on each side."
+  },
+  {
+   "id": "t8-w6",
+   "t": "Career planning",
+   "wr": true,
+   "q": "Outline the main steps for career planning in tourism and hospitality.",
+   "a": "1. Conduct a self-assessment and know yourself.\n2. Learn about the careers that suit you.\n3. Explore and visit the organisations you would like to work in.\n4. Understand the attributes, skills and knowledge required.\n5. Engage in networking.\n6. Gain work experience (internships, training, students' clubs, volunteering).",
+   "d": "Career planning: a step-by-step process for choosing and preparing for a career.",
+   "w": "The steps move from knowing yourself to gaining real experience."
+  }
+ ]
+}

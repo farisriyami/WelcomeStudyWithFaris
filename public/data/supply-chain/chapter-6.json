@@ -1,0 +1,231 @@
+{
+ "id": "fin-ch6",
+ "label": "Chapter 6",
+ "name": "Transportation and Distribution",
+ "questions": [
+  {
+   "id": "f6-01",
+   "t": "Modes",
+   "q": "Which of these is NOT one of the five modes of transportation?",
+   "o": [
+    "Intermodal",
+    "Pipeline",
+    "Motor carrier (truck)",
+    "Water"
+   ],
+   "d": "The five modes are air, motor carrier (truck), pipeline, rail and water. Intermodal transportation combines two or more modes; it is not a separate mode."
+  },
+  {
+   "id": "f6-02",
+   "t": "Modes",
+   "q": "Air freight is generally the fastest mode for shipments exceeding:",
+   "o": [
+    "600 miles",
+    "100 miles",
+    "300 miles",
+    "1,500 miles"
+   ],
+   "d": "Air freight is generally the fastest mode for shipments exceeding 600 miles, but it is expensive and rates use dimensional weight."
+  },
+  {
+   "id": "f6-03",
+   "t": "Modes",
+   "q": "Why is air freight reliability described as problematic?",
+   "o": [
+    "Delays from weather and congestion with passenger flights (belly freight)",
+    "Aircraft can only carry liquids",
+    "Air freight has no fixed schedules",
+    "Air freight cannot be tracked"
+   ],
+   "d": "Air freight reliability suffers from weather delays (fog, snow, thunderstorms) and congestion with air passenger transportation (belly freight)."
+  },
+  {
+   "id": "f6-04",
+   "t": "Modes",
+   "q": "Which shipment is BEST suited to air freight according to the slides?",
+   "o": [
+    "Cut flowers that are perishable and urgent",
+    "Crude oil",
+    "Bulk grain",
+    "Coal"
+   ],
+   "d": "Air freight is best suited for high-value, lower-volume, urgent, perishable or time-specific deliveries. Cut flowers and nursery stock are listed examples."
+  },
+  {
+   "id": "f6-05",
+   "t": "Modes",
+   "q": "A less-than-truckload (LTL) shipment typically weighs between:",
+   "o": [
+    "150 and 10,000 pounds",
+    "10 and 150 pounds",
+    "10,000 and 50,000 pounds",
+    "Over 50,000 pounds"
+   ],
+   "d": "LTL shipments are 150 to 10,000 pounds: too big to handle manually and too small to fill a truck. Truckload (TL) focuses on shipments over 10,000 pounds."
+  },
+  {
+   "id": "f6-06",
+   "t": "Modes",
+   "q": "In the LTL process, what happens right after local pick-up?",
+   "o": [
+    "The shipment is loaded aboard a line haul at the origin terminal",
+    "It is delivered to the consignee",
+    "It moves directly from shipper to consignee",
+    "It goes on a smaller truck for local delivery"
+   ],
+   "d": "LTL process: local pick-up → origin terminal, loaded aboard line haul → line haul to a terminal near the destination → local delivery on smaller trucks → the consignee receives it."
+  },
+  {
+   "id": "f6-07",
+   "t": "Modes",
+   "q": "How do truckload (TL) shipments usually move?",
+   "o": [
+    "Directly from the shipper's location to the consignee's location",
+    "Through several terminals with many other shippers' goods",
+    "Only by rail",
+    "Only within one city"
+   ],
+   "d": "TL shipments (over 10,000 lbs, close to a full trailer) tend to move directly from the shipper's location to the consignee's location."
+  },
+  {
+   "id": "f6-08",
+   "t": "Modes",
+   "q": "Which mode is the most reliable but tends to be the slowest?",
+   "o": [
+    "Pipeline",
+    "Water",
+    "Rail",
+    "Air"
+   ],
+   "d": "Pipelines: the only mode without vehicles, one-way, the most reliable, the slowest, only for liquid, liquefiable or gaseous products, with high fixed costs but low cost per unit."
+  },
+  {
+   "id": "f6-09",
+   "t": "Modes",
+   "q": "How does rail compare with other modes on cost?",
+   "o": [
+    "Less expensive than air and motor, but more expensive than pipeline and water",
+    "The most expensive of all modes",
+    "The cheapest of all modes",
+    "More expensive than air"
+   ],
+   "d": "Rail is neither the best nor the worst on any of the six attributes. It is less expensive than air and motor but more expensive than pipeline and water, and faster than pipeline and water but slower than air and truck."
+  },
+  {
+   "id": "f6-10",
+   "t": "Intermodal",
+   "q": "Intermodal transportation means:",
+   "o": [
+    "Moving a container between vehicles of different modes without reloading or disturbing the contents",
+    "Using only one mode for the whole journey",
+    "Moving passengers and freight together",
+    "Shipping goods without any containers"
+   ],
+   "d": "Intermodal transportation uses a container or other equipment that can be transferred from one mode's vehicle to another's without the contents being reloaded or disturbed, e.g. piggyback transportation."
+  },
+  {
+   "id": "f6-11",
+   "t": "Intermodal",
+   "q": "Containers used in intermodal shipping are measured in:",
+   "o": [
+    "TEUs (twenty-foot equivalent units)",
+    "ULDs (unit load devices)",
+    "LTLs",
+    "Pounds only"
+   ],
+   "d": "Containers are large reusable steel boxes, interchangeable among rail, truck and water carriers, and measured in TEUs. ULDs are airfreight containers designed for the aircraft fuselage."
+  },
+  {
+   "id": "f6-12",
+   "t": "Rates",
+   "q": "Transportation rates are based on which three factors?",
+   "o": [
+    "Product, weight and distance",
+    "Speed, fuel and season",
+    "Weight, insurance and taxes",
+    "Distance, driver and vehicle"
+   ],
+   "d": "A rate is the price charged for freight transportation (a fare is for passengers). Weight × rate = transportation charge, and rates are based on product, weight and distance."
+  },
+  {
+   "id": "f6-13",
+   "t": "Carriers and documents",
+   "q": "A supermarket chain runs its own trucks to deliver to its stores. Which carrier classification is this?",
+   "o": [
+    "Private carrier",
+    "Common carrier",
+    "Contract carrier",
+    "Exempt carrier"
+   ],
+   "d": "Common carriers serve the general public. Contract carriers serve customers on a contract basis. Exempt carriers are exempted from economic regulation by legislation. Private carriers are companies whose main business is not transportation and who provide their own transport."
+  },
+  {
+   "id": "f6-14",
+   "t": "Carriers and documents",
+   "q": "Which carrier offers specialised service on a contract basis, with no obligation to serve the general public?",
+   "o": [
+    "Contract carrier",
+    "Common carrier",
+    "Private carrier",
+    "Exempt carrier"
+   ],
+   "d": "Contract carriers offer specialised service to customers on a contractual basis, with no obligation to serve the general public or to treat customers equally."
+  },
+  {
+   "id": "f6-15",
+   "t": "Carriers and documents",
+   "q": "Which transport document is used for AIR shipments?",
+   "o": [
+    "Air consignment note (airway bill)",
+    "Mate's receipt",
+    "Charter party",
+    "Multimodal bill of lading"
+   ],
+   "d": "Sea/ocean: mate's receipt, charter party, maritime bill of lading. Land: railway consignment note, road waybill. Air: air consignment note or airway bill. Combination: combined transport document or multimodal bill of lading."
+  },
+  {
+   "id": "f6-16",
+   "t": "Distribution",
+   "q": "Which distribution channel has just one intermediary?",
+   "o": [
+    "Producer → retailer → consumer",
+    "Producer → wholesaler → retailer → consumer",
+    "Producer → consumer",
+    "Producer → wholesaler → consumer"
+   ],
+   "d": "The first channel is the longest (producer, wholesaler, retailer, consumer). The second channel excludes the wholesaler, so it has just one intermediary (the retailer). The third is direct to consumer."
+  },
+  {
+   "id": "f6-17",
+   "t": "Distribution",
+   "tf": true,
+   "ans": true,
+   "q": "Reverse logistics is the process of recapturing the value of returned goods and bringing them back to the marketplace as soon as possible.",
+   "d": "Reverse logistics recaptures the value of returned goods; returned products may be disposed of, refurbished or resold. Forward logistics moves goods from the manufacturer to customers."
+  },
+  {
+   "id": "f6-18",
+   "t": "Modes",
+   "tf": true,
+   "ans": false,
+   "q": "Pipelines carry liquid, liquefiable or gaseous products and have low fixed costs.",
+   "d": "Pipelines carry only liquid, liquefiable or gaseous products. They have HIGH fixed costs but a relatively low cost per unit because of their large volumes."
+  },
+  {
+   "id": "f6-19",
+   "t": "Modes",
+   "tf": true,
+   "ans": true,
+   "q": "Water transport is relatively inexpensive, but it has slow average speeds and is somewhat unreliable.",
+   "d": "Water transport is relatively inexpensive, focuses on lower-value bulk commodities and carries greater volumes than rail or truck, but has slow average speeds and is somewhat unreliable."
+  },
+  {
+   "id": "f6-20",
+   "t": "Intermodal",
+   "tf": true,
+   "ans": false,
+   "q": "Airfreight containers (ULDs) are interchangeable with rail, truck and water carriers.",
+   "d": "Standard containers are interchangeable among rail, truck and water carriers. Airfreight containers (ULDs) are designed specifically for the aircraft fuselage."
+  }
+ ]
+}

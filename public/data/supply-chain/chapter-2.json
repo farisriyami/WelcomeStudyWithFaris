@@ -1,0 +1,231 @@
+{
+ "id": "fin-ch2",
+ "label": "Chapter 2",
+ "name": "Purchasing and Procurement Management",
+ "questions": [
+  {
+   "id": "f2-01",
+   "t": "Purchasing and procurement",
+   "q": "Procurement costs often range between what share of an organisation's revenues?",
+   "o": [
+    "60%–80%",
+    "20%–30%",
+    "40%–50%",
+    "85%–95%"
+   ],
+   "d": "Procurement refers to raw materials, component parts and supplies bought from outside organisations to support operations. Procurement costs often range between 60% and 80% of an organisation's revenues."
+  },
+  {
+   "id": "f2-02",
+   "t": "Purchasing and procurement",
+   "q": "Which term is described as a relational exchange approach involving a limited number of suppliers?",
+   "o": [
+    "Supply management",
+    "Purchasing",
+    "Procurement",
+    "E-procurement"
+   ],
+   "d": "Supply management is viewed as a relational exchange approach involving a limited number of suppliers. Purchasing is the act of obtaining goods and services in exchange for money or its equivalent."
+  },
+  {
+   "id": "f2-03",
+   "t": "Purchasing process",
+   "q": "In manual purchasing, which document becomes a binding contract once the supplier accepts it?",
+   "o": [
+    "The purchase order (PO)",
+    "The purchase requisition",
+    "The request for quotation (RFQ)",
+    "The material requisition"
+   ],
+   "d": "The purchase order is the buyer's offer and becomes a binding contract when the supplier accepts it."
+  },
+  {
+   "id": "f2-04",
+   "t": "Purchasing process",
+   "q": "What is the correct order of the three manual purchasing steps?",
+   "o": [
+    "Purchase requisition → Request for quotation → Purchase order",
+    "Request for quotation → Purchase requisition → Purchase order",
+    "Purchase order → Request for quotation → Purchase requisition",
+    "Purchase requisition → Purchase order → Request for quotation"
+   ],
+   "d": "Step 1: material/purchase requisition (product, quantity and due date). Step 2: the buyer identifies suppliers and issues a request for quotation. Step 3: the purchase order."
+  },
+  {
+   "id": "f2-05",
+   "t": "E-procurement",
+   "q": "In the e-procurement process, the buyer assigns qualified suppliers to bid when the purchase is over:",
+   "o": [
+    "$50,000",
+    "$5,000",
+    "$10,000",
+    "$100,000"
+   ],
+   "d": "e-Procurement: the user enters a purchase request, the requisition is approved and sent to the buyer, the buyer assigns qualified suppliers to bid if the purchase is over $50,000, then reviews closed bids and selects a supplier."
+  },
+  {
+   "id": "f2-06",
+   "t": "E-procurement",
+   "q": "Which of these is NOT listed as an advantage of an e-procurement system?",
+   "o": [
+    "Higher inventory levels",
+    "Time savings",
+    "Accuracy",
+    "Track ability"
+   ],
+   "d": "Advantages of e-procurement: time savings, cost savings, accuracy, real time, mobility, track ability, management, and benefits to the suppliers."
+  },
+  {
+   "id": "f2-07",
+   "t": "Make or buy",
+   "q": "A car maker buys the company that supplies its steel. This is:",
+   "o": [
+    "Backward integration",
+    "Forward integration",
+    "Outsourcing",
+    "Reverse marketing"
+   ],
+   "d": "Backward integration means acquiring sources of supply. Forward integration means acquiring a customer's operations."
+  },
+  {
+   "id": "f2-08",
+   "t": "Make or buy",
+   "q": "A manufacturer buys the retail chain that sells its products. This is:",
+   "o": [
+    "Forward integration",
+    "Backward integration",
+    "Outsourcing",
+    "Global sourcing"
+   ],
+   "d": "Forward integration refers to acquiring a customer's operations. Backward integration refers to acquiring sources of supply."
+  },
+  {
+   "id": "f2-09",
+   "t": "Make or buy",
+   "q": "Which of these is a reason for MAKING an item in-house rather than buying it?",
+   "o": [
+    "Protecting proprietary (exclusive) technology",
+    "The firm is at or near capacity",
+    "The firm lacks the necessary expertise",
+    "The item is a non-vital component a supplier makes more cheaply"
+   ],
+   "d": "Reasons for making: protect proprietary technology, no competent supplier, better quality control, use existing idle capacity, control of logistics, lower cost. Insufficient capacity, lack of expertise and cost advantage are reasons for buying."
+  },
+  {
+   "id": "f2-10",
+   "t": "Make or buy",
+   "q": "A restaurant buys ready-made desserts because its kitchen is already working at full capacity. Which reason for buying is this?",
+   "o": [
+    "Insufficient capacity",
+    "Lack of expertise",
+    "Quality",
+    "Cost advantage"
+   ],
+   "d": "Reasons for buying or outsourcing: cost advantage, insufficient capacity (the firm may be at or near capacity), lack of expertise, and quality."
+  },
+  {
+   "id": "f2-11",
+   "t": "Supplier selection",
+   "q": "Which of these is a reason favouring MORE than one supplier?",
+   "o": [
+    "Spreading the risk of supply interruption",
+    "Less quality variability",
+    "Transportation economies",
+    "The volume is too small to split"
+   ],
+   "d": "Reasons for more than one supplier: need capacity, spread the risk of supply interruption, create competition, information, and dealing with special kinds of business. The other options are reasons favouring a single supplier."
+  },
+  {
+   "id": "f2-12",
+   "t": "Supplier selection",
+   "q": "Which of these is NOT listed as a supplier selection criterion?",
+   "o": [
+    "The size of the supplier's advertising budget",
+    "Willingness to share technologies and information",
+    "Order system and cycle time",
+    "Communication capability"
+   ],
+   "d": "Supplier selection should use multiple criteria: product and process technologies, willingness to share technologies and information, quality, cost, reliability, order system and cycle time, capacity, communication capability, location and service."
+  },
+  {
+   "id": "f2-13",
+   "t": "Purchasing organisation",
+   "q": "Which of these is an advantage of DECENTRALISED purchasing?",
+   "o": [
+    "Closer knowledge of requirements",
+    "Concentrated (leveraged) purchase volume",
+    "Avoiding duplication",
+    "Lower transportation costs"
+   ],
+   "d": "Decentralisation advantages: closer knowledge of requirements, local sourcing, less bureaucracy. Concentrated volume, avoiding duplication, specialisation, lower transport costs, no competition within units and a common supply base are advantages of centralisation."
+  },
+  {
+   "id": "f2-14",
+   "t": "Purchasing organisation",
+   "q": "How do the slides describe a hybrid purchasing organisation?",
+   "o": [
+    "Decentralised at the corporate level and centralised at the business unit level",
+    "Centralised at the corporate level and decentralised at the business unit level",
+    "Fully outsourced to a third-party provider",
+    "Run entirely through import brokers"
+   ],
+   "d": "The slides describe a hybrid purchasing organisation as both decentralised at the corporate level and centralised at the business unit level."
+  },
+  {
+   "id": "f2-15",
+   "t": "Global sourcing",
+   "q": "Which intermediary in international purchasing buys and takes title to the goods?",
+   "o": [
+    "Import merchant",
+    "Import broker or sales agent",
+    "Trading company",
+    "Supplier development agent"
+   ],
+   "d": "Import broker or sales agent: performs a service for a fee. Import merchant: buys and takes title to the goods. Trading company: imports and carries a wide variety of goods."
+  },
+  {
+   "id": "f2-16",
+   "t": "Supplier development",
+   "q": "Supplier development (reverse marketing) means:",
+   "o": [
+    "The purchaser takes the initiative, contacting suppliers and setting prices, terms and conditions",
+    "The supplier markets its products aggressively to the purchaser",
+    "The purchaser outsources all purchasing to a trading company",
+    "The purchaser and supplier merge through backward integration"
+   ],
+   "d": "Reverse marketing is aggressive procurement involvement not typically part of supplier selection, such as the purchaser initiating contact with the supplier and establishing prices, terms and conditions."
+  },
+  {
+   "id": "f2-17",
+   "t": "Supplier selection",
+   "tf": true,
+   "ans": true,
+   "q": "The slides describe single sourcing as a risky proposition.",
+   "d": "Single sourcing is a risky proposition. Although trends favour fewer sources, the slides advise avoiding a single source."
+  },
+  {
+   "id": "f2-18",
+   "t": "Purchasing and procurement",
+   "tf": true,
+   "ans": false,
+   "q": "'Procurement' and 'purchasing' are never treated as the same thing.",
+   "d": "'Procurement' and 'purchasing' are sometimes viewed as synonymous terms."
+  },
+  {
+   "id": "f2-19",
+   "t": "Make or buy",
+   "tf": true,
+   "ans": false,
+   "q": "Outsourcing means buying materials and components from suppliers instead of making them in-house, and the trend has moved away from outsourcing.",
+   "d": "Outsourcing is buying materials and components from suppliers instead of making them in-house, and the trend has moved toward outsourcing. The make-or-buy decision is strategic."
+  },
+  {
+   "id": "f2-20",
+   "t": "Global sourcing",
+   "tf": true,
+   "ans": true,
+   "q": "Global sourcing requires additional skills and knowledge to deal with international suppliers, logistics, communication and the political environment.",
+   "d": "Global sourcing offers an opportunity to improve quality, cost and delivery performance, but requires additional skills and knowledge to deal with international suppliers, logistics, communication, the political environment and other issues."
+  }
+ ]
+}

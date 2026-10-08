@@ -1,0 +1,427 @@
+{
+ "id": "mg-ch1",
+ "label": "Chapter 1",
+ "name": "Management: An Overview",
+ "questions": [
+  {
+   "id": "mg1-01",
+   "t": "Definitions",
+   "q": "Mary Parker defined management as:",
+   "o": [
+    "The art of getting things done through people",
+    "Deciding in advance what is to be done",
+    "Making adjustments to predetermined plans and standards",
+    "A body of knowledge developed through experiments"
+   ],
+   "d": "Management (Mary Parker): the art of getting things done through people.",
+   "w": "Deciding in advance is planning, adjusting to plans is controlling, and a body of knowledge is the definition of science."
+  },
+  {
+   "id": "mg1-02",
+   "t": "Definitions",
+   "q": "Koontz and Weihrich describe management as the process of maintaining an environment in which:",
+   "o": [
+    "Individuals working together in groups efficiently accomplish selected aims",
+    "Managers make every decision alone",
+    "Employees work without any goals",
+    "Only top managers set and achieve objectives"
+   ],
+   "d": "Management (Koontz & Weihrich): the process of designing and maintaining an environment in which individuals, working together in groups, efficiently accomplish selected aims.",
+   "w": "The key ideas are people working in groups and achieving chosen aims efficiently."
+  },
+  {
+   "id": "mg1-03",
+   "t": "Science or art",
+   "q": "Which is a reason management is considered a SCIENCE?",
+   "o": [
+    "Managers' conclusions are drawn from data analysis",
+    "It gets things done through other people",
+    "It depends on conscious effort and practice",
+    "It adapts plans to environmental change"
+   ],
+   "d": "Science: a body of knowledge developed systematically, based on observation, measurement, experimentation and inferences from data.",
+   "w": "Management works through input-output systems, builds knowledge through observation and measurement, and draws conclusions from data. The other options describe management as an art."
+  },
+  {
+   "id": "mg1-04",
+   "t": "Science or art",
+   "q": "Why is management also considered an ART?",
+   "o": [
+    "It gets things done through people and adapts plans to environmental changes",
+    "It is based only on laboratory experiments",
+    "It never changes over time",
+    "It uses only mathematical formulas"
+   ],
+   "d": "Art: understanding how a particular activity can be done by conscious effort and practice.",
+   "w": "Managing people and responding to a changing environment needs personal skill and practice, which is what makes it an art."
+  },
+  {
+   "id": "mg1-05",
+   "t": "Science or art",
+   "q": "Management is best described as:",
+   "o": [
+    "Both an art and a science",
+    "Only an art",
+    "Only a science",
+    "Neither an art nor a science"
+   ],
+   "d": "Management uses systematic knowledge (science) and personal skill in applying it (art).",
+   "w": "It meets the characteristics of a science, and it also requires practice and judgement, so it is both."
+  },
+  {
+   "id": "mg1-06",
+   "t": "Functions",
+   "q": "Which of these is NOT one of the management functions on the slides?",
+   "o": [
+    "Co-operation",
+    "Planning",
+    "Staffing",
+    "Controlling"
+   ],
+   "d": "Management functions: planning, organizing, staffing, directing and controlling.",
+   "w": "Co-operation is a good outcome, but it is not one of the five functions."
+  },
+  {
+   "id": "mg1-07",
+   "t": "Functions",
+   "q": "'Deciding in advance what to do, when to do it, how to do it and who will do it' describes:",
+   "o": [
+    "Planning",
+    "Organizing",
+    "Directing",
+    "Controlling"
+   ],
+   "d": "Planning: courses of action to achieve organizational objectives; deciding in advance. The mission is the basis for planning.",
+   "w": "Planning involves decision-making about the future, before any work is done."
+  },
+  {
+   "id": "mg1-08",
+   "t": "Functions",
+   "q": "Saving money in case of emergency needs is an example of:",
+   "o": [
+    "Contingency planning",
+    "Staffing",
+    "Directing",
+    "Liaison"
+   ],
+   "d": "Contingency planning: planning needed because future environmental conditions are difficult to predict.",
+   "w": "The slides give 'savings in case of emergency needs' as the example of contingency planning."
+  },
+  {
+   "id": "mg1-09",
+   "t": "Functions",
+   "q": "What is the FIRST step in the organizing process?",
+   "o": [
+    "Identification of work",
+    "Grouping of work into smaller groups",
+    "Assigning work to every individual",
+    "Defining authority and responsibility"
+   ],
+   "d": "Organizing process: 1 identify work, 2 group work, 3 assign work, 4 define authority and responsibility, 5 establish relationships towards goals.",
+   "w": "You must know what work exists before you can group it or assign it."
+  },
+  {
+   "id": "mg1-10",
+   "t": "Functions",
+   "q": "Employees' development needs are identified through:",
+   "o": [
+    "Performance appraisal",
+    "Contingency planning",
+    "Organizational charts",
+    "Ratio analysis"
+   ],
+   "d": "Staffing (human resource management): job analysis, recruitment, selection, induction, placement, training and development.",
+   "w": "Performance appraisal shows where an employee needs development; training then uses on-the-job and off-the-job methods."
+  },
+  {
+   "id": "mg1-11",
+   "t": "Functions",
+   "q": "Motivation, leadership and communication are part of which management function?",
+   "o": [
+    "Directing",
+    "Planning",
+    "Organizing",
+    "Controlling"
+   ],
+   "d": "Directing: motivating, commanding, leading and activating people to secure their contribution.",
+   "w": "These three activities influence people to work towards objectives, which is directing."
+  },
+  {
+   "id": "mg1-12",
+   "t": "Functions",
+   "q": "What is the correct order of the controlling process?",
+   "o": [
+    "Set a standard → measure actual performance → compare with standards → identify deviations → correct deviations",
+    "Measure performance → set a standard → correct deviations → compare",
+    "Identify deviations → set a standard → measure → correct",
+    "Correct deviations → measure → compare → set a standard"
+   ],
+   "d": "Controlling: making adjustments to predetermined plans and standards.",
+   "w": "You need a standard before you can measure against it, and you must find the gap before you can correct it."
+  },
+  {
+   "id": "mg1-13",
+   "t": "Managerial roles",
+   "q": "Who developed the framework of managerial roles?",
+   "o": [
+    "Henry Mintzberg",
+    "Mary Parker",
+    "Harold Koontz",
+    "Pearce and Robinson"
+   ],
+   "d": "Managerial roles: organized sets of behaviours identified with a position, developed by Henry Mintzberg.",
+   "w": "Mintzberg grouped them into interpersonal, informational and decisional roles."
+  },
+  {
+   "id": "mg1-14",
+   "t": "Managerial roles",
+   "q": "Ms. Ameena welcomes guests and visitors and acts as a representative of the company. Which role is this?",
+   "o": [
+    "Figurehead",
+    "Leader",
+    "Liaison",
+    "Spokesperson"
+   ],
+   "d": "Figurehead role (interpersonal): ceremonial duties as head, symbolising the organization.",
+   "w": "Welcoming visitors and representing the company are ceremonial, symbolic duties."
+  },
+  {
+   "id": "mg1-15",
+   "t": "Managerial roles",
+   "q": "Mr. Saif is active in connecting with people outside the organization and always attends conferences to network. Which role is this?",
+   "o": [
+    "Liaison",
+    "Figurehead",
+    "Monitor",
+    "Negotiator"
+   ],
+   "d": "Liaison role (interpersonal): maintaining a network of contacts and information sources outside the top management.",
+   "w": "Networking with outsiders at meetings and conferences is liaison."
+  },
+  {
+   "id": "mg1-16",
+   "t": "Managerial roles",
+   "q": "Ms. Amal, head of engineering, has authority to form committees and set project deadlines for her department. Which role is this?",
+   "o": [
+    "Leader",
+    "Liaison",
+    "Disseminator",
+    "Entrepreneur"
+   ],
+   "d": "Leader role (interpersonal): coordinates and guides subordinates, with formal authority to get things done.",
+   "w": "She uses formal authority over her own team, which is the leader role."
+  },
+  {
+   "id": "mg1-17",
+   "t": "Managerial roles",
+   "q": "Mr. Saif visits employees' offices, joins informal chats, then tells top management about any work issues he heard. Which role is this?",
+   "o": [
+    "Monitor",
+    "Spokesperson",
+    "Negotiator",
+    "Resource allocator"
+   ],
+   "d": "Monitor role (informational): getting information by scanning the environment, including gossip and the grapevine.",
+   "w": "He is gathering information through informal channels, which is monitoring."
+  },
+  {
+   "id": "mg1-18",
+   "t": "Managerial roles",
+   "q": "Ms. Latifa regularly informs customers and employees about the company's new offers and programmes. Which role is this?",
+   "o": [
+    "Spokesperson",
+    "Monitor",
+    "Figurehead",
+    "Disturbance handler"
+   ],
+   "d": "Spokesperson role (informational): transmitting information to key groups, including outsiders such as customers, shareholders and government.",
+   "w": "Passing company information to customers is speaking for the organization."
+  },
+  {
+   "id": "mg1-19",
+   "t": "Managerial roles",
+   "q": "A manager meets a key supplier to agree a contract with favourable prices and delivery dates. Which role is this?",
+   "o": [
+    "Negotiator",
+    "Entrepreneur",
+    "Liaison",
+    "Resource allocator"
+   ],
+   "d": "Negotiator role (decisional): representing the organization in negotiating important agreements.",
+   "w": "Agreeing contract terms on the company's behalf is negotiation."
+  },
+  {
+   "id": "mg1-20",
+   "t": "Managerial roles",
+   "q": "During a sudden drop in sales, a manager reorganises teams, resolves conflicts and takes corrective action. Which role is this?",
+   "o": [
+    "Disturbance handler",
+    "Entrepreneur",
+    "Monitor",
+    "Figurehead"
+   ],
+   "d": "Disturbance handler role (decisional): taking corrective action in times of disturbance or crisis.",
+   "w": "A sudden crisis requiring corrective action is the trigger for this role."
+  },
+  {
+   "id": "mg1-21",
+   "t": "Managerial roles",
+   "q": "A manager hears employees' suggestions, approves budgets for promising projects and decides how to distribute resources. Which role is this?",
+   "o": [
+    "Resource allocator",
+    "Negotiator",
+    "Spokesperson",
+    "Liaison"
+   ],
+   "d": "Resource allocator role (decisional): allocating resources by making or approving decisions, often with an open-door policy.",
+   "w": "Approving budgets and distributing resources is resource allocation."
+  },
+  {
+   "id": "mg1-22",
+   "t": "Levels and skills",
+   "q": "Formulating objectives, policies and corporate-level strategies is the responsibility of:",
+   "o": [
+    "Top-level managers",
+    "Middle-level managers",
+    "First-line supervisors",
+    "Operating employees"
+   ],
+   "d": "Top-level managers: MD/President, vice-presidents and general managers, responsible for the overall management of the company.",
+   "w": "Corporate strategy covers the whole company, so it belongs to top management."
+  },
+  {
+   "id": "mg1-23",
+   "t": "Levels and skills",
+   "q": "Managers of the production, marketing, finance, HR and R&D departments are:",
+   "o": [
+    "Middle-level managers",
+    "Top-level managers",
+    "Lower-level managers",
+    "Staff specialists only"
+   ],
+   "d": "Middle-level managers: department managers responsible for their department's success, who lead lower-level managers.",
+   "w": "They set departmental goals based on the organization's goals."
+  },
+  {
+   "id": "mg1-24",
+   "t": "Levels and skills",
+   "q": "The ability to see the organization as a 'big picture' and how its parts affect each other is:",
+   "o": [
+    "Conceptual skill",
+    "Technical skill",
+    "Human skill",
+    "Negotiation skill"
+   ],
+   "d": "Conceptual skills: seeing the big picture and how parts can be organized; the foundation for strategizing. Most important for top management.",
+   "w": "Top managers make decisions for the whole organization, so they need the big picture most."
+  },
+  {
+   "id": "mg1-25",
+   "t": "Levels and skills",
+   "tf": true,
+   "ans": true,
+   "q": "Technical skills are more important for frontline (lower-level) managers than for top managers.",
+   "d": "Technical skills: specialised knowledge and expertise to perform specific methods, processes or techniques.",
+   "w": "Frontline managers supervise day-to-day operations directly and need practical knowledge to guide employees."
+  },
+  {
+   "id": "mg1-26",
+   "t": "Levels and skills",
+   "tf": true,
+   "ans": false,
+   "q": "Human skills are important only for middle managers.",
+   "d": "Human skills: the ability to communicate, persuade, manage conflict, motivate, coach, negotiate and lead.",
+   "w": "Human skills are equally important at ALL levels, because managers at every level must get people to work together towards common goals."
+  },
+  {
+   "id": "mg1-27",
+   "t": "Levels and skills",
+   "tf": true,
+   "ans": true,
+   "q": "Lower-level managers are also called first-line managers or supervisors.",
+   "d": "Lower-level managers: responsible for the operating staff; called first-line, first-level or junior managers, or supervisors.",
+   "w": "They directly supervise operating employees while they work."
+  },
+  {
+   "id": "mg1-28",
+   "t": "Managerial roles",
+   "tf": true,
+   "ans": false,
+   "q": "Figurehead is one of Mintzberg's decisional roles.",
+   "d": "Interpersonal roles: figurehead, leader, liaison. Informational: monitor, disseminator, spokesman. Decisional: entrepreneur, disturbance handler, resource allocator, negotiator.",
+   "w": "Figurehead is an interpersonal role."
+  },
+  {
+   "id": "mg1-29",
+   "t": "Functions",
+   "tf": true,
+   "ans": true,
+   "q": "Controlling makes sure the organization is moving towards its mission and objectives.",
+   "d": "Controlling: ensuring the organization moves towards its mission and objectives by adjusting to plans and standards.",
+   "w": "It closes the loop with planning by comparing results against the plan."
+  },
+  {
+   "id": "mg1-30",
+   "t": "Functions",
+   "tf": true,
+   "ans": true,
+   "q": "The mission is the basis for planning.",
+   "d": "Planning: the mission is the basis for planning; it means deciding in advance the means to achieve goals.",
+   "w": "Plans are made to fulfil the organization's mission."
+  },
+  {
+   "id": "mg1-w1",
+   "t": "Functions",
+   "wr": true,
+   "q": "Explain the five functions of management.",
+   "a": "1. Planning: deciding in advance what to do, when, how and by whom; setting courses of action to achieve objectives (long-term, short-term and contingency plans).\n2. Organizing: establishing relationships among people, tasks and activities: identifying work, grouping it, assigning it, defining authority and responsibility, and establishing relationships.\n3. Staffing: human resource management: job analysis, recruitment, selection, induction, placement, training and development.\n4. Directing: motivating, commanding, leading and communicating with people to secure their contribution.\n5. Controlling: setting standards, measuring performance, comparing, identifying deviations and correcting them.",
+   "d": "Management functions: planning, organizing, staffing, directing and controlling.",
+   "w": "Each function builds on the one before it: plan the work, organize it, staff it, direct people, then control results against the plan."
+  },
+  {
+   "id": "mg1-w2",
+   "t": "Science or art",
+   "wr": true,
+   "q": "Explain why management is considered both a science and an art.",
+   "a": "Science: a body of knowledge developed systematically through observation, measurement and experimentation. Management is a science because it works through input-output systems, its knowledge is developed through observation and experimentation, and managers draw conclusions from data analysis.\nArt: understanding how an activity can be done by conscious effort and practice. Management is an art because it means getting things done through other people, and it analyses the environment to form plans and strategies that fit environmental changes.\nSo management is both an art and a science.",
+   "d": "Science: systematic knowledge based on data. Art: skill developed through conscious effort and practice.",
+   "w": "A full answer defines both terms and gives a reason for each side."
+  },
+  {
+   "id": "mg1-w3",
+   "t": "Managerial roles",
+   "wr": true,
+   "q": "Explain Mintzberg's three categories of managerial roles and the roles in each.",
+   "a": "1. Interpersonal roles: figurehead (ceremonial duties, symbol of the organization), leader (guides and coordinates subordinates with formal authority), liaison (network of contacts outside top management).\n2. Informational roles: monitor (gathers information from the environment, including the grapevine), disseminator (passes information to the management team and key people), spokesman (transmits information to insiders and outsiders such as shareholders, customers and government).\n3. Decisional roles: entrepreneur (looks for projects to improve products and processes), disturbance handler (corrective action in crises), resource allocator (allocates resources by making or approving decisions), negotiator (represents the organization in important agreements).",
+   "d": "Managerial roles: organized sets of behaviours identified with a manager's position (Henry Mintzberg).",
+   "w": "There are 10 roles in total: 3 interpersonal, 3 informational and 4 decisional."
+  },
+  {
+   "id": "mg1-w4",
+   "t": "Levels and skills",
+   "wr": true,
+   "q": "Describe the three levels of management.",
+   "a": "1. Top level: MD/President, vice-presidents, general managers. Responsible for overall performance; formulate objectives, policies and corporate strategies; lead and coordinate middle managers.\n2. Middle level: managers of production, marketing, finance, HR and R&D departments. Responsible for their department's success; set departmental goals and strategies; lead and coordinate lower-level managers.\n3. Lower level (first-line, junior managers or supervisors): responsible for the operating staff; direct, lead, motivate and supervise operating employees in their daily work.",
+   "d": "Management levels: top, middle and lower (first-line) management.",
+   "w": "Each level's scope narrows: the whole company, then one department, then one team of operating employees."
+  },
+  {
+   "id": "mg1-w5",
+   "t": "Levels and skills",
+   "wr": true,
+   "q": "Explain the three managerial skills and how they relate to the levels of management.",
+   "a": "1. Conceptual skills: seeing the organization as a big picture and how its parts affect each other; the foundation for strategizing. Needed at all levels but most important for top management.\n2. Technical skills: specialised knowledge and expertise in methods, processes or techniques (e.g. using equipment, following audit procedures). More important for frontline managers, who supervise day-to-day operations.\n3. Human skills: communicating, persuading, managing conflict, motivating, coaching, negotiating and leading. Equally important at all levels, because every manager must get people to work together.",
+   "d": "Managerial skills: conceptual, technical and human skills.",
+   "w": "As you move up the levels, conceptual skills matter more and technical skills matter less; human skills stay important throughout."
+  },
+  {
+   "id": "mg1-w6",
+   "t": "Functions",
+   "wr": true,
+   "q": "You have a financial problem in your small business. Explain the steps of the controlling process you would follow.",
+   "a": "1. Set a standard: e.g. a monthly budget and target profit.\n2. Measure actual performance: record actual sales, costs and profit.\n3. Compare actual performance with the plans and standards (e.g. using financial statements, ratio analysis and budgets).\n4. Identify the deviations (gaps): e.g. costs 20% above budget.\n5. Correct the deviations: e.g. reduce unnecessary spending or adjust prices, then keep monitoring.",
+   "d": "Controlling: making adjustments to predetermined plans and standards.",
+   "w": "The slides give financial control through financial statements, ratio analysis and budgets as an example of controlling."
+  }
+ ]
+}

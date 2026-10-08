@@ -1,0 +1,231 @@
+{
+ "id": "fin-ch4",
+ "label": "Chapter 4",
+ "name": "Aggregate Planning",
+ "questions": [
+  {
+   "id": "f4-01",
+   "t": "Matching supply and demand",
+   "q": "A car factory needs four tyres for every car it plans to build. In this factory, the demand for tyres is:",
+   "o": [
+    "Dependent demand",
+    "Independent demand",
+    "Seasonal demand",
+    "Final-product demand"
+   ],
+   "d": "Dependent demand is the internal demand for parts based on the demand for the final product they are used in, e.g. subassemblies, components and raw materials. Independent demand is the demand for final products."
+  },
+  {
+   "id": "f4-02",
+   "t": "Matching supply and demand",
+   "q": "Independent demand is best described as:",
+   "o": [
+    "Demand for final products, affected by trends, seasonal patterns and market conditions",
+    "Internal demand for parts based on the final product",
+    "Demand for raw materials only",
+    "Demand that never changes over time"
+   ],
+   "d": "Independent demand is the demand for final products and has a pattern affected by trends, seasonal patterns and general market conditions."
+  },
+  {
+   "id": "f4-03",
+   "t": "Operations planning",
+   "q": "Which planning level involves building facilities and buying major equipment?",
+   "o": [
+    "Long-range: the aggregate production plan (APP)",
+    "Intermediate: the master production schedule (MPS)",
+    "Short-range: material requirements planning (MRP)",
+    "Distribution requirement planning (DRP)"
+   ],
+   "d": "Operations planning is hierarchical. Long-range: APP (facilities and major equipment). Intermediate: MPS (quantity and timing of end items). Short-range: MRP (components and parts to support the MPS)."
+  },
+  {
+   "id": "f4-04",
+   "t": "Operations planning",
+   "q": "Which planning range does the master production schedule (MPS) belong to?",
+   "o": [
+    "Intermediate",
+    "Long-range",
+    "Short-range",
+    "It is not part of operations planning"
+   ],
+   "d": "Intermediate planning shows the quantity and timing of end items, i.e. the master production schedule."
+  },
+  {
+   "id": "f4-05",
+   "t": "MPS and BOM",
+   "q": "Which statement about the MPS planning horizon is correct?",
+   "o": [
+    "It is shorter than the APP's, but longer than the lead time to produce the item",
+    "It is longer than the APP's",
+    "It is shorter than the lead time to produce the item",
+    "It is always exactly one year"
+   ],
+   "d": "The MPS is a detailed disaggregation of the APP. It is more detailed than the APP, easier to plan under stable demand, and its planning horizon is shorter than the APP's but longer than the production lead time."
+  },
+  {
+   "id": "f4-06",
+   "t": "MPS and BOM",
+   "q": "In a service business, the master production schedule may simply be:",
+   "o": [
+    "The appointment log or book",
+    "The bill of materials",
+    "The purchase order file",
+    "The ERP database"
+   ],
+   "d": "For the service industry, the MPS may just be the appointment log or book, which balances capacity (such as skilled labour) with demand."
+  },
+  {
+   "id": "f4-07",
+   "t": "Operations planning",
+   "q": "Which system adds the business and sales plans to a closed-loop MRP system?",
+   "o": [
+    "Manufacturing resource planning (MRP-II)",
+    "Distribution requirement planning (DRP)",
+    "Collaborative planning, forecasting and replenishment (CPFR)",
+    "Legacy MRP"
+   ],
+   "d": "Closed-loop MRP incorporates the APP, MPS, material requirements plan and capacity requirements plan. MRP-II incorporates the business and sales plans with the closed-loop MRP system."
+  },
+  {
+   "id": "f4-08",
+   "t": "Operations planning",
+   "q": "Distribution requirement planning (DRP) describes:",
+   "o": [
+    "Time-phased net requirements from warehouses and distribution centres",
+    "The parent-component relationships of a product",
+    "The long-range plan for facilities and equipment",
+    "The appointment schedule of a service firm"
+   ],
+   "d": "DRP describes the time-phased net requirements from warehouses and distribution centres: customer demand minus any on-hand and in-transit inventories."
+  },
+  {
+   "id": "f4-09",
+   "t": "MPS and BOM",
+   "q": "Which bill of materials lets a firm forecast total demand for end products, and is also called a planning, pseudo, phantom or family BOM?",
+   "o": [
+    "Super bill of materials",
+    "Multilevel bill of materials",
+    "Indented bill of materials",
+    "Single-level bill of materials"
+   ],
+   "d": "A super bill of materials (planning BOM, pseudo BOM, phantom BOM or family BOM) enables the firm to forecast the total demand for end products."
+  },
+  {
+   "id": "f4-10",
+   "t": "MPS and BOM",
+   "q": "In an indented (multilevel) bill of materials, what happens at each level of indentation?",
+   "o": [
+    "The level number increases by one",
+    "The level number decreases by one",
+    "The planning factor doubles",
+    "A new end item begins"
+   ],
+   "d": "A multilevel BOM shows parent-component relationships and the units of components (the planning factor). It can be shown as an indented BOM, where the level number increases by one at each level of indentation."
+  },
+  {
+   "id": "f4-11",
+   "t": "MRP",
+   "q": "Which of these is NOT an input that MRP requires?",
+   "o": [
+    "Planned order releases",
+    "Independent demand information",
+    "Parent-component relationships from the bill of materials",
+    "Inventory status of the final product and all components"
+   ],
+   "d": "MRP requires independent demand information, parent-component relationships from the BOM, and the inventory status of the final product and components. Planned order releases are the OUTPUT of the MRP system."
+  },
+  {
+   "id": "f4-12",
+   "t": "MRP",
+   "q": "Which is a disadvantage of MRP?",
+   "o": [
+    "It ignores capacity and shop floor conditions",
+    "It provides no planning information",
+    "It forces firms to change their business model to fit the software",
+    "It costs about $15 million to own"
+   ],
+   "d": "MRP's advantage is that it provides planning information. Its disadvantages: loss of visibility (especially with a deep BOM), and it ignores capacity and shop floor conditions. Changing the business model and the $15 million cost are ERP disadvantages."
+  },
+  {
+   "id": "f4-13",
+   "t": "ERP",
+   "q": "Why were ERP systems developed to replace legacy MRP systems?",
+   "o": [
+    "Firms built multiplant international sites, and MRP could not handle subcontractors, currencies and languages",
+    "MRP systems were too cheap to be reliable",
+    "Firms stopped using bills of materials",
+    "Governments banned MRP systems"
+   ],
+   "d": "By the end of the 20th century firms were building multiplant international sites and dealing with international subcontractors, currencies and languages. Existing MRP systems could not handle these tasks, so ERP was developed."
+  },
+  {
+   "id": "f4-14",
+   "t": "ERP",
+   "q": "How does ERP handle information?",
+   "o": [
+    "Entered once at the source and shared with all users through a centralised database",
+    "Entered separately by each department in its own system",
+    "Kept only on paper records",
+    "Shared only with suppliers, not employees"
+   ],
+   "d": "ERP uses a centralised, shared database to tie the whole organisation together: information is entered once at the source and made available to all users."
+  },
+  {
+   "id": "f4-15",
+   "t": "ERP",
+   "q": "Which of these is a DISADVANTAGE of ERP?",
+   "o": [
+    "The firm must change its business processes to fit the ERP's built-in business model",
+    "It uses a single database and common software",
+    "It helps reduce the bullwhip effect",
+    "It tracks employees' time and performance"
+   ],
+   "d": "ERP disadvantages: substantial capital investment (average total cost of ownership about $15 million), and software built around a specific business model, so the adopting firm must change its processes to fit it."
+  },
+  {
+   "id": "f4-16",
+   "t": "CPFR",
+   "q": "CPFR is a method of cooperation between suppliers and customers mainly to:",
+   "o": [
+    "Align forecasts, production and orders more accurately to reduce inventory",
+    "Replace the bill of materials",
+    "Choose a single supplier for every item",
+    "Track employees' working hours"
+   ],
+   "d": "Collaborative Planning, Forecasting and Replenishment (CPFR) is a method of cooperation between suppliers and customers to align forecasts, production and orders more accurately to reduce the amount of inventory."
+  },
+  {
+   "id": "f4-17",
+   "t": "MRP",
+   "tf": true,
+   "ans": false,
+   "q": "Legacy MRP systems offer strong visibility across functional areas and good analytical capabilities.",
+   "d": "Legacy MRP systems (1960s–1980s) lasted beyond their intended life span, had limited communication between systems, restricted visibility across functional areas, and lacked analytical capabilities."
+  },
+  {
+   "id": "f4-18",
+   "t": "ERP",
+   "tf": true,
+   "ans": true,
+   "q": "PeopleSoft's first product, made in 1988, was a human resources application.",
+   "d": "PeopleSoft focused on client/server business applications; its first product in 1988 was an HR application, and it became a leader in the HR applications market."
+  },
+  {
+   "id": "f4-19",
+   "t": "ERP",
+   "tf": true,
+   "ans": true,
+   "q": "Oracle's strategy focuses on five principles: globalization, simplification, standardization, automation and innovation.",
+   "d": "Oracle, the world's leading supplier of information management software, bases its strategy on globalization, simplification, standardization, automation and innovation."
+  },
+  {
+   "id": "f4-20",
+   "t": "MPS and BOM",
+   "tf": true,
+   "ans": false,
+   "q": "The MPS is easier to plan when demand is unstable.",
+   "d": "The MPS is more detailed than the APP and easier to plan under stable demand."
+  }
+ ]
+}

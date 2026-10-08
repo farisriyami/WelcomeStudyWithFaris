@@ -1,0 +1,63 @@
+{
+  "courses": [
+    {
+      "id": "tot",
+      "name": "TOT Course",
+      "sub": "Tourism and hospitality",
+      "chapters": [
+        "tot/chapter-1.json",
+        "tot/chapter-2.json",
+        "tot/chapter-3.json",
+        "tot/chapter-4.json",
+        "tot/chapter-5.json",
+        "tot/chapter-6.json",
+        "tot/chapter-7.json",
+        "tot/chapter-8.json"
+      ]
+    },
+    {
+      "id": "fin",
+      "name": "Supply Chain",
+      "sub": "Principles of Supply Chain and Logistics Management (BSSL1208)",
+      "chapters": [
+        "supply-chain/chapter-1.json",
+        "supply-chain/chapter-2.json",
+        "supply-chain/chapter-3.json",
+        "supply-chain/chapter-4.json",
+        "supply-chain/chapter-5.json",
+        "supply-chain/chapter-6.json",
+        "supply-chain/chapter-7.json",
+        "supply-chain/chapter-8.json"
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "sub": "Interest, time value of money, loans, shares, mutual funds and Excel",
+      "chapters": [
+        "finance/chapter-1.json",
+        "finance/chapter-2.json",
+        "finance/chapter-3.json",
+        "finance/chapter-4.json",
+        "finance/chapter-5.json",
+        "finance/chapter-6.json",
+        "finance/chapter-7.json",
+        "finance/chapter-8.json"
+      ]
+    },
+    {
+      "id": "management",
+      "name": "Management",
+      "sub": "Principles of Management (BSMG1209)",
+      "chapters": [
+        "management/chapter-1.json",
+        "management/chapter-2.json",
+        "management/chapter-3.json",
+        "management/chapter-4.json",
+        "management/chapter-5.json",
+        "management/chapter-6.json",
+        "management/chapter-7.json"
+      ]
+    }
+  ]
+}

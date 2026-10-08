@@ -1,0 +1,77 @@
+/* Manage questions */
+.notice {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px;
+  background: var(--accent-soft); border-radius: 12px; padding: 14px 16px;
+}
+.notice p { margin: 0; flex: 1 1 260px; min-width: 0; }
+.form { padding: 0 24px 24px; display: grid; gap: 16px; }
+.field { display: grid; gap: 6px; min-width: 0; }
+fieldset.field { border: 0; padding: 0; margin: 0; }
+.field legend { padding: 0; margin-bottom: 6px; }
+.flabel { font-weight: 600; font-size: .95rem; }
+input[type="text"], input[type="search"], input[type="password"], textarea {
+  width: 100%; font: inherit; font-size: 1rem; color: var(--ink);
+  background: var(--field); border: 1.5px solid var(--line); border-radius: 8px; padding: 10px 12px;
+}
+textarea { resize: vertical; min-height: 3.2em; }
+input[type="text"]:focus-visible, input[type="search"]:focus-visible, input[type="password"]:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent);
+}
+::placeholder { color: var(--muted); opacity: .8; }
+.wrong-grid { display: grid; gap: 8px; }
+.pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+  border: 1.5px solid var(--line); border-radius: 999px; padding: 7px 14px;
+  font-weight: 600; font-size: .95rem;
+}
+.pill input { accent-color: var(--accent); margin: 0; }
+.pill:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.pill:has(input:focus-visible) { outline: 3px solid var(--accent); outline-offset: 2px; }
+.form-msg { margin: 0; font-weight: 600; }
+.form-msg:empty { display: none; }
+.form-msg.is-error { color: var(--bad); }
+.form-msg.is-ok { color: var(--good); }
+
+.list-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; }
+.list-tools input { width: min(100%, 260px); }
+.qlist { list-style: none; margin: 0; padding: 0 24px 10px; }
+.qrow { display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-top: 1px solid var(--line); }
+.qrow-main { flex: 1; min-width: 0; display: grid; gap: 4px; }
+.qrow-q { margin: 0; font-weight: 600; }
+.qrow-a { margin: 0; font-size: .95rem; color: var(--muted); }
+.qrow-a b { color: var(--good); }
+.qrow-d {
+  margin: 0; font-size: .9rem; color: var(--muted);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.qrow.is-del .qrow-q, .qrow.is-del .qrow-a, .qrow.is-del .qrow-d { text-decoration: line-through; opacity: .6; }
+.qrow .btn { flex: none; }
+.badge {
+  font-family: var(--font-mono); font-size: .64rem; letter-spacing: .06em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; border: 1px solid currentColor;
+}
+.badge.new { color: var(--accent); }
+.badge.del { color: var(--bad); }
+.qempty { padding: 18px 0; border-top: 1px solid var(--line); color: var(--muted); }
+
+.why {
+  background: var(--field); border: 1px solid var(--line); border-radius: 10px;
+  padding: 14px 16px; display: grid; gap: 6px;
+}
+.why .label { color: var(--ink); }
+.why p { margin: 0; max-width: 65ch; }
+
+/* Written practice */
+.note-field { padding: 0 24px 22px; display: grid; gap: 8px; }
+.note-field textarea { min-height: 7.5em; }
+.model { background: var(--good-soft); border-radius: 10px; padding: 14px 16px; display: grid; gap: 6px; }
+.model .label { color: var(--good); }
+.model p { margin: 0; max-width: 65ch; white-space: pre-line; }
+.w-actions, .selfmark { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+.btn.good { background: transparent; color: var(--good); border-color: var(--good); }
+.btn.bad { background: transparent; color: var(--bad); border-color: var(--bad); }
+.btn.good.is-on { background: var(--good); color: var(--surface); }
+.btn.bad.is-on { background: var(--bad); color: var(--surface); }
+.miss dd.note-dd { font-weight: 400; white-space: pre-line; }
+.feedback .flabel { margin: 4px 0 0; }

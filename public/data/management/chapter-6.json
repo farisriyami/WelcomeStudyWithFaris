@@ -1,0 +1,427 @@
+{
+ "id": "mg-ch6",
+ "label": "Chapter 6",
+ "name": "Employee Motivation",
+ "questions": [
+  {
+   "id": "mg6-01",
+   "t": "Meaning",
+   "q": "To motivate means to:",
+   "o": [
+    "Incite, creating a desire or willingness to work",
+    "Punish poor performance",
+    "Pay the lowest possible wage",
+    "Measure actual performance"
+   ],
+   "d": "Motivation: to incite; to create a desire to do something or a willingness to work in the way we want.",
+   "w": "Motivation is about willingness, which is distinct from the capacity to work."
+  },
+  {
+   "id": "mg6-02",
+   "t": "Meaning",
+   "q": "Stephen P. Robbins defines motivation as the process that accounts for an individual's:",
+   "o": [
+    "Intensity, direction and persistence of effort toward attaining a goal",
+    "Salary, bonus and benefits",
+    "Skills, knowledge and education",
+    "Age, gender and experience"
+   ],
+   "d": "Motivation (Robbins): the process that accounts for an individual's intensity, direction and persistence of effort toward a goal.",
+   "w": "These three words are also the three elements of motivation."
+  },
+  {
+   "id": "mg6-03",
+   "t": "Elements",
+   "q": "Which of these is NOT one of the three elements of motivation?",
+   "o": [
+    "Capacity",
+    "Direction",
+    "Intensity",
+    "Persistence"
+   ],
+   "d": "Elements of motivation: direction, intensity and persistence.",
+   "w": "Capacity to work is different from motivation."
+  },
+  {
+   "id": "mg6-04",
+   "t": "Elements",
+   "q": "How hard a person tries is the element of:",
+   "o": [
+    "Intensity",
+    "Direction",
+    "Persistence",
+    "Hygiene"
+   ],
+   "d": "Intensity: how hard a person tries; the strength of effort.",
+   "w": "Direction is the target, persistence is how long effort lasts."
+  },
+  {
+   "id": "mg6-05",
+   "t": "Elements",
+   "q": "What a person wants to achieve, the target they try to 'hit', is the element of:",
+   "o": [
+    "Direction",
+    "Intensity",
+    "Persistence",
+    "Esteem"
+   ],
+   "d": "Direction: what a person wants to achieve or intends to do.",
+   "w": "Doing well on a test is the slides' example of direction."
+  },
+  {
+   "id": "mg6-06",
+   "t": "Elements",
+   "q": "A man keeps searching for a solution no matter how many times he fails. This shows:",
+   "o": [
+    "Persistence",
+    "Direction",
+    "Intensity",
+    "Self-esteem"
+   ],
+   "d": "Persistence: how long a person can maintain effort until the goal is achieved.",
+   "w": "Continuing after repeated failure is the slides' example of persistence."
+  },
+  {
+   "id": "mg6-07",
+   "t": "Objectives",
+   "q": "Motivation ensures organisational stability by reducing:",
+   "o": [
+    "Employee turnover and absenteeism",
+    "Productivity",
+    "Quality of work",
+    "Sense of belonging"
+   ],
+   "d": "Objectives of motivation: higher productivity, better quality, urgency, goal-directed behaviour, friendly culture, and stability through lower turnover and absenteeism.",
+   "w": "Motivated employees stay and come to work."
+  },
+  {
+   "id": "mg6-08",
+   "t": "Maslow",
+   "q": "What is the correct order of Maslow's hierarchy, from lowest to highest?",
+   "o": [
+    "Physiological, safety, belongingness, self-esteem, self-actualisation",
+    "Safety, physiological, self-esteem, belongingness, self-actualisation",
+    "Self-actualisation, self-esteem, belongingness, safety, physiological",
+    "Physiological, belongingness, safety, self-actualisation, self-esteem"
+   ],
+   "d": "Maslow's need hierarchy: five levels of needs, starting with basic survival needs.",
+   "w": "Basic survival comes first; self-actualisation is the highest need."
+  },
+  {
+   "id": "mg6-09",
+   "t": "Maslow",
+   "q": "Fair wages, water, food and rest breaks at work meet which needs?",
+   "o": [
+    "Physiological needs",
+    "Safety needs",
+    "Esteem needs",
+    "Self-actualisation needs"
+   ],
+   "d": "Physiological needs: basic survival needs such as food, water, air, clothing and shelter.",
+   "w": "Wages and basic amenities let employees meet survival needs."
+  },
+  {
+   "id": "mg6-10",
+   "t": "Maslow",
+   "q": "Job security, health benefits, safety measures and clear policies meet which needs?",
+   "o": [
+    "Safety needs",
+    "Physiological needs",
+    "Belongingness needs",
+    "Esteem needs"
+   ],
+   "d": "Safety needs: protection from economic and physical dangers, including job security, continuity, order and predictability.",
+   "w": "Security and predictability are safety needs."
+  },
+  {
+   "id": "mg6-11",
+   "t": "Maslow",
+   "q": "A work culture that helps employees identify with the organization and feel accepted meets which needs?",
+   "o": [
+    "Belongingness and love (social) needs",
+    "Esteem needs",
+    "Safety needs",
+    "Physiological needs"
+   ],
+   "d": "Social needs: affiliation, love, affection, belongingness, acceptance and friendship.",
+   "w": "Identifying with the group is about belonging."
+  },
+  {
+   "id": "mg6-12",
+   "t": "Maslow",
+   "q": "Challenging assignments, recognition, feedback and participation in decision-making meet which needs?",
+   "o": [
+    "Esteem needs",
+    "Safety needs",
+    "Social needs",
+    "Physiological needs"
+   ],
+   "d": "Esteem needs: the desire to be accepted, valued, respected and admired by others.",
+   "w": "Recognition and respect satisfy esteem."
+  },
+  {
+   "id": "mg6-13",
+   "t": "Maslow",
+   "q": "An environment that fosters creativity and growth meets which needs?",
+   "o": [
+    "Self-actualisation needs",
+    "Safety needs",
+    "Social needs",
+    "Physiological needs"
+   ],
+   "d": "Self-actualisation: the desire to become what one is capable of becoming, using talents and potential.",
+   "w": "Creativity and growth help people reach their full potential."
+  },
+  {
+   "id": "mg6-14",
+   "t": "Taylor",
+   "q": "F.W. Taylor is known as the father of:",
+   "o": [
+    "Scientific management",
+    "Human relations",
+    "The hierarchy of needs",
+    "Theory X and Theory Y"
+   ],
+   "d": "Taylor: father of scientific management, with four principles.",
+   "w": "Maslow developed the hierarchy and McGregor Theories X and Y."
+  },
+  {
+   "id": "mg6-15",
+   "t": "Taylor",
+   "q": "Taylor's theory of motivation is also known as:",
+   "o": [
+    "The money as a motivator theory",
+    "The two-factor theory",
+    "The hierarchy of needs",
+    "Theory Y"
+   ],
+   "d": "Taylor argued money is the main force that motivates employees.",
+   "w": "His aim was to improve economic efficiency, especially labour productivity."
+  },
+  {
+   "id": "mg6-16",
+   "t": "Taylor",
+   "q": "Which is one of Taylor's four principles of scientific management?",
+   "o": [
+    "Science, not rule of thumb",
+    "Discord, not harmony",
+    "Individualism, not cooperation",
+    "Rule of thumb, not science"
+   ],
+   "d": "Taylor's principles: science not rule of thumb; harmony not discord; cooperation not individualism; development of each person to greatest efficiency.",
+   "w": "The distractors reverse his principles."
+  },
+  {
+   "id": "mg6-17",
+   "t": "Herzberg",
+   "q": "Herzberg's two-factor theory was based on which research method?",
+   "o": [
+    "The critical incident method",
+    "Laboratory experiments on animals",
+    "Financial ratio analysis",
+    "Time-and-motion studies only"
+   ],
+   "d": "Herzberg (1959) used critical incidents: asking when people felt particularly good or bad about their job.",
+   "w": "Good feelings were linked to job content; bad feelings to job context."
+  },
+  {
+   "id": "mg6-18",
+   "t": "Herzberg",
+   "q": "Which of these is a MOTIVATION factor in Herzberg's theory?",
+   "o": [
+    "Recognition",
+    "Salary",
+    "Working conditions",
+    "Company policy"
+   ],
+   "d": "Motivators (job content): recognition, advancement, responsibility, achievement, growth, the work itself.",
+   "w": "Salary, working conditions and policy are hygiene factors."
+  },
+  {
+   "id": "mg6-19",
+   "t": "Herzberg",
+   "q": "Which of these is a HYGIENE (maintenance) factor in Herzberg's theory?",
+   "o": [
+    "Job security",
+    "Achievement",
+    "Advancement",
+    "Responsibility"
+   ],
+   "d": "Hygiene factors (job context): company policy, technical supervision, interpersonal relations, salary, job security, personal life, working conditions, status.",
+   "w": "Achievement, advancement and responsibility are motivators."
+  },
+  {
+   "id": "mg6-20",
+   "t": "Herzberg",
+   "q": "Under Herzberg's theory, job satisfaction is most likely to improve when which of these is improved?",
+   "o": [
+    "Opportunities for responsibility",
+    "Working conditions",
+    "Base salary",
+    "Co-worker relationships"
+   ],
+   "d": "Motivators improve satisfaction; hygiene factors only prevent dissatisfaction.",
+   "w": "Responsibility is a motivator; the others are hygiene factors (slides' MCQ)."
+  },
+  {
+   "id": "mg6-21",
+   "t": "Theory X and Y",
+   "q": "According to McGregor, Theory X employees:",
+   "o": [
+    "Dislike work, avoid responsibility and must be coerced",
+    "Like work and seek responsibility",
+    "Are highly creative",
+    "Direct themselves toward targets"
+   ],
+   "d": "Theory X: a negative view; employees are lazy, dislike work and responsibility, and are motivated mainly by money and fear about job security.",
+   "w": "The other options describe Theory Y."
+  },
+  {
+   "id": "mg6-22",
+   "t": "Theory X and Y",
+   "q": "Theory Y employees are motivated mainly by:",
+   "o": [
+    "The desire to realise their own potential",
+    "Fear of losing their job",
+    "Money only",
+    "Coercion and threats"
+   ],
+   "d": "Theory Y: a positive view; employees like work, seek responsibility, use self-direction and are creative.",
+   "w": "Under the right conditions they want to develop themselves."
+  },
+  {
+   "id": "mg6-23",
+   "t": "Theory X and Y",
+   "q": "Which statement about creativity is correct in McGregor's theory?",
+   "o": [
+    "Theory X employees have less creativity; Theory Y employees are highly creative",
+    "Both are highly creative",
+    "Theory X employees are more creative",
+    "Neither shows any creativity"
+   ],
+   "d": "Comparison of Theory X and Y: attitude, direction, responsibility, motivation and creativity.",
+   "w": "Creativity is low for Theory X and high for Theory Y."
+  },
+  {
+   "id": "mg6-24",
+   "t": "Theories",
+   "q": "A CONTENT theory of motivation is most likely to focus on:",
+   "o": [
+    "Individual needs",
+    "Organisational justice",
+    "Expectancies about work outcomes",
+    "Instrumentalities"
+   ],
+   "d": "Content theories (e.g. Maslow, Herzberg) explain WHAT motivates people: their needs.",
+   "w": "Expectancies are the focus of process theories (slides' MCQ)."
+  },
+  {
+   "id": "mg6-25",
+   "t": "Meaning",
+   "tf": true,
+   "ans": false,
+   "q": "Motivation is the same as the capacity to work.",
+   "d": "Motivation creates the willingness to work, which is distinct from the capacity to work.",
+   "w": "Someone can be able to do a job but not want to."
+  },
+  {
+   "id": "mg6-26",
+   "t": "Herzberg",
+   "tf": true,
+   "ans": true,
+   "q": "Hygiene factors are found in the job context.",
+   "d": "Hygiene factors relate to the job context (peripheral aspects); motivators relate to job content.",
+   "w": "Herzberg found bad feelings were linked to the job context."
+  },
+  {
+   "id": "mg6-27",
+   "t": "Taylor",
+   "tf": true,
+   "ans": false,
+   "q": "According to Taylor, there are many right ways to do each job.",
+   "d": "Taylor believed there is only one right way to do each job, and employees are motivated by coercion or money.",
+   "w": "Scientific management looks for the one best way."
+  },
+  {
+   "id": "mg6-28",
+   "t": "Maslow",
+   "tf": true,
+   "ans": true,
+   "q": "Self-actualisation is the highest level in Maslow's hierarchy of needs.",
+   "d": "Maslow's highest need: self-actualisation, becoming what one is capable of becoming.",
+   "w": "It sits at the top of the pyramid."
+  },
+  {
+   "id": "mg6-29",
+   "t": "Theory X and Y",
+   "tf": true,
+   "ans": true,
+   "q": "Theory Y employees will seek and accept responsibility under the right conditions.",
+   "d": "Theory Y: employees seek and accept responsibility, under the right conditions.",
+   "w": "Theory X employees avoid responsibility."
+  },
+  {
+   "id": "mg6-30",
+   "t": "Objectives",
+   "tf": true,
+   "ans": true,
+   "q": "Motivation helps promote a friendly work culture, morale and a sense of belonging.",
+   "d": "Objectives of motivation include a friendly work culture, higher morale, responsibility, belongingness and teamwork.",
+   "w": "Motivated employees identify more with the organization."
+  },
+  {
+   "id": "mg6-w1",
+   "t": "Elements",
+   "wr": true,
+   "q": "Define motivation and explain its three elements.",
+   "a": "Motivation: a force that gives rise to behaviour; creating a desire or willingness to work in the way we want (distinct from the capacity to work).\nRobbins: the process that accounts for an individual's intensity, direction and persistence of effort toward attaining a goal.\nElements:\n1. Direction: what a person wants to achieve; the target (e.g. doing well on a test).\n2. Intensity: how hard a person tries.\n3. Persistence: how long a person maintains effort until the goal is achieved (e.g. continuing to look for a solution after many failures).",
+   "d": "Motivation: the process accounting for intensity, direction and persistence of effort toward a goal.",
+   "w": "Give the definition, then explain each element with an example."
+  },
+  {
+   "id": "mg6-w2",
+   "t": "Objectives",
+   "wr": true,
+   "q": "Explain why motivation is important for organizations.",
+   "a": "Motivated employees contribute to:\n1. Higher productivity: they produce more for a given level of resources.\n2. Better quality of work, with less wastage.\n3. A greater sense of urgency: things happen quicker when needed.\n4. Realising organisational objectives through goal-directed behaviour.\n5. A friendly work culture, higher morale, responsibility, belongingness, teamwork and participative decision-making.\n6. Organisational stability by reducing employee turnover and absenteeism.",
+   "d": "Objectives of motivation: the benefits motivated employees bring to the organization.",
+   "w": "Each objective links motivation to a measurable organisational benefit."
+  },
+  {
+   "id": "mg6-w3",
+   "t": "Maslow",
+   "wr": true,
+   "q": "Explain Maslow's hierarchy of needs and how organizations can meet each need.",
+   "a": "1. Physiological needs: food, water, air, clothing, shelter. Met by fair wages and basic amenities (water, food, rest breaks).\n2. Safety needs: protection from economic and physical dangers, job security and predictability. Met by safety measures, health benefits, job security and clear policies.\n3. Belongingness and love (social) needs: affiliation, acceptance and friendship. Met by a work culture that helps employees identify with the organization.\n4. Self-esteem needs: being valued, respected and admired. Met by challenging work, feedback, recognition, empowerment and participation in decisions.\n5. Self-actualisation needs: becoming what one is capable of. Met by an environment that fosters creativity and growth.",
+   "d": "Maslow's need hierarchy: motivation arises from five levels of needs, from basic to higher-order.",
+   "w": "Name each need in order, then give the organisational action that meets it."
+  },
+  {
+   "id": "mg6-w4",
+   "t": "Herzberg",
+   "wr": true,
+   "q": "Explain Herzberg's two-factor (motivation-hygiene) theory.",
+   "a": "Herzberg (1959) used the critical incident method, asking when people felt particularly good or bad about their job.\n- Good feelings were linked to job content (motivators): recognition, advancement, responsibility, achievement, possibility of growth, the work itself.\n- Bad feelings were linked to job context (hygiene or maintenance factors): company policy and administration, technical supervision, interpersonal relations, salary, job security, personal life, working conditions, status.\nImproving motivators increases satisfaction; improving hygiene factors prevents dissatisfaction.",
+   "d": "Two-factor theory: motivators (job content) and hygiene factors (job context).",
+   "w": "The key point is that satisfaction and dissatisfaction come from different sets of factors."
+  },
+  {
+   "id": "mg6-w5",
+   "t": "Theory X and Y",
+   "wr": true,
+   "q": "Compare McGregor's Theory X and Theory Y employees.",
+   "a": "Attitude: X dislike work and avoid it; Y want to work and enjoy it under the right conditions.\nDirection: X must be forced or coerced; Y direct themselves toward accepted targets.\nResponsibility: X avoid responsibility and prefer to be directed; Y seek and accept responsibility.\nMotivation: X are motivated mainly by money and fears about job security; Y by the desire to realise their own potential.\nCreativity: X have less creativity; Y are highly creative.",
+   "d": "Theory X: a negative view of employees. Theory Y: a positive view.",
+   "w": "Compare the two on the same five points from the slides' table."
+  },
+  {
+   "id": "mg6-w6",
+   "t": "Taylor",
+   "wr": true,
+   "q": "Explain Frederick Taylor's theory of motivation and his principles of scientific management.",
+   "a": "Taylor is known as the father of scientific management. His four principles:\n1. Science, not rule of thumb.\n2. Harmony, not discord.\n3. Cooperation, not individualism.\n4. Development of each person to their greatest efficiency.\nHis motivation theory is the 'money as a motivator' theory: money is the main force that motivates employees. Its main objective is improving economic efficiency, especially labour productivity. He believed there is only one right way to do each job, and employees are motivated by coercion (threat of firing) or money.",
+   "d": "Scientific management: applying scientific methods to find the most efficient way of working.",
+   "w": "Link his principles to his belief that money is the main motivator."
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "id": "fin-ch7",
+ "label": "Chapter 7",
+ "name": "E-Logistics",
+ "questions": [
+  {
+   "id": "f7-01",
+   "t": "E-logistics basics",
+   "q": "What is the ultimate objective of e-logistics?",
+   "o": [
+    "To deliver the right products in the right quantities at the right place and time to the right customer",
+    "To replace all warehouses with websites",
+    "To remove the need for transportation",
+    "To sell more products at a higher price"
+   ],
+   "d": "The ultimate objective of e-logistics is to deliver the right products in the right quantities at the right place and time to the right customer."
+  },
+  {
+   "id": "f7-02",
+   "t": "E-logistics basics",
+   "q": "E-logistics is the use of web-based technologies to support which processes?",
+   "o": [
+    "Material acquisition, warehousing and transportation",
+    "Product design and advertising",
+    "Hiring and payroll",
+    "Only customer payments"
+   ],
+   "d": "E-logistics uses web-based technologies to support material acquisition, warehousing and transportation, and lets distribution couple routing optimisation with inventory-tracking information."
+  },
+  {
+   "id": "f7-03",
+   "t": "E-logistics basics",
+   "q": "Which example of e-logistics is given on the slides?",
+   "o": [
+    "Internet-based freight auctions that enable spot buying of trucking capacity",
+    "Printing paper catalogues",
+    "Hiring more warehouse staff",
+    "Building larger trucks"
+   ],
+   "d": "For example, Internet-based freight auctions enable spot buying of trucking capacity."
+  },
+  {
+   "id": "f7-04",
+   "t": "Technology",
+   "q": "What does ASN stand for in e-logistics technology?",
+   "o": [
+    "Advance ship notice",
+    "Automated shipping network",
+    "Advanced supplier negotiation",
+    "Average stock number"
+   ],
+   "d": "E-logistics technologies include EDI among carriers, shippers and customers, barcoding and scanning, advance ship notices (ASNs), tracking systems, GPS and GIS, the Internet, ERP and more."
+  },
+  {
+   "id": "f7-05",
+   "t": "Technology",
+   "q": "Electronic data interchange (EDI) on the slides is exchanged among:",
+   "o": [
+    "Carriers, shippers and customers",
+    "Only a company's own departments",
+    "Governments and banks",
+    "Competitors in the same industry"
+   ],
+   "d": "One listed e-logistics technology is electronic data interchange (EDI) among carriers, shippers and customers."
+  },
+  {
+   "id": "f7-06",
+   "t": "Technology",
+   "q": "What sets RFID apart according to the slides?",
+   "o": [
+    "It does not need a direct line of sight to read a tag, and tag information can be updated",
+    "It must be scanned in direct line of sight",
+    "Its tags can never be changed",
+    "It only works for whole pallets, not individual units"
+   ],
+   "d": "Radio Frequency Identification (RFID) tracks individual units of goods, does not require a direct line of sight to read a tag, and the information on the tag is updatable."
+  },
+  {
+   "id": "f7-07",
+   "t": "Advantages",
+   "q": "E-procurement supports which key procurement processes?",
+   "o": [
+    "Requisitioning, sourcing, contracting, ordering and payment",
+    "Only payment",
+    "Advertising and promotion",
+    "Hiring and training"
+   ],
+   "d": "E-procurement uses web-based technology to support requisitioning, sourcing, contracting, ordering and payment, using online catalogues, contracts, purchase orders and shipping notices."
+  },
+  {
+   "id": "f7-08",
+   "t": "Advantages",
+   "q": "Reducing paper-driven transactions through e-procurement is linked to what drop in net greenhouse gas production (Romm, 2000)?",
+   "o": [
+    "25%",
+    "5%",
+    "50%",
+    "75%"
+   ],
+   "d": "Savings from e-procurement: ideally reducing all paper-driven transactions, linked to a 25% drop in net greenhouse gas production (Romm, 2000)."
+  },
+  {
+   "id": "f7-09",
+   "t": "Advantages",
+   "q": "How does e-logistics support 'postponement' in inventory and warehousing?",
+   "o": [
+    "Fast information means less inventory is needed (JIT)",
+    "Products are stored longer before sale",
+    "Orders are delayed until the end of the year",
+    "Warehouses are moved next to every customer"
+   ],
+   "d": "Postponement: less inventory because of the quick speed of information (JIT). Warehousing can also be aggregated and centralised, so it does not need to be next to the customer."
+  },
+  {
+   "id": "f7-10",
+   "t": "Advantages",
+   "q": "Substituting durable goods with information improves efficiency and reduces:",
+   "o": [
+    "The bullwhip effect",
+    "The number of customers",
+    "Product quality",
+    "Delivery speed"
+   ],
+   "d": "Information integration, substituting durable goods with information, gives better efficiency and less bullwhip effect."
+  },
+  {
+   "id": "f7-11",
+   "t": "B2C processes",
+   "q": "Which of these is NOT one of the B2C e-logistics processes on the slides?",
+   "o": [
+    "Product design",
+    "Insurance",
+    "Replenishment",
+    "Returns"
+   ],
+   "d": "The seven B2C e-logistics processes: method of payment, check product availability, arrange shipments, insurance, replenishment, contact with customers, and returns."
+  },
+  {
+   "id": "f7-12",
+   "t": "B2C processes",
+   "q": "Which B2C process is described as the biggest activity (labour, energy, money) in e-logistics?",
+   "o": [
+    "Arranging shipments",
+    "Checking product availability",
+    "Contact with customers",
+    "Method of payment"
+   ],
+   "d": "Arranging shipments: electronic shipping is quick, while physical products need the best shipping method for the service level. It is the biggest activity in labour, energy and money."
+  },
+  {
+   "id": "f7-13",
+   "t": "B2C processes",
+   "q": "In B2C payments, cash on delivery (COD) is paid:",
+   "o": [
+    "At the time of delivery",
+    "At the time of order",
+    "After the return period ends",
+    "Before the product is made"
+   ],
+   "d": "Payment can be made at the time of order (e-payment such as PayPal, or credit card) or at the time of delivery (COD)."
+  },
+  {
+   "id": "f7-14",
+   "t": "B2C processes",
+   "q": "In replenishment, shipping materials, scanners, totes and carts count as:",
+   "o": [
+    "Non-product inventory",
+    "Product inventory",
+    "Returns",
+    "Insurance items"
+   ],
+   "d": "Replenishment examines all physical inventory and reorders as needed: product (on shelves or material to make it) and non-product (shipping materials, machine parts, scanners, totes, carts)."
+  },
+  {
+   "id": "f7-15",
+   "t": "B2C processes",
+   "q": "Why should e-logistics keep customers informed with order, payment, shipping and tracking messages?",
+   "o": [
+    "Because back-door operations are invisible to the customer",
+    "Because customers must approve each warehouse task",
+    "Because the law requires a phone call for every order",
+    "Because it removes the need for insurance"
+   ],
+   "d": "With an invisible process (back-door operations), the customer needs to be informed as much as possible: order confirmation, payment success, shipping confirmation, tracking and any problems."
+  },
+  {
+   "id": "f7-16",
+   "t": "Challenges",
+   "q": "Which of these is a listed challenge of e-logistics?",
+   "o": [
+    "E-commerce has higher return rates",
+    "Customers never return products",
+    "There are too few online stores",
+    "Payments cannot be made online"
+   ],
+   "d": "Challenges: higher e-commerce return rates, a culture focused on sales not returns, unknown return volumes, lack of retailing experience, and many sources of returns. Responses include subcontracted return stores and third-party reverse logistics providers."
+  },
+  {
+   "id": "f7-17",
+   "t": "B2C processes",
+   "tf": true,
+   "ans": true,
+   "q": "For electronic payments, payment should be verified before the product is shipped.",
+   "d": "For electronic payments, a system of verification of payment is needed before shipping."
+  },
+  {
+   "id": "f7-18",
+   "t": "Advantages",
+   "tf": true,
+   "ans": false,
+   "q": "Internet technologies have only helped large corporations compete for market share.",
+   "d": "E-business technologies, particularly the Internet, let organisations of all sizes connect with partners and compete for market share, which before was only possible for large corporations."
+  },
+  {
+   "id": "f7-19",
+   "t": "Advantages",
+   "tf": true,
+   "ans": true,
+   "q": "Transportation costs may increase because of centralised warehousing.",
+   "d": "Centralising warehousing means less waste and energy for extra locations, but transportation costs may increase."
+  },
+  {
+   "id": "f7-20",
+   "t": "B2C processes",
+   "tf": true,
+   "ans": false,
+   "q": "If a product is out of stock, the customer should not be told until it ships.",
+   "d": "If possible, inform the customer about availability before the order is placed. If the product is out of stock or will take time to make, inform the customer of the delay."
+  }
+ ]
+}

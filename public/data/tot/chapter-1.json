@@ -1,0 +1,427 @@
+{
+ "id": "tot-ch1",
+ "label": "Chapter 1",
+ "name": "Introduction to Tourism and Hospitality",
+ "questions": [
+  {
+   "id": "c3-01",
+   "t": "Key concepts",
+   "q": "Which dimension of travel can distinguish a 'tourist' from an 'excursionist' (day-tripper)?",
+   "o": [
+    "The time spent travelling (journey length)",
+    "The distance travelled",
+    "The traveller's place of residence",
+    "The purpose of travel"
+   ],
+   "d": "The slides say the time spent travelling, or journey length, may distinguish a 'tourist' from an 'excursionist' or 'day-tripper'. Place of residence separates domestic from international tourism, and distance is measured between the generating region and the host destination.",
+   "w": "Journey length tells you how long the person is away, which separates a tourist (24 hours or more) from an excursionist (less than 24 hours)."
+  },
+  {
+   "id": "c3-02",
+   "t": "Key concepts",
+   "q": "On the slides, the 'distance travelled' dimension of travel is the distance between:",
+   "o": [
+    "The generating region and the host destination",
+    "The traveller's home and the transit route",
+    "The departure airport and the first attraction visited",
+    "The host destination and the traveller's ultimate destination"
+   ],
+   "d": "Distance travelled: the distance between the generating region and the host destination. It is one of the four dimensions of travel, along with purpose, time spent travelling and place of residence.",
+   "w": "Distance travelled is a dimension of the journey itself, so it is measured from where the traveller starts (generating region) to where they go (host destination)."
+  },
+  {
+   "id": "c3-03",
+   "t": "Key concepts",
+   "q": "Which statement matches the UNWTO definition of tourism?",
+   "o": [
+    "Activities of persons travelling to and staying in places outside their usual environment for not more than one consecutive year, for leisure, business and other purposes",
+    "Activities of persons staying outside their country of residence for at least 24 hours and not more than six months, for leisure only",
+    "Activities of persons travelling outside their usual environment for more than one year, for any purpose except paid work",
+    "Activities of persons moving from one place to another for any purpose, however long they stay"
+   ],
+   "d": "UNWTO: tourism comprises the activities of persons traveling to and staying in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes. The last option is closer to the definition of travel.",
+   "w": "Only this option keeps all three parts of the UNWTO definition: outside the usual environment, not more than one consecutive year, and leisure, business and other purposes."
+  },
+  {
+   "id": "c3-04",
+   "t": "Key concepts",
+   "tf": true,
+   "ans": false,
+   "q": "Under the UNWTO definition, someone who stays outside their usual environment for 13 consecutive months for leisure is still a tourist.",
+   "d": "The UNWTO definition covers stays of not more than one consecutive year. A 13-month stay is longer than that, so it falls outside the definition of tourism.",
+   "w": "The UNWTO limit is not more than one consecutive year; 13 months is longer, so the person is outside the definition."
+  },
+  {
+   "id": "c3-05",
+   "t": "Key concepts",
+   "q": "During free time, a student watches a film at a cinema in their own town. Using the slides' definitions, this is:",
+   "o": [
+    "Recreation away from home, but not tourism",
+    "Tourism, because it is a leisure activity",
+    "Home-based recreation",
+    "Leisure time, but not recreation"
+   ],
+   "d": "Leisure time is discretionary time, and recreation is the activities undertaken in it. Watching entertainment is recreation away from home. It is not tourism, because tourism takes place outside the permanent place of residence.",
+   "w": "Watching a film is an activity in leisure time (recreation) away from home, but the student stays in their own town, so it is not tourism."
+  },
+  {
+   "id": "c3-06",
+   "t": "Key concepts",
+   "q": "Which activity appears in BOTH the home-based and the away-from-home recreation lists on the slides?",
+   "o": [
+    "Hobbies",
+    "Exercise",
+    "Playing games",
+    "Visiting attractions"
+   ],
+   "d": "Home-based recreation: music, TV and videos, radio, reading, DIY, gardening, playing games, exercise, hobbies and leisure use of computers. Away from home: sports participation, watching entertainment, hobbies, visiting attractions, and eating and drinking. Only hobbies is on both lists.",
+   "w": "Hobbies is the only activity listed under both home-based and away-from-home recreation; exercise and games are home-based, visiting attractions is away from home."
+  },
+  {
+   "id": "c3-07",
+   "t": "Tourism purposes",
+   "q": "On the slides, 'health' is listed under which group(s) of tourism purposes?",
+   "o": [
+    "Both Leisure and Recreation and Other tourism purposes",
+    "Only Leisure and Recreation",
+    "Only Other tourism purposes",
+    "Only Business and Professional"
+   ],
+   "d": "Leisure and Recreation: recreation, cultural events, health, sport and VFR. Business and Professional: mission and MICE. Other tourism purposes: study, health, transit and others. Health appears in two groups.",
+   "w": "The slides list health under Leisure and Recreation and again under Other tourism purposes, so it appears in two groups."
+  },
+  {
+   "id": "c3-08",
+   "t": "Tourism purposes",
+   "q": "A government delegation travels abroad on an official mission. Which group of tourism purposes does this belong to?",
+   "o": [
+    "Business and Professional",
+    "Leisure and Recreation",
+    "Other tourism purposes",
+    "None, because the trip is work-related"
+   ],
+   "d": "Mission is one of the UNWTO tourism purposes. The slides group mission and MICE under Business and Professional. The UNWTO definition covers leisure, business and other purposes, so work-related trips like this are still tourism.",
+   "w": "Mission is listed with MICE under Business and Professional purposes, and the UNWTO definition includes business travel."
+  },
+  {
+   "id": "c3-09",
+   "t": "Types of travellers",
+   "q": "Which person is NOT a visitor under the slides' definition?",
+   "o": [
+    "Someone who moves to another country to take up a paid job for eight months",
+    "Someone who spends six months abroad studying",
+    "Someone who goes abroad for two weeks on a religious trip",
+    "Someone who attends a three-day conference in another country"
+   ],
+   "d": "Visitor: any person who visits another country for any reason except travel for a paid job, for not more than one year. Study, religion and conferences all count. Taking up a paid job does not.",
+   "w": "A visitor travels for any reason EXCEPT a paid job, so moving abroad to take up a paid job does not count."
+  },
+  {
+   "id": "c3-10",
+   "t": "Types of travellers",
+   "q": "A traveller arrives in Salalah at 10:00 on Monday for sightseeing, stays one night, and leaves at 09:00 on Tuesday. Using the slides' definitions, this person is:",
+   "o": [
+    "An excursionist, because the stay was less than 24 hours",
+    "A tourist, because the stay included a night",
+    "A tourist, because the trip was for tourism purposes",
+    "Neither, because the stay was too short to count"
+   ],
+   "d": "Tourist: stays in the host destination for not less than 24 hours. Excursionist: stays less than 24 hours. 10:00 Monday to 09:00 Tuesday is 23 hours, so under the slides' 24-hour rule this is an excursionist, even though they stayed overnight.",
+   "w": "10:00 Monday to 09:00 Tuesday is 23 hours. The slides use the 24-hour rule, so this is an excursionist even with an overnight stay."
+  },
+  {
+   "id": "c3-11",
+   "t": "Types of travellers",
+   "q": "A resident of Oman flies to Jordan on holiday. Which pair of labels is correct?",
+   "o": [
+    "Outbound traveller for Oman, inbound traveller for Jordan",
+    "Inbound traveller for Oman, outbound traveller for Jordan",
+    "Outbound traveller for both countries",
+    "Inbound traveller for both countries"
+   ],
+   "d": "Outbound traveller: a resident of a given country who leaves that country to visit another one. Inbound traveller: a non-resident who travels to a given country. The same trip is outbound for Oman and inbound for Jordan.",
+   "w": "Outbound and inbound depend on residence: leaving Oman makes the person outbound for Oman, and arriving in Jordan as a non-resident makes them inbound for Jordan."
+  },
+  {
+   "id": "c3-12",
+   "t": "Types of travellers",
+   "q": "A foreign national who has lived and worked in Muscat for ten years flies to their home country to visit family. From Oman's point of view, this person is:",
+   "o": [
+    "An outbound traveller, because they are a resident of Oman",
+    "An inbound traveller, because they are going back to their own country",
+    "Not a traveller, because they are going home",
+    "A domestic tourist"
+   ],
+   "d": "The slides define inbound and outbound travellers by residence, not nationality. Outbound traveller: a resident of a given country who leaves that country to visit another one. The purpose of this trip is VFR (visiting friends and relatives).",
+   "w": "The definitions use residence, not nationality. A resident of Oman leaving Oman is an outbound traveller."
+  },
+  {
+   "id": "c3-13",
+   "t": "Tourism classification",
+   "q": "According to the slides, why has domestic tourism received little attention?",
+   "o": [
+    "It is more difficult to measure than international tourism",
+    "It has more negative impacts on the environment",
+    "It involves currency, language and visa issues",
+    "It is a type of mass tourism"
+   ],
+   "d": "Domestic tourism is travel by residents within their country of residence. There are rarely currency, language or visa implications, and it is more difficult to measure than international tourism. As a consequence, it has received little attention.",
+   "w": "It is harder to count people travelling within their own country, so domestic tourism has received little attention."
+  },
+  {
+   "id": "c3-14",
+   "t": "Tourism classification",
+   "q": "A traveller buys a flight-and-hotel package online for one price, then books a desert safari and restaurant meals separately after arriving. Which arrangement best describes the whole trip?",
+   "o": [
+    "Tailor-made travel",
+    "An inclusive tour",
+    "Independent travel",
+    "Mass tourism"
+   ],
+   "d": "Inclusive tour: two or more components bought together for one price. Independent travel: each element bought separately. Tailor-made travel combines the two, and it is increasingly common because people buy travel on the Internet.",
+   "w": "The package is an inclusive tour and the extras were bought separately, so the whole trip combines both: tailor-made travel."
+  },
+  {
+   "id": "c3-15",
+   "t": "Tourism classification",
+   "tf": true,
+   "ans": true,
+   "q": "Tailor-made travel combines features of inclusive tours and independent travel, and it is becoming more common because of the Internet.",
+   "d": "Tailor-made travel is a combination of inclusive tours and independent travel arrangements. It is increasingly common because people use the Internet to buy travel.",
+   "w": "Tailor-made travel = inclusive + independent, and the Internet makes it easier to buy travel this way."
+  },
+  {
+   "id": "c3-16",
+   "t": "Tourism classification",
+   "q": "A trip's host destination is 2,900 km from the traveller's generating region. How is the trip classified by distance?",
+   "o": [
+    "Short- or medium-haul",
+    "Long-haul",
+    "Long-haul, because the return journey makes it 5,800 km in total",
+    "It cannot be classified without knowing if it is international"
+   ],
+   "d": "Long-haul tourism generally means travel over a distance of at least 3,000 km. Shorter journeys are short- or medium-haul. Distance is measured between the generating region and the host destination, so 2,900 km is short- or medium-haul.",
+   "w": "Long-haul starts at 3,000 km between the generating region and the destination; 2,900 km is below that."
+  },
+  {
+   "id": "c3-17",
+   "t": "Tourism classification",
+   "q": "'Mass tourism' and 'alternative tourism' belong to which of the four bases of tourism classification?",
+   "o": [
+    "Tourists' activities",
+    "Type of travel arrangements purchased",
+    "Distance travelled",
+    "Geography (domestic or international)"
+   ],
+   "d": "The four bases are: geography (domestic or international), type of travel arrangements purchased (inclusive, independent, tailor-made), distance travelled (long-haul or short/medium-haul), and tourists' activities (mass tourism or alternative tourism, including SIT).",
+   "w": "Mass and alternative tourism describe what tourists do and how they travel (groups or individuals), so they belong to tourists' activities."
+  },
+  {
+   "id": "c3-18",
+   "t": "Tourism classification",
+   "q": "Which statement about alternative tourism is correct according to the slides?",
+   "o": [
+    "Tourists travel individually or in small groups, with a neutral or positive impact on destinations",
+    "It includes all-inclusive holidays and cruise tourism",
+    "Tourists travel in big groups to experience many different activities",
+    "It is another name for domestic tourism"
+   ],
+   "d": "Alternative tourism: tourists travel individually or in small groups, with a neutral or positive impact on destinations. Big groups, all-inclusive holidays and cruises describe mass tourism, which might have more negative impacts on the environment.",
+   "w": "Alternative tourism is the opposite of mass tourism: individuals or small groups with a neutral or positive impact."
+  },
+  {
+   "id": "c3-19",
+   "t": "Tourism classification",
+   "q": "Which of these is NOT listed on the slides as Special Interest Tourism (SIT)?",
+   "o": [
+    "Cruise tourism",
+    "Rural tourism",
+    "Heritage tourism",
+    "Spa and health tourism"
+   ],
+   "d": "The SIT examples on the slides are cultural, heritage, eco, adventure, rural, scuba-diving, and spa and health tourism. Cruise tourism is given as an example of mass tourism.",
+   "w": "Cruise tourism is given as an example of mass tourism, not Special Interest Tourism."
+  },
+  {
+   "id": "c3-20",
+   "t": "Tourist experience",
+   "q": "In the three phases of the tourist experience, the flight home at the end of a holiday belongs to the:",
+   "o": [
+    "Realization phase",
+    "Recollection phase",
+    "Anticipation phase",
+    "Transit phase"
+   ],
+   "d": "Realization phase: the destination experience is the goal of the trip and is combined with both the outward and return journeys as part of the total experience. Recollection comes after the trip. There is no 'transit phase'.",
+   "w": "The outward and return journeys are part of the total experience in the realization phase."
+  },
+  {
+   "id": "c3-21",
+   "t": "Tourist experience",
+   "tf": true,
+   "ans": false,
+   "q": "The recollection phase begins during the return journey.",
+   "d": "The outward and return journeys belong to the realization phase. The recollection phase comes after the trip, when how well the experience met expectations influences future travel decisions.",
+   "w": "The return journey is still part of the trip (realization); recollection only begins after the trip."
+  },
+  {
+   "id": "c3-22",
+   "t": "Tourism system",
+   "q": "A traveller from Muscat flies to London with a stopover in Doha. In Leiper's tourism system, Doha is part of the:",
+   "o": [
+    "Transit route region",
+    "Host region (tourist destination)",
+    "Generating region",
+    "Business element"
+   ],
+   "d": "The geographic element has three parts: the traveller's generating country or region (Muscat), the host country or region, which is the tourist destination (London), and the transit route region(s) the traveller passes through (Doha).",
+   "w": "Doha is a stop between the generating region (Muscat) and the destination (London), so it is part of the transit route region."
+  },
+  {
+   "id": "c3-23",
+   "t": "Tourism system",
+   "tf": true,
+   "ans": true,
+   "q": "Residents of the generating region who become tourists are part of the human element, not the geographic element, of Leiper's model.",
+   "d": "Human element: residents of the generating region who become tourists, and residents of the host region (tourism personnel, labour and workforce). The geographic element covers the regions themselves: generating, transit route and host.",
+   "w": "The human element is about people; the geographic element is about places (regions)."
+  },
+  {
+   "id": "c3-24",
+   "t": "Tourism system",
+   "q": "Which list gives exactly the external environments that tourism, as an open system, affects and is affected by?",
+   "o": [
+    "Political, economic, socio-cultural, technological, physical",
+    "Political, economic, legal, technological, physical",
+    "Political, economic, socio-cultural, technological, religious",
+    "Economic, socio-cultural, technological, physical, psychological"
+   ],
+   "d": "Tourism is an open system: it affects and is affected by the political, economic, socio-cultural, technological and physical environments.",
+   "w": "The five environments are political, economic, socio-cultural, technological and physical; each wrong option swaps one in."
+  },
+  {
+   "id": "c3-25",
+   "t": "Tourism system",
+   "tf": true,
+   "ans": true,
+   "q": "Leiper's model has three elements, and tourism is called an open system because it affects and is affected by external environments.",
+   "d": "Leiper's model has geographic, human and business elements. Tourism is an open system because it affects, and is affected by, the political, economic, socio-cultural, technological and physical environments.",
+   "w": "Both parts are correct: three elements (geographic, human, business) and an open system affected by external environments."
+  },
+  {
+   "id": "c3-26",
+   "t": "Industry structure",
+   "q": "A souvenir shop in Mutrah Souq that sells mainly to tourists is classified as:",
+   "o": [
+    "A direct provider outside the mainstream industry (ancillary services)",
+    "A direct provider in the attractions and activities sector",
+    "A support service",
+    "A developmental organisation"
+   ],
+   "d": "Direct providers deal directly with tourists. Some work in the four mainstream sectors (transportation, accommodation, attractions and activities, sales distribution). Others, such as shops and restaurants, work outside it as ancillary service providers, also called visitor services.",
+   "w": "A souvenir shop deals directly with tourists but is outside the four main sectors, so it is an ancillary service."
+  },
+  {
+   "id": "c3-27",
+   "t": "Industry structure",
+   "q": "A currency exchange counter at the airport that serves arriving tourists is best classified as:",
+   "o": [
+    "An ancillary service provider (a direct provider)",
+    "A developmental organisation, because it is a finance firm",
+    "A support service",
+    "Part of the sales distribution sector"
+   ],
+   "d": "Financial service providers that deal directly with tourists are ancillary service providers (visitor services), along with shopping outlets, tourist publications and information, and entertainment providers. Finance firms that fund tourism development are developmental organisations instead.",
+   "w": "A currency exchange serving tourists directly is a financial service provider, which the slides list as an ancillary service."
+  },
+  {
+   "id": "c3-28",
+   "t": "Industry structure",
+   "q": "A construction firm builds a new resort. In the structure of the tourism industry, the firm is a:",
+   "o": [
+    "Support service",
+    "Developmental organisation",
+    "Direct provider in the accommodation sector",
+    "Ancillary service provider"
+   ],
+   "d": "Support services give support, aid and guidance to direct providers. People don't usually link them with tourism, and tourists have little involvement with them. Examples: petroleum distribution companies, construction firms and utility supply companies.",
+   "w": "Construction firms support the direct providers; tourists have little involvement with them, so they are support services."
+  },
+  {
+   "id": "c3-29",
+   "t": "Industry structure",
+   "q": "A bank lends money to investors to build a new hotel. In the structure of the tourism industry, the bank is acting as a:",
+   "o": [
+    "Developmental organisation",
+    "Support service",
+    "Ancillary service provider",
+    "Direct provider"
+   ],
+   "d": "Developmental organisations are business firms, government agencies or individuals involved in tourism planning and development. Examples: national or regional planning and marketing organisations (which may be an NTO), industry training organisations, and finance or investment firms.",
+   "w": "Finance and investment firms are listed as developmental organisations because they fund tourism development."
+  },
+  {
+   "id": "c3-30",
+   "t": "Industry structure",
+   "tf": true,
+   "ans": false,
+   "q": "A national tourism organisation (NTO) involved in national planning and marketing is an example of a support service.",
+   "d": "Organisations involved in national or regional planning and marketing, which may be an NTO, are developmental organisations. Support services are businesses such as petroleum distribution, construction and utility supply companies.",
+   "w": "NTOs plan and market tourism, which makes them developmental organisations, not support services."
+  },
+  {
+   "id": "t1-w1",
+   "t": "Key concepts",
+   "wr": true,
+   "q": "Define travel and tourism, and explain the difference between them.",
+   "a": "Travel: the physical movement of people from one place to another for any purpose.\nTourism (UNWTO): the activities of persons travelling to and staying in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes.\nDifference: all tourism involves travel, but not all travel is tourism. Tourism needs a stay outside the usual environment, limited to one year, and excludes earning a profit or permanent stay.",
+   "d": "Travel: movement of people. Tourism: travel plus a stay outside the usual environment for up to one year.",
+   "w": "Give both definitions, then show what tourism adds to travel."
+  },
+  {
+   "id": "t1-w2",
+   "t": "Key concepts",
+   "wr": true,
+   "q": "Differentiate between leisure, recreation and tourism.",
+   "a": "Leisure time: discretionary time left after working, commuting, sleeping and necessary chores, used in a chosen way.\nRecreation: activities undertaken in leisure time, either home-based (reading, gardening, games) or away from home (sports, entertainment, visiting attractions).\nTourism: one type of recreation that happens outside the permanent place of residence for any purpose except earning a profit or permanent stay.",
+   "d": "Leisure is time, recreation is activity in that time, and tourism is recreation away from home.",
+   "w": "The three terms build on each other: leisure contains recreation, and recreation contains tourism."
+  },
+  {
+   "id": "t1-w3",
+   "t": "Types of travellers",
+   "wr": true,
+   "q": "Explain the terms traveller, visitor, tourist and excursionist.",
+   "a": "Traveller: any person who moves from and stays in a place outside their usual environment for any purpose.\nVisitor: any person who visits another country for any reason except a paid job, for not more than one year.\nTourist: travels for tourism purposes and stays in the host destination for not less than 24 hours.\nExcursionist: travels for tourism purposes and stays in the host destination for less than 24 hours.",
+   "d": "Classification of travellers: traveller, visitor, tourist, excursionist.",
+   "w": "The key test between tourist and excursionist is the 24-hour stay."
+  },
+  {
+   "id": "t1-w4",
+   "t": "Tourism classification",
+   "wr": true,
+   "q": "Explain the four ways of classifying tourism.",
+   "a": "1. Geographically: domestic (residents within their own country) and international (outside the country of residence).\n2. Type of travel arrangements: inclusive tours (two or more components for one price), independent travel (bought separately), tailor-made (a combination).\n3. Distance travelled: long-haul (at least 3,000 km) and short- or medium-haul.\n4. Tourists' activities: mass tourism (big groups, e.g. cruises, all-inclusive) and alternative tourism (individuals or small groups), including Special Interest Tourism.",
+   "d": "Tourism classification: four bases relating to the nature of the trip.",
+   "w": "Name each basis and give its categories."
+  },
+  {
+   "id": "t1-w5",
+   "t": "Tourism system",
+   "wr": true,
+   "q": "Explain Leiper's tourism system and why tourism is an open system.",
+   "a": "Leiper's model has three elements:\n1. Geographic: the traveller-generating region, the host (destination) region and the transit route region.\n2. Human: residents of the generating region who become tourists, and residents of the host region who work in tourism.\n3. Business: the tourism industry, all individuals and organisations that develop and deliver the tourism product.\nTourism is an open system because it affects, and is affected by, the political, economic, socio-cultural, technological and physical environments.",
+   "d": "Tourism system: Leiper's model of geographic, human and business elements.",
+   "w": "Describe the three elements, then explain the link with external environments."
+  },
+  {
+   "id": "t1-w6",
+   "t": "Industry structure",
+   "wr": true,
+   "q": "Explain the three groups of providers in the tourism and hospitality industry.",
+   "a": "1. Direct providers: deal directly with tourists. Some are in the four main sectors (transportation, accommodation, attractions and activities, sales distribution); others are ancillary services such as shops, restaurants, financial services, tourist information and entertainment.\n2. Support services: support and guide direct providers; tourists have little involvement with them (e.g. petroleum distribution, construction, utility supply companies).\n3. Developmental organisations: involved in tourism planning and development (e.g. NTOs, industry training organisations, finance and investment firms).",
+   "d": "Tourism industry structure: direct providers, support services and developmental organisations.",
+   "w": "Group each example by how closely it deals with tourists."
+  }
+ ]
+}

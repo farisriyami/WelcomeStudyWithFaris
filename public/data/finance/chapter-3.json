@@ -1,0 +1,374 @@
+{
+ "id": "fn-ch3",
+ "label": "Chapter 3",
+ "name": "Time Value of Money: Present Value, Future Value and Annuities",
+ "questions": [
+  {
+   "id": "fn3-01",
+   "t": "Time value of money",
+   "q": "Which of these is NOT a reason for the time value (time preference) of money?",
+   "o": [
+    "Money always loses value because of taxes",
+    "The presence of risk and uncertainty",
+    "A preference to spend for today's needs",
+    "The availability of multiple investment options"
+   ],
+   "d": "Time value of money: money today is worth more than the same sum in future because of risk and uncertainty, preference to spend now, and multiple options to invest.",
+   "w": "The three reasons on the slides are risk, present preference and investment options. Taxes are not listed."
+  },
+  {
+   "id": "fn3-02",
+   "t": "Time value of money",
+   "q": "Discounting means:",
+   "o": [
+    "Converting a future value back to its present value, reversing compounding",
+    "Growing a present sum into a future value",
+    "Reducing the price of a product",
+    "Paying interest in advance"
+   ],
+   "d": "Discounting: converting a future value into its present value using a discounting rate. It reverses the effect of compounding.",
+   "w": "Compounding moves money forward in time; discounting moves it back to today."
+  },
+  {
+   "id": "fn3-03",
+   "t": "Future value",
+   "q": "Ali deposits RO 2,000 at 4% simple interest. How much does he receive after 18 months?",
+   "o": [
+    "RO 2,120.000",
+    "RO 2,240.000",
+    "RO 3,440.000",
+    "RO 2,080.000"
+   ],
+   "d": "Future value with simple interest: Fv = Pv(1 + rt).",
+   "w": "18 months = 1.5 years. Fv = 2,000 × (1 + 0.04 × 1.5) = 2,000 × 1.06 = RO 2,120. RO 2,240 is 3 years."
+  },
+  {
+   "id": "fn3-04",
+   "t": "Future value",
+   "q": "Rahima deposits RO 5,000 on 1 April 2023 at 6% simple interest for 15 months. When and how much does she receive?",
+   "o": [
+    "1 July 2024, RO 5,375",
+    "1 April 2024, RO 5,300",
+    "1 July 2024, RO 5,450",
+    "1 June 2024, RO 5,375"
+   ],
+   "d": "Future value with simple interest: Fv = Pv(1 + rt).",
+   "w": "15 months after 1 April 2023 is 1 July 2024. Fv = 5,000 × (1 + 0.06 × 1.25) = 5,000 × 1.075 = RO 5,375."
+  },
+  {
+   "id": "fn3-05",
+   "t": "Future value",
+   "q": "RO 2,000 is invested for 5 years at 12% compounded monthly. What is the future value?",
+   "o": [
+    "RO 3,633.393",
+    "RO 3,524.683",
+    "RO 3,200.000",
+    "RO 2,102.020"
+   ],
+   "d": "Future value with compound interest: Fv = Pv(1 + r/n)^(nt).",
+   "w": "Fv = 2,000 × (1 + 0.12/12)^(12×5) = 2,000 × (1.01)^60 = RO 3,633.393. Annual compounding would give only RO 3,524.683."
+  },
+  {
+   "id": "fn3-06",
+   "t": "Future value",
+   "q": "For RO 5,000 over 5 years, which is better: 5.5% simple interest or 5% compounded annually?",
+   "o": [
+    "5% compounded annually",
+    "5.5% simple interest",
+    "They give the same amount",
+    "It cannot be compared"
+   ],
+   "d": "Fv (simple) = Pv(1 + rt); Fv (compound) = Pv(1 + r)^t.",
+   "w": "Simple: 5,000 × (1 + 0.055 × 5) = RO 6,375.000. Compound: 5,000 × 1.05^5 = RO 6,381.408. Compound is slightly better."
+  },
+  {
+   "id": "fn3-07",
+   "t": "Future value",
+   "q": "RO 10,000 for one year: which gives the higher future value, 10% compounded quarterly or 10.10% compounded annually?",
+   "o": [
+    "10% compounded quarterly",
+    "10.10% compounded annually",
+    "They are exactly equal",
+    "Neither earns interest"
+   ],
+   "d": "Fv = Pv(1 + r/n)^(nt).",
+   "w": "Quarterly: 10,000 × (1.025)^4 = RO 11,038.129. Annually: 10,000 × 1.101 = RO 11,010.000. Quarterly wins."
+  },
+  {
+   "id": "fn3-08",
+   "t": "Present value",
+   "q": "Ahmed needs RO 50,000 for a car in 5 years. How much must he deposit today at 5% simple interest?",
+   "o": [
+    "RO 40,000.000",
+    "RO 39,176.308",
+    "RO 47,500.000",
+    "RO 37,500.000"
+   ],
+   "d": "Present value with simple interest: Pv = Fv ÷ (1 + rt).",
+   "w": "Pv = 50,000 ÷ (1 + 0.05 × 5) = 50,000 ÷ 1.25 = RO 40,000."
+  },
+  {
+   "id": "fn3-09",
+   "t": "Present value",
+   "q": "How much must be invested today at 15% compounded annually to have RO 2,000 in 3 years?",
+   "o": [
+    "RO 1,315.032",
+    "RO 1,379.310",
+    "RO 1,100.000",
+    "RO 1,739.130"
+   ],
+   "d": "Present value with compound interest: Pv = Fv ÷ (1 + r/n)^(nt).",
+   "w": "Pv = 2,000 ÷ (1.15)^3 = 2,000 ÷ 1.520875 = RO 1,315.032."
+  },
+  {
+   "id": "fn3-10",
+   "t": "Present value",
+   "q": "Fatma needs RO 5,000 in 3 years. How much should she invest today at 7% compounded annually?",
+   "o": [
+    "RO 4,081.489",
+    "RO 4,132.231",
+    "RO 4,650.000",
+    "RO 4,672.897"
+   ],
+   "d": "Pv = Fv ÷ (1 + r)^t.",
+   "w": "Pv = 5,000 ÷ (1.07)^3 = 5,000 ÷ 1.225043 = RO 4,081.489."
+  },
+  {
+   "id": "fn3-11",
+   "t": "Present value",
+   "q": "Ryle must pay RO 4,000 in 2 years and RO 2,000 in 4 years. At 10% compounded annually, how much must he invest today to cover both?",
+   "o": [
+    "RO 4,671.812",
+    "RO 4,098.081",
+    "RO 3,305.785",
+    "RO 4,958.678"
+   ],
+   "d": "Present value of several future sums = sum of each sum's present value.",
+   "w": "4,000 ÷ 1.1^2 = RO 3,305.785; 2,000 ÷ 1.1^4 = RO 1,366.027. Total = RO 4,671.812. Each payment is discounted for its own number of years."
+  },
+  {
+   "id": "fn3-12",
+   "t": "Factors",
+   "q": "If the discounting rate increases, the present value of a fixed future amount:",
+   "o": [
+    "Decreases",
+    "Increases",
+    "Stays the same",
+    "Doubles"
+   ],
+   "d": "Factors affecting PV: a higher discounting rate gives a lower present value, and vice versa.",
+   "w": "You divide by (1 + r)^t. A bigger r makes the divisor bigger, so the result is smaller."
+  },
+  {
+   "id": "fn3-13",
+   "t": "Factors",
+   "q": "Holding the rate constant, a longer time period gives:",
+   "o": [
+    "A higher future value and a lower present value",
+    "A lower future value and a higher present value",
+    "A higher future value and a higher present value",
+    "No change to either"
+   ],
+   "d": "Factors: larger time period → higher future value; larger time period → lower present value.",
+   "w": "More years of compounding increase FV; more years of discounting reduce PV."
+  },
+  {
+   "id": "fn3-14",
+   "t": "Annuities",
+   "q": "An annuity whose payments are made at the BEGINNING of each period is:",
+   "o": [
+    "An annuity due",
+    "An ordinary annuity",
+    "A perpetual annuity",
+    "A contingent annuity"
+   ],
+   "d": "Annuity due: payments at the beginning of each period. Ordinary annuity: payments at the end of each period.",
+   "w": "Timing of payment is what separates an annuity due from an ordinary annuity."
+  },
+  {
+   "id": "fn3-15",
+   "t": "Annuities",
+   "q": "A pension paid every month until the person dies is a:",
+   "o": [
+    "Life annuity",
+    "Certain annuity",
+    "Perpetual annuity",
+    "Contingent annuity"
+   ],
+   "d": "Life annuity: payments for the lifetime of an individual, stopping at death (e.g. pensions).",
+   "w": "A certain annuity has a fixed period, a perpetual annuity never ends, and a contingent annuity depends on an event such as a marriage."
+  },
+  {
+   "id": "fn3-16",
+   "t": "Annuities",
+   "q": "Payments that continue only until a daughter's marriage form a:",
+   "o": [
+    "Contingent annuity",
+    "Life annuity",
+    "Certain annuity",
+    "Perpetual annuity"
+   ],
+   "d": "Contingent annuity: payments depend on the occurrence of an event and stop afterwards.",
+   "w": "The end date is not fixed; it depends on an event happening, which makes it contingent."
+  },
+  {
+   "id": "fn3-17",
+   "t": "Annuities",
+   "q": "An annuity with payments of UNEQUAL amounts is:",
+   "o": [
+    "A variable annuity",
+    "A uniform annuity",
+    "An ordinary annuity",
+    "An annuity due"
+   ],
+   "d": "Based on amount: uniform annuity (equal payments) or variable annuity (unequal payments).",
+   "w": "Ordinary and due describe timing, not amount."
+  },
+  {
+   "id": "fn3-18",
+   "t": "Annuities",
+   "q": "Alice deposits RO 5,000 at the end of each year for 10 years at 5%. What is the present value of this annuity?",
+   "o": [
+    "RO 38,608.675",
+    "RO 50,000.000",
+    "RO 62,889.463",
+    "RO 30,695.663"
+   ],
+   "d": "Present value of an ordinary annuity = I × [1 − (1 + r/n)^(−nt)] ÷ (r/n).",
+   "w": "PV = 5,000 × [1 − 1.05^(−10)] ÷ 0.05 = 5,000 × 7.721735 = RO 38,608.675. RO 62,889.463 would be the future value."
+  },
+  {
+   "id": "fn3-19",
+   "t": "Annuities",
+   "q": "Muzna can save RO 1,200 at the end of each year, or RO 100 at the end of each month, for 5 years at 5% (compounded to match). Which gives more?",
+   "o": [
+    "RO 100 monthly",
+    "RO 1,200 yearly",
+    "They are equal",
+    "Neither earns interest"
+   ],
+   "d": "Future value of an ordinary annuity = I × [(1 + r/n)^(nt) − 1] ÷ (r/n).",
+   "w": "Yearly: 1,200 × [(1.05)^5 − 1] ÷ 0.05 = RO 6,630.758. Monthly: 100 × [(1 + 0.05/12)^60 − 1] ÷ (0.05/12) = RO 6,800.608. Monthly saving earns interest sooner."
+  },
+  {
+   "id": "fn3-20",
+   "t": "Annuities",
+   "q": "Ameer needs RO 10,000 in 4 years. How much must he invest at the end of each year at 7%?",
+   "o": [
+    "RO 2,252.281",
+    "RO 2,500.000",
+    "RO 1,907.238",
+    "RO 700.000"
+   ],
+   "d": "Annuity amount I = Future value ÷ {[(1 + r/n)^(nt) − 1] ÷ (r/n)}.",
+   "w": "Factor = [(1.07)^4 − 1] ÷ 0.07 = 4.439943. I = 10,000 ÷ 4.439943 = RO 2,252.281. Less than 2,500 because the deposits earn interest."
+  },
+  {
+   "id": "fn3-21",
+   "t": "Excel",
+   "q": "In =FV(rate, nper, pmt, [pv], [type]) for monthly compounding over t years, nper is:",
+   "o": [
+    "t × 12",
+    "t ÷ 12",
+    "12",
+    "t"
+   ],
+   "d": "Excel FV/PV: rate = r ÷ n (rate per period); nper = t × n (total number of periods).",
+   "w": "With monthly compounding n = 12, so the number of periods is years × 12."
+  },
+  {
+   "id": "fn3-22",
+   "t": "Excel",
+   "q": "In Excel's PV and FV functions, type = 1 means:",
+   "o": [
+    "Payments are due at the beginning of each period",
+    "Payments are due at the end of each period",
+    "Interest is compounded once a year",
+    "The result is shown as a percentage"
+   ],
+   "d": "type: 0 for end-of-period payments (ordinary annuity), 1 for beginning-of-period payments (annuity due).",
+   "w": "0 is the default (end of period). 1 switches to the beginning."
+  },
+  {
+   "id": "fn3-23",
+   "t": "Future value",
+   "tf": true,
+   "ans": false,
+   "q": "In practice, present and future values are mainly calculated using simple interest.",
+   "d": "Present and future value can be found with simple or compound interest, but in practice compound interest is mainly used.",
+   "w": "The notes say the concept is used mainly with compound interest."
+  },
+  {
+   "id": "fn3-24",
+   "t": "Factors",
+   "tf": true,
+   "ans": true,
+   "q": "A longer time period gives a lower present value.",
+   "d": "Factors affecting PV: the larger the time period, the lower the present value.",
+   "w": "Discounting over more years divides by a larger factor (1 + r)^t."
+  },
+  {
+   "id": "fn3-25",
+   "t": "Annuities",
+   "tf": true,
+   "ans": true,
+   "q": "An ordinary annuity has payments at the end of each period.",
+   "d": "Ordinary annuity: payments made at the end of each period.",
+   "w": "That is the definition; payments at the start would be an annuity due."
+  },
+  {
+   "id": "fn3-w1",
+   "t": "Future value",
+   "wr": true,
+   "q": "Azim has RO 8,000 to deposit for 5 years. Option 1: 6% simple interest. Option 2: 6% compounded half-yearly. How much does each option give, and which is better?",
+   "a": "Option 1: Fv = 8,000 × (1 + 0.06 × 5) = 8,000 × 1.30 = RO 10,400.000\nOption 2: Fv = 8,000 × (1 + 0.06/2)^(2×5) = 8,000 × (1.03)^10 = RO 10,751.331\nOption 2 is better by RO 351.331.",
+   "d": "Fv (simple) = Pv(1 + rt). Fv (compound) = Pv(1 + r/n)^(nt).",
+   "w": "Option 2 is better because interest earned every half year is added to the balance and then earns interest itself."
+  },
+  {
+   "id": "fn3-w2",
+   "t": "Present value",
+   "wr": true,
+   "q": "Ahmed must pay RO 5,000, RO 10,000 and RO 15,000 at the end of years 1, 2 and 3. If the market rate is 6% compounded annually, what lump sum settles all three today?",
+   "a": "Year 1: 5,000 ÷ 1.06 = RO 4,716.981\nYear 2: 10,000 ÷ 1.06^2 = RO 8,899.964\nYear 3: 15,000 ÷ 1.06^3 = RO 12,594.289\nTotal present value = RO 26,211.235",
+   "d": "Present value: Pv = Fv ÷ (1 + r)^t.",
+   "w": "Each payment is discounted for its own number of years, then the present values are added."
+  },
+  {
+   "id": "fn3-w3",
+   "t": "Annuities",
+   "wr": true,
+   "q": "Khalid needs RO 2,500 for a trip in 3 years. He will save a fixed amount at the end of each month in a scheme paying 5% p.a. (compounded monthly). How much must he save each month?",
+   "a": "r/n = 0.05/12, nt = 12 × 3 = 36\nFactor = [(1 + 0.05/12)^36 − 1] ÷ (0.05/12) = 38.753336\nMonthly saving I = 2,500 ÷ 38.753336 = RO 64.511",
+   "d": "Annuity amount: I = Future value ÷ {[(1 + r/n)^(nt) − 1] ÷ (r/n)}.",
+   "w": "The target is a future amount, so use the future value of annuity formula and solve for the instalment."
+  },
+  {
+   "id": "fn3-w4",
+   "t": "Annuities",
+   "wr": true,
+   "q": "You plan to save RO 600 at the end of each year for 4 years at 5%. Alternatively you save RO 50 at the end of each month for 4 years at 5% compounded monthly. Find both amounts and say which is better.",
+   "a": "Option 1: 600 × [(1.05)^4 − 1] ÷ 0.05 = RO 2,586.075\nOption 2: 50 × [(1 + 0.05/12)^48 − 1] ÷ (0.05/12) = RO 2,650.744\nOption 2 is better by RO 64.669.",
+   "d": "Future value of annuity = I × [(1 + r/n)^(nt) − 1] ÷ (r/n).",
+   "w": "Both options save RO 2,400 in total, but monthly deposits start earning interest earlier."
+  },
+  {
+   "id": "fn3-w5",
+   "t": "Annuities",
+   "wr": true,
+   "q": "Find the present value of an annuity of RO 1,200 paid at the end of each year for 6 years at 10% p.a. compound interest.",
+   "a": "PV = 1,200 × [1 − (1.10)^(−6)] ÷ 0.10\n= 1,200 × 4.355261\n= RO 5,226.313",
+   "d": "Present value of ordinary annuity = I × [1 − (1 + r/n)^(−nt)] ÷ (r/n).",
+   "w": "Each future payment is worth less today; the formula adds up all six discounted payments in one step."
+  },
+  {
+   "id": "fn3-w6",
+   "t": "Annuities",
+   "wr": true,
+   "q": "Explain the types of annuities based on amount, time of payment and duration, with an example of each.",
+   "a": "Based on amount:\n- Uniform annuity: equal payments (e.g. a fixed monthly saving).\n- Variable annuity: unequal payments.\nBased on time of payment:\n- Annuity due: payments at the beginning of each period.\n- Ordinary annuity: payments at the end of each period.\nBased on duration:\n- Certain annuity: fixed period (e.g. until a child turns 18).\n- Life annuity: for a person's lifetime (e.g. pensions).\n- Perpetual annuity: continues indefinitely (e.g. payments to royals).\n- Contingent annuity: depends on an event (e.g. until a daughter's marriage).",
+   "d": "Annuity: a financial product with a series of payments made at regular intervals over a period of time.",
+   "w": "The three bases answer three questions: how much is paid, when in the period it is paid, and for how long."
+  }
+ ]
+}

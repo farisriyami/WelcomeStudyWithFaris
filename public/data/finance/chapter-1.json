@@ -1,0 +1,374 @@
+{
+ "id": "fn-ch1",
+ "label": "Chapter 1",
+ "name": "Introduction to Finance",
+ "questions": [
+  {
+   "id": "fn1-01",
+   "t": "Meaning of finance",
+   "q": "How do the slides define finance?",
+   "o": [
+    "The art and science of managing money effectively and efficiently",
+    "The study of how prices are set in markets",
+    "Recording and reporting business transactions",
+    "The skill of borrowing money at the lowest rate"
+   ],
+   "d": "Finance: the art and science of managing money effectively and efficiently. It covers all processes of raising, managing and spending money.",
+   "w": "It is an 'art' because it needs judgement about people, risk and timing, and a 'science' because it uses tools and techniques. Recording transactions is accounting, and price-setting is economics."
+  },
+  {
+   "id": "fn1-02",
+   "t": "Meaning of finance",
+   "q": "What is the core objective of finance?",
+   "o": [
+    "To create more wealth and use available financial resources efficiently",
+    "To avoid every possible risk",
+    "To borrow as much as possible",
+    "To keep all money in bank deposits"
+   ],
+   "d": "Core objective of finance: to create more wealth and to utilise available financial resources efficiently.",
+   "w": "Sound financial management creates wealth and income opportunities. Avoiding all risk or keeping everything in banks would limit growth, and borrowing more is not a goal in itself."
+  },
+  {
+   "id": "fn1-03",
+   "t": "Meaning of finance",
+   "q": "The process of mobilising and channelling funds of people, businesses and government gave rise to:",
+   "o": [
+    "Financial intermediaries such as banks and financial institutions",
+    "Accounting standards",
+    "Behavioural finance",
+    "International finance"
+   ],
+   "d": "Financial intermediaries: banks and financial institutions that help individuals and organisations achieve their financial goals by moving funds between them.",
+   "w": "Someone had to collect money from savers and pass it to people who need it. That role created banks and other financial institutions."
+  },
+  {
+   "id": "fn1-04",
+   "t": "Scope of finance",
+   "q": "Managing a family's income, savings, investments and retirement falls under:",
+   "o": [
+    "Personal finance",
+    "Business finance",
+    "Public finance",
+    "International finance"
+   ],
+   "d": "Personal finance: managing individual finances for daily needs, savings, investments and retirement, including income, spending and contingency planning.",
+   "w": "The focus is one person or household. Business finance is about a company, public finance about government, and international finance about money flows between countries."
+  },
+  {
+   "id": "fn1-05",
+   "t": "Scope of finance",
+   "q": "Raising capital, acquiring assets, paying liabilities and maximising returns for investors is part of:",
+   "o": [
+    "Business (corporate) finance",
+    "Personal finance",
+    "Public finance",
+    "International finance"
+   ],
+   "d": "Business (corporate) finance: managing a business's financial resources to achieve its short-, medium- and long-term goals.",
+   "w": "Raising capital and maximising returns for investors are company activities, so this is business finance."
+  },
+  {
+   "id": "fn1-06",
+   "t": "Scope of finance",
+   "q": "Studying exchange rates, foreign direct investment and money flows between countries is:",
+   "o": [
+    "International finance",
+    "Public finance",
+    "Business finance",
+    "Personal finance"
+   ],
+   "d": "International finance: the relationship of money flows between countries, including exchange rates, foreign direct investment and inflation rates.",
+   "w": "It deals with more than one country. Its importance has grown because of globalisation."
+  },
+  {
+   "id": "fn1-07",
+   "t": "Scope of finance",
+   "q": "A government collecting taxes and spending them on services for citizens is an example of:",
+   "o": [
+    "Public finance",
+    "Business finance",
+    "International finance",
+    "Personal finance"
+   ],
+   "d": "Public finance: the government's role in allocating resources, generating income and distributing it to citizens, while keeping the economy financially stable.",
+   "w": "The decision-maker is the government, and taxes are government income. That makes it public finance."
+  },
+  {
+   "id": "fn1-08",
+   "t": "Nature of finance",
+   "q": "Why is finance described as interdisciplinary?",
+   "o": [
+    "It draws on behavioural sciences, economics, accounting and decision sciences",
+    "It is taught only in business schools",
+    "It depends only on mathematics",
+    "It replaces economics and accounting"
+   ],
+   "d": "Nature of finance: interdisciplinary. It uses behavioural sciences, economics, accounting and decision sciences.",
+   "w": "Financial decisions need knowledge of human behaviour, economic systems, accounting information and analytical tools, so finance borrows from all four fields."
+  },
+  {
+   "id": "fn1-09",
+   "t": "Nature of finance",
+   "q": "Which discipline helps finance understand how people's perception of risk and return shapes their investment decisions?",
+   "o": [
+    "Behavioural sciences",
+    "Accounting",
+    "Decision sciences",
+    "Economics"
+   ],
+   "d": "Behavioural sciences: understanding human behaviour in investment and financing decisions, considering people's perception of risk and return.",
+   "w": "Perception and behaviour are about people, which is the focus of behavioural sciences."
+  },
+  {
+   "id": "fn1-10",
+   "t": "Nature of finance",
+   "q": "Techniques like scenario analysis, standard deviation and probability distributions come into finance from:",
+   "o": [
+    "Decision sciences",
+    "Behavioural sciences",
+    "Accounting",
+    "Public finance"
+   ],
+   "d": "Decision sciences: analytical tools and techniques used for financial decision-making, to quantify relationships, risks and uncertainties.",
+   "w": "These are quantitative analytical techniques, which come from decision sciences."
+  },
+  {
+   "id": "fn1-11",
+   "t": "Nature of finance",
+   "q": "Which discipline provides information on financial performance and position, used to predict future financial needs?",
+   "o": [
+    "Accounting",
+    "Economics",
+    "Behavioural sciences",
+    "Decision sciences"
+   ],
+   "d": "Accounting: provides information on financial performance and position, helps predict future financial requirements and supports investment decisions.",
+   "w": "Performance and position information comes from financial statements, which accounting prepares."
+  },
+  {
+   "id": "fn1-12",
+   "t": "Finance function",
+   "q": "What is the FIRST step in the finance process?",
+   "o": [
+    "Identifying fund requirements",
+    "Locating fund sources",
+    "Acquiring funds",
+    "Reviewing and controlling"
+   ],
+   "d": "Finance process: 1 identify fund requirements, 2 locate fund sources, 3 acquire funds, 4 utilise funds, 5 review and control.",
+   "w": "You must first know how much money is needed and for how long. Otherwise you risk a shortage or excess funds."
+  },
+  {
+   "id": "fn1-13",
+   "t": "Finance function",
+   "q": "Obtaining funds on time and at the lowest possible cost is which step of the finance process?",
+   "o": [
+    "Acquiring funds",
+    "Identifying fund requirements",
+    "Utilising funds",
+    "Reviewing and controlling"
+   ],
+   "d": "Acquiring funds: obtaining the funds in a timely manner and at the lowest cost possible.",
+   "w": "Inefficient handling at this step causes delays and higher interest costs, so timing and cost are its focus."
+  },
+  {
+   "id": "fn1-14",
+   "t": "Finance function",
+   "q": "How does a financial institution mainly earn its income?",
+   "o": [
+    "The difference between interest charged on loans and interest paid on deposits",
+    "Selling shares to the public",
+    "Collecting taxes",
+    "Setting the prices of securities"
+   ],
+   "d": "Financial institution: an organisation whose commodity is money. It accepts deposits (paying interest) and lends money (charging interest).",
+   "w": "The bank charges more on loans than it pays on deposits. That interest difference, plus small fees for services, is its earnings."
+  },
+  {
+   "id": "fn1-15",
+   "t": "Finance function",
+   "q": "Which is a role of financial markets?",
+   "o": [
+    "Determining interest rates and securities prices",
+    "Accepting deposits and lending money",
+    "Collecting taxes for the government",
+    "Preparing financial statements"
+   ],
+   "d": "Financial markets: platforms that let investors put money into businesses that need funds. They determine interest rates and securities prices.",
+   "w": "Accepting deposits and lending are activities of financial institutions, not markets."
+  },
+  {
+   "id": "fn1-16",
+   "t": "Finance function",
+   "q": "A stock exchange is described as:",
+   "o": [
+    "The place where shares are issued, bought and sold",
+    "A bank that lends to companies",
+    "A government body that sets taxes",
+    "A market for foreign currencies only"
+   ],
+   "d": "Stock exchange: the place where shares are issued, bought and sold.",
+   "w": "Other markets exist for debt, bonds, mortgages, commodities and foreign exchange, but the stock exchange is the share market."
+  },
+  {
+   "id": "fn1-17",
+   "t": "Financial system",
+   "q": "A financial system is a tightly woven network of:",
+   "o": [
+    "Policy makers, financial institutions, financial markets and regulatory bodies",
+    "Banks and customers only",
+    "Accountants and auditors",
+    "Shareholders and directors"
+   ],
+   "d": "Financial system: a network of policy makers, financial institutions, financial markets and regulatory bodies that provides financial services to individuals, corporations and government.",
+   "w": "All four parts work together to move money efficiently, which drives economic growth and stability."
+  },
+  {
+   "id": "fn1-18",
+   "t": "Financial system",
+   "q": "Giving underserved and low-income groups access to financial products at lower cost is which characteristic of an efficient financial system?",
+   "o": [
+    "Financial inclusion",
+    "Ease of operation",
+    "Promoting transparency",
+    "Ensuring stability"
+   ],
+   "d": "Financial inclusion: providing access to financial products and services at a lower cost to a broader segment of the population.",
+   "w": "The key idea is reaching more people, including underserved groups. That is inclusion."
+  },
+  {
+   "id": "fn1-19",
+   "t": "Financial system",
+   "q": "Providing clear, accurate information about institutions, markets and products so people can make informed decisions is:",
+   "o": [
+    "Promoting transparency",
+    "Financial inclusion",
+    "Better risk management",
+    "Efficient allocation of resources"
+   ],
+   "d": "Promote transparency: clear and accurate information about financial institutions, markets and products, so investors and borrowers can decide well.",
+   "w": "Clear information is what transparency means."
+  },
+  {
+   "id": "fn1-20",
+   "t": "Decisions in finance",
+   "q": "Deciding whether to pay profits to shareholders or keep them in the business is a:",
+   "o": [
+    "Dividend decision",
+    "Financing decision",
+    "Investing decision",
+    "Liquidity decision"
+   ],
+   "d": "Dividend decision: whether to distribute profits to shareholders or retain them within the organisation.",
+   "w": "Paying or keeping profits is about dividends. Financing finds sources of funds, investing chooses assets, and liquidity is about converting investments into cash."
+  },
+  {
+   "id": "fn1-21",
+   "t": "Decisions in finance",
+   "q": "Deciding when and how to convert investments into cash is a:",
+   "o": [
+    "Liquidity decision",
+    "Dividend decision",
+    "Financing decision",
+    "Investing decision"
+   ],
+   "d": "Liquidity decision: determining the timing and method for converting investments into cash.",
+   "w": "Liquidity means how easily something becomes cash, so this is a liquidity decision."
+  },
+  {
+   "id": "fn1-22",
+   "t": "Careers in finance",
+   "q": "Which finance professional buys and sells shares and securities on behalf of clients?",
+   "o": [
+    "Broker",
+    "Planner",
+    "Analyst",
+    "Consultant"
+   ],
+   "d": "Brokers: facilitate buying and selling of shares and securities for clients (stock, commodity, derivatives, real estate and insurance brokers).",
+   "w": "Planners build financial plans, analysts evaluate investments and budgets, and consultants give tailored advice. Only brokers carry out the trades."
+  },
+  {
+   "id": "fn1-23",
+   "t": "Decisions in finance",
+   "tf": true,
+   "ans": false,
+   "q": "Financing decisions focus on choosing which assets to invest in.",
+   "d": "Financing decision: identifying current and potential sources of funds. Investing decision: choosing opportunities or assets to invest in.",
+   "w": "The statement mixes up the two. Choosing assets is an investing decision."
+  },
+  {
+   "id": "fn1-24",
+   "t": "Finance function",
+   "tf": true,
+   "ans": true,
+   "q": "Financial institutions pay interest on deposits and charge interest on loans.",
+   "d": "Financial institutions accept funds and lend them, paying interest to depositors and charging interest to borrowers.",
+   "w": "This is how they act as intermediaries and earn the difference."
+  },
+  {
+   "id": "fn1-25",
+   "t": "Finance function",
+   "tf": true,
+   "ans": true,
+   "q": "Accurately identifying fund requirements helps avoid both shortages and excess funds.",
+   "d": "Identifying fund requirements: determining the amount needed for immediate, short-, medium- or long-term needs.",
+   "w": "Too little money causes shortages; too much leaves funds idle. Accurate identification avoids both."
+  },
+  {
+   "id": "fn1-w1",
+   "t": "Meaning of finance",
+   "wr": true,
+   "q": "Define finance and explain its core objective.",
+   "a": "Finance is the art and science of managing money effectively and efficiently. It covers all the processes of raising, managing and spending money.\nCore objective: to create more wealth and to utilise the available financial resources efficiently.\nTo achieve this, financial decisions need clarity on the risks and uncertainties involved and the use of different tools and techniques.",
+   "d": "Finance: the art and science of managing money effectively and efficiently.",
+   "w": "A full answer gives the definition, the core objective, and what decision-making needs (understanding risk and using tools)."
+  },
+  {
+   "id": "fn1-w2",
+   "t": "Scope of finance",
+   "wr": true,
+   "q": "Explain the four areas in the scope of finance, with an example of each.",
+   "a": "1. Personal finance: managing an individual's money for daily needs, savings, investments and retirement. Example: a student saving part of a salary each month.\n2. Business (corporate) finance: managing a business's financial resources, such as raising capital, acquiring assets and paying liabilities. Example: a company issuing shares to build a factory.\n3. Public finance: the government allocating resources, generating income and distributing it to citizens while keeping the economy stable. Example: collecting taxes to fund hospitals.\n4. International finance: money flows between countries, including exchange rates, foreign direct investment and inflation. Example: an Omani firm investing in another GCC country.",
+   "d": "Scope of finance: personal, business (corporate), public and international finance.",
+   "w": "Each area is defined by who manages the money: an individual, a business, a government, or flows between countries."
+  },
+  {
+   "id": "fn1-w3",
+   "t": "Nature of finance",
+   "wr": true,
+   "q": "Explain why finance is called interdisciplinary.",
+   "a": "Finance draws on four disciplines:\n1. Behavioural sciences: understanding human behaviour and perception of risk and return in investment and financing decisions.\n2. Economics: micro and macro concepts and policies, the effect of financial decisions on economic systems, currency values and monetary policy.\n3. Accounting: information on financial performance and position, used to manage current finances and predict future needs.\n4. Decision sciences: analytical tools such as scenario analysis, standard deviation and probability distributions to quantify risk and uncertainty.",
+   "d": "Interdisciplinary: finance combines ideas and tools from several fields of study.",
+   "w": "Name all four disciplines and say what each one contributes."
+  },
+  {
+   "id": "fn1-w4",
+   "t": "Finance function",
+   "wr": true,
+   "q": "List and explain the five steps of the finance process.",
+   "a": "1. Identifying fund requirements: work out how much is needed for immediate, short-, medium- or long-term needs, to avoid shortage or excess.\n2. Locating fund sources: find potential sources, from savings to borrowing.\n3. Acquiring funds: obtain the funds on time and at the lowest possible cost.\n4. Utilising funds: use the funds as planned and avoid wasting money.\n5. Reviewing and controlling: regularly monitor and adjust fund management for recurring or deferred needs.",
+   "d": "Finance process: identify requirements, locate sources, acquire funds, utilise funds, review and control.",
+   "w": "The steps follow a logical order: you cannot locate sources before knowing the requirement, or review before using the funds."
+  },
+  {
+   "id": "fn1-w5",
+   "t": "Financial system",
+   "wr": true,
+   "q": "State the characteristics of an efficient financial system.",
+   "a": "1. Efficient and effective allocation of resources: invested funds earn appropriate returns and wealth is distributed fairly.\n2. Ease of operation: people and businesses can carry out transactions easily.\n3. Promotes transparency: clear, accurate information about institutions, markets and products.\n4. Better risk management: tools to manage and reduce financial risks.\n5. Financial inclusion: access to financial products at lower cost for a broader population, including underserved groups.\n6. Ensures stability: preventive measures that manage risk and prevent disruption or crisis.",
+   "d": "Financial system: a network of policy makers, institutions, markets and regulators that helps individuals, corporations and governments manage funds.",
+   "w": "Six characteristics are listed on the slides; each should be named and briefly explained."
+  },
+  {
+   "id": "fn1-w6",
+   "t": "Decisions in finance",
+   "wr": true,
+   "q": "Explain the four types of decisions in finance.",
+   "a": "1. Financing decisions: identifying current and potential sources of funds.\n2. Investing decisions: choosing opportunities or assets for effective investment.\n3. Liquidity decisions: deciding the timing and method for converting investments into cash.\n4. Dividend decisions: deciding whether to distribute profits to shareholders or retain them.\nThese decisions differ by level (personal, organisational, national, international) and by time period (short, medium, long term).",
+   "d": "Decisions in finance: financing, investing, liquidity and dividend decisions.",
+   "w": "Each decision answers a different question: where the money comes from, where it goes, when it becomes cash, and what happens to profits."
+  }
+ ]
+}

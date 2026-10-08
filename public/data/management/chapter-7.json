@@ -1,0 +1,427 @@
+{
+ "id": "mg-ch7",
+ "label": "Chapter 7",
+ "name": "Communication in Organizations",
+ "questions": [
+  {
+   "id": "mg7-01",
+   "t": "Concept",
+   "q": "Communication is described as:",
+   "o": [
+    "A two-way process involving a sender and a receiver",
+    "A one-way process from manager to employee",
+    "Only written messages",
+    "A process that needs no receiver"
+   ],
+   "d": "Communication: a two-way, dynamic process with a sender and a receiver; every communication carries a message.",
+   "w": "The slides' MCQ also gives 'two-way process' as the answer."
+  },
+  {
+   "id": "mg7-02",
+   "t": "Concept",
+   "q": "Robbins says organisational communication involves exchanging and understanding information to promote:",
+   "o": [
+    "Coordination, decision-making and relationships",
+    "Only sales and profits",
+    "Secrecy between departments",
+    "Individual competition"
+   ],
+   "d": "Organisational communication (Robbins, 2014): the exchange and understanding of information within an organization.",
+   "w": "Its purpose is coordination, better decisions and relationships."
+  },
+  {
+   "id": "mg7-03",
+   "t": "Process",
+   "q": "In the communication process, which step comes right after idea generation?",
+   "o": [
+    "Encoding the message",
+    "Decoding the message",
+    "Providing feedback",
+    "Receiving the message"
+   ],
+   "d": "Steps: idea generation → encoding → choosing the channel → transmission → receiving → decoding → feedback, while addressing noise.",
+   "w": "After forming the idea, the sender must put it into words or symbols."
+  },
+  {
+   "id": "mg7-04",
+   "t": "Elements",
+   "q": "Converting the sender's thoughts into words, pictures, gestures or symbols is:",
+   "o": [
+    "Encoding",
+    "Decoding",
+    "Feedback",
+    "Noise"
+   ],
+   "d": "Encoding: converting messages into communication symbols the receiver can understand.",
+   "w": "Decoding is the receiver translating those symbols back into meaning."
+  },
+  {
+   "id": "mg7-05",
+   "t": "Elements",
+   "q": "The receiver interpreting and understanding the encoded message is:",
+   "o": [
+    "Decoding",
+    "Encoding",
+    "Transmission",
+    "Media"
+   ],
+   "d": "Decoding: translating the encoded message into a language the receiver understands.",
+   "w": "The slides' MCQ calls it the 're-translation of signals into ideas'."
+  },
+  {
+   "id": "mg7-06",
+   "t": "Elements",
+   "q": "The path or channel through which a message is sent, such as email, telephone or face-to-face, is the:",
+   "o": [
+    "Media",
+    "Noise",
+    "Feedback",
+    "Encoding"
+   ],
+   "d": "Media: the path, channel or medium that carries the encoded message.",
+   "w": "Media is the carrier of the message."
+  },
+  {
+   "id": "mg7-07",
+   "t": "Elements",
+   "q": "The receiver's reaction sent back to the sender, showing the message was received and understood, is:",
+   "o": [
+    "Feedback",
+    "Noise",
+    "Encoding",
+    "Media"
+   ],
+   "d": "Feedback: the reversal of communication; the receiver expresses a reaction to the sender.",
+   "w": "Feedback completes the communication loop."
+  },
+  {
+   "id": "mg7-08",
+   "t": "Elements",
+   "q": "A poor internet connection, an inattentive receiver and faulty decoding are examples of:",
+   "o": [
+    "Noise",
+    "Feedback",
+    "Media",
+    "Encoding"
+   ],
+   "d": "Noise: any obstruction or hindrance in the communication process, affecting sender, message, media or receiver.",
+   "w": "Anything that distorts the message is noise."
+  },
+  {
+   "id": "mg7-09",
+   "t": "Categories",
+   "q": "Gestures, facial expressions, glances and smiles are:",
+   "o": [
+    "Non-verbal communication",
+    "Verbal communication",
+    "Written communication",
+    "Visual communication"
+   ],
+   "d": "Non-verbal communication: communication without words, often called body language.",
+   "w": "No words are used, so it is non-verbal."
+  },
+  {
+   "id": "mg7-10",
+   "t": "Categories",
+   "q": "Signs, typography, graphic design, illustrations and animation are:",
+   "o": [
+    "Visual communication",
+    "Verbal communication",
+    "Non-verbal communication",
+    "Oral communication"
+   ],
+   "d": "Visual communication: using visual elements to convey ideas and information.",
+   "w": "These are designed images, not body language."
+  },
+  {
+   "id": "mg7-11",
+   "t": "Categories",
+   "q": "According to the slides, written communication is:",
+   "o": [
+    "More formal but less efficient than oral communication, and useful for legal documents",
+    "Less formal than oral communication",
+    "Always faster than speaking",
+    "Only used for body language"
+   ],
+   "d": "Written communication: typically more formal but less efficient than oral; useful for legal documents; e.g. emails and text messages.",
+   "w": "Its formality suits records and legal matters."
+  },
+  {
+   "id": "mg7-12",
+   "t": "Business communication",
+   "q": "A manager giving instructions to subordinates is:",
+   "o": [
+    "Downward communication",
+    "Upward communication",
+    "Horizontal communication",
+    "Diagonal communication"
+   ],
+   "d": "Downward communication: from superiors to subordinates. Upward: from subordinates to superiors.",
+   "w": "The message flows down the hierarchy."
+  },
+  {
+   "id": "mg7-13",
+   "t": "Business communication",
+   "q": "A field salesperson communicating directly with the Vice President of HR is:",
+   "o": [
+    "Diagonal communication",
+    "Horizontal communication",
+    "Downward communication",
+    "External communication"
+   ],
+   "d": "Diagonal communication: cuts across hierarchical barriers between different levels and departments.",
+   "w": "The slides use exactly this example for diagonal communication."
+  },
+  {
+   "id": "mg7-14",
+   "t": "Business communication",
+   "q": "Communication between people working at the same level in an organization is:",
+   "o": [
+    "Horizontal communication",
+    "Upward communication",
+    "Diagonal communication",
+    "Downward communication"
+   ],
+   "d": "Horizontal communication: between persons at the same level.",
+   "w": "Neither person is above the other."
+  },
+  {
+   "id": "mg7-15",
+   "t": "Business communication",
+   "q": "Communication between an organization and others outside it is:",
+   "o": [
+    "External communication",
+    "Internal communication",
+    "Informal communication",
+    "Horizontal communication"
+   ],
+   "d": "External communication: between the organization and outsiders. Internal: within the organization.",
+   "w": "The other party is outside the organization."
+  },
+  {
+   "id": "mg7-16",
+   "t": "Barriers",
+   "q": "Low self-confidence, lack of enthusiasm and a mismatch between verbal and non-verbal messages are:",
+   "o": [
+    "Sender-centric barriers",
+    "Receiver-centric barriers",
+    "External barriers",
+    "Organisational barriers"
+   ],
+   "d": "Sender-centric barriers: resistance to change, low confidence, lack of motivation, poor communication skills, verbal/non-verbal mismatch, insufficient training.",
+   "w": "These problems start with the person sending the message."
+  },
+  {
+   "id": "mg7-17",
+   "t": "Barriers",
+   "q": "Selective perception, prejudice and lack of interest in the topic are:",
+   "o": [
+    "Receiver-centric barriers",
+    "Sender-centric barriers",
+    "External barriers",
+    "Organisational barriers"
+   ],
+   "d": "Receiver-centric barriers: selective perception, unwillingness to change, lack of interest, prejudice and beliefs, personal values, here-and-now factors.",
+   "w": "These problems are in the person receiving the message."
+  },
+  {
+   "id": "mg7-18",
+   "t": "Barriers",
+   "q": "Venue noise, room temperature, poor timing and technological issues are:",
+   "o": [
+    "External barriers",
+    "Organisational barriers",
+    "Sender-centric barriers",
+    "Receiver-centric barriers"
+   ],
+   "d": "External barriers: environment, limited time or poor timing, technological issues, attitudes of customers, suppliers and competitors.",
+   "w": "These come from the surroundings, not the people or the organization's structure."
+  },
+  {
+   "id": "mg7-19",
+   "t": "Barriers",
+   "q": "Silos created by functional specialization, rigid policies and a lack of suggestion boxes or meetings are:",
+   "o": [
+    "Organisational barriers",
+    "External barriers",
+    "Sender-centric barriers",
+    "Receiver-centric barriers"
+   ],
+   "d": "Organisational barriers: functional specialization, rigid policies and rules, lack of communication facilities.",
+   "w": "They come from how the organization is structured and run."
+  },
+  {
+   "id": "mg7-20",
+   "t": "Overcoming barriers",
+   "q": "A manager who stresses punctuality and always arrives on time, setting a clear standard, uses which method?",
+   "o": [
+    "Communication through actions",
+    "Judicious use of the grapevine",
+    "Employee orientation",
+    "Using proper language"
+   ],
+   "d": "Communication through actions: actions speak louder than words; consistency builds trust.",
+   "w": "The manager's behaviour reinforces the message."
+  },
+  {
+   "id": "mg7-21",
+   "t": "Overcoming barriers",
+   "q": "Avoiding technical terms, words with more than one meaning and difficult symbols is:",
+   "o": [
+    "Using proper language",
+    "Empathetic listening",
+    "Employee orientation",
+    "Improving interpersonal relations"
+   ],
+   "d": "Using proper language: simple, meaningful language to avoid semantic distortion.",
+   "w": "Clear words prevent misunderstanding."
+  },
+  {
+   "id": "mg7-22",
+   "t": "Overcoming barriers",
+   "q": "Managers using the grapevine without ignoring official channels is:",
+   "o": [
+    "Judicious use of the grapevine",
+    "Communication through actions",
+    "Employee orientation",
+    "Giving feedback"
+   ],
+   "d": "Judicious use of the grapevine: informal channels can help, but official channels must not be ignored.",
+   "w": "The grapevine should support, not replace, formal communication."
+  },
+  {
+   "id": "mg7-23",
+   "t": "Effective communication",
+   "q": "Which of these is NOT one of the 7Cs of effective communication?",
+   "o": [
+    "Be creative",
+    "Be concise",
+    "Be courteous",
+    "Be coherent"
+   ],
+   "d": "7Cs: be clear, concise, concrete, correct, coherent, complete and courteous.",
+   "w": "Creativity is useful, but it is not one of the 7Cs."
+  },
+  {
+   "id": "mg7-24",
+   "t": "Effective communication",
+   "q": "Which is a way to communicate effectively, according to the slides?",
+   "o": [
+    "Adapting your communication style to the listeners",
+    "Speaking without checking understanding",
+    "Ignoring non-verbal messages",
+    "Avoiding feedback"
+   ],
+   "d": "How to communicate effectively: active listening, giving and receiving constructive feedback, adapting style to listeners, volume and clarity, understanding non-verbal messages.",
+   "w": "The other options are habits that block effective communication."
+  },
+  {
+   "id": "mg7-25",
+   "t": "Concept",
+   "tf": true,
+   "ans": false,
+   "q": "Communication is a one-way process.",
+   "d": "Communication is a two-way process involving a sender and a receiver.",
+   "w": "Feedback from the receiver makes it two-way."
+  },
+  {
+   "id": "mg7-26",
+   "t": "Business communication",
+   "tf": true,
+   "ans": true,
+   "q": "Upward communication flows from subordinates to superiors.",
+   "d": "Upward communication: subordinates to superiors. Downward: superiors to subordinates.",
+   "w": "The message moves up the hierarchy."
+  },
+  {
+   "id": "mg7-27",
+   "t": "Business communication",
+   "tf": true,
+   "ans": true,
+   "q": "Informal communication takes place within the formal organization, between its members.",
+   "d": "Informal communication: takes place within the formal organization between members; formal communication is official.",
+   "w": "It happens alongside official channels, e.g. the grapevine."
+  },
+  {
+   "id": "mg7-28",
+   "t": "Elements",
+   "tf": true,
+   "ans": false,
+   "q": "Noise can affect only the receiver.",
+   "d": "Noise: a hindrance that may affect the sender, message, media or receiver.",
+   "w": "Noise can enter at any point in the process."
+  },
+  {
+   "id": "mg7-29",
+   "t": "Elements",
+   "tf": true,
+   "ans": true,
+   "q": "Feedback is important because communication is a two-way process.",
+   "d": "Feedback ensures the receiver has received and understood the message.",
+   "w": "Without feedback the sender cannot know whether the message was understood."
+  },
+  {
+   "id": "mg7-30",
+   "t": "Effective communication",
+   "tf": true,
+   "ans": true,
+   "q": "Effective communication helps mitigate and control conflicts within the organization.",
+   "d": "Importance of effective communication: bridges stakeholders, builds relationships, expresses thoughts and goals, improves interactions, controls conflict.",
+   "w": "Clear communication prevents misunderstandings that cause conflict."
+  },
+  {
+   "id": "mg7-w1",
+   "t": "Process",
+   "wr": true,
+   "q": "Describe the steps in the communication process.",
+   "a": "1. Idea generation: the sender identifies the need to communicate and forms the idea.\n2. Encoding: the sender translates the idea into a suitable form (words, symbols).\n3. Choosing the channel: the sender selects the most effective medium.\n4. Transmission: the sender delivers the message through the channel.\n5. Receiving: the receiver gets the message.\n6. Decoding: the receiver interprets and tries to understand it.\n7. Feedback: the receiver responds, completing the loop.\n8. Addressing noise: both parties reduce disruptions for clarity.",
+   "d": "Communication process: the sequence of steps by which a message moves from sender to receiver and back.",
+   "w": "The process is a loop: feedback returns to the sender."
+  },
+  {
+   "id": "mg7-w2",
+   "t": "Elements",
+   "wr": true,
+   "q": "Explain the eight elements of the communication process.",
+   "a": "1. Sender: initiates communication using effective verbal and non-verbal techniques.\n2. Message: ideas, feelings, suggestions or orders, oral or written; should be clear.\n3. Encoding: converting the message into symbols (words, pictures, gestures).\n4. Media: the channel carrying the message (face to face, phone, letter, email, internet).\n5. Decoding: translating the symbols into meaning the receiver understands.\n6. Receiver: the recipient (a person, a machine or an audience).\n7. Feedback: the receiver's reaction; confirms understanding.\n8. Noise: any hindrance affecting sender, message, media or receiver (e.g. poor connection, inattentive receiver).",
+   "d": "Elements of communication: the parts that make up the communication process.",
+   "w": "Define each element briefly and give an example where possible."
+  },
+  {
+   "id": "mg7-w3",
+   "t": "Categories",
+   "wr": true,
+   "q": "Explain the four categories of communication.",
+   "a": "1. Verbal communication: using words and language, oral or written (speaking, listening, reading, writing).\n2. Written communication: more formal but less efficient than oral; useful for legal documents; e.g. emails and text messages.\n3. Non-verbal communication: without words; body language such as gestures, facial expressions, glances, smiles.\n4. Visual communication: using visual elements such as signs, typography, graphic design, illustration, advertising and animation.",
+   "d": "Categories of communication: verbal, written, non-verbal and visual.",
+   "w": "Each category differs by the means used to carry the message."
+  },
+  {
+   "id": "mg7-w4",
+   "t": "Business communication",
+   "wr": true,
+   "q": "Explain the types of business communication.",
+   "a": "- Internal: information flow within the organization.\n- External: between the organization and outsiders.\n- Formal: official communication.\n- Informal: within the formal organization between members (e.g. grapevine).\n- Downward: superiors to subordinates.\n- Upward: subordinates to superiors.\n- Horizontal: between people at the same level.\n- Diagonal: across hierarchical levels and departments (e.g. a field salesperson to the VP of HR).",
+   "d": "Business communication: the flow of information within and outside an organization.",
+   "w": "Group the types in pairs (internal/external, formal/informal) and by direction of flow."
+  },
+  {
+   "id": "mg7-w5",
+   "t": "Barriers",
+   "wr": true,
+   "q": "Explain the four types of communication barriers with examples.",
+   "a": "1. Sender-centric: resistance to change, low self-confidence, lack of enthusiasm, poor communication skills, verbal/non-verbal mismatch, insufficient feedback and training.\n2. Receiver-centric: selective perception, unwillingness to change, lack of interest, prejudice and beliefs, personal values, here-and-now factors.\n3. External: environment (venue, noise, temperature), limited or poor timing, technological issues, attitudes of customers, suppliers and competitors.\n4. Organisational: functional specialization creating silos, rigid policies and rules, lack of communication facilities (meetings, suggestion boxes, open-door systems).",
+   "d": "Communication barriers: obstacles faced when trying to communicate effectively.",
+   "w": "Classify each barrier by where it comes from: sender, receiver, surroundings or organization."
+  },
+  {
+   "id": "mg7-w6",
+   "t": "Overcoming barriers",
+   "wr": true,
+   "q": "Explain how managers can overcome communication barriers, and list the 7Cs of effective communication.",
+   "a": "Methods:\n1. Employee orientation on objectives, policies, procedures and authority relations.\n2. Improving interpersonal relations: respect subordinates to build trust.\n3. Empathetic listening: let subordinates express feelings.\n4. Using proper language: simple words; avoid technical terms.\n5. Communication through actions: act consistently with your words.\n6. Judicious use of the grapevine alongside official channels.\n7. Giving and using feedback.\n7Cs: be clear, concise, concrete, correct, coherent, complete and courteous.",
+   "d": "Personal effectiveness in communication: conveying messages clearly, listening actively and adapting styles for mutual understanding.",
+   "w": "Match each method to the barrier it removes, then add the 7Cs as personal guidelines."
+  }
+ ]
+}

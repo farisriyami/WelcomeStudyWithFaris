@@ -1,0 +1,427 @@
+{
+ "id": "tot-ch4",
+ "label": "Chapter 4",
+ "name": "Transport",
+ "questions": [
+  {
+   "id": "t4-01",
+   "t": "Modes",
+   "q": "Why is transport a key sector of the tourism industry?",
+   "o": [
+    "All tourists need some form of transport; tourism cannot exist without it",
+    "Only business tourists use transport",
+    "Transport is the cheapest part of a trip",
+    "It replaces accommodation"
+   ],
+   "d": "Transportation is a key sector because all tourists require some form of transport.",
+   "w": "Travel is part of every tourism trip."
+  },
+  {
+   "id": "t4-02",
+   "t": "Modes",
+   "q": "Which of these is NOT one of the three modes of transportation in tourism?",
+   "o": [
+    "Pipeline transport",
+    "Water transport",
+    "Land transport",
+    "Air transport"
+   ],
+   "d": "Modes of transportation in tourism: water, land and air.",
+   "w": "Pipelines carry goods like oil, not tourists."
+  },
+  {
+   "id": "t4-03",
+   "t": "Water transport",
+   "q": "Ferry services and inland water transport are examples of:",
+   "o": [
+    "Short sea routes",
+    "Long-haul routes",
+    "Air routes",
+    "Rail routes"
+   ],
+   "d": "Water transport: short sea routes (ferries, inland transport) and long-haul routes (cruise ships).",
+   "w": "Ferries cover short distances."
+  },
+  {
+   "id": "t4-04",
+   "t": "Water transport",
+   "q": "A cruise ship provides:",
+   "o": [
+    "Both transportation and accommodation",
+    "Only transportation",
+    "Only accommodation",
+    "Only food"
+   ],
+   "d": "Cruise ship: provides transportation and accommodation services.",
+   "w": "Passengers travel and sleep on the same ship."
+  },
+  {
+   "id": "t4-05",
+   "t": "Water transport",
+   "q": "How many cruise tourists visited Oman in 2019?",
+   "o": [
+    "383,488",
+    "1.5 million",
+    "15,230",
+    "75,000"
+   ],
+   "d": "Cruises in Oman: 383,488 cruise tourists in 2019, a 49.5% increase on 2018.",
+   "w": "1.5 million is the number of vehicles; 15,230 km is the road network."
+  },
+  {
+   "id": "t4-06",
+   "t": "Water transport",
+   "q": "Which is one of Oman's famous cruise ports listed on the slides?",
+   "o": [
+    "Khasab Port",
+    "Duqm Airport",
+    "Ras Al-Hadd Airport",
+    "Sohar Airport"
+   ],
+   "d": "Famous cruise ports in Oman: Sultan Qaboos Port, Khasab Port and Salalah Port.",
+   "w": "The other options are airports."
+  },
+  {
+   "id": "t4-07",
+   "t": "Water transport",
+   "q": "Which is an advantage of water transport?",
+   "o": [
+    "It uses relatively little power and can carry large numbers of vehicles",
+    "It is faster than air travel",
+    "It needs no terminals",
+    "It is unaffected by weather"
+   ],
+   "d": "Water transport advantages: little power, much larger vessels, high comfort (cruise ships), large vehicle capacity.",
+   "w": "Water transport is slow compared with air."
+  },
+  {
+   "id": "t4-08",
+   "t": "Land transport",
+   "q": "Which is the most common form of tourism transport for domestic travel and short international trips?",
+   "o": [
+    "Land transport",
+    "Air transport",
+    "Water transport",
+    "Cruise ships"
+   ],
+   "d": "Land transport: by far the most common form for domestic travel and short international trips.",
+   "w": "Cars and buses dominate short trips."
+  },
+  {
+   "id": "t4-09",
+   "t": "Land transport",
+   "q": "Package tours, day tours, airport transfers and inter-city travel commonly use:",
+   "o": [
+    "Buses",
+    "Cruise ships",
+    "Ferries",
+    "Private jets"
+   ],
+   "d": "Bus: used for package tours, day tours, airport transfers and inter-city travel.",
+   "w": "These are the listed bus uses."
+  },
+  {
+   "id": "t4-10",
+   "t": "Land transport",
+   "q": "Which land transport, like a cruise ship, combines transportation and accommodation?",
+   "o": [
+    "Caravans (campervans)",
+    "Taxis",
+    "Buses",
+    "Limousines"
+   ],
+   "d": "Caravan: campervans combine transportation and accommodation.",
+   "w": "You can drive and sleep in a campervan."
+  },
+  {
+   "id": "t4-11",
+   "t": "Land transport",
+   "q": "Which is an ADVANTAGE of land transport by car?",
+   "o": [
+    "Door-to-door service with flexible timing",
+    "It never causes congestion",
+    "It is always the fastest mode",
+    "It needs no roads"
+   ],
+   "d": "Land transport advantages: comfort, privacy, flexibility in timing, choice of itineraries, door-to-door service. Disadvantage: congestion.",
+   "w": "Congestion is its listed disadvantage."
+  },
+  {
+   "id": "t4-12",
+   "t": "Land transport",
+   "q": "According to the slides, Oman's road network in 2018 extended to about:",
+   "o": [
+    "15,230 km",
+    "1,523 km",
+    "152,300 km",
+    "383,488 km"
+   ],
+   "d": "Land transport in Oman: more than 1.5 million vehicles (2020); road network of 15,230 km (2018).",
+   "w": "383,488 is the number of cruise tourists."
+  },
+  {
+   "id": "t4-13",
+   "t": "Air transport",
+   "q": "Since 1950, which mode has had the most impact on international tourism?",
+   "o": [
+    "Air transport",
+    "Water transport",
+    "Rail transport",
+    "Bus transport"
+   ],
+   "d": "Air transport has had the most impact on international tourism and the structure of the travel industry since 1950.",
+   "w": "Few places are now more than 24 hours' flying time apart."
+  },
+  {
+   "id": "t4-14",
+   "t": "Air transport",
+   "q": "Which is NOT a reason the airline industry is heavily regulated?",
+   "o": [
+    "To make every flight free for tourists",
+    "Passenger safety",
+    "Social and environmental concerns",
+    "Protection of national economic interests"
+   ],
+   "d": "Reasons for regulation: passenger safety, social and environmental concerns, protection of national economic interests.",
+   "w": "The primary aim of aviation policy is to enhance and protect national interests."
+  },
+  {
+   "id": "t4-15",
+   "t": "Air transport",
+   "q": "Which is one of the regulatory forms used to control the airline industry?",
+   "o": [
+    "Licensing of airlines",
+    "Grading hotels with stars",
+    "Franchising restaurants",
+    "Selling cruise tickets"
+   ],
+   "d": "Regulatory forms: licensing of airlines, regulation of international operations, regulation of domestic operations.",
+   "w": "Star grading relates to accommodation."
+  },
+  {
+   "id": "t4-16",
+   "t": "Air transport",
+   "q": "Which is an ADVANTAGE of air transport?",
+   "o": [
+    "A direct line of flight not blocked by mountains, oceans or deserts",
+    "It is cheap",
+    "It has no environmental impact",
+    "It needs only a small terminal"
+   ],
+   "d": "Air advantages: direct flight path unimpeded by natural barriers, superior speed, high passenger capacity.",
+   "w": "The other options are the opposite of its disadvantages."
+  },
+  {
+   "id": "t4-17",
+   "t": "Air transport",
+   "q": "Which is a DISADVANTAGE of air transport?",
+   "o": [
+    "It is vulnerable to terrorism and fluctuating oil prices",
+    "It is slow",
+    "It has low passenger capacity",
+    "It cannot cross oceans"
+   ],
+   "d": "Air disadvantages: needs a large terminal area, relatively expensive, negative environmental impacts, vulnerable to terrorism and oil prices.",
+   "w": "Speed and capacity are advantages of air transport."
+  },
+  {
+   "id": "t4-18",
+   "t": "Air transport",
+   "q": "Which of these is NOT one of Oman's five operational civil airports?",
+   "o": [
+    "Nizwa Airport",
+    "Muscat International Airport",
+    "Duqm Airport",
+    "Ras Al-Hadd Airport"
+   ],
+   "d": "Oman's airports: Muscat International, Salalah, Duqm, Sohar and Ras Al-Hadd.",
+   "w": "Nizwa is not on the list."
+  },
+  {
+   "id": "t4-19",
+   "t": "Air transport",
+   "q": "Oman Airports is:",
+   "o": [
+    "A government-owned company that manages and operates Oman's civil airports",
+    "A private airline",
+    "A ferry company",
+    "A tour operator"
+   ],
+   "d": "Oman Airports: government-owned; integrated airport operations and infrastructure (terminals, cargo, runways, parking).",
+   "w": "It runs airports, not flights."
+  },
+  {
+   "id": "t4-20",
+   "t": "Transport system",
+   "q": "In Faulks' elements of a transport system, roads, railways, airspace and water are:",
+   "o": [
+    "The way",
+    "The terminal",
+    "The carrying unit",
+    "Motive power"
+   ],
+   "d": "Faulks (1990): the way, the terminal, the carrying unit and motive power.",
+   "w": "The way is the path the vehicle travels on."
+  },
+  {
+   "id": "t4-21",
+   "t": "Transport system",
+   "q": "Hubs and gateways are examples of which element of a transport system?",
+   "o": [
+    "The terminal",
+    "The way",
+    "The carrying unit",
+    "Motive power"
+   ],
+   "d": "Terminal: terminals, hubs and gateways where journeys start, end or connect.",
+   "w": "Hubs are terminals."
+  },
+  {
+   "id": "t4-22",
+   "t": "Transport system",
+   "q": "Aircraft, boats, cars and buses are which element of a transport system?",
+   "o": [
+    "The carrying unit",
+    "The way",
+    "The terminal",
+    "Motive power"
+   ],
+   "d": "Carrying unit: the vehicle that carries passengers.",
+   "w": "The vehicle itself is the carrying unit."
+  },
+  {
+   "id": "t4-23",
+   "t": "Transport system",
+   "q": "Oil, hydrogen, bio-fuels and electricity are which element of a transport system?",
+   "o": [
+    "Motive power",
+    "The way",
+    "The terminal",
+    "The carrying unit"
+   ],
+   "d": "Motive power: the energy that moves the carrying unit.",
+   "w": "Fuel and energy provide the power."
+  },
+  {
+   "id": "t4-24",
+   "t": "Water transport",
+   "q": "By the late 1960s, most of the long-haul market on the North Atlantic routes had been lost by water transport to:",
+   "o": [
+    "The airlines",
+    "Railways",
+    "Buses",
+    "Ferries"
+   ],
+   "d": "Water transport is slow compared with air travel.",
+   "w": "Faster air travel took over long-haul routes."
+  },
+  {
+   "id": "t4-25",
+   "t": "Water transport",
+   "tf": true,
+   "ans": false,
+   "q": "Water transport is fast compared with air travel.",
+   "d": "Water transport is slow compared with air travel.",
+   "w": "That is why airlines took over long-haul routes."
+  },
+  {
+   "id": "t4-26",
+   "t": "Air transport",
+   "tf": true,
+   "ans": true,
+   "q": "Few parts of the world are now more than 24 hours' flying time from any other part.",
+   "d": "Air transport has made almost every part of the world reachable within 24 hours.",
+   "w": "This is why air transport changed international tourism."
+  },
+  {
+   "id": "t4-27",
+   "t": "Air transport",
+   "tf": true,
+   "ans": false,
+   "q": "The airline industry is lightly regulated and simple to operate.",
+   "d": "The airline industry is heavily regulated and controlled, which makes it complex.",
+   "w": "Safety, environmental and national interests all require regulation."
+  },
+  {
+   "id": "t4-28",
+   "t": "Land transport",
+   "tf": true,
+   "ans": true,
+   "q": "Land transport can lead to congestion.",
+   "d": "Congestion is the listed disadvantage of land transport.",
+   "w": "Many private vehicles crowd the roads."
+  },
+  {
+   "id": "t4-29",
+   "t": "Water transport",
+   "tf": true,
+   "ans": true,
+   "q": "Cruise tourists to Oman in 2019 increased by 49.5% compared with 2018.",
+   "d": "Cruises in Oman: 383,488 cruise tourists in 2019, a 49.5% increase.",
+   "w": "This shows the growth of cruise tourism in Oman."
+  },
+  {
+   "id": "t4-30",
+   "t": "Air transport",
+   "tf": true,
+   "ans": true,
+   "q": "Air transport has significant negative environmental impacts.",
+   "d": "Air disadvantages include significant negative environmental impacts and high energy needs.",
+   "w": "Social and environmental concerns are also a reason for regulation."
+  },
+  {
+   "id": "t4-w1",
+   "t": "Modes",
+   "wr": true,
+   "q": "Explain the three modes of transportation in tourism and their forms.",
+   "a": "1. Water transport: short sea routes (ferries, inland transport) and long-haul routes (cruise ships, which also provide accommodation).\n2. Land transport: the most common for domestic and short international trips; cars (private, rented, taxis, limousines), buses (package tours, day tours, transfers, inter-city), rail (some journeys are attractions) and caravans (transport plus accommodation).\n3. Air transport: the mode with the most impact on international tourism since 1950; heavily regulated.",
+   "d": "Modes of transportation: water, land and air.",
+   "w": "Give the forms of each mode and one key fact about it."
+  },
+  {
+   "id": "t4-w2",
+   "t": "Air transport",
+   "wr": true,
+   "q": "Identify the advantages and disadvantages of air transport.",
+   "a": "Advantages:\n- Direct line of flight not blocked by natural barriers (mountains, oceans, deserts, jungles).\n- Superior speed.\n- High passenger capacity.\nDisadvantages:\n- Needs a large terminal area.\n- Relatively expensive (high energy needs and safety standards).\n- Significant negative environmental impacts.\n- Vulnerable to terrorism and fluctuating oil prices.",
+   "d": "Air transport: the mode with the greatest impact on international tourism.",
+   "w": "Present them as two lists from the slides' table."
+  },
+  {
+   "id": "t4-w3",
+   "t": "Air transport",
+   "wr": true,
+   "q": "Explain why the airline industry is heavily regulated and the forms this regulation takes.",
+   "a": "Reasons:\n1. Passenger safety.\n2. Social and environmental concerns about airline operations.\n3. Protection of national economic interests; the primary objective of aviation policy is to enhance and protect national interests.\nRegulatory forms:\n1. Licensing of airlines.\n2. Regulation of international airline operations.\n3. Regulation of domestic airline operations.",
+   "d": "Regulation: rules and controls governments place on the airline industry.",
+   "w": "Explain the reasons first, then the forms."
+  },
+  {
+   "id": "t4-w4",
+   "t": "Transport system",
+   "wr": true,
+   "q": "Explain Faulks' (1990) elements of a transport system, with examples.",
+   "a": "1. The way: the path travelled, e.g. roads, railways, tramways, cableways, airspace and water.\n2. The terminal: where journeys start, end or connect, e.g. terminals, hubs and gateways.\n3. The carrying unit: the vehicle, e.g. aircraft, boats, cars and buses.\n4. Motive power: the energy, e.g. coal, oil, hydrogen, bio-fuels and electricity.",
+   "d": "Transport system: the key elements every transport mode needs.",
+   "w": "Every journey needs all four: a path, a terminal, a vehicle and power."
+  },
+  {
+   "id": "t4-w5",
+   "t": "Water transport",
+   "wr": true,
+   "q": "Describe water transport, including its routes, cruise tourism in Oman and its advantages.",
+   "a": "Water transport is slow compared with air; by the late 1960s airlines had taken most North Atlantic long-haul traffic.\nRoutes: short sea routes (ferries, inland transport) and long-haul routes (cruise ships).\nCruises in Oman: 383,488 cruise tourists in 2019 (49.5% more than 2018); main ports are Sultan Qaboos Port, Khasab Port and Salalah Port.\nAdvantages: uses relatively little power; can be built much larger than vehicles or aircraft; high comfort on cruise ships; carries large numbers of motor vehicles.",
+   "d": "Water transport: travel by sea and inland waterways.",
+   "w": "Include the Oman facts from the slides."
+  },
+  {
+   "id": "t4-w6",
+   "t": "Land transport",
+   "wr": true,
+   "q": "Describe land transport, its advantages and disadvantages, and land transport in Oman.",
+   "a": "Land transport is the most common form for domestic travel and short international trips.\nForms: cars (private, rented, taxis, limousines), buses, rail and caravans.\nAdvantages: comfort, privacy, flexibility in timing, choice of itineraries, door-to-door service.\nDisadvantage: congestion.\nOman: more than 1.5 million vehicles in 2020; road network of 15,230 km in 2018.",
+   "d": "Land transport: travel by road and rail.",
+   "w": "Link the advantages to why land transport is so common."
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "id": "fn-ch4",
+ "label": "Chapter 4",
+ "name": "Loans and Instalments",
+ "questions": [
+  {
+   "id": "fn4-01",
+   "t": "Own vs borrowed funds",
+   "q": "Which is a DISADVANTAGE of using own funds?",
+   "o": [
+    "Limited capacity to raise large amounts, plus opportunity cost",
+    "They must be repaid with interest",
+    "There are legal consequences if you default",
+    "They need a loan agreement"
+   ],
+   "d": "Own funds: capital from personal or internal sources (savings, asset sales, shares, retained profits). Advantage: no repayment or interest. Disadvantages: limited capacity, opportunity cost, less flexibility.",
+   "w": "Repayment with interest, default consequences and loan agreements all belong to borrowed funds."
+  },
+  {
+   "id": "fn4-02",
+   "t": "Own vs borrowed funds",
+   "q": "A medium-term loan lasts:",
+   "o": [
+    "Over one year up to five years",
+    "Up to one year",
+    "Over five years",
+    "Exactly ten years"
+   ],
+   "d": "Loan term classification: short-term up to one year; medium-term over one year to five years; long-term over five years.",
+   "w": "Medium-term sits between short (≤1 year) and long (>5 years)."
+  },
+  {
+   "id": "fn4-03",
+   "t": "Loan process",
+   "q": "What is the first step when taking out a loan?",
+   "o": [
+    "Determine your creditworthiness by checking your credit score and history",
+    "Receive the funds",
+    "Choose a lender",
+    "Wait for approval"
+   ],
+   "d": "Loan steps: determine creditworthiness → research loan options → choose a lender → complete the application → wait for approval → receive funds → review terms.",
+   "w": "Your credit score affects whether you qualify and what rate you get, so it comes first."
+  },
+  {
+   "id": "fn4-04",
+   "t": "Loan pros and cons",
+   "q": "Which is a DISADVANTAGE of financing through a loan?",
+   "o": [
+    "Collateral such as a house or car can be at risk if you cannot pay",
+    "Payments are predictable",
+    "Loans come in many types and terms",
+    "Loans give access to funds you would not otherwise have"
+   ],
+   "d": "Disadvantages of loans: interest and fees, risk of default, potential for debt, collateral requirements.",
+   "w": "Predictable payments, flexibility and access to funds are advantages."
+  },
+  {
+   "id": "fn4-05",
+   "t": "Interest on loans",
+   "q": "Rashid borrows RO 4,000 for 5 years at 5% simple interest. What is the total amount he repays?",
+   "o": [
+    "RO 5,000.000",
+    "RO 1,000.000",
+    "RO 5,105.126",
+    "RO 4,200.000"
+   ],
+   "d": "Amount paid = Principal + Interest = P(1 + rt).",
+   "w": "Interest = 4,000 × 0.05 × 5 = RO 1,000. Total = 4,000 + 1,000 = RO 5,000."
+  },
+  {
+   "id": "fn4-06",
+   "t": "Interest on loans",
+   "q": "The same RO 4,000 loan for 5 years is charged 5% compounded annually. How much interest does Rashid pay?",
+   "o": [
+    "RO 1,105.126",
+    "RO 1,000.000",
+    "RO 5,105.126",
+    "RO 200.000"
+   ],
+   "d": "Compound interest on a loan: I = P(1 + r)^t − P.",
+   "w": "4,000 × 1.05^5 = RO 5,105.126, so interest = RO 1,105.126. It is more than the simple interest of RO 1,000."
+  },
+  {
+   "id": "fn4-07",
+   "t": "Interest on loans",
+   "q": "You need a RO 5,000 loan for 4 years. Most banks charge 5% compounded monthly; one bank charges 5.25% simple interest. Which is cheaper for YOU as the borrower?",
+   "o": [
+    "5.25% simple interest",
+    "5% compounded monthly",
+    "They cost exactly the same",
+    "It depends on the down payment"
+   ],
+   "d": "As a borrower you want the option with the LOWER total interest.",
+   "w": "Compound: 5,000 × [(1 + 0.05/12)^48 − 1] = RO 1,104.477. Simple: 5,000 × 0.0525 × 4 = RO 1,050.000. The simple interest loan costs less."
+  },
+  {
+   "id": "fn4-08",
+   "t": "Interest on loans",
+   "q": "Sajid buys a RO 10,000 car, pays RO 2,000 down and borrows the rest for 12 months at 5% compounded monthly. What is the total he pays for the car?",
+   "o": [
+    "RO 10,409.295",
+    "RO 8,409.295",
+    "RO 10,500.000",
+    "RO 10,400.000"
+   ],
+   "d": "Total paid = down payment + loan amount repaid (principal + interest).",
+   "w": "Loan = 8,000. Repaid = 8,000 × (1 + 0.05/12)^12 = RO 8,409.295 (interest RO 409.295). Total = 2,000 + RO 8,409.295 = RO 10,409.295."
+  },
+  {
+   "id": "fn4-09",
+   "t": "Interest on loans",
+   "q": "Ahmed borrows RO 5,000 at 6% simple interest for 10 months. How much interest does he pay?",
+   "o": [
+    "RO 250.000",
+    "RO 300.000",
+    "RO 3,000.000",
+    "RO 25.000"
+   ],
+   "d": "Simple interest: I = P × r × t, with t in years.",
+   "w": "t = 10 ÷ 12. I = 5,000 × 0.06 × 10/12 = RO 250."
+  },
+  {
+   "id": "fn4-10",
+   "t": "Interest on loans",
+   "q": "Ashraf gets a RO 600 cash advance and must repay RO 645 fifteen days later. What simple interest rate is this (360-day year)?",
+   "o": [
+    "180%",
+    "7.5%",
+    "15%",
+    "45%"
+   ],
+   "d": "Rate from simple interest: r = I ÷ (P × t).",
+   "w": "I = 645 − 600 = 45. t = 15 ÷ 360. r = 45 ÷ (600 × 15/360) = 45 ÷ 25 = 1.8 = 180%. Short-term advances can be very expensive."
+  },
+  {
+   "id": "fn4-11",
+   "t": "APR",
+   "q": "How is the APR different from the interest rate?",
+   "o": [
+    "APR includes all fees and charges, so it shows the true annual cost of borrowing",
+    "APR ignores fees and only counts interest",
+    "APR is always lower than the interest rate",
+    "APR applies only to deposits"
+   ],
+   "d": "APR (annual percentage rate): the yearly cost of borrowing including interest and all fees and charges.",
+   "w": "The interest rate is only the cost of borrowing the money; the APR adds fees such as processing and closing costs."
+  },
+  {
+   "id": "fn4-12",
+   "t": "APR",
+   "q": "Aju borrows RO 4,000 at 5% simple interest for 2 years, with RO 200 closing costs. What is the APR?",
+   "o": [
+    "7.5%",
+    "5%",
+    "2.5%",
+    "15%"
+   ],
+   "d": "APR = [(Total cost of credit ÷ Loan amount) ÷ Loan term] × 100.",
+   "w": "Interest = 4,000 × 0.05 × 2 = 400. Total cost = 400 + 200 = 600. APR = (600 ÷ 4,000) ÷ 2 × 100 = 7.5%."
+  },
+  {
+   "id": "fn4-13",
+   "t": "APR",
+   "q": "Raja takes a RO 100,000 mortgage for 60 months at 7% simple interest, with a 1.5% insurance fee and RO 500 processing cost. What is the APR?",
+   "o": [
+    "7.4%",
+    "7%",
+    "8.5%",
+    "37%"
+   ],
+   "d": "APR = [(Total cost of credit ÷ Loan amount) ÷ Loan term] × 100.",
+   "w": "Interest = 100,000 × 0.07 × 5 = 35,000. Fees = 1,500 + 500 = 2,000. Total cost = 37,000. APR = (37,000 ÷ 100,000) ÷ 5 × 100 = 7.4%."
+  },
+  {
+   "id": "fn4-14",
+   "t": "Instalment terms",
+   "q": "Total finance charge equals:",
+   "o": [
+    "Total of all instalment payments − amount financed",
+    "Amount financed + down payment",
+    "Purchase price − down payment",
+    "Instalment amount × interest rate"
+   ],
+   "d": "Total finance charge: total interest paid = (Instalment amount × number of instalments) − amount financed.",
+   "w": "Everything you pay in instalments above the amount borrowed is the cost of finance."
+  },
+  {
+   "id": "fn4-15",
+   "t": "Instalment terms",
+   "q": "Deferred payment price equals:",
+   "o": [
+    "Total of all instalment payments + down payment",
+    "Total of all instalment payments − amount financed",
+    "Purchase price − down payment",
+    "Amount financed × APR"
+   ],
+   "d": "Deferred payment price: total of all instalment payments + down payment (or purchase price + total finance charge).",
+   "w": "It is the full price you end up paying when you buy now and pay later."
+  },
+  {
+   "id": "fn4-16",
+   "t": "Instalment terms",
+   "q": "Adil buys a RO 36,500 car, pays RO 12,000 down and RO 450 a month for 60 months. What is the total finance charge?",
+   "o": [
+    "RO 2,500.000",
+    "RO 24,500.000",
+    "RO 27,000.000",
+    "RO 39,000.000"
+   ],
+   "d": "Total finance charge = total instalments − amount financed.",
+   "w": "Amount financed = 36,500 − 12,000 = 24,500. Instalments = 450 × 60 = 27,000. Finance charge = 27,000 − 24,500 = RO 2,500."
+  },
+  {
+   "id": "fn4-17",
+   "t": "Instalment terms",
+   "q": "For the same car (RO 36,500, RO 12,000 down, RO 450 × 60), what is the deferred payment price?",
+   "o": [
+    "RO 39,000.000",
+    "RO 36,500.000",
+    "RO 27,000.000",
+    "RO 41,500.000"
+   ],
+   "d": "Deferred payment price = total instalments + down payment.",
+   "w": "27,000 + 12,000 = RO 39,000 (equal to 36,500 + finance charge 2,500)."
+  },
+  {
+   "id": "fn4-18",
+   "t": "EMI",
+   "q": "Ahmed borrows RO 10,000 at 12% for 2 years. What is the EMI using the FLAT interest rate method?",
+   "o": [
+    "RO 516.667",
+    "RO 470.735",
+    "RO 500.000",
+    "RO 416.667"
+   ],
+   "d": "Flat rate EMI = P × (1 + rt) ÷ number of monthly instalments.",
+   "w": "EMI = 10,000 × (1 + 0.12 × 2) ÷ 24 = 12,400 ÷ 24 = RO 516.667 (about RO 517)."
+  },
+  {
+   "id": "fn4-19",
+   "t": "EMI",
+   "q": "Same loan (RO 10,000, 12%, 2 years). What is the EMI using the REDUCING BALANCE method?",
+   "o": [
+    "RO 470.735",
+    "RO 516.667",
+    "RO 500.000",
+    "RO 529.056"
+   ],
+   "d": "Reducing balance EMI = P × R × (1 + R)^N ÷ [(1 + R)^N − 1], with R = annual rate ÷ 12 ÷ 100.",
+   "w": "R = 0.01, N = 24. EMI = 10,000 × 0.01 × 1.01^24 ÷ (1.01^24 − 1) = RO 470.735 (about RO 471). It is lower than the flat rate EMI."
+  },
+  {
+   "id": "fn4-20",
+   "t": "EMI",
+   "q": "Which EMI method charges interest on the FULL original principal for the whole loan term?",
+   "o": [
+    "Flat interest rate method",
+    "Reducing balance method",
+    "Both methods",
+    "Neither method"
+   ],
+   "d": "Flat rate method: interest is calculated on the original principal for the entire term and divided equally among the instalments.",
+   "w": "The reducing balance method charges interest only on the outstanding (unpaid) principal, which shrinks each month."
+  },
+  {
+   "id": "fn4-21",
+   "t": "EMI",
+   "q": "Under the reducing balance method, as the loan goes on:",
+   "o": [
+    "The interest part falls and the principal part rises",
+    "The interest part rises and the principal part falls",
+    "Both parts stay the same",
+    "The EMI amount increases"
+   ],
+   "d": "Reducing balance: each EMI = interest on the outstanding principal + repayment of principal. The EMI stays the same.",
+   "w": "As the outstanding balance falls, the interest on it falls, so more of the fixed EMI goes to principal."
+  },
+  {
+   "id": "fn4-22",
+   "t": "Excel",
+   "q": "Which Excel function gives the INTEREST part of a specific instalment?",
+   "o": [
+    "IPMT",
+    "PMT",
+    "PPMT",
+    "NPER"
+   ],
+   "d": "PMT: total payment per period. IPMT: interest part for a given period. PPMT: principal part for a given period. NPER: number of periods.",
+   "w": "The 'I' in IPMT stands for interest."
+  },
+  {
+   "id": "fn4-23",
+   "t": "Excel",
+   "q": "Excel's RATE function returns a MONTHLY rate for a monthly loan. How do you get the annual rate?",
+   "o": [
+    "Multiply the monthly rate by 12",
+    "Divide the monthly rate by 12",
+    "Add 12 to the monthly rate",
+    "It is already annual"
+   ],
+   "d": "RATE(nper, pmt, pv, [fv], [type]) returns the interest rate per period.",
+   "w": "With monthly instalments the period is a month, so annual rate = monthly rate × 12 (and × 100 for a percentage)."
+  },
+  {
+   "id": "fn4-24",
+   "t": "Loan pros and cons",
+   "tf": true,
+   "ans": true,
+   "q": "Secured loans require collateral such as a house or car.",
+   "d": "Secured loans require collateral; unsecured loans do not.",
+   "w": "Collateral is what makes the loan 'secured' for the lender."
+  },
+  {
+   "id": "fn4-25",
+   "t": "EMI",
+   "tf": true,
+   "ans": false,
+   "q": "When an EMI is rounded, it is rounded down and the difference is added to the first instalment.",
+   "d": "Rounding an EMI is only for convenience of payment.",
+   "w": "It is always rounded UP, and the excess is adjusted in the LAST instalment, which ends up slightly lower."
+  },
+  {
+   "id": "fn4-w1",
+   "t": "EMI",
+   "wr": true,
+   "q": "Ali borrows RO 1,200 at 12% p.a. to repay in 4 months. Find the EMI by (a) the reducing balance method and (b) the flat interest rate method, and show the reducing balance amortisation table.",
+   "a": "(a) R = 0.12/12 = 0.01, N = 4\nEMI = 1,200 × 0.01 × 1.01^4 ÷ (1.01^4 − 1) = RO 307.537\n(b) Flat EMI = 1,200 × (1 + 0.12 × 4/12) ÷ 4 = 1,248 ÷ 4 = RO 312.000\n\nReducing balance table:\nMonth 1: interest RO 12.000, principal RO 295.537, balance RO 904.463\nMonth 2: interest RO 9.045, principal RO 298.493, balance RO 605.970\nMonth 3: interest RO 6.060, principal RO 301.478, balance RO 304.492\nMonth 4: interest RO 3.045, principal RO 304.492, balance RO 0.000",
+   "d": "EMI (equated monthly instalment): an equal monthly payment that covers interest and principal.",
+   "w": "In the reducing balance method interest falls each month because it is charged only on the outstanding balance, so the total cost is lower than the flat method."
+  },
+  {
+   "id": "fn4-w2",
+   "t": "EMI",
+   "wr": true,
+   "q": "Rahima buys furniture worth RO 15,000, pays 20% down, and repays the rest in 15 equal monthly instalments at 6%. Find the EMI by (a) reducing balance and (b) flat rate.",
+   "a": "Down payment = 20% × 15,000 = 3,000, so loan P = 12,000\n(a) R = 0.06/12 = 0.005, N = 15\nEMI = 12,000 × 0.005 × 1.005^15 ÷ (1.005^15 − 1) = RO 832.372\n(b) Flat EMI = 12,000 × (1 + 0.06 × 15/12) ÷ 15 = 12,000 × 1.075 ÷ 15 = RO 860.000",
+   "d": "Flat EMI = P(1 + rt) ÷ N. Reducing balance EMI = P × R × (1 + R)^N ÷ [(1 + R)^N − 1].",
+   "w": "Only the amount borrowed (after the down payment) is financed, so start by subtracting the 20% down payment."
+  },
+  {
+   "id": "fn4-w3",
+   "t": "Instalment terms",
+   "wr": true,
+   "q": "A product costs RO 22,500. The buyer pays RO 6,000 down and 60 monthly payments of RO 310. Find the amount financed, total monthly payments, total finance charge, APR and deferred payment price.",
+   "a": "Amount financed = 22,500 − 6,000 = RO 16,500\nTotal monthly payments = 310 × 60 = RO 18,600\nTotal finance charge = 18,600 − 16,500 = RO 2,100\nAPR = (2,100 ÷ 16,500) ÷ 5 × 100 = 2.55%\nDeferred payment price = 18,600 + 6,000 = RO 24,600",
+   "d": "Amount financed = price − down payment. Finance charge = total instalments − amount financed. APR = (cost of credit ÷ loan) ÷ years × 100.",
+   "w": "The loan term is 60 months = 5 years, so divide by 5 in the APR formula."
+  },
+  {
+   "id": "fn4-w4",
+   "t": "Instalment terms",
+   "wr": true,
+   "q": "Adil buys a Land Rover for RO 36,500, pays RO 12,000 down and RO 450 per month for 60 months. Find (a) amount financed, (b) total finance charge, (c) APR, (d) deferred payment price.",
+   "a": "(a) Amount financed = 36,500 − 12,000 = RO 24,500\n(b) Total instalments = 450 × 60 = 27,000; finance charge = 27,000 − 24,500 = RO 2,500\n(c) APR = (2,500 ÷ 24,500) ÷ 5 × 100 = 2.04%\n(d) Deferred payment price = 27,000 + 12,000 = RO 39,000",
+   "d": "Deferred payment price: total of all instalments + down payment.",
+   "w": "Check: 36,500 purchase price + 2,500 finance charge also gives 39,000."
+  },
+  {
+   "id": "fn4-w5",
+   "t": "EMI",
+   "wr": true,
+   "q": "Explain the difference between the flat interest rate method and the reducing balance method for EMIs, using a RO 10,000 loan at 12% for 2 years.",
+   "a": "Flat rate: interest is charged on the full principal for the whole term. EMI = 10,000 × (1 + 0.12 × 2) ÷ 24 = RO 516.667 (≈ RO 517). Interest and principal parts stay the same every month.\nReducing balance: interest is charged only on the outstanding principal, compounded monthly. EMI = 10,000 × 0.01 × 1.01^24 ÷ (1.01^24 − 1) = RO 470.735 (≈ RO 471). Interest falls and principal repayment rises over time.\nThe reducing balance method is cheaper for the borrower and more accurate, and it is the most widely used.",
+   "d": "Reducing balance method: the most widely used EMI method; interest is calculated on the unpaid balance each month.",
+   "w": "The flat method keeps charging interest on money already repaid, so its EMI is higher."
+  },
+  {
+   "id": "fn4-w6",
+   "t": "EMI",
+   "wr": true,
+   "q": "Find the EMI by the reducing balance method for RO 10,000 at 12% p.a. repaid in 4 equal monthly instalments, and show the amortisation table.",
+   "a": "R = 0.01, N = 4\nEMI = 10,000 × 0.01 × 1.01^4 ÷ (1.01^4 − 1) = RO 2,562.811\n\nMonth 1: interest RO 100.000, principal RO 2,462.811, balance RO 7,537.189\nMonth 2: interest RO 75.372, principal RO 2,487.439, balance RO 5,049.750\nMonth 3: interest RO 50.498, principal RO 2,512.313, balance RO 2,537.437\nMonth 4: interest RO 25.374, principal RO 2,537.437, balance RO 0.000",
+   "d": "Amortisation table: shows each payment split into interest and principal, and the remaining balance.",
+   "w": "Interest each month = outstanding balance × 1%. The rest of the EMI reduces the balance, which reaches zero after the 4th payment."
+  }
+ ]
+}

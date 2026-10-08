@@ -1,0 +1,231 @@
+{
+ "id": "fin-ch1",
+ "label": "Chapter 1",
+ "name": "An Overview of Supply Chain and Logistics Management",
+ "questions": [
+  {
+   "id": "f1-01",
+   "t": "SCM basics",
+   "q": "In the Li & Fung jacket example, which pairing of country and contribution is correct?",
+   "o": [
+    "Japan – the zipper teeth (stainless steel)",
+    "China – the snap fasteners",
+    "Germany – the shell and fleece",
+    "Taiwan – the liner (cotton)"
+   ],
+   "d": "Li & Fung sourced one jacket from five countries and had it stitched in Thailand. China made the liner (cotton), Thailand ringed the hood with imitation fur, Japan put the teeth in the zipper (stainless steel), Germany sent the snaps, and Taiwan produced the shell and fleece."
+  },
+  {
+   "id": "f1-02",
+   "t": "SCM basics",
+   "q": "According to the slides' definition, supply chain management works to control, manage and improve the flow of:",
+   "o": [
+    "Material and information, from the suppliers to the end users",
+    "Cash only, from customers back to suppliers",
+    "Finished goods only, from factories to retailers",
+    "People and equipment between a company's departments"
+   ],
+   "d": "SCM unifies a network of connected but interdependent organisations, working together to control, manage and improve the flow of material and information from the suppliers to the end users, while increasing value to the end users at less cost as a whole."
+  },
+  {
+   "id": "f1-03",
+   "t": "SCM basics",
+   "q": "Purchasing, production, inventory, transportation and sales are best described as:",
+   "o": [
+    "Activities that have to be managed across the supply chain, not the supply chain itself",
+    "The supply chain itself",
+    "Activities each department should manage separately",
+    "Activities that matter to logistics but not to SCM"
+   ],
+   "d": "SCM coordinates the many activities involved in creating and delivering a product. These activities are not themselves 'the supply chain'; they are activities that have to be managed across the supply chain."
+  },
+  {
+   "id": "f1-04",
+   "t": "Evolution of SCM",
+   "q": "Which period do the slides link to the development of MRP and MRPII?",
+   "o": [
+    "1960s–1970s",
+    "1950s–1960s",
+    "1980s–1990s",
+    "2000s and beyond"
+   ],
+   "d": "1960s–1970s: new computer technologies led to Materials Requirements Planning (MRP) and Manufacturing Resource Planning (MRPII), used to coordinate inventory management and improve internal communications."
+  },
+  {
+   "id": "f1-05",
+   "t": "Evolution of SCM",
+   "q": "In the 1950s–1960s, U.S. manufacturers' main strategy for cutting costs and improving productivity was:",
+   "o": [
+    "Mass production techniques",
+    "Just-in-time inventory",
+    "Third-party logistics providers",
+    "Total quality management"
+   ],
+   "d": "1950s–1960s: U.S. manufacturers focused on mass production techniques as their principal cost reduction and productivity improvement strategies."
+  },
+  {
+   "id": "f1-06",
+   "t": "Evolution of SCM",
+   "q": "Which approach aligns raw-material orders from suppliers directly with production schedules?",
+   "o": [
+    "Just-in-time (JIT)",
+    "Total quality management (TQM)",
+    "Business process reengineering (BPR)",
+    "Customer relationship management (CRM)"
+   ],
+   "d": "JIT is an inventory management strategy that aligns raw-material orders from suppliers directly with production schedules. It is one of the 1980s–1990s developments, along with TQM, BPR and CRM."
+  },
+  {
+   "id": "f1-07",
+   "t": "Evolution of SCM",
+   "q": "Business process reengineering (BPR) aimed to help organisations:",
+   "o": [
+    "Fundamentally rethink how they do their work to improve service, cut costs and become world-class competitors",
+    "Continually detect and reduce errors in manufacturing",
+    "Manage and analyse interactions with past, current and potential customers",
+    "Match raw-material orders to production schedules"
+   ],
+   "d": "BPR aimed to help organisations fundamentally rethink how they do their work to improve customer service, cut operational costs and become world-class competitors. Continual error reduction is TQM, and managing customer interactions is CRM."
+  },
+  {
+   "id": "f1-08",
+   "t": "Evolution of SCM",
+   "q": "Which group of initiatives do the slides place in '2000s and beyond'?",
+   "o": [
+    "Third-party service providers (3PLs), integrating logistics, and client/server ERP software",
+    "MRP and MRPII",
+    "JIT, TQM, BPR and CRM",
+    "Mass production techniques"
+   ],
+   "d": "2000s and beyond focused on improving supply chain capabilities through third-party service providers (3PLs), integrating logistics, and client/server SCM software such as Enterprise Resource Planning."
+  },
+  {
+   "id": "f1-09",
+   "t": "Evolution of SCM",
+   "q": "The 'triple bottom line' means taking care of:",
+   "o": [
+    "People, planet and profits",
+    "Price, product and place",
+    "Suppliers, manufacturers and customers",
+    "Cost, quality and speed"
+   ],
+   "d": "Today the emphasis is on the environmental and social impacts of supply chains. The triple bottom line means taking care of people, planet and profits."
+  },
+  {
+   "id": "f1-10",
+   "t": "Logistics",
+   "q": "According to the CLM definition, logistics management plans, implements and controls:",
+   "o": [
+    "The efficient, effective forward and reverse flow and storage of goods, services and related information between origin and consumption",
+    "Only the forward flow of finished goods to customers",
+    "The financial flows between supply chain partners",
+    "The design of new products together with suppliers"
+   ],
+   "d": "Logistics management is the part of SCM that plans, implements and controls the efficient, effective forward and reverse flow and storage of goods, services and related information between the point of origin and the point of consumption to meet customers' requirements."
+  },
+  {
+   "id": "f1-11",
+   "t": "Logistics",
+   "q": "What is the goal of logistics according to the slides?",
+   "o": [
+    "A target level of customer service at the lowest possible cost",
+    "The highest possible service level, whatever the cost",
+    "Holding as much inventory as possible to avoid stockouts",
+    "Using as few suppliers as possible"
+   ],
+   "d": "The goal of logistics is to achieve a target level of customer service at the lowest possible cost."
+  },
+  {
+   "id": "f1-12",
+   "t": "Logistics",
+   "q": "Which definition of logistics is credited to Donald Waters (Global Logistics, 2010)?",
+   "o": [
+    "The function responsible for moving materials through their supply chain",
+    "Managing the flow of items, information, cash and ideas by adding place, period and pattern values",
+    "The part of SCM that controls forward and reverse flows between origin and consumption",
+    "A network of organisations working together to improve material and information flows"
+   ],
+   "d": "Donald Waters: logistics is the function responsible for moving materials through their supply chain. The 'place, period and pattern values' definition is from MIT's Center for Transportation & Logistics, and the forward/reverse flow definition is from CLM."
+  },
+  {
+   "id": "f1-13",
+   "t": "Importance of SCM",
+   "q": "According to the slides, which firms gain the most from successful SCM?",
+   "o": [
+    "Firms with large system inventories",
+    "Firms that rely on a single supplier",
+    "Small firms that hold no inventory",
+    "Firms that manage each function separately"
+   ],
+   "d": "Firms with large system inventories gain the most from successful SCM. SCM reduces safety stocks and costs through coordinated planning and better information sharing, leading to lower purchasing and carrying costs, better quality, higher service levels, and higher sales and profits."
+  },
+  {
+   "id": "f1-14",
+   "t": "Economic utility",
+   "q": "A bakery turns flour, sugar and eggs into cakes its customers can eat. Which economic utility does this create?",
+   "o": [
+    "Form utility",
+    "Place utility",
+    "Time utility",
+    "Possession utility"
+   ],
+   "d": "Form utility: a product is in a form that can be used by the customer and is of value to them. The four types of economic utility are possession, form, time and place."
+  },
+  {
+   "id": "f1-15",
+   "t": "Economic utility",
+   "q": "Moving products from points of lesser value to points of greater value creates:",
+   "o": [
+    "Place utility",
+    "Time utility",
+    "Form utility",
+    "Possession utility"
+   ],
+   "d": "Place utility means having products available where customers need them; products are moved from points of lesser value to points of greater value."
+  },
+  {
+   "id": "f1-16",
+   "t": "Economic utility",
+   "q": "A retailer makes sure school uniforms arrive in the weeks just before the school year starts, when parents need them. This mainly creates:",
+   "o": [
+    "Time utility",
+    "Form utility",
+    "Possession utility",
+    "Place utility"
+   ],
+   "d": "Time utility means having products available when customers need them. Place utility is about where they are available."
+  },
+  {
+   "id": "f1-17",
+   "t": "Economic utility",
+   "tf": true,
+   "ans": false,
+   "q": "The four types of economic utility are possession, form, time and price.",
+   "d": "The four types are possession, form, time and place. Price is not one of them."
+  },
+  {
+   "id": "f1-18",
+   "t": "Importance of SCM",
+   "tf": true,
+   "ans": false,
+   "q": "Logistics and SCM can be managed as isolated functions because they rarely cross borders.",
+   "d": "Logistics and SCM span across the globe and cannot be managed as an isolated function. They connect functions, divisions and business units within and across firms."
+  },
+  {
+   "id": "f1-19",
+   "t": "Evolution of SCM",
+   "tf": true,
+   "ans": true,
+   "q": "Historically, purchasing, production, inventory, transportation and sales were often managed separately.",
+   "d": "Companies did not always manage these activities in an integrated way. Historically they were often managed separately, which led to the integrated concept now called SCM."
+  },
+  {
+   "id": "f1-20",
+   "t": "Evolution of SCM",
+   "tf": true,
+   "ans": true,
+   "q": "Sustainability means meeting the needs of current supply chain members without hindering the ability to meet the needs of future generations.",
+   "d": "That is the slides' definition of sustainability, part of today's emphasis on the environmental and social impacts of supply chains."
+  }
+ ]
+}

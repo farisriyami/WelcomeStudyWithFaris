@@ -1,0 +1,427 @@
+{
+ "id": "mg-ch5",
+ "label": "Chapter 5",
+ "name": "Leadership",
+ "questions": [
+  {
+   "id": "mg5-01",
+   "t": "Meaning",
+   "q": "Leadership is:",
+   "o": [
+    "A process of influencing people to achieve intended goals in a given situation",
+    "The power to punish employees",
+    "A job title given by the board",
+    "The process of recording transactions"
+   ],
+   "d": "Leadership: a process of influencing (guiding, inspiring, motivating) people to achieve intended goals in a given situation.",
+   "w": "Leadership is about influence, not just authority or titles."
+  },
+  {
+   "id": "mg5-02",
+   "t": "Characteristics",
+   "q": "Which is a general characteristic of leadership?",
+   "o": [
+    "It is situational",
+    "It exists only in formal organizations",
+    "It needs no followers",
+    "It is a one-time event"
+   ],
+   "d": "General characteristics: a personal quality, a process of influencing, regulates behaviour, leader-follower relationship, continuous and situational.",
+   "w": "Leadership needs followers, is continuous, and exists in informal groups too."
+  },
+  {
+   "id": "mg5-03",
+   "t": "Leaders vs managers",
+   "q": "According to Bennis and Nanus:",
+   "o": [
+    "Managers do things right, and leaders do the right thing",
+    "Leaders do things right, and managers do the right thing",
+    "Managers and leaders are exactly the same",
+    "Leaders never make decisions"
+   ],
+   "d": "Bennis and Nanus: 'Managers do things right and leaders do the right thing.'",
+   "w": "Managers focus on efficient execution; leaders focus on direction."
+  },
+  {
+   "id": "mg5-04",
+   "t": "Leaders vs managers",
+   "q": "Which statement is correct?",
+   "o": [
+    "All managers are leaders, but all leaders are not managers",
+    "All leaders are managers, but not all managers are leaders",
+    "Leadership is the whole of management",
+    "Managers exist in unorganized groups"
+   ],
+   "d": "Leadership is part of management, not the whole of it. Leaders also exist in informal groups.",
+   "w": "A manager must lead, but a leader of an informal group need not be a manager."
+  },
+  {
+   "id": "mg5-05",
+   "t": "Leaders vs managers",
+   "q": "Where does a LEADER's authority come from?",
+   "o": [
+    "Their skill, knowledge and abilities",
+    "Only their position in the hierarchy",
+    "The organisation chart",
+    "A legal contract"
+   ],
+   "d": "A manager's authority stems from a positional role, delegated from the top. A leader earns authority through skill, knowledge and abilities.",
+   "w": "Positional authority describes managers."
+  },
+  {
+   "id": "mg5-06",
+   "t": "Factors of leadership",
+   "q": "Which factor of leadership requires judging the best course of action and style for the circumstances?",
+   "o": [
+    "Situation",
+    "Followers",
+    "Communication",
+    "Leader"
+   ],
+   "d": "Factors of leadership: followers, leader, communication and situation.",
+   "w": "The situation factor means the right style depends on circumstances."
+  },
+  {
+   "id": "mg5-07",
+   "t": "Factors of leadership",
+   "q": "A leader 'setting the example' through two-way verbal and non-verbal messages relates to which factor?",
+   "o": [
+    "Communication",
+    "Followers",
+    "Situation",
+    "Power"
+   ],
+   "d": "Communication: leading through two-way verbal and non-verbal communication; through their own behaviour a leader sets the example.",
+   "w": "Setting the example is a form of communication by action."
+  },
+  {
+   "id": "mg5-08",
+   "t": "Principles",
+   "q": "Giving team members responsibility and decision-making power to build ownership is which principle of leadership?",
+   "o": [
+    "Empowerment",
+    "Adaptability",
+    "Clear vision",
+    "Continuous learning"
+   ],
+   "d": "Principles of leadership: clear vision and direction, empowerment, communication, adaptability, continuous learning.",
+   "w": "Handing over responsibility and decisions is empowerment."
+  },
+  {
+   "id": "mg5-09",
+   "t": "Power",
+   "q": "Sundar Pichai leads Google's direction in AI and cloud computing through his knowledge of technology. Which type of power is this?",
+   "o": [
+    "Expert and informational power",
+    "Reward and coercive power",
+    "Legitimate power",
+    "Referent power"
+   ],
+   "d": "Expert and informational power: influence based on skills, knowledge and information (French and Raven).",
+   "w": "His influence comes from his knowledge, which is expert power."
+  },
+  {
+   "id": "mg5-10",
+   "t": "Power",
+   "q": "Julie Sweet of Accenture uses promotions and raises, and also performance management to ensure accountability. Which type of power is this?",
+   "o": [
+    "Reward and coercive power",
+    "Expert power",
+    "Referent power",
+    "Legitimate power only"
+   ],
+   "d": "Reward and coercive power: the ability to reward or punish to gain compliance.",
+   "w": "Promotions are rewards; performance consequences are coercion."
+  },
+  {
+   "id": "mg5-11",
+   "t": "Power",
+   "q": "Power accepted by all as correct and without dispute, as in the armed forces or police, is:",
+   "o": [
+    "Legitimate power",
+    "Referent power",
+    "Expert power",
+    "Coercive power"
+   ],
+   "d": "Legitimate power: formal authority accepted as correct (e.g. a CEO such as Elon Musk directing Tesla's operations).",
+   "w": "It comes from a recognised formal position."
+  },
+  {
+   "id": "mg5-12",
+   "t": "Power",
+   "q": "David Beckham influences people to buy Adidas products through his image and appeal. Which type of power is this?",
+   "o": [
+    "Referent power",
+    "Legitimate power",
+    "Expert power",
+    "Reward power"
+   ],
+   "d": "Referent power: people identify with the leader, as with sports or film personalities.",
+   "w": "Fans want to be like him, which is referent power."
+  },
+  {
+   "id": "mg5-13",
+   "t": "Traits",
+   "q": "Taking ownership of the outcome of a decision, whether positive or negative, is the trait of:",
+   "o": [
+    "Accountability",
+    "Decisiveness",
+    "Optimism",
+    "Innovation"
+   ],
+   "d": "Leadership traits: integrity, confidence, communication skills, optimism, empathy, passion, innovation, decisiveness, accountability, emotional intelligence.",
+   "w": "Owning the results is accountability; making timely decisions is decisiveness."
+  },
+  {
+   "id": "mg5-14",
+   "t": "Traits",
+   "q": "Making the correct decision at the right time is the trait of:",
+   "o": [
+    "Decisiveness",
+    "Empathy",
+    "Passion",
+    "Integrity"
+   ],
+   "d": "Decisiveness: making correct decisions at the right time.",
+   "w": "Timing and correctness of decisions define decisiveness."
+  },
+  {
+   "id": "mg5-15",
+   "t": "Approaches",
+   "q": "The approach that looks for physical, mental or personality traits effective leaders possess is the:",
+   "o": [
+    "Trait approach",
+    "Situational approach",
+    "Functional approach",
+    "Relational approach"
+   ],
+   "d": "Trait approach: identifies traits (physical, social background, intelligence, personality, task-related and social skills) that effective leaders have.",
+   "w": "The name says it: it focuses on traits."
+  },
+  {
+   "id": "mg5-16",
+   "t": "Approaches",
+   "q": "Hersey and Blanchard's situational leadership theory describes four actions:",
+   "o": [
+    "Directing, coaching, supporting and delegating",
+    "Planning, organizing, staffing and controlling",
+    "Autocratic, democratic, laissez-faire and transactional",
+    "Expert, reward, legitimate and referent"
+   ],
+   "d": "Hersey and Blanchard: supportive and directive behaviour combined into directing, coaching, supporting and delegating, based on followers' needs.",
+   "w": "The other options are management functions, styles and types of power."
+  },
+  {
+   "id": "mg5-17",
+   "t": "Approaches",
+   "q": "Fiedler's contingency theory says leaders are typically:",
+   "o": [
+    "Task-oriented or relationship-oriented, and must adapt strategies when situations change",
+    "Born with every leadership trait",
+    "Always democratic",
+    "Unable to adapt at all"
+   ],
+   "d": "Fiedler: leaders do not change their style; when situations change they adapt their strategies. Leaders are either task-oriented or relationship-oriented.",
+   "w": "Task-oriented leaders focus on goals; relationship-oriented leaders on trust and respect."
+  },
+  {
+   "id": "mg5-18",
+   "t": "Approaches",
+   "q": "On Blake and Mouton's Managerial Grid, high concern for task and high concern for relationships is:",
+   "o": [
+    "Team management",
+    "Country club",
+    "Authority-compliance",
+    "Impoverished"
+   ],
+   "d": "Managerial Grid: impoverished (low, low), authority-compliance (high task, low relational), country club (low task, high relational), team (high, high), middle-of-the-road (moderate, moderate).",
+   "w": "High on both dimensions is the team style."
+  },
+  {
+   "id": "mg5-19",
+   "t": "Approaches",
+   "q": "On the Managerial Grid, low concern for task and high concern for relationships is:",
+   "o": [
+    "Country club",
+    "Team",
+    "Impoverished",
+    "Middle-of-the-road"
+   ],
+   "d": "Country club: low task, high relational.",
+   "w": "Relationships are prioritised over getting the task done."
+  },
+  {
+   "id": "mg5-20",
+   "t": "Approaches",
+   "q": "Chester Barnard's 'Functions of the Executive' belongs to which approach to leadership?",
+   "o": [
+    "Functional approach",
+    "Trait approach",
+    "Relational approach",
+    "Transformational approach"
+   ],
+   "d": "Functional approach: a leader looks, acts and communicates like a leader. Barnard's functions: formulate purposes and objectives, secure services from members, maintain a communication system.",
+   "w": "Barnard describes the functions a leader performs."
+  },
+  {
+   "id": "mg5-21",
+   "t": "Styles",
+   "q": "A leader who uses a 'follow me' approach, centralises authority and allows limited participation uses which style?",
+   "o": [
+    "Autocratic",
+    "Democratic",
+    "Laissez-faire",
+    "Transformational"
+   ],
+   "d": "Autocratic (authoritative) style: leader-centred, centralised authority and decisions, limited participation; may use coercive measures.",
+   "w": "'Follow me' and centralised decisions mark the autocratic style."
+  },
+  {
+   "id": "mg5-22",
+   "t": "Styles",
+   "q": "A leader who frequently consults subordinates and allows substantial participation in decisions uses which style?",
+   "o": [
+    "Democratic (participative)",
+    "Autocratic",
+    "Laissez-faire",
+    "Transactional"
+   ],
+   "d": "Democratic style: substantial participation, consultation, freedom to communicate, cooperative spirit and development of subordinates.",
+   "w": "Participation is the key feature."
+  },
+  {
+   "id": "mg5-23",
+   "t": "Styles",
+   "q": "A passive leader with a 'let them do' attitude, who works best when team members are competent, uses which style?",
+   "o": [
+    "Laissez-faire (delegative)",
+    "Autocratic",
+    "Democratic",
+    "Transactional"
+   ],
+   "d": "Laissez-faire style: delegates initiative, avoids micromanaging, depends on employees for goals and decisions.",
+   "w": "It succeeds only when team members are competent and responsible."
+  },
+  {
+   "id": "mg5-24",
+   "t": "Styles",
+   "q": "A leader focused on change, the future and developing each follower's potential uses which style?",
+   "o": [
+    "Transformational",
+    "Transactional",
+    "Autocratic",
+    "Laissez-faire"
+   ],
+   "d": "Transformational style: focus on change, the future and people.",
+   "w": "Transactional leaders rely on rewards and punishments instead."
+  },
+  {
+   "id": "mg5-25",
+   "t": "Leaders vs managers",
+   "tf": true,
+   "ans": false,
+   "q": "Leadership is the whole of management.",
+   "d": "Leadership is part of management, not the whole of it; a leader is mainly related to the directing function.",
+   "w": "Management also includes planning, organizing, staffing and controlling."
+  },
+  {
+   "id": "mg5-26",
+   "t": "Leaders vs managers",
+   "tf": true,
+   "ans": true,
+   "q": "A leader need not be a manager.",
+   "d": "A leader may lead an informal group and need not be a manager; leadership is a narrower term.",
+   "w": "Leadership exists in unorganised groups too."
+  },
+  {
+   "id": "mg5-27",
+   "t": "Power",
+   "tf": true,
+   "ans": true,
+   "q": "Legitimate power is accepted by all as correct and without dispute, as in the armed forces or police.",
+   "d": "Legitimate power: formal authority accepted without dispute.",
+   "w": "This is the slides' own example of legitimate power."
+  },
+  {
+   "id": "mg5-28",
+   "t": "Approaches",
+   "tf": true,
+   "ans": false,
+   "q": "Authority-compliance on the Managerial Grid means low concern for task and high concern for relationships.",
+   "d": "Authority-compliance: HIGH task, LOW relational. Country club is low task, high relational.",
+   "w": "The statement reverses the two dimensions."
+  },
+  {
+   "id": "mg5-29",
+   "t": "Styles",
+   "tf": true,
+   "ans": true,
+   "q": "Transactional leadership is often called managerial leadership and relies on rewards and punishments.",
+   "d": "Transactional leadership: managerial leadership; 'give and take'; emphasises structure, routines and procedures.",
+   "w": "Burns contrasted it with transformational leadership."
+  },
+  {
+   "id": "mg5-30",
+   "t": "Styles",
+   "tf": true,
+   "ans": false,
+   "q": "Being an authoritarian leader is effective when the team is experienced, knowledgeable and skilled.",
+   "d": "The autocratic style limits participation and centralises decisions.",
+   "w": "With an experienced, skilled team, autocratic leadership is ineffective; it wastes the team's knowledge (slides' MCQ)."
+  },
+  {
+   "id": "mg5-w1",
+   "t": "Leaders vs managers",
+   "wr": true,
+   "q": "Define leadership and distinguish between leaders and managers.",
+   "a": "Leadership: a process of influencing (guiding, inspiring, motivating) people to achieve intended goals in a given situation.\nDifferences:\n1. Management is a broader term; leadership is narrower and part of management.\n2. A manager fits in an organised structure; a leader may also lead an informal group.\n3. A manager performs all management functions; a leader mainly performs directing (influencing people to achieve goals voluntarily).\n4. A manager's authority comes from position (delegated from the top); a leader earns authority through skill, knowledge and abilities.\n5. A successful manager must be a good leader, but a leader need not be a manager.\n'Managers do things right and leaders do the right thing' (Bennis and Nanus).",
+   "d": "Leadership: influencing people to achieve goals in a given situation.",
+   "w": "Start with the definition, then compare the two on scope, setting, functions and source of authority."
+  },
+  {
+   "id": "mg5-w2",
+   "t": "Factors of leadership",
+   "wr": true,
+   "q": "Explain the four factors of leadership.",
+   "a": "1. Followers: leadership needs followers, so the leader must understand their needs, emotions and motivation.\n2. Leader: brings members together, gives them a purpose and inspires them to work for it.\n3. Communication: two-way verbal and non-verbal communication; the leader sets the example through their own behaviour.\n4. Situation: the leader uses judgement to choose the best course of action and style for each situation.",
+   "d": "Factors of leadership: followers, leader, communication and situation.",
+   "w": "All four interact: the right style depends on the followers and the situation."
+  },
+  {
+   "id": "mg5-w3",
+   "t": "Power",
+   "wr": true,
+   "q": "Explain French and Raven's types of leadership power, with an example of each.",
+   "a": "1. Expert and informational power: influence from skills, knowledge and information (e.g. Sundar Pichai's technology expertise at Google; technicians and computer staff).\n2. Reward and coercive power: the ability to reward or punish to gain compliance (e.g. Julie Sweet at Accenture using promotions and performance management).\n3. Legitimate power: formal authority accepted as correct without dispute (e.g. armed forces, police, or Elon Musk as CEO of Tesla).\n4. Referent power: people identify with the leader (e.g. David Beckham influencing buyers of Adidas products).",
+   "d": "Leadership power: the bases from which a leader influences others (French and Raven, 1959).",
+   "w": "Each type differs by its source: knowledge, rewards/punishment, position or personal appeal."
+  },
+  {
+   "id": "mg5-w4",
+   "t": "Styles",
+   "wr": true,
+   "q": "Explain five leadership styles.",
+   "a": "1. Autocratic (authoritative): 'follow me' approach; centralised authority and decisions; limited participation; may use coercion.\n2. Democratic (participative): substantial participation; frequent consultation; cooperative spirit; develops subordinates.\n3. Laissez-faire (delegative): 'let them do'; passive leader; delegates decisions; works if the team is competent and responsible.\n4. Transactional: 'managerial leadership'; relies on rewards and punishments; emphasises structure and routines; incentives must match company goals.\n5. Transformational: focus on change, the future and people; inspires followers and develops their strengths.",
+   "d": "Leadership style: the way a leader directs, involves and motivates people.",
+   "w": "Compare the styles by how much participation the leader allows and how they motivate followers."
+  },
+  {
+   "id": "mg5-w5",
+   "t": "Approaches",
+   "wr": true,
+   "q": "Explain the five types of leadership on Blake and Mouton's Managerial Grid.",
+   "a": "The grid crosses concern for task with concern for relationships:\n1. Impoverished: low task, low relational.\n2. Authority-compliance: high task, low relational.\n3. Country club: low task, high relational.\n4. Team: high task, high relational.\n5. Middle-of-the-road: moderate task, moderate relational.\nIt belongs to the relational approach, which sees leadership as building and maintaining relationships with followers.",
+   "d": "Managerial Grid (Robert Blake and Jane Mouton): leadership types based on task and relationship orientation.",
+   "w": "Place each type by its two scores: task and relationships."
+  },
+  {
+   "id": "mg5-w6",
+   "t": "Approaches",
+   "wr": true,
+   "q": "Compare transactional and transformational leadership (James MacGregor Burns).",
+   "a": "Transactional leadership:\n- Leaders promise rewards or punishments to gain support (e.g. promotions and pay raises for meeting goals).\n- Often called managerial leadership; 'give and take'; follows routines and procedures.\n- Can give diminishing returns if employees only work for the reward.\nTransformational leadership:\n- The leader uses communication to raise followers' morale, motivation and performance.\n- Focus on change, the future and people; develops each follower's potential.",
+   "d": "Burns compared the traditional transactional model with transformational leadership.",
+   "w": "Transactional leaders exchange rewards for effort; transformational leaders inspire people to go beyond the exchange."
+  }
+ ]
+}

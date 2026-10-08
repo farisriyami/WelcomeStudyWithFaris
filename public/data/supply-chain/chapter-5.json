@@ -1,0 +1,231 @@
+{
+ "id": "fin-ch5",
+ "label": "Chapter 5",
+ "name": "Warehousing",
+ "questions": [
+  {
+   "id": "f5-01",
+   "t": "Role of warehousing",
+   "q": "Why has warehousing been called 'transportation at zero miles per hour'?",
+   "o": [
+    "Warehousing and transportation are substitutes for each other",
+    "Warehouses are always located next to highways",
+    "Products in a warehouse are always moving",
+    "Warehouses charge by the mile"
+   ],
+   "d": "Warehousing stores products at and between points of origin and consumption. Warehousing and transportation are substitutes for each other, so warehousing has been called 'transportation at zero miles per hour'."
+  },
+  {
+   "id": "f5-02",
+   "t": "Role of warehousing",
+   "q": "What is the key reason for warehousing?",
+   "o": [
+    "Patterns of production and consumption do not coincide",
+    "Transportation is always more expensive than storage",
+    "Customers prefer to collect goods from warehouses",
+    "Governments require goods to be stored before sale"
+   ],
+   "d": "The key reason for warehousing is that patterns of production and consumption do not coincide. Warehousing matches different rates or volumes of flow."
+  },
+  {
+   "id": "f5-03",
+   "t": "Regrouping",
+   "q": "A wholesaler receives full pallets of rice and splits them into smaller cartons for small shops. Which regrouping function is this?",
+   "o": [
+    "Allocating (bulk breaking)",
+    "Accumulating (bulk making)",
+    "Assorting",
+    "Sorting out"
+   ],
+   "d": "Regrouping takes four forms. Accumulating (bulk making): bringing together similar stocks from different sources. Allocating (bulk breaking): breaking larger quantities into smaller ones. Assorting: building a variety of products for particular customers. Sorting out: separating products into grades and qualities."
+  },
+  {
+   "id": "f5-04",
+   "t": "Regrouping",
+   "q": "Separating products into the grades and qualities wanted by different target markets is called:",
+   "o": [
+    "Sorting out",
+    "Assorting",
+    "Accumulating",
+    "Allocating"
+   ],
+   "d": "Sorting out means separating products into grades and qualities desired by different target markets. Assorting means building up a variety of different products for resale to particular customers."
+  },
+  {
+   "id": "f5-05",
+   "t": "Facility types",
+   "q": "Which type of facility mainly tries to maximise throughput?",
+   "o": [
+    "A distribution centre",
+    "A warehouse",
+    "A public warehouse",
+    "A private warehouse"
+   ],
+   "d": "Warehouses emphasise storage and try to maximise use of storage space. Distribution centres emphasise rapid movement and try to maximise throughput: the amount of product entering and leaving a facility in a given time."
+  },
+  {
+   "id": "f5-06",
+   "t": "Facility types",
+   "q": "What distinguishes a cross-docking facility from a distribution centre?",
+   "o": [
+    "How long product stays in the facility: 24 hours or less for cross-docking",
+    "Cross-docking facilities store products for months",
+    "Only distribution centres use trucks",
+    "Cross-docking facilities are always publicly owned"
+   ],
+   "d": "Cross-docking means receiving product and shipping it out the same day or overnight without putting it into storage. It differs from a distribution centre by the length of time product is in the facility (24 hours or less)."
+  },
+  {
+   "id": "f5-07",
+   "t": "Facility types",
+   "q": "Which design is recommended for a cross-docking facility?",
+   "o": [
+    "Minimal storage space and truck doors on two or more sides",
+    "Maximum storage space and a single loading door",
+    "High racking to use the full cubic capacity",
+    "No truck doors, using conveyors only"
+   ],
+   "d": "Cross-dock facilities should be designed with a minimal amount of storage space and truck doors on two or more sides. Designs include 'H', 'I', 'T', 'U' and 'E' configurations."
+  },
+  {
+   "id": "f5-08",
+   "t": "Ownership",
+   "q": "Which type of warehousing is used most by retail chain stores?",
+   "o": [
+    "Private warehousing",
+    "Public warehousing",
+    "Contract warehousing",
+    "Multi-client warehousing"
+   ],
+   "d": "Private warehousing is owned by the firm storing goods there. It generates high fixed costs and suits companies with large volumes; its largest users are retail chain stores."
+  },
+  {
+   "id": "f5-09",
+   "t": "Ownership",
+   "q": "Which of these is a drawback of PRIVATE warehousing?",
+   "o": [
+    "It is less attractive when interest rates are high",
+    "Lack of control by the user",
+    "Users must rent space month to month",
+    "It serves all legitimate users"
+   ],
+   "d": "Private warehousing drawbacks: high fixed cost, the need for high and steady demand volumes, being less attractive when interest rates are high, and reduced flexibility. Lack of control is a drawback of public warehousing."
+  },
+  {
+   "id": "f5-10",
+   "t": "Ownership",
+   "q": "How does contract warehousing compare on cost?",
+   "o": [
+    "Less costly than private warehousing and more costly than public warehousing",
+    "More costly than private warehousing",
+    "Less costly than public warehousing",
+    "The same cost as public warehousing"
+   ],
+   "d": "Contract (third-party or dedicated) warehousing is less costly than private warehousing and more costly than public warehousing, and offers more value-adding services than public warehousing."
+  },
+  {
+   "id": "f5-11",
+   "t": "Ownership",
+   "q": "Which type of warehousing is bought through contracts of at least one year and suits smaller organisations without enough volume for their own facility?",
+   "o": [
+    "Multi-client warehousing",
+    "Public warehousing",
+    "Private warehousing",
+    "Contract warehousing"
+   ],
+   "d": "Multi-client warehousing mixes attributes of contract and public warehouses. Services are bought through minimum one-year contracts and suit smaller organisations that cannot build their own facilities or use one-client contract warehousing."
+  },
+  {
+   "id": "f5-12",
+   "t": "Ownership",
+   "q": "Compared with other types, multi-client warehousing services are:",
+   "o": [
+    "More differentiated than public, but less customised than contract",
+    "More customised than contract warehousing",
+    "Less differentiated than public warehousing",
+    "Identical to private warehousing"
+   ],
+   "d": "Multi-client warehousing services are more differentiated than those in a public facility and less customised than those in a contract facility."
+  },
+  {
+   "id": "f5-13",
+   "t": "Design",
+   "q": "How should a facility with LOW rates of product turnover be laid out?",
+   "o": [
+    "To maximise use of the facility's cubic capacity",
+    "To speed the flow of product in and out",
+    "With truck doors on all four sides",
+    "With no storage space"
+   ],
+   "d": "A facility with low turnover should maximise utilisation of its cubic capacity. A facility emphasising rapid movement should be configured to facilitate the flow of product into and out of it."
+  },
+  {
+   "id": "f5-14",
+   "t": "Design",
+   "q": "In a variable slot location system:",
+   "o": [
+    "Empty slots are assigned to incoming products based on space availability",
+    "Each SKU has one or more permanent slots",
+    "Products are never stored",
+    "Slots are assigned by product price"
+   ],
+   "d": "In fixed slot locations each SKU has one or more permanent slots. In variable slot locations, empty slots are assigned to incoming products based on space availability."
+  },
+  {
+   "id": "f5-15",
+   "t": "Design",
+   "q": "According to the general rule of thumb, which is cheaper?",
+   "o": [
+    "Building up (vertical) rather than building out (horizontal)",
+    "Building out (horizontal) rather than building up (vertical)",
+    "Both cost exactly the same",
+    "Renting is always cheaper than building"
+   ],
+   "d": "The general rule of thumb is that it is cheaper to build up than to build out."
+  },
+  {
+   "id": "f5-16",
+   "t": "Design",
+   "q": "Approximately what share of a facility's cubic capacity is actually occupied by product?",
+   "o": [
+    "About 10%",
+    "About 25%",
+    "About 50%",
+    "About 80%"
+   ],
+   "d": "Only about 10 percent of a facility's cubic capacity is actually occupied by product. Space is also needed for washrooms, lunchrooms, offices, hazardous-item storage, supplies and more."
+  },
+  {
+   "id": "f5-17",
+   "t": "Ownership",
+   "tf": true,
+   "ans": false,
+   "q": "Public warehouses require a capital investment from the user.",
+   "d": "Public warehouses require no capital investment by the user, who rents space as needed, often month to month."
+  },
+  {
+   "id": "f5-18",
+   "t": "Operational issues",
+   "tf": true,
+   "ans": true,
+   "q": "The fatality (accident) rate in warehousing is higher than the average rate for all industries.",
+   "d": "Warehouses, distribution centres and cross-docking facilities can be dangerous workplaces; the warehousing fatality rate is higher than the average for all industries."
+  },
+  {
+   "id": "f5-19",
+   "t": "Ownership",
+   "tf": true,
+   "ans": true,
+   "q": "Contract warehousing is also called third-party (3PL) or dedicated warehousing, and the vendor and client share the risks.",
+   "d": "Contract warehousing is a long-term arrangement providing tailored services exclusively to one client, where the vendor and client share the risks."
+  },
+  {
+   "id": "f5-20",
+   "t": "Operational issues",
+   "tf": true,
+   "ans": false,
+   "q": "Warehouse productivity is measured as input divided by output.",
+   "d": "Productivity is a measure of output divided by input, e.g. cases, product lines or pallets shipped per person."
+  }
+ ]
+}

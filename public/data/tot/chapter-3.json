@@ -1,0 +1,427 @@
+{
+ "id": "tot-ch3",
+ "label": "Chapter 3",
+ "name": "Hospitality",
+ "questions": [
+  {
+   "id": "t3-01",
+   "t": "Meaning of hospitality",
+   "q": "The word 'hospitality' comes from the French word 'hospice', meaning:",
+   "o": [
+    "To provide care or shelter for travellers",
+    "To sell food and drink",
+    "To build hotels",
+    "To manage tourism"
+   ],
+   "d": "Hospitality: from the French 'hospice', meaning to provide care or shelter for travellers (also from the Latin 'hospes', visitor or stranger).",
+   "w": "The root meaning is caring for people away from home."
+  },
+  {
+   "id": "t3-02",
+   "t": "Meaning of hospitality",
+   "q": "The hospitality industry includes organisations that provide:",
+   "o": [
+    "Food and/or drink and/or accommodation to people away from home",
+    "Only airline tickets",
+    "Only entertainment",
+    "Only souvenirs"
+   ],
+   "d": "Hospitality industry: companies or organisations providing food, drink and/or accommodation to people away from home.",
+   "w": "Accommodation and F&B together make up the largest segment of the industry."
+  },
+  {
+   "id": "t3-03",
+   "t": "Domains",
+   "q": "Lashley and Morrison's COMMERCIAL domain of hospitality refers to:",
+   "o": [
+    "Services provided for profit, where the host-guest relationship is commoditised",
+    "Hosting strangers as an act of generosity",
+    "Fulfilling needs within the private home",
+    "Government tourism policy"
+   ],
+   "d": "Domains of hospitality (Lashley and Morrison, 2000): private, commercial and social.",
+   "w": "'Commercial' means for profit."
+  },
+  {
+   "id": "t3-04",
+   "t": "Domains",
+   "q": "The PRIVATE domain of hospitality relates to:",
+   "o": [
+    "The host-guest relationship and fulfilling physiological and psychological needs",
+    "Services provided only for profit",
+    "Hospitality for strangers in public spaces",
+    "Hotel chains"
+   ],
+   "d": "Private domain: the host/guest relationship, meeting physiological and psychological needs.",
+   "w": "Think of hospitality offered at home."
+  },
+  {
+   "id": "t3-05",
+   "t": "Domains",
+   "q": "Providing hospitality to strangers as an act of generosity belongs to the:",
+   "o": [
+    "Social domain",
+    "Commercial domain",
+    "Private domain",
+    "Franchise domain"
+   ],
+   "d": "Social domain: hospitality for strangers as an act of generosity, and the social space where it happens.",
+   "w": "Generosity, not profit, defines the social domain."
+  },
+  {
+   "id": "t3-06",
+   "t": "Accommodation",
+   "q": "Under a star grading system, a 5-star property offers:",
+   "o": [
+    "The highest level of luxury and service",
+    "The most basic quality",
+    "Self-catering only",
+    "No food service"
+   ],
+   "d": "Star grading: 1 star is the most basic quality; 5 stars is the highest level of luxury and service.",
+   "w": "More stars mean higher quality."
+  },
+  {
+   "id": "t3-07",
+   "t": "Accommodation",
+   "q": "A group of hotels following standard operating procedures in marketing, reservations, service, F&B, housekeeping and accounting is a:",
+   "o": [
+    "Hotel chain",
+    "Independent hotel",
+    "Contract feeding operation",
+    "Owner-operated B&B"
+   ],
+   "d": "Hotel chain: hotels that follow standard operating procedures (e.g. Hilton brands such as Hampton Inns and Embassy Suites).",
+   "w": "Standardised procedures across many hotels define a chain."
+  },
+  {
+   "id": "t3-08",
+   "t": "Accommodation",
+   "q": "Which describes an INDEPENDENT hotel?",
+   "o": [
+    "Not associated with a franchise; often the owner is the manager, with warmth and individuality",
+    "Must follow a chain's standard procedures",
+    "Always run under a management contract",
+    "Always larger than chain hotels"
+   ],
+   "d": "Independent hotel: not associated with a franchise; owner-manager, room rates similar to chains, individually decorated rooms, inviting dining rooms.",
+   "w": "Independence gives it more individuality than a chain property."
+  },
+  {
+   "id": "t3-09",
+   "t": "Ownership and management",
+   "q": "When an individual or company both owns and runs the accommodation, it is:",
+   "o": [
+    "Owner-operated",
+    "A management contract",
+    "A franchise",
+    "Outsourcing"
+   ],
+   "d": "Owner-operated: the owner operates the facility; most are smaller (motels, camping grounds, B&Bs, hostels).",
+   "w": "Ownership and operation are in the same hands."
+  },
+  {
+   "id": "t3-10",
+   "t": "Ownership and management",
+   "q": "The owner employs a company such as Hyatt or Marriott to run the hotel, which carries the company's name. This is:",
+   "o": [
+    "A management contract",
+    "A franchise",
+    "Owner-operated",
+    "Self-grading"
+   ],
+   "d": "Management contract: the owner employs an individual or company to operate the facility; the hotel usually bears the management company's name.",
+   "w": "The owner buys management expertise."
+  },
+  {
+   "id": "t3-11",
+   "t": "Ownership and management",
+   "q": "The owner pays for the right to use an established chain's name and joins its shared reservations and promotions. This is:",
+   "o": [
+    "A franchise",
+    "A management contract",
+    "Owner-operated",
+    "An independent hotel"
+   ],
+   "d": "Franchise: the owner pays to use the name of, and become part of, an established chain (e.g. Best Western).",
+   "w": "Paying for the name and system is franchising."
+  },
+  {
+   "id": "t3-12",
+   "t": "Sales indicators",
+   "q": "The percentage of rooms sold compared with the total rooms available is the:",
+   "o": [
+    "Occupancy percentage",
+    "Average daily rate",
+    "RevPAR",
+    "Yield"
+   ],
+   "d": "Occupancy percentage = rooms sold ÷ rooms available × 100. It shows staff success in attracting guests.",
+   "w": "It compares rooms sold to rooms available."
+  },
+  {
+   "id": "t3-13",
+   "t": "Sales indicators",
+   "q": "The average room price per day is the:",
+   "o": [
+    "Average daily rate (ADR)",
+    "Occupancy percentage",
+    "Yield",
+    "Rack rate"
+   ],
+   "d": "ADR = room revenue ÷ rooms sold. It measures staff efforts in selling room rates.",
+   "w": "It is an average price, not a percentage."
+  },
+  {
+   "id": "t3-14",
+   "t": "Sales indicators",
+   "q": "The average revenue generated by each room in the hotel, sold or unsold, is the:",
+   "o": [
+    "Revenue per available room (RevPAR)",
+    "Average daily rate",
+    "Occupancy percentage",
+    "Rack rate"
+   ],
+   "d": "RevPAR = room revenue ÷ rooms available. It shows how much income each room produces.",
+   "w": "ADR divides by rooms SOLD; RevPAR divides by rooms AVAILABLE."
+  },
+  {
+   "id": "t3-15",
+   "t": "Sales indicators",
+   "q": "Yield is calculated as:",
+   "o": [
+    "Revenue realised ÷ revenue potential",
+    "Rooms sold ÷ rooms available",
+    "Room revenue ÷ rooms sold",
+    "Rack rate × rooms sold"
+   ],
+   "d": "Yield: the percentage of income secured compared with selling 100% of rooms at full rack rate.",
+   "w": "Revenue realised = rooms sold × ADR; revenue potential = rooms available × rack rate."
+  },
+  {
+   "id": "t3-16",
+   "t": "Sales indicators",
+   "q": "A hotel has 200 rooms and sells 150 tonight. What is its occupancy percentage?",
+   "o": [
+    "75%",
+    "133%",
+    "25%",
+    "150%"
+   ],
+   "d": "Occupancy % = rooms sold ÷ rooms available × 100.",
+   "w": "150 ÷ 200 × 100 = 75%."
+  },
+  {
+   "id": "t3-17",
+   "t": "Sales indicators",
+   "q": "The same hotel earns OMR 9,000 room revenue from its 150 sold rooms. What is the ADR?",
+   "o": [
+    "OMR 60",
+    "OMR 45",
+    "OMR 75",
+    "OMR 150"
+   ],
+   "d": "ADR = room revenue ÷ rooms sold.",
+   "w": "9,000 ÷ 150 = OMR 60."
+  },
+  {
+   "id": "t3-18",
+   "t": "Sales indicators",
+   "q": "The same hotel (200 rooms, OMR 9,000 room revenue). What is the RevPAR?",
+   "o": [
+    "OMR 45",
+    "OMR 60",
+    "OMR 75",
+    "OMR 90"
+   ],
+   "d": "RevPAR = room revenue ÷ rooms available.",
+   "w": "9,000 ÷ 200 = OMR 45 (also 75% occupancy × OMR 60 ADR)."
+  },
+  {
+   "id": "t3-19",
+   "t": "Sales indicators",
+   "q": "The same hotel's rack rate is OMR 80. What is its yield?",
+   "o": [
+    "56.25%",
+    "75%",
+    "45%",
+    "112.5%"
+   ],
+   "d": "Yield = revenue realised ÷ revenue potential; revenue potential = rooms available × rack rate.",
+   "w": "Potential = 200 × 80 = 16,000. Yield = 9,000 ÷ 16,000 = 56.25%."
+  },
+  {
+   "id": "t3-20",
+   "t": "Food and beverage",
+   "q": "Which of these is NOT one of the three food service market segments?",
+   "o": [
+    "Room service market",
+    "Restaurant market",
+    "Travel and lodging market",
+    "Contract feeding market"
+   ],
+   "d": "F&B market segments: restaurant market, travel and lodging market, contract feeding market.",
+   "w": "Room service is part of hotel F&B, not a separate segment on the slides."
+  },
+  {
+   "id": "t3-21",
+   "t": "Food and beverage",
+   "q": "F&B outlets in hotels, airports and bus stations serve a captive market. This is the:",
+   "o": [
+    "Travel and lodging market",
+    "Restaurant market",
+    "Contract feeding market",
+    "Fast food market"
+   ],
+   "d": "Travel and lodging market: patrons cannot eat at home and have a narrower choice of restaurants.",
+   "w": "Captive customers define this segment."
+  },
+  {
+   "id": "t3-22",
+   "t": "Food and beverage",
+   "q": "Limited menu, fast self-service, very low average check and mainly chain or franchise describe:",
+   "o": [
+    "Fast food",
+    "Coffee shops",
+    "Contract feeding",
+    "Fine dining"
+   ],
+   "d": "Fast food (e.g. Pizza Hut, KFC, McDonald's): limited menu, fast service, limited seating, very low average check, chain or franchise.",
+   "w": "Coffee shops have longer hours and low-to-moderate checks."
+  },
+  {
+   "id": "t3-23",
+   "t": "Food and beverage",
+   "q": "Hospitals, schools, prisons, the armed forces and airlines are customers of the:",
+   "o": [
+    "Contract feeding and vending market",
+    "Restaurant market",
+    "Fast food market",
+    "Coffee shop market"
+   ],
+   "d": "Contract feeding (subsidised or welfare F&B): profit is not the primary concern.",
+   "w": "These are institutional, not commercial, customers."
+  },
+  {
+   "id": "t3-24",
+   "t": "Food and beverage",
+   "q": "A hotel lets a branded coffee chain operate from a space inside the hotel. This is:",
+   "o": [
+    "Outsourcing",
+    "Self-operation",
+    "Owner-operated accommodation",
+    "Hotel grading"
+   ],
+   "d": "Outsourcing: hotels partner with a restaurant, coffee or bar brand that operates in the hotel, because hotel-run outlets can be unprofitable.",
+   "w": "The hotel hands the outlet to an outside brand."
+  },
+  {
+   "id": "t3-25",
+   "t": "Food and beverage",
+   "tf": true,
+   "ans": true,
+   "q": "Coffee shops usually have longer operating hours and low to moderate average checks.",
+   "d": "Coffee shops (e.g. Starbucks): inexpensive menus, convenience food, limited counter service, low to moderate checks, longer hours.",
+   "w": "This matches the slides' description."
+  },
+  {
+   "id": "t3-26",
+   "t": "Food and beverage",
+   "tf": true,
+   "ans": false,
+   "q": "In contract feeding, making a profit is the outlet's primary concern.",
+   "d": "In contract feeding and vending, making profit is not the primary concern.",
+   "w": "These are subsidised or welfare operations."
+  },
+  {
+   "id": "t3-27",
+   "t": "Accommodation",
+   "tf": true,
+   "ans": true,
+   "q": "Independent hotels usually have room rates similar to those of chain properties.",
+   "d": "Independent hotel characteristics include room rates similar to chain properties.",
+   "w": "The difference is in individuality, not price."
+  },
+  {
+   "id": "t3-28",
+   "t": "Ownership and management",
+   "tf": true,
+   "ans": false,
+   "q": "Under a management contract, the hotel usually carries the owner's name.",
+   "d": "Under a management contract, the hotel usually bears the management company's name.",
+   "w": "That is why many owners' hotels are called Hilton or Marriott."
+  },
+  {
+   "id": "t3-29",
+   "t": "Ownership and management",
+   "tf": true,
+   "ans": true,
+   "q": "In an F&B franchise, the franchisee must maintain the franchisor's business and quality standards.",
+   "d": "F&B franchise: the franchisee pays fees for the name, design and methods and must keep the franchisor's standards.",
+   "w": "Standards protect the brand."
+  },
+  {
+   "id": "t3-30",
+   "t": "Accommodation",
+   "tf": true,
+   "ans": true,
+   "q": "In some countries grading is compulsory and carried out by the government, while in others operators grade themselves.",
+   "d": "Accommodation grading can be compulsory (by government) or self-grading by operators.",
+   "w": "Grading systems differ between countries."
+  },
+  {
+   "id": "t3-w1",
+   "t": "Meaning of hospitality",
+   "wr": true,
+   "q": "Define hospitality and explain its three domains.",
+   "a": "Hospitality: the cordial and generous reception and entertainment of guests, socially or commercially (from the French 'hospice', to provide care or shelter for travellers; and the Latin 'hospes', visitor or stranger).\nDomains (Lashley and Morrison, 2000):\n1. Private: the host-guest relationship, fulfilling physiological and psychological needs.\n2. Commercial: services provided for profit; the host-guest relationship is commoditised.\n3. Social: hospitality for strangers as an act of generosity, and the social space where it happens.",
+   "d": "Hospitality: generous, friendly treatment of visitors and guests.",
+   "w": "Give the definition, then explain each domain."
+  },
+  {
+   "id": "t3-w2",
+   "t": "Scope",
+   "wr": true,
+   "q": "Describe the scope and structure of the hospitality industry.",
+   "a": "The hospitality industry combines the accommodation and food and beverage groupings, which together form the largest segment of the industry. It includes many professions:\n- Hotels and resorts\n- Restaurants and catering\n- Night clubs and bars\n- Travel and transportation\n- Spas and wellness\n- Cruise liners and bus tours\n- Events (private, business, cultural and sports)",
+   "d": "Hospitality industry: organisations providing food, drink and/or accommodation to people away from home.",
+   "w": "Accommodation and F&B are the core; the other sectors extend the industry."
+  },
+  {
+   "id": "t3-w3",
+   "t": "Accommodation",
+   "wr": true,
+   "q": "Compare hotel chains and independent hotels.",
+   "a": "Hotel chain:\n- A group of hotels following standard operating procedures in marketing, reservations, service quality, F&B, housekeeping and accounting.\n- Example: Hilton brands (Hampton Inns, Embassy Suites, Homewood Suites).\nIndependent hotel:\n- Not associated with a franchise; gives more warmth and individuality.\n- The owner often functions as manager.\n- Room rates similar to chain properties; rooms decorated in different styles; inviting dining rooms.",
+   "d": "Business affiliation: whether a hotel belongs to a chain or is independent.",
+   "w": "The main contrast is standardisation (chain) versus individuality (independent)."
+  },
+  {
+   "id": "t3-w4",
+   "t": "Ownership and management",
+   "wr": true,
+   "q": "Explain the three ways accommodation can be owned and operated, with examples.",
+   "a": "1. Owner-operated: the individual or company owns and runs the facility. Most are smaller (motels, camping grounds, B&Bs, hostels), though some large chains are owner-operated.\n2. Management contract: the owner employs a company to operate it, e.g. Sheraton, Hyatt, Marriott, Hilton; the hotel usually carries the management company's name.\n3. Franchise: the owner pays to use an established chain's name, joining its promotions and reservations, e.g. Best Western; examples in Oman given on the slides are Sheraton and Hyatt.",
+   "d": "Ownership and management: owner-operated, management contract, franchise.",
+   "w": "The difference is who owns, who runs, and whose name is on the hotel."
+  },
+  {
+   "id": "t3-w5",
+   "t": "Sales indicators",
+   "wr": true,
+   "q": "Hotel ABC has 120 rooms. Tonight it sells 96 rooms for a total room revenue of OMR 7,200. Its rack rate is OMR 90. Calculate the occupancy percentage, ADR, RevPAR and yield.",
+   "a": "Occupancy % = 96 ÷ 120 × 100 = 80%\nADR = 7,200 ÷ 96 = OMR 75\nRevPAR = 7,200 ÷ 120 = OMR 60 (check: 80% × 75 = 60)\nRevenue potential = 120 × 90 = OMR 10,800\nYield = 7,200 ÷ 10,800 = 66.67%",
+   "d": "Occupancy = sold ÷ available; ADR = revenue ÷ sold; RevPAR = revenue ÷ available; Yield = revenue realised ÷ revenue potential.",
+   "w": "Use rooms SOLD for ADR and rooms AVAILABLE for RevPAR."
+  },
+  {
+   "id": "t3-w6",
+   "t": "Food and beverage",
+   "wr": true,
+   "q": "Explain the three F&B market segments and the ways F&B operations can be owned and managed.",
+   "a": "Market segments:\n1. Restaurant market: fast food (limited menu, self-service, very low check, chains) and coffee shops (inexpensive menus, longer hours).\n2. Travel and lodging market: captive customers in hotels, airports, bus stations and clubs.\n3. Contract feeding and vending: subsidised or welfare catering for airlines, hospitals, schools, prisons and the armed forces, where profit is not the main concern.\nOwnership and management:\n- Self-operated: the owner runs the operation.\n- Franchise: the franchisee pays to use the franchisor's name, design and methods and keeps its standards.\n- Management contracting: a specialist company manages all or part of the operation.\n- Outsourcing: a branded restaurant or coffee chain operates inside the hotel.",
+   "d": "Food and beverage sector: three market segments and four management options.",
+   "w": "Organise the answer in two parts: markets, then ownership."
+  }
+ ]
+}

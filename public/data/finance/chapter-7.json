@@ -1,0 +1,378 @@
+{
+ "id": "fn-ch7",
+ "label": "Chapter 7",
+ "name": "Recent Trends in Finance",
+ "questions": [
+  {
+   "id": "fn7-01",
+   "t": "Traditional finance",
+   "q": "Traditional finance mainly emphasises:",
+   "o": [
+    "Stability, capital preservation and risk management",
+    "Growth, innovation and risk-taking",
+    "Cryptocurrency and DeFi",
+    "Robo-advisors and crowdfunding"
+   ],
+   "d": "Traditional finance: conventional, long-established methods of managing money that emphasise stability, capital preservation and risk management over growth and innovation.",
+   "w": "Growth, innovation and risk-taking describe modern finance."
+  },
+  {
+   "id": "fn7-02",
+   "t": "Traditional finance",
+   "q": "Which is an example of TRADITIONAL finance?",
+   "o": [
+    "Insurance",
+    "Cryptocurrency",
+    "Robo-advisors",
+    "Peer-to-peer lending"
+   ],
+   "d": "Traditional finance examples: banking, stocks and bonds, insurance, retirement planning, real estate.",
+   "w": "Cryptocurrency, robo-advisors and P2P lending are modern finance."
+  },
+  {
+   "id": "fn7-03",
+   "t": "Traditional finance",
+   "q": "Stocks represent ___, while bonds represent ___.",
+   "o": [
+    "Ownership in a company; a loan to a company or government",
+    "A loan to a company; ownership in a company",
+    "Insurance cover; a bank deposit",
+    "A digital asset; a savings account"
+   ],
+   "d": "Stocks: ownership in a company. Bonds: a loan to a company or government entity.",
+   "w": "A shareholder owns part of the company; a bondholder has lent it money."
+  },
+  {
+   "id": "fn7-04",
+   "t": "Changes in finance",
+   "q": "Fintech means:",
+   "o": [
+    "Using technology to provide innovative financial services",
+    "Government regulation of banks",
+    "Traditional branch banking",
+    "Investing only in technology companies"
+   ],
+   "d": "Fintech (financial technology): the use of technology to provide innovative financial services, often faster, cheaper and more convenient.",
+   "w": "Examples include online banking, mobile payment apps and robo-advisors."
+  },
+  {
+   "id": "fn7-05",
+   "t": "Changes in finance",
+   "q": "The Dodd-Frank Act was introduced:",
+   "o": [
+    "In the United States after the 2008 financial crisis, to reduce risk and increase transparency",
+    "In the European Union in 2018 to protect investors",
+    "In Oman to regulate mutual funds",
+    "To create Bitcoin"
+   ],
+   "d": "Regulatory reforms: after the 2008 crisis, the US Dodd-Frank Act introduced new rules for banks to reduce risk and increase transparency.",
+   "w": "The EU's 2018 rule is MiFID II."
+  },
+  {
+   "id": "fn7-06",
+   "t": "Changes in finance",
+   "q": "MiFID II (2018) was introduced by:",
+   "o": [
+    "The European Union, to increase market transparency and protect investors",
+    "The United States after 2008",
+    "The Capital Market Authority of Oman",
+    "A cryptocurrency exchange"
+   ],
+   "d": "MiFID II: the EU's Markets in Financial Instruments Directive, introduced in 2018.",
+   "w": "It aimed to increase transparency in financial markets and protect investors."
+  },
+  {
+   "id": "fn7-07",
+   "t": "Modern finance",
+   "q": "A computer program that uses algorithms to give investment advice and manage portfolios is a:",
+   "o": [
+    "Robo-advisor",
+    "Chatbot",
+    "Digital wallet",
+    "Crowdfunding platform"
+   ],
+   "d": "Robo-advisors: computer programs that use algorithms to provide financial advice and investment management, usually at lower cost.",
+   "w": "Chatbots answer customer questions; robo-advisors manage investments."
+  },
+  {
+   "id": "fn7-08",
+   "t": "Modern finance",
+   "q": "Raising money from a large number of people through an online platform is:",
+   "o": [
+    "Crowdfunding",
+    "Peer-to-peer lending",
+    "Impact investing",
+    "An IPO"
+   ],
+   "d": "Crowdfunding: raising money from many individuals through an online platform, for startups, real estate or charitable causes.",
+   "w": "P2P lending is borrowing and lending between individuals, with repayment."
+  },
+  {
+   "id": "fn7-09",
+   "t": "Modern finance",
+   "q": "Individuals lending and borrowing directly from each other without a bank is:",
+   "o": [
+    "Peer-to-peer (P2P) lending",
+    "Crowdfunding",
+    "Decentralised finance",
+    "Sustainable finance"
+   ],
+   "d": "Peer-to-peer lending: platforms match borrowers and lenders directly, based on creditworthiness and needs.",
+   "w": "The key point is that no traditional financial institution sits in the middle."
+  },
+  {
+   "id": "fn7-10",
+   "t": "Modern finance",
+   "q": "Investing in companies that create positive social or environmental impact as well as financial return is:",
+   "o": [
+    "Impact investing",
+    "Crowdfunding",
+    "High-frequency trading",
+    "Short selling"
+   ],
+   "d": "Impact investing: investing in organisations with positive social or environmental impact in addition to financial returns.",
+   "w": "It aligns financial goals with personal values."
+  },
+  {
+   "id": "fn7-11",
+   "t": "Modern finance",
+   "q": "Cryptocurrency has given rise to which new forms of finance?",
+   "o": [
+    "Decentralised finance (DeFi) and non-fungible tokens (NFTs)",
+    "Insurance and retirement planning",
+    "Banking and bonds",
+    "Mutual funds and SIPs"
+   ],
+   "d": "Cryptocurrency: a digital asset using cryptography to secure transactions and control creation of new units.",
+   "w": "The notes say it gave rise to DeFi and NFTs."
+  },
+  {
+   "id": "fn7-12",
+   "t": "Traditional vs modern",
+   "q": "Private equity, venture capital and hedge funds are investment strategies of:",
+   "o": [
+    "Modern finance",
+    "Traditional finance",
+    "Public finance",
+    "Personal finance only"
+   ],
+   "d": "Investment strategies: traditional finance uses stocks, bonds and mutual funds; modern finance introduced private equity, venture capital and hedge funds.",
+   "w": "These newer strategies reflect modern finance's focus on growth and risk-taking."
+  },
+  {
+   "id": "fn7-13",
+   "t": "Traditional vs modern",
+   "q": "Which statement about globalisation is correct?",
+   "o": [
+    "Modern finance is more global; traditional finance focuses more on local or regional markets",
+    "Traditional finance is more global than modern finance",
+    "Neither is affected by globalisation",
+    "Both focus only on local markets"
+   ],
+   "d": "Globalisation: modern finance emphasises cross-border investment and international diversification.",
+   "w": "Traditional finance has tended to focus on local or regional markets."
+  },
+  {
+   "id": "fn7-14",
+   "t": "Recent trends",
+   "q": "Bitcoin, the first and best-known cryptocurrency, was created in:",
+   "o": [
+    "2009",
+    "2001",
+    "2015",
+    "2018"
+   ],
+   "d": "Cryptocurrencies: decentralised digital assets. Bitcoin was created in 2009; others include Ethereum, Litecoin and Dogecoin.",
+   "w": "2018 is when MiFID II was introduced, not Bitcoin."
+  },
+  {
+   "id": "fn7-15",
+   "t": "Recent trends",
+   "q": "In sustainable finance, ESG stands for:",
+   "o": [
+    "Environmental, social and governance",
+    "Equity, savings and growth",
+    "Economic, sustainable and green",
+    "Exchange, stocks and gold"
+   ],
+   "d": "Sustainable finance: incorporating ESG criteria (environmental, social and governance) into investment decisions.",
+   "w": "ESG factors include carbon footprint, diversity and inclusion policies, and labour practices."
+  },
+  {
+   "id": "fn7-16",
+   "t": "Recent trends",
+   "q": "Which is a sustainable finance solution?",
+   "o": [
+    "Green bonds",
+    "High-frequency trading",
+    "Leveraged products",
+    "Payday loans"
+   ],
+   "d": "Sustainable finance solutions: ESG investing, impact investing and green bonds.",
+   "w": "High-frequency trading and leveraged products are listed under ethical concerns, not sustainability."
+  },
+  {
+   "id": "fn7-17",
+   "t": "Recent trends",
+   "q": "Which is an example of artificial intelligence (AI) in finance?",
+   "o": [
+    "Fraud detection algorithms",
+    "Paper cheques",
+    "Branch queues",
+    "Fixed deposits"
+   ],
+   "d": "AI in finance: chatbots, fraud detection algorithms and robo-advisors; analysing large data to find patterns.",
+   "w": "AI raises concerns about privacy, ethics and job displacement."
+  },
+  {
+   "id": "fn7-18",
+   "t": "Benefits",
+   "q": "Banks being required to hold more capital and be more transparent leads to which benefit?",
+   "o": [
+    "Better risk management",
+    "Cost savings",
+    "Increased investment opportunities",
+    "Improved customer experience"
+   ],
+   "d": "Better risk management: regulatory reforms require more capital and transparency, making the system more resilient.",
+   "w": "Cost savings and customer experience come mainly from fintech; investment opportunities from globalisation."
+  },
+  {
+   "id": "fn7-19",
+   "t": "Challenges",
+   "q": "Which challenge involves anti-money laundering (AML) and know-your-customer (KYC) rules?",
+   "o": [
+    "Regulatory compliance",
+    "Cybersecurity",
+    "Financial inclusion",
+    "Financial stability"
+   ],
+   "d": "Regulatory compliance: reforms increase the compliance burden in data privacy, AML and KYC, which is costly and time-consuming.",
+   "w": "AML and KYC are regulations, so the challenge is complying with them."
+  },
+  {
+   "id": "fn7-20",
+   "t": "Challenges",
+   "q": "People with low incomes or limited access to technology missing out on fintech is a challenge of:",
+   "o": [
+    "Financial inclusion",
+    "Consumer protection",
+    "Ethical concerns",
+    "Regulatory compliance"
+   ],
+   "d": "Financial inclusion challenge: barriers remain for some groups, who may rely on expensive and risky informal services.",
+   "w": "Being excluded from financial services is the opposite of inclusion."
+  },
+  {
+   "id": "fn7-21",
+   "t": "Innovative tools",
+   "q": "A decentralised digital ledger that records transactions securely and transparently is:",
+   "o": [
+    "Blockchain",
+    "A digital wallet",
+    "Big data",
+    "A chatbot"
+   ],
+   "d": "Blockchain: a decentralised digital ledger, used for digital currencies, smart contracts and identity verification.",
+   "w": "Digital wallets store currencies and make payments; blockchain is the record-keeping technology."
+  },
+  {
+   "id": "fn7-22",
+   "t": "Future of finance",
+   "q": "Decentralised finance (DeFi) provides financial services:",
+   "o": [
+    "Without traditional intermediaries, using blockchain technology",
+    "Only through central banks",
+    "Using paper records",
+    "Only to large corporations"
+   ],
+   "d": "DeFi: a financial system built on blockchain that provides services without traditional financial intermediaries.",
+   "w": "It could improve financial inclusion for people excluded by high fees or limited access."
+  },
+  {
+   "id": "fn7-23",
+   "t": "Changes in finance",
+   "q": "Advances in technology let investors invest in foreign markets and companies raise capital globally. This change is:",
+   "o": [
+    "Globalisation",
+    "Regulatory reform",
+    "Sustainability",
+    "Remote work"
+   ],
+   "d": "Globalisation: the world of finance has become increasingly global, increasing competition and market volatility.",
+   "w": "Cross-border investing and fundraising are signs of globalisation."
+  },
+  {
+   "id": "fn7-24",
+   "t": "Modern finance",
+   "tf": true,
+   "ans": true,
+   "q": "Modern finance tends to emphasise growth, innovation and risk-taking over stability.",
+   "d": "Modern finance: innovative methods using new technologies, emphasising growth, innovation and risk-taking.",
+   "w": "This is the opposite emphasis to traditional finance."
+  },
+  {
+   "id": "fn7-25",
+   "t": "Recent trends",
+   "tf": true,
+   "ans": false,
+   "q": "Remote work in finance accelerated mainly because of the 2008 financial crisis.",
+   "d": "Remote work: the COVID-19 pandemic accelerated work-from-home in the finance industry.",
+   "w": "The 2008 crisis led to regulatory reforms, not remote work."
+  },
+  {
+   "id": "fn7-w1",
+   "t": "Traditional vs modern",
+   "wr": true,
+   "q": "Explain five differences between traditional finance and modern finance.",
+   "a": "1. Philosophy: traditional is conservative (stability, preserving capital); modern is dynamic (growth, taking risks).\n2. Investment strategies: traditional uses stocks, bonds and mutual funds; modern adds private equity, venture capital and hedge funds.\n3. Technology: modern rapidly adopts blockchain, robo-advisors and mobile banking; traditional relies on established systems.\n4. Risk management: traditional focuses on diversification and minimising risk; modern takes more risk and manages it with innovative instruments.\n5. Globalisation: modern is global (cross-border, international diversification); traditional focuses on local or regional markets.",
+   "d": "Traditional finance: stability-focused conventional practices. Modern finance: innovation- and growth-focused practices using new technology.",
+   "w": "Compare the two side by side on the same five points."
+  },
+  {
+   "id": "fn7-w2",
+   "t": "Changes in finance",
+   "wr": true,
+   "q": "Explain four significant changes in the world of finance.",
+   "a": "1. Rise and growth of fintech: technology-based services (online banking, mobile payments, robo-advisors) that are faster, cheaper and more convenient; this increased competition for traditional banks.\n2. Focus on sustainability and social responsibility: growth of sustainable investing in companies with positive environmental and social impact.\n3. Regulatory reforms: after the 2008 crisis, e.g. the US Dodd-Frank Act and the EU's MiFID II (2018), to reduce risk, increase transparency and protect investors.\n4. Globalisation: easier investment in foreign markets and global capital raising, with more competition and volatility.",
+   "d": "Changes in finance: driven by technology, changing consumer behaviour and regulatory reform.",
+   "w": "Give each change a short example to show you understand it."
+  },
+  {
+   "id": "fn7-w3",
+   "t": "Benefits",
+   "wr": true,
+   "q": "State and explain the benefits of recent trends in finance.",
+   "a": "1. Increased access to financial services (online banking, mobile payments, P2P lending), even in remote areas.\n2. Cost savings: lower fees and commissions than traditional institutions.\n3. Improved customer experience: convenient, personalised services such as robo-advisors.\n4. Better risk management: regulations require more capital and transparency.\n5. Increased investment opportunities: globalisation opens foreign markets, e.g. emerging market funds.\n6. Greater focus on sustainability: investors align money with values, encouraging sustainable businesses.",
+   "d": "Recent trends in finance: fintech, cryptocurrencies, sustainable finance, AI, online banking, digital payments, remote work.",
+   "w": "Link each benefit to the trend that causes it."
+  },
+  {
+   "id": "fn7-w4",
+   "t": "Challenges",
+   "wr": true,
+   "q": "Explain the challenges created by recent trends in finance.",
+   "a": "1. Cybersecurity: more online transactions increase the risk of cyber attacks.\n2. Regulatory compliance: data privacy, AML and KYC rules are costly and time-consuming.\n3. Financial inclusion: low-income groups or those without technology may be excluded.\n4. Consumer protection: complex products (e.g. cryptocurrencies) can confuse and exploit consumers.\n5. Financial stability: global interconnectedness can spread crises (contagion, systemic risk).\n6. Ethical concerns: high-frequency trading, short selling and leveraged products.",
+   "d": "Challenges: the risks and difficulties that come with new financial trends.",
+   "w": "Each challenge is the downside of a trend: fintech brings cyber risk, globalisation brings contagion, and so on."
+  },
+  {
+   "id": "fn7-w5",
+   "t": "Innovative tools",
+   "wr": true,
+   "q": "Explain five innovative tools in finance.",
+   "a": "1. Robo-advisors: algorithm-based platforms giving low-cost personalised investment advice.\n2. Blockchain: a decentralised, secure and transparent digital ledger used for digital currencies, smart contracts and identity verification.\n3. Crowdfunding: raising small contributions from many people online, also useful to test market demand.\n4. Digital wallets: store digital currencies and make fast, secure payments.\n5. Big data and analytics: analyse large data sets for better decisions, fraud detection and customer segmentation.\n(Others: chatbots for 24/7 support; mobile banking apps.)",
+   "d": "Innovative tools: new technologies that make financial management more efficient, cheaper and accessible.",
+   "w": "Name the tool, say what it does, and give one benefit."
+  },
+  {
+   "id": "fn7-w6",
+   "t": "Future of finance",
+   "wr": true,
+   "q": "Describe the trends likely to shape the future of finance.",
+   "a": "1. Fintech: blockchain, AI and machine learning making services more efficient and secure.\n2. Digital currencies: Bitcoin, Ethereum and possible government digital currencies, reducing use of cash.\n3. Sustainable investing: becoming mainstream as investors align money with values.\n4. Big data and analytics: better risk management and tailored products.\n5. Decentralised finance (DeFi): blockchain-based services without intermediaries, improving inclusion.\n6. Regulatory changes: new rules on data privacy, AML, KYC and sustainable investing.",
+   "d": "Future of finance: greater efficiency, accuracy, security, financial inclusion and sustainability.",
+   "w": "These six trends are listed in the notes; institutions that adapt will be best placed to succeed."
+  }
+ ]
+}

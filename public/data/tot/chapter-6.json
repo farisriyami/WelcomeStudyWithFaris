@@ -1,0 +1,427 @@
+{
+ "id": "tot-ch6",
+ "label": "Chapter 6",
+ "name": "Benefits of Tourism and Hospitality",
+ "questions": [
+  {
+   "id": "t6-01",
+   "t": "Overview",
+   "q": "The benefits of tourism to a host destination are grouped into:",
+   "o": [
+    "Economic, social, cultural and environmental benefits",
+    "Income, profit, tax and loans",
+    "Air, land, water and rail",
+    "Planning, organising, directing and controlling"
+   ],
+   "d": "Benefits of tourism: economic, social, cultural and environmental.",
+   "w": "The other options are lists from other topics."
+  },
+  {
+   "id": "t6-02",
+   "t": "Economic benefits",
+   "q": "In economic terms, inbound tourism to a country is considered:",
+   "o": [
+    "An export industry",
+    "An import industry",
+    "A non-economic activity",
+    "A cost only"
+   ],
+   "d": "Inbound tourism = export industry; outbound tourism = import industry.",
+   "w": "Foreign visitors bring money into the country, like exports."
+  },
+  {
+   "id": "t6-03",
+   "t": "Economic benefits",
+   "q": "Economic impacts of tourism focus on which three areas?",
+   "o": [
+    "Income, employment and regional development",
+    "Culture, heritage and religion",
+    "Transport, accommodation and food",
+    "Planning, policy and control"
+   ],
+   "d": "Economic benefits: income, employment and regional development.",
+   "w": "These are the three areas listed on the slides."
+  },
+  {
+   "id": "t6-04",
+   "t": "Economic benefits",
+   "q": "Tourists' spending on accommodation, food, transport, visas, taxes and souvenirs is:",
+   "o": [
+    "Direct spending",
+    "Indirect spending",
+    "Regional development",
+    "Outbound spending"
+   ],
+   "d": "Direct spending: money spent by tourists themselves.",
+   "w": "The tourist pays directly."
+  },
+  {
+   "id": "t6-05",
+   "t": "Economic benefits",
+   "q": "A hotel spending on maintenance, marketing research and expansion projects is:",
+   "o": [
+    "Indirect spending",
+    "Direct spending",
+    "Cultural exchange",
+    "Segregation"
+   ],
+   "d": "Indirect spending: money spent by tourism businesses on operations, marketing, expansion, taxes and imports.",
+   "w": "The business, not the tourist, is spending."
+  },
+  {
+   "id": "t6-06",
+   "t": "Economic benefits",
+   "q": "Tourism accounts for approximately what share of global trade in services?",
+   "o": [
+    "40%",
+    "6%",
+    "10%",
+    "3.2%"
+   ],
+   "d": "World: about 40% of global trade in services, 6% of total world trade, over 10% of world GDP.",
+   "w": "6% is total world trade; 10% is GDP."
+  },
+  {
+   "id": "t6-07",
+   "t": "Economic benefits",
+   "q": "How much did tourism generate in Oman in 2016?",
+   "o": [
+    "OMR 841.3 million (3.2% of GDP)",
+    "OMR 1,631.6 million (3.9% of GDP)",
+    "OMR 75 million",
+    "OMR 106 million"
+   ],
+   "d": "Oman: OMR 841.3 mn in 2016 (3.2% of GDP), expected to reach OMR 1,631.6 mn in 2027 (3.9%).",
+   "w": "1,631.6 mn is the 2027 forecast."
+  },
+  {
+   "id": "t6-08",
+   "t": "Economic benefits",
+   "q": "Globally, roughly how many people are employed in the tourism industry?",
+   "o": [
+    "About 77 million",
+    "About 157 million",
+    "About 75,000",
+    "About 10 million"
+   ],
+   "d": "World: about 77 million employed in the industry, plus about 157 million additional jobs created outside it.",
+   "w": "157 million are jobs outside the industry."
+  },
+  {
+   "id": "t6-09",
+   "t": "Economic benefits",
+   "q": "How many jobs did tourism provide in Oman in 2016?",
+   "o": [
+    "75,000 (3.4% of total employment)",
+    "106,000 (4.5%)",
+    "77 million",
+    "841,300"
+   ],
+   "d": "Oman: 75,000 jobs in 2016 (3.4%), expected 106,000 in 2027 (4.5%).",
+   "w": "106,000 is the 2027 forecast."
+  },
+  {
+   "id": "t6-10",
+   "t": "Economic benefits",
+   "q": "Compared with sectors such as oil production, tourism can generate:",
+   "o": [
+    "Twice as many jobs",
+    "Half as many jobs",
+    "No jobs",
+    "Only highly skilled jobs"
+   ],
+   "d": "Employment: tourism is a major job creator, with many jobs not needing high levels of training.",
+   "w": "Tourism is labour-intensive."
+  },
+  {
+   "id": "t6-11",
+   "t": "Economic benefits",
+   "q": "Tourism's role in regional development is especially important in:",
+   "o": [
+    "Mountainous areas or small islands where other economic activity is difficult",
+    "Large industrial cities only",
+    "Oil fields",
+    "Areas with no visitors"
+   ],
+   "d": "Regional development: tourism supports areas where other activity is difficult.",
+   "w": "Few other industries can thrive in such places."
+  },
+  {
+   "id": "t6-12",
+   "t": "Social benefits",
+   "q": "Which is a SOCIAL benefit of tourism?",
+   "o": [
+    "A higher standard of living as more jobs are created for local people",
+    "Rebirth of traditional crafts",
+    "Conservation of national parks",
+    "Imports of wine"
+   ],
+   "d": "Social benefits: higher standard of living, revitalisation through redistribution of wealth, improved facilities, reduced poverty.",
+   "w": "Crafts are cultural; national parks are environmental."
+  },
+  {
+   "id": "t6-13",
+   "t": "Social benefits",
+   "q": "Revitalising poor societies through redistribution of wealth between rich and poor regions is a:",
+   "o": [
+    "Social benefit",
+    "Cultural benefit",
+    "Environmental benefit",
+    "Resistance factor"
+   ],
+   "d": "Social benefits include revitalising poor societies through redistribution of wealth.",
+   "w": "It improves people's living conditions."
+  },
+  {
+   "id": "t6-14",
+   "t": "Cultural benefits",
+   "q": "The rebirth of local arts, crafts and traditional activities is a:",
+   "o": [
+    "Cultural benefit",
+    "Social benefit",
+    "Economic benefit",
+    "Environmental benefit"
+   ],
+   "d": "Cultural benefits: rebirth of arts and crafts, restoration of architecture, promotion of areas with cultural value.",
+   "w": "Arts and traditions are culture."
+  },
+  {
+   "id": "t6-15",
+   "t": "Cultural benefits",
+   "q": "Cultural exchange is:",
+   "o": [
+    "Sharing ideas, traditions and knowledge with someone from a different background",
+    "Buying foreign currency",
+    "Exporting goods",
+    "A type of transport"
+   ],
+   "d": "Cultural exchange: sharing different ideas, traditions and knowledge across backgrounds.",
+   "w": "Tourism creates contact between visitors and locals."
+  },
+  {
+   "id": "t6-16",
+   "t": "Cultural benefits",
+   "q": "Tourists and locals coexist in a 'live and let live' way. This outcome is:",
+   "o": [
+    "Accommodation (toleration)",
+    "Segregation",
+    "Opposition",
+    "Diffusion"
+   ],
+   "d": "Outcomes of cultural interaction: accommodation, segregation, opposition, diffusion.",
+   "w": "'Live and let live' is toleration."
+  },
+  {
+   "id": "t6-17",
+   "t": "Cultural benefits",
+   "q": "Tourists remain confined to special tourist areas and keep a social distance from locals. This is:",
+   "o": [
+    "Segregation",
+    "Diffusion",
+    "Accommodation",
+    "Opposition"
+   ],
+   "d": "Segregation: social distance by avoidance or by confining tourists to special areas.",
+   "w": "The groups are kept apart."
+  },
+  {
+   "id": "t6-18",
+   "t": "Cultural benefits",
+   "q": "Tourists, locals or both borrow or adapt cultural traits from each other. This is:",
+   "o": [
+    "Diffusion",
+    "Segregation",
+    "Opposition",
+    "Accommodation"
+   ],
+   "d": "Diffusion: borrowing or adapting cultural traits or elements of the other.",
+   "w": "Culture spreads from one group to another."
+  },
+  {
+   "id": "t6-19",
+   "t": "Cultural benefits",
+   "q": "Locals rejecting tourists, or tourists rejecting locals, is:",
+   "o": [
+    "Opposition",
+    "Diffusion",
+    "Accommodation",
+    "Segregation"
+   ],
+   "d": "Opposition: tourists are rejected by locals or locals by tourists.",
+   "w": "Rejection means opposition."
+  },
+  {
+   "id": "t6-20",
+   "t": "Environmental benefits",
+   "q": "National parks, marine reserves and monuments benefiting economically from tourism, and tourism encouraging good planning, is:",
+   "o": [
+    "Conservation",
+    "Segregation",
+    "Indirect spending",
+    "Opposition"
+   ],
+   "d": "Environmental benefits: conservation, environmental education and the built environment.",
+   "w": "Tourism income helps protect these sites."
+  },
+  {
+   "id": "t6-21",
+   "t": "Environmental benefits",
+   "q": "Visitors learning about a destination through museums, trails, guides and technology, and then helping protect it, is:",
+   "o": [
+    "Environmental education",
+    "Diffusion",
+    "Regional development",
+    "Direct spending"
+   ],
+   "d": "Environmental education: raising awareness of environmental values through interpretation.",
+   "w": "Gössling (2002) says tourism changed human-environment relations in knowledge, attitudes and behaviour."
+  },
+  {
+   "id": "t6-22",
+   "t": "Environmental benefits",
+   "q": "Coastal resorts and historic landscaped gardens leaving a legacy of architecture and landscapes is a benefit to:",
+   "o": [
+    "The built environment",
+    "Cultural opposition",
+    "Outbound tourism",
+    "Contract feeding"
+   ],
+   "d": "The built environment: tourism leaves a valuable legacy in architecture, landscapes and urban detailing, and supports mixed developments.",
+   "w": "Resorts and gardens are built environments."
+  },
+  {
+   "id": "t6-23",
+   "t": "Factors",
+   "q": "The ratio of visitors to residents is called:",
+   "o": [
+    "Tourism density",
+    "Seasonality",
+    "Length of stay",
+    "Tourist profile"
+   ],
+   "d": "Factors affecting benefits include the scale of tourism and tourism density (ratio of visitors to residents).",
+   "w": "Density compares visitors with residents."
+  },
+  {
+   "id": "t6-24",
+   "t": "Factors",
+   "q": "Which of these is a factor affecting the benefits of tourism on host destinations?",
+   "o": [
+    "Seasonality",
+    "The number of airlines worldwide",
+    "The colour of hotel buildings",
+    "The language of the slides"
+   ],
+   "d": "Factors: development level, scale and density, tourists' profile and length of stay, activities and behaviour, seasonality, economic and socio-cultural characteristics of tourists versus residents.",
+   "w": "Seasonality changes how many tourists come and when."
+  },
+  {
+   "id": "t6-25",
+   "t": "Overview",
+   "tf": true,
+   "ans": true,
+   "q": "Tourism is one of the world's largest industries and the largest service industry.",
+   "d": "Introduction: tourism is one of the world's largest industries and the largest service industry.",
+   "w": "This is why its benefits matter so much."
+  },
+  {
+   "id": "t6-26",
+   "t": "Economic benefits",
+   "tf": true,
+   "ans": false,
+   "q": "Economic impacts of tourism on a host destination are generally negative.",
+   "d": "Economic impacts are generally positive, and they are the main reason countries encourage tourism.",
+   "w": "Income, jobs and regional development are positive impacts."
+  },
+  {
+   "id": "t6-27",
+   "t": "Economic benefits",
+   "tf": true,
+   "ans": false,
+   "q": "Tourism jobs always require high levels of training.",
+   "d": "Tourism is a major job creator with jobs that do not require high levels of training.",
+   "w": "That is why it creates so many jobs."
+  },
+  {
+   "id": "t6-28",
+   "t": "Cultural benefits",
+   "tf": true,
+   "ans": true,
+   "q": "Tourists' interest in local culture can increase locals' awareness of, and pride in, their culture.",
+   "d": "Cultural benefits: tourists' interest can regenerate awareness, interest and pride among locals.",
+   "w": "Seeing visitors value their culture encourages locals to value it too."
+  },
+  {
+   "id": "t6-29",
+   "t": "Economic benefits",
+   "tf": true,
+   "ans": false,
+   "q": "Outbound tourism is considered an export industry.",
+   "d": "Inbound tourism is an export industry; outbound tourism is an import industry.",
+   "w": "Outbound residents spend money abroad, like imports."
+  },
+  {
+   "id": "t6-30",
+   "t": "Factors",
+   "tf": true,
+   "ans": true,
+   "q": "The extent and nature of tourism impacts differ from one destination to another.",
+   "d": "Factors affecting benefits make impacts differ between destinations.",
+   "w": "Development level, density and seasonality vary by place."
+  },
+  {
+   "id": "t6-w1",
+   "t": "Economic benefits",
+   "wr": true,
+   "q": "Explain the economic benefits of tourism, with world and Oman figures.",
+   "a": "1. Income: tourism injects fresh money. Direct spending by tourists (accommodation, F&B, transport, visas, taxes, souvenirs) and indirect spending by businesses (operations, marketing, expansion, taxes, imports). World: about 40% of global trade in services, 6% of world trade, over 10% of world GDP. Oman: OMR 841.3 mn in 2016 (3.2% of GDP), expected OMR 1,631.6 mn in 2027 (3.9%).\n2. Employment: a major job creator; can generate twice as many jobs as oil production. World: about 77 million employed plus 157 million jobs outside the industry. Oman: 75,000 jobs in 2016 (3.4%), expected 106,000 in 2027 (4.5%).\n3. Regional development: especially in mountainous areas or small islands.\nInbound tourism is an export industry.",
+   "d": "Economic benefits: income, employment and regional development.",
+   "w": "Use the slides' figures to support each point."
+  },
+  {
+   "id": "t6-w2",
+   "t": "Social benefits",
+   "wr": true,
+   "q": "Discuss the social benefits of tourism to local societies.",
+   "a": "1. A higher standard of living as more jobs are created for local people.\n2. Revitalisation of poor societies through redistribution of wealth between rich and poor nations or regions.\n3. Improved lifestyles as more and better facilities become available.\n4. Jobs and business opportunities that help reduce or eliminate poverty.",
+   "d": "Social benefits: improvements to the lives of the host community.",
+   "w": "Each benefit affects local people's daily lives."
+  },
+  {
+   "id": "t6-w3",
+   "t": "Cultural benefits",
+   "wr": true,
+   "q": "Discuss the cultural benefits of tourism and define cultural exchange.",
+   "a": "Cultural benefits:\n1. Rebirth of local arts, crafts and traditional activities.\n2. Renewal and restoration of architecture and other cultural elements.\n3. Promotion of areas with aesthetic and cultural value.\n4. Regenerated awareness, interest and pride in local culture.\n5. Cultural exchange and understanding between tourists and locals.\nCultural exchange: sharing different ideas, traditions and knowledge with someone from a completely different background.",
+   "d": "Cultural benefits: positive impacts of tourism on local culture.",
+   "w": "End with the definition of cultural exchange."
+  },
+  {
+   "id": "t6-w4",
+   "t": "Cultural benefits",
+   "wr": true,
+   "q": "Explain the possible outcomes when two or more cultures interact.",
+   "a": "1. Accommodation or toleration: tourists and locals coexist in a 'live and let live' way.\n2. Segregation: tourists and locals keep a social distance, by avoidance or by tourists staying in special tourist areas.\n3. Opposition: tourists are rejected by locals, or locals by tourists.\n4. Diffusion: tourists, locals or both borrow or adapt cultural traits of the other.",
+   "d": "Cultural interaction: what happens when tourists' and locals' cultures meet.",
+   "w": "The four outcomes range from rejection (opposition) to mixing (diffusion)."
+  },
+  {
+   "id": "t6-w5",
+   "t": "Environmental benefits",
+   "wr": true,
+   "q": "Discuss the environmental benefits of tourism.",
+   "a": "1. Conservation: national parks, marine reserves, monuments and archaeological sites benefit economically; tourism encourages good planning and management and motivates rehabilitation of built and natural environments.\n2. Environmental education: interpretation through museums, trails, guides and technology raises awareness, and visitors may help protect the destination; Gössling (2002) notes changes in knowledge, attitudes and behaviour.\n3. The built environment: a legacy of architecture, landscapes and urban detailing (e.g. coastal resorts, historic gardens) and support for mixed developments.",
+   "d": "Environmental benefits: positive impacts of tourism on natural and built environments.",
+   "w": "Three benefits are listed on the slides; explain each."
+  },
+  {
+   "id": "t6-w6",
+   "t": "Factors",
+   "wr": true,
+   "q": "What factors affect the benefits of tourism on host destinations?",
+   "a": "1. Level of economic and tourism development at the destination.\n2. Scale of tourism (number of tourists) and tourism density (ratio of visitors to residents).\n3. Tourists' profile and length of stay.\n4. Tourists' activities and behaviour.\n5. Seasonality.\n6. Economic characteristics of tourists compared with local residents.\n7. Social and cultural characteristics of tourists compared with local residents.",
+   "d": "The extent and nature of tourism impacts differ from one destination to another.",
+   "w": "These factors explain why the same number of tourists affects places differently."
+  }
+ ]
+}

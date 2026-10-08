@@ -1,0 +1,427 @@
+{
+ "id": "tot-ch2",
+ "label": "Chapter 2",
+ "name": "Tourism Supply and Demand",
+ "questions": [
+  {
+   "id": "t2-01",
+   "t": "Supply and demand",
+   "q": "Tourism supply is:",
+   "o": [
+    "The quantity of tourism products that sellers are willing and able to sell",
+    "The quantity of tourism products that tourists are willing and able to buy",
+    "The number of tourists arriving at a destination",
+    "The money tourists spend in a destination"
+   ],
+   "d": "Tourism supply: the quantity of tourism products that sellers (suppliers or providers) are willing and able to sell.",
+   "w": "Supply is about the sellers. The second option is the definition of demand."
+  },
+  {
+   "id": "t2-02",
+   "t": "Supply and demand",
+   "q": "How is tourism demand measured, according to the slides?",
+   "o": [
+    "By counting the number of visitors or tourists who come to the destination",
+    "By counting the number of hotels",
+    "By the number of airlines",
+    "By the size of the destination"
+   ],
+   "d": "Tourism demand: the quantity of tourism products buyers (tourists) are willing and able to purchase; it needs both willingness and ability.",
+   "w": "Demand comes from tourists, so it is measured by how many of them arrive."
+  },
+  {
+   "id": "t2-03",
+   "t": "Tourism product",
+   "q": "The tourism product is described as composite because it includes:",
+   "o": [
+    "Everything the tourist purchases, sees, experiences and feels from leaving home until returning",
+    "Only the hotel room",
+    "Only the flight ticket",
+    "Only souvenirs bought at the destination"
+   ],
+   "d": "Tourism product: composite in nature, covering everything the tourist purchases, sees, experiences and feels from leaving home until returning.",
+   "w": "It is a combination of many parts, not a single item."
+  },
+  {
+   "id": "t2-04",
+   "t": "Tourism product",
+   "q": "Which of these is NOT one of the 3 A's of the tourism product?",
+   "o": [
+    "Advertising",
+    "Attractions and activities",
+    "Amenities",
+    "Accessibility"
+   ],
+   "d": "The 3 A's: attractions and activities, amenities, accessibility.",
+   "w": "Advertising helps sell the product but is not one of its components."
+  },
+  {
+   "id": "t2-05",
+   "t": "Tourism product",
+   "q": "Amenities are divided into:",
+   "o": [
+    "Infrastructure and superstructure",
+    "Natural and man-made",
+    "Direct and indirect",
+    "Inbound and outbound"
+   ],
+   "d": "Amenities: the infrastructure and superstructure at the destination (e.g. roads, utilities, hotels).",
+   "w": "Natural and man-made describe attractions, not amenities."
+  },
+  {
+   "id": "t2-06",
+   "t": "Tourism product",
+   "q": "Accessibility of a destination is affected by:",
+   "o": [
+    "Geographical proximity, cost of transport and frequency of transport",
+    "The number of museums",
+    "The core values of the destination",
+    "The tourist's age"
+   ],
+   "d": "Accessibility: affected by the destination's geographical proximity, the cost of transport to it and the frequency of transport.",
+   "w": "Accessibility is about how easy it is to get there."
+  },
+  {
+   "id": "t2-07",
+   "t": "Characteristics",
+   "q": "A hotel room left unsold tonight cannot be stored and sold tomorrow. Which characteristic is this?",
+   "o": [
+    "Perishability",
+    "Immovability",
+    "Heterogeneity",
+    "Rigidity of supply"
+   ],
+   "d": "Perishability: services cannot be physically stored.",
+   "w": "Tonight's unsold room is lost forever, so the product perishes."
+  },
+  {
+   "id": "t2-08",
+   "t": "Characteristics",
+   "q": "A tourist must travel to the beach to enjoy it, because the beach cannot be brought to the tourist. Which characteristic is this?",
+   "o": [
+    "Immovability",
+    "Perishability",
+    "Service orientation",
+    "Heterogeneity"
+   ],
+   "d": "Immovability: the tourism product cannot be taken to the consumer.",
+   "w": "The consumer has to come to the product."
+  },
+  {
+   "id": "t2-09",
+   "t": "Characteristics",
+   "q": "A city cannot quickly add hundreds of hotel rooms when demand jumps during a festival. Which characteristic is this?",
+   "o": [
+    "Rigidity of supply",
+    "Perishability",
+    "Immovability",
+    "Service orientation"
+   ],
+   "d": "Rigidity of supply: some facilities cannot change quickly in the face of changes in demand.",
+   "w": "Building capacity takes time, so supply is rigid."
+  },
+  {
+   "id": "t2-10",
+   "t": "Characteristics",
+   "q": "The tourism product is made up of many diverse components. Which characteristic is this?",
+   "o": [
+    "Heterogeneity",
+    "Rigidity of supply",
+    "Perishability",
+    "Immovability"
+   ],
+   "d": "Heterogeneity: the product is composed of many diverse components.",
+   "w": "Transport, accommodation, food and attractions together make one varied product."
+  },
+  {
+   "id": "t2-11",
+   "t": "Visitor attractions",
+   "q": "A visitor attraction is described as:",
+   "o": [
+    "The core component of the tourism product that attracts a person to visit the destination",
+    "Any hotel at the destination",
+    "The airline that carries tourists",
+    "A travel agency"
+   ],
+   "d": "Visitor attraction: the core component of the tourism product at the host destination that attracts people to visit.",
+   "w": "Without an attraction there is little reason to travel to the destination."
+  },
+  {
+   "id": "t2-12",
+   "t": "Visitor attractions",
+   "q": "Rivers, lakes, beaches, caves, national parks and forests are:",
+   "o": [
+    "Natural attractions",
+    "Man-made attractions",
+    "Purpose-built attractions",
+    "Event attractions"
+   ],
+   "d": "Natural attractions (Swarbrooke): rivers, lakes, beaches, caves, scenic features, flora and fauna, national parks, wilderness and forests.",
+   "w": "They are created by nature, not people."
+  },
+  {
+   "id": "t2-13",
+   "t": "Visitor attractions",
+   "q": "Historic houses, castles and forts that were NOT originally built to attract tourists are:",
+   "o": [
+    "Man-made attractions",
+    "Purpose-built attractions",
+    "Natural attractions",
+    "Event attractions"
+   ],
+   "d": "Man-made attractions: not originally designed to attract tourists, e.g. historic houses, castles, heritage and archaeological sites.",
+   "w": "A fort was built for defence, not tourism, so it is man-made but not purpose-built."
+  },
+  {
+   "id": "t2-14",
+   "t": "Visitor attractions",
+   "q": "Museums, theme parks, aqua-parks, zoos and golf courses are:",
+   "o": [
+    "Man-made and purpose-built attractions",
+    "Natural attractions",
+    "Man-made attractions not designed for visitors",
+    "Event attractions"
+   ],
+   "d": "Purpose-built attractions: created with the purpose of attracting visitors.",
+   "w": "These were built specifically for visitors."
+  },
+  {
+   "id": "t2-15",
+   "t": "Visitor attractions",
+   "q": "How do event attractions differ from other attractions?",
+   "o": [
+    "They occur only periodically and may change venues",
+    "They are always free",
+    "They never need investment",
+    "They are always natural"
+   ],
+   "d": "Event attractions: from small festivals to hallmark events, occurring periodically and sometimes changing venues.",
+   "w": "Hallmark events (e.g. the Olympics) also need large investment in buildings and infrastructure."
+  },
+  {
+   "id": "t2-16",
+   "t": "Factors affecting supply",
+   "q": "Which of these is NOT a factor affecting tourism SUPPLY on the slides?",
+   "o": [
+    "Tourists' disposable income",
+    "Availability of a skilled workforce",
+    "Government policy",
+    "Host population acceptance of tourism"
+   ],
+   "d": "Supply factors: natural resources, investment and capital, skilled workforce, government policy, impacts on the host community, host acceptance, accessibility, infrastructure and superstructure.",
+   "w": "Disposable income is a travel facilitator, which affects demand."
+  },
+  {
+   "id": "t2-17",
+   "t": "Factors affecting demand",
+   "q": "Tourism demand is a function of which three factors?",
+   "o": [
+    "Travel facilitators, resistance factors and travel motivators",
+    "Price, product and place",
+    "Attractions, amenities and accessibility",
+    "Income, employment and regional development"
+   ],
+   "d": "Factors affecting demand: travel facilitators, resistance factors and travel motivators.",
+   "w": "The 3 A's describe the product (supply), not demand."
+  },
+  {
+   "id": "t2-18",
+   "t": "Factors affecting demand",
+   "q": "Which of these is a travel FACILITATOR?",
+   "o": [
+    "Discretionary leisure time",
+    "Perceived image of the destination",
+    "Lack of information on the destination",
+    "Political instability"
+   ],
+   "d": "Travel facilitators: disposable income, discretionary leisure time, basic tourism services, political stability, accepted mediums of exchange, access to travel documents.",
+   "w": "The other three options are resistance factors."
+  },
+  {
+   "id": "t2-19",
+   "t": "Factors affecting demand",
+   "q": "Which of these is a RESISTANCE factor?",
+   "o": [
+    "Lack of amenities at the destination",
+    "Disposable income",
+    "Access to travel documentation",
+    "Accepted mediums of exchange"
+   ],
+   "d": "Resistance factors: political instability, location, cost, health and safety, climate, perceived image, lack of amenities, lack of information.",
+   "w": "Resistance factors dissuade a person from travelling."
+  },
+  {
+   "id": "t2-20",
+   "t": "Factors affecting demand",
+   "q": "What is the difference between travel facilitators and travel motivators?",
+   "o": [
+    "Facilitators predict whether a person CAN travel; motivators explain WHY they travel",
+    "Facilitators explain why people travel; motivators predict whether they can",
+    "They are the same thing",
+    "Facilitators stop people travelling"
+   ],
+   "d": "Travel facilitators: predictors of ability to travel. Travel motivators: the reasons for travel.",
+   "w": "Stopping people travelling is the role of resistance factors."
+  },
+  {
+   "id": "t2-21",
+   "t": "Motivation theories",
+   "q": "Ramumbo's PHYSICAL motivators relate to:",
+   "o": [
+    "Bodily health and reducing stress through physical activity",
+    "Learning about other cultures",
+    "Meeting new people",
+    "Gaining status and recognition"
+   ],
+   "d": "Ramumbo's four motivators: physical, cultural, interpersonal, status and prestige.",
+   "w": "Physical motivators are about the body: health and stress relief, e.g. tramping."
+  },
+  {
+   "id": "t2-22",
+   "t": "Motivation theories",
+   "q": "Travelling to enhance one's reputation or self-worth is which Ramumbo motivator?",
+   "o": [
+    "Status and prestige",
+    "Interpersonal",
+    "Cultural",
+    "Physical"
+   ],
+   "d": "Status and prestige motivators: the need for esteem and recognition.",
+   "w": "Reputation and self-worth are about esteem."
+  },
+  {
+   "id": "t2-23",
+   "t": "Motivation theories",
+   "q": "In Gray's theory, the desire to exchange the known for the unknown and explore new places is:",
+   "o": [
+    "Wanderlust",
+    "Sunlust",
+    "Interpersonal motivation",
+    "Status motivation"
+   ],
+   "d": "Gray: the prime motivation is to escape routine, made of two forces: wanderlust and sunlust.",
+   "w": "Wandering and exploring is wanderlust."
+  },
+  {
+   "id": "t2-24",
+   "t": "Motivation theories",
+   "q": "A family travels to a destination mainly for better weather, sun and sand. In Gray's theory this is:",
+   "o": [
+    "Sunlust",
+    "Wanderlust",
+    "Cultural motivation",
+    "Physical motivation"
+   ],
+   "d": "Sunlust: a lust for the sun, or for better physical conditions than in the generating market, e.g. 'sun and sand' tourism.",
+   "w": "The motive is better physical conditions, not exploring the unknown."
+  },
+  {
+   "id": "t2-25",
+   "t": "Factors affecting demand",
+   "tf": true,
+   "ans": true,
+   "q": "Travel motivations are often hidden and must be distinguished from the stated purpose of travel.",
+   "d": "Motivations tend to be covert (hidden) and differ from the stated purpose (e.g. holiday).",
+   "w": "Two people can both say 'holiday' but have very different reasons."
+  },
+  {
+   "id": "t2-26",
+   "t": "Factors affecting demand",
+   "tf": true,
+   "ans": false,
+   "q": "Two people with the same stated purpose of travel must have the same motivation.",
+   "d": "Same purpose, different reasons: one may escape work stress, the other may want to socialise.",
+   "w": "Purpose and motivation are different things."
+  },
+  {
+   "id": "t2-27",
+   "t": "Visitor attractions",
+   "tf": true,
+   "ans": true,
+   "q": "Natural attractions are usually in public ownership and need strict management to protect them.",
+   "d": "Natural attractions are usually publicly owned and demand strict management regimes to protect them from visitors' use.",
+   "w": "Heavy visitor use can damage fragile natural sites."
+  },
+  {
+   "id": "t2-28",
+   "t": "Visitor attractions",
+   "tf": true,
+   "ans": true,
+   "q": "Hallmark events need considerable investment in buildings, infrastructure, planning and organisation.",
+   "d": "Hallmark events: major events like the Football World Cup or Olympics, which promote the host destination.",
+   "w": "They also have to safeguard the health, safety and security of visitors."
+  },
+  {
+   "id": "t2-29",
+   "t": "Factors affecting demand",
+   "tf": true,
+   "ans": true,
+   "q": "Facilitators, motivators and resistance factors operate at a general level and a specific level.",
+   "d": "General level: whether to take a holiday at all. Specific level: which destination, hotel or product.",
+   "w": "Both decisions are influenced by the same three factors."
+  },
+  {
+   "id": "t2-30",
+   "t": "Motivation theories",
+   "tf": true,
+   "ans": false,
+   "q": "Cultural motivators relate to the need for esteem and recognition.",
+   "d": "Cultural motivators: learning about other countries, cultures, arts and traditions.",
+   "w": "Esteem and recognition are status and prestige motivators."
+  },
+  {
+   "id": "t2-w1",
+   "t": "Tourism product",
+   "wr": true,
+   "q": "Define the tourism product and explain its components (the 3 A's).",
+   "a": "Tourism product: composite in nature; everything the tourist purchases, sees, experiences and feels from leaving home until returning.\n1. Attractions and activities: activities, site attractions and event attractions (e.g. natural and archaeological sites).\n2. Amenities: infrastructure and superstructure (e.g. roads, utilities, hotels).\n3. Accessibility: affected by geographical proximity, cost of transport and frequency of transport to the destination.",
+   "d": "The 3 A's: attractions and activities, amenities, accessibility.",
+   "w": "Define the product first, then explain each A with an example."
+  },
+  {
+   "id": "t2-w2",
+   "t": "Characteristics",
+   "wr": true,
+   "q": "Explain the characteristics of the tourism product.",
+   "a": "1. Service orientation: depends on people; the link between the tourist and the service consumed.\n2. Perishability: services cannot be physically stored (an unsold room tonight is lost).\n3. Rigidity of supply: some facilities cannot change quickly when demand changes.\n4. Immovability: the product cannot be taken to the consumer; the tourist must travel to it.\n5. Heterogeneity: it is made of many diverse components.",
+   "d": "Like many services, the tourism product differs from tangible goods.",
+   "w": "Each characteristic shows a way tourism differs from a physical product you can store and ship."
+  },
+  {
+   "id": "t2-w3",
+   "t": "Visitor attractions",
+   "wr": true,
+   "q": "Explain Swarbrooke's (2001) classification of visitor attractions, with examples.",
+   "a": "1. Natural attractions: rivers, beaches, caves, national parks, forests; usually publicly owned and strictly managed (e.g. Oman's wadis and beaches).\n2. Man-made attractions not built for tourists: historic houses, castles, forts, heritage and archaeological sites (e.g. a historic fort).\n3. Man-made, purpose-built attractions: museums, galleries, theme parks, zoos, golf courses, shopping venues (e.g. a national museum).\n4. Event attractions: from community festivals to hallmark events (e.g. Football World Cup, Olympics, Formula One); they occur periodically and need large investment.",
+   "d": "Visitor attraction: the core component of the tourism product that attracts people to a destination.",
+   "w": "The key difference between types 2 and 3 is whether the place was built to attract visitors."
+  },
+  {
+   "id": "t2-w4",
+   "t": "Factors affecting supply",
+   "wr": true,
+   "q": "What are the factors affecting tourism supply?",
+   "a": "1. Natural resources and attractions at the destination.\n2. Levels of investment and availability of capital.\n3. Availability of a skilled workforce.\n4. Government policy and intervention in tourism.\n5. Potential impacts of tourism on the host community.\n6. Host population acceptance of tourism.\n7. Accessibility of the destination.\n8. Availability of complementary infrastructure and superstructure.",
+   "d": "Supply-side variables may constrain or foster tourism development, even though supply should be demand-driven.",
+   "w": "List the factors from the slides and explain one or two briefly."
+  },
+  {
+   "id": "t2-w5",
+   "t": "Factors affecting demand",
+   "wr": true,
+   "q": "Differentiate between travel facilitators and resistance factors, giving examples.",
+   "a": "Travel facilitators predict whether a person is able to travel: disposable income, discretionary leisure time, basic tourism services and facilities, political stability, accepted mediums of exchange, access to travel documents.\nResistance factors dissuade a person from travelling: political instability and safety, the destination's location, cost of travel, health and safety issues, climate, perceived image, lack of amenities, lack of information.",
+   "d": "Factors affecting demand: facilitators, resistance factors and motivators.",
+   "w": "Facilitators make travel possible; resistance factors push people away."
+  },
+  {
+   "id": "t2-w6",
+   "t": "Motivation theories",
+   "wr": true,
+   "q": "Explain the travel motivators given by Ramumbo and by Gray.",
+   "a": "Ramumbo's four motivators:\n1. Physical: bodily health and stress relief through physical activity.\n2. Cultural: learning about other countries, cultures, arts and traditions.\n3. Interpersonal: meeting new people, socialising or escaping reality.\n4. Status and prestige: esteem, recognition and self-worth.\nGray: the main motive is to escape everyday routine, made of two forces:\n- Wanderlust: exchanging the known for the unknown and exploring new places.\n- Sunlust: seeking better physical conditions, e.g. sun and sand.",
+   "d": "Travel motivation: the reasons why people travel when there is often no need to do so.",
+   "w": "Present both theories separately and give an example for each motivator."
+  }
+ ]
+}

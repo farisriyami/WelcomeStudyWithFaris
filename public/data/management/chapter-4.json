@@ -1,0 +1,427 @@
+{
+ "id": "mg-ch4",
+ "label": "Chapter 4",
+ "name": "Understanding Organisational Culture in Business",
+ "questions": [
+  {
+   "id": "mg4-01",
+   "t": "Meaning of culture",
+   "q": "Hofstede describes culture as:",
+   "o": [
+    "A set of shared attitudes, values, goals, practices and social norms that characterize a group",
+    "The formal chart of who reports to whom",
+    "A company's annual budget",
+    "The physical design of an office"
+   ],
+   "d": "Culture (Hofstede): shared attitudes, values, goals, practices and social norms, learned and passed down, shaping how people interact.",
+   "w": "Culture is about shared values and behaviour, not structure, money or buildings."
+  },
+  {
+   "id": "mg4-02",
+   "t": "Meaning of culture",
+   "q": "Edgar Schein describes organisational culture as a pattern of basic assumptions that:",
+   "o": [
+    "A group developed to cope with external adaptation and internal integration, and teaches to new members",
+    "Each employee invents alone on the first day",
+    "Are written only in the company's legal documents",
+    "Never change once created"
+   ],
+   "d": "Organisational culture (Schein): basic assumptions a group developed while solving its problems, considered valuable and taught to new members as the correct way to perceive, think and feel.",
+   "w": "The key ideas are 'shared', 'learned from experience' and 'taught to new members'."
+  },
+  {
+   "id": "mg4-03",
+   "t": "Characteristics",
+   "q": "Which is a characteristic of organisational culture?",
+   "o": [
+    "It is not inborn; it is invented and developed over time",
+    "It is the same in every organization",
+    "It is fixed at birth",
+    "It is only shaped by external factors"
+   ],
+   "d": "Characteristics: not inborn but developed over time; a framework for performance; shaped by internal and external factors; promotes work culture.",
+   "w": "Culture is learned and built, not something people are born with."
+  },
+  {
+   "id": "mg4-04",
+   "t": "Characteristics",
+   "q": "How does organisational culture reduce role conflicts among employees?",
+   "o": [
+    "By promoting standardization in systems and sub-systems",
+    "By removing all communication",
+    "By making everyone work alone",
+    "By eliminating rules"
+   ],
+   "d": "Characteristics: culture promotes standardization in systems and sub-systems, which reduces role conflicts.",
+   "w": "When everyone follows shared standards, there is less confusion about roles."
+  },
+  {
+   "id": "mg4-05",
+   "t": "Functions of culture",
+   "q": "Starbucks values employees, builds close bonds and encourages inclusion, creating a feeling of togetherness. Which function of culture is this?",
+   "o": [
+    "It gives members an organisational identity",
+    "It provides a boundary",
+    "It promotes systems stability",
+    "It enforces conformity"
+   ],
+   "d": "Function 1: culture gives members an organisational identity, a sense of togetherness and common purpose.",
+   "w": "The slides use Starbucks to show a unified organisational identity."
+  },
+  {
+   "id": "mg4-06",
+   "t": "Functions of culture",
+   "q": "Zappos gives employees autonomy and hires for cultural fit. Which function of culture does this show?",
+   "o": [
+    "It facilitates collective commitment and shared culture",
+    "It provides a boundary",
+    "It shapes behaviour through sense-making",
+    "It enforces secrecy"
+   ],
+   "d": "Function 2: culture stimulates strong commitment from all who accept it and gives a shared pattern of feelings.",
+   "w": "Empowering staff and hiring for fit builds collective commitment to shared values."
+  },
+  {
+   "id": "mg4-07",
+   "t": "Functions of culture",
+   "q": "Google's collaboration value and '20% time' policy keep employees engaged and aligned for long-term success. Which function of culture is this?",
+   "o": [
+    "It promotes systems stability",
+    "It provides a boundary",
+    "It gives an organisational identity",
+    "It ensures conformity through secrecy"
+   ],
+   "d": "Function 3: a shared identity and commitment encourage lasting cooperation and hold members together with appropriate standards.",
+   "w": "The slides use Google to illustrate systems stability."
+  },
+  {
+   "id": "mg4-08",
+   "t": "Functions of culture",
+   "q": "Oman Air helps employees understand its values of hospitality, diversity and safety so they align their actions. Which function of culture is this?",
+   "o": [
+    "It shapes behaviour by helping members make sense of their surroundings",
+    "It provides a boundary",
+    "It promotes systems stability",
+    "It ensures conformity through secrecy"
+   ],
+   "d": "Function 4: culture is a source of shared meaning that explains why things happen as they do; it is felt rather than fully visible.",
+   "w": "Understanding the company's values helps employees navigate their roles."
+  },
+  {
+   "id": "mg4-09",
+   "t": "Functions of culture",
+   "q": "Bank Muscat's values distinguish it from other banks and build trust with customers. Which function of culture is this?",
+   "o": [
+    "It provides a boundary",
+    "It promotes systems stability",
+    "It enforces conformity",
+    "It gives collective commitment"
+   ],
+   "d": "Function 5: culture creates a distinction between one organization and another, and acts as a control mechanism.",
+   "w": "Differentiating Bank Muscat from other banks is the boundary function."
+  },
+  {
+   "id": "mg4-10",
+   "t": "Functions of culture",
+   "q": "Apple's culture of secrecy makes engineers focus only on their own tasks. Which function of culture does this show?",
+   "o": [
+    "Conformity and an expected mode of behaviour",
+    "Organisational identity",
+    "A boundary between organizations",
+    "Systems stability"
+   ],
+   "d": "Function 6: culture helps members stick to conformity (consistency) and the expected mode of behaviour.",
+   "w": "Everyone behaves in the prescribed way, which is conformity."
+  },
+  {
+   "id": "mg4-11",
+   "t": "Levels of culture",
+   "q": "The visible, tangible aspects of organisational culture are called:",
+   "o": [
+    "Artifacts",
+    "Values",
+    "Assumptions",
+    "Premises"
+   ],
+   "d": "Levels of culture: artifacts (visible), values (shared principles and goals), assumptions (beliefs about human nature and reality).",
+   "w": "Artifacts are what you can see and touch."
+  },
+  {
+   "id": "mg4-12",
+   "t": "Levels of culture",
+   "q": "Celebrating National Day, a company picnic or a retirement party are examples of:",
+   "o": [
+    "Rites and rituals",
+    "Terminal values",
+    "Common assumptions",
+    "Instrumental values"
+   ],
+   "d": "Rites and rituals (artifacts): recurring activities used at special times to influence members' behaviour and understanding.",
+   "w": "These are visible, repeated events, so they are artifacts."
+  },
+  {
+   "id": "mg4-13",
+   "t": "Levels of culture",
+   "q": "Organisational heroes, role models and leadership styles that employees like to copy are examples of:",
+   "o": [
+    "Observable artifacts",
+    "Terminal values",
+    "Common assumptions",
+    "Planning premises"
+   ],
+   "d": "Observable artifacts: symbols of culture in the physical and social work environment.",
+   "w": "They are visible and accessible, and employees copy their behaviour."
+  },
+  {
+   "id": "mg4-14",
+   "t": "Levels of culture",
+   "q": "Freedom, happiness and equality are examples of:",
+   "o": [
+    "Terminal values",
+    "Instrumental values",
+    "Artifacts",
+    "Rites and rituals"
+   ],
+   "d": "Terminal values: the end state of existence an organization would like to achieve.",
+   "w": "They describe goals (end states), not behaviours."
+  },
+  {
+   "id": "mg4-15",
+   "t": "Levels of culture",
+   "q": "Being hardworking, responsible and supportive are examples of:",
+   "o": [
+    "Instrumental values",
+    "Terminal values",
+    "Artifacts",
+    "Assumptions"
+   ],
+   "d": "Instrumental values: preferable modes of behaviour that help achieve the terminal values.",
+   "w": "They describe how people behave to reach the end goals."
+  },
+  {
+   "id": "mg4-16",
+   "t": "Levels of culture",
+   "q": "At the PDO Fahud camp, workers see safety as a fundamental, taken-for-granted expectation. This illustrates:",
+   "o": [
+    "Common assumptions",
+    "Rites and rituals",
+    "Terminal values",
+    "Organisational heroes"
+   ],
+   "d": "Common assumptions: deeply shared, often unnoticed beliefs that shape behaviour and decision-making.",
+   "w": "The safety expectation is taken for granted, which is the mark of an assumption."
+  },
+  {
+   "id": "mg4-17",
+   "t": "Cultural change",
+   "q": "Organisational culture change is:",
+   "o": [
+    "The intentional modification of shared beliefs, values and norms to align with the vision and strategy",
+    "Changing the company's logo only",
+    "Replacing all employees",
+    "Removing all rules"
+   ],
+   "d": "Cultural change: intentionally modifying shared beliefs, values and norms to align internal culture with the vision and strategic goals.",
+   "w": "It is planned and aims at better performance and success."
+  },
+  {
+   "id": "mg4-18",
+   "t": "Cultural change",
+   "q": "What is the FIRST step in achieving cultural change?",
+   "o": [
+    "Assess and understand the current culture",
+    "Define the desired future state",
+    "Develop a comprehensive change plan",
+    "Implement and reinforce the change"
+   ],
+   "d": "Steps for cultural change: I assess the current culture, II define the desired future state, III develop a change plan, IV implement and reinforce.",
+   "w": "You need to know the starting point before planning where to go."
+  },
+  {
+   "id": "mg4-19",
+   "t": "Cultural change",
+   "q": "Conducting surveys, focus groups or interviews about current values and behaviours belongs to which step?",
+   "o": [
+    "Step I: assess and understand the current culture",
+    "Step II: define the desired future state",
+    "Step III: develop a change plan",
+    "Step IV: implement and reinforce"
+   ],
+   "d": "Step I: gauge employee perceptions and analyse leadership practices, hiring and performance systems.",
+   "w": "Surveys and interviews measure the current culture."
+  },
+  {
+   "id": "mg4-20",
+   "t": "Cultural change",
+   "q": "Identifying stakeholders and champion leaders, designing communication strategies and creating a roadmap with milestones is:",
+   "o": [
+    "Step III: develop a comprehensive change plan",
+    "Step I: assess the current culture",
+    "Step II: define the desired future state",
+    "Step IV: implement and reinforce"
+   ],
+   "d": "Step III: translate the vision into a practical, coordinated strategy.",
+   "w": "A roadmap and communication strategy are planning tools."
+  },
+  {
+   "id": "mg4-21",
+   "t": "Cultural change",
+   "q": "Providing training, rewarding people who show the new values and monitoring progress belongs to:",
+   "o": [
+    "Step IV: implement and reinforce the change",
+    "Step I: assess the current culture",
+    "Step II: define the desired future state",
+    "Step III: develop a change plan"
+   ],
+   "d": "Step IV: implement and reinforce to embed the new culture in daily operations.",
+   "w": "Training, rewards and monitoring make the change last."
+  },
+  {
+   "id": "mg4-22",
+   "t": "Personal skills",
+   "q": "Paying close attention to colleagues, asking clarifying questions and acknowledging their views is:",
+   "o": [
+    "Active listening",
+    "Emotional intelligence",
+    "Continuous learning",
+    "Adaptability"
+   ],
+   "d": "Active listening and communication: pay attention, ask clarifying questions, acknowledge perspectives, and communicate clearly.",
+   "w": "These behaviours describe how a good listener acts."
+  },
+  {
+   "id": "mg4-23",
+   "t": "Personal skills",
+   "q": "Understanding your own emotions and others', managing reactions and acting with empathy is:",
+   "o": [
+    "Emotional intelligence",
+    "Active listening",
+    "Teamwork",
+    "Continuous learning"
+   ],
+   "d": "Emotional intelligence: understand and manage emotions and navigate relationships with empathy and tact.",
+   "w": "Managing emotions is the key idea."
+  },
+  {
+   "id": "mg4-24",
+   "t": "Personal skills",
+   "q": "Adjusting your communication, dress code and demeanour to the organization's norms is:",
+   "o": [
+    "Openness and adaptability",
+    "Professionalism only",
+    "Continuous learning",
+    "Teamwork"
+   ],
+   "d": "Openness and adaptability: be open to new ideas and adapt behaviour to different situations and norms.",
+   "w": "Changing your behaviour to fit the situation is adapting."
+  },
+  {
+   "id": "mg4-25",
+   "t": "Characteristics",
+   "tf": true,
+   "ans": false,
+   "q": "Organisational culture is inborn.",
+   "d": "Organisational culture is not inborn; it is invented and developed over time.",
+   "w": "Culture is learned and passed on to new members."
+  },
+  {
+   "id": "mg4-26",
+   "t": "Functions of culture",
+   "tf": true,
+   "ans": false,
+   "q": "Organisational culture is fully visible to everyone.",
+   "d": "Culture is not fully visible but felt; its less visible parts reflect values shared by members.",
+   "w": "Artifacts are visible, but values and assumptions are mostly hidden."
+  },
+  {
+   "id": "mg4-27",
+   "t": "Levels of culture",
+   "tf": true,
+   "ans": true,
+   "q": "Instrumental values are behaviours that help achieve terminal values.",
+   "d": "Instrumental values: preferable modes of behaviour that help achieve terminal (end-state) values.",
+   "w": "Hard work (instrumental) can lead to fairness or success (terminal)."
+  },
+  {
+   "id": "mg4-28",
+   "t": "Levels of culture",
+   "tf": true,
+   "ans": true,
+   "q": "Common assumptions are often taken for granted and can go unnoticed.",
+   "d": "Common assumptions: underlying beliefs so ingrained they often go unnoticed, yet they shape norms and expectations.",
+   "w": "That is why they are the deepest level of culture."
+  },
+  {
+   "id": "mg4-29",
+   "t": "Functions of culture",
+   "tf": true,
+   "ans": true,
+   "q": "Culture defines the boundary between one organization and others.",
+   "d": "Boundary function: culture distinguishes members from non-members and guides their attitudes and behaviour.",
+   "w": "The slides' MCQ says this conveys a sense of identity for the organization."
+  },
+  {
+   "id": "mg4-30",
+   "t": "Personal skills",
+   "tf": true,
+   "ans": false,
+   "q": "Fitting into an organization means giving up your own individuality.",
+   "d": "Fitting in means adapting to the organization's culture while maintaining your own individuality.",
+   "w": "You adapt your behaviour, but you remain yourself."
+  },
+  {
+   "id": "mg4-w1",
+   "t": "Meaning of culture",
+   "wr": true,
+   "q": "Define organisational culture and list its main characteristics.",
+   "a": "Edgar Schein: a pattern of basic assumptions invented, discovered or developed by a group as it learns to cope with external adaptation and internal integration, which has worked well enough to be taught to new members as the correct way to perceive, think and feel.\nWagner III and Hollenbeck: the shared attitudes and perceptions in an organization based on fundamental norms and values that help members understand it.\nCharacteristics:\n- Not inborn; developed over time.\n- Enables employees to perform within a framework.\n- Shaped by internal and external factors.\n- Promotes equality, work culture and professionalism.\n- Promotes formal communication, productivity and job satisfaction.\n- Promotes standardization that reduces role conflicts.\n- Encourages risk-sharing and novel ideas.",
+   "d": "Organisational culture: shared assumptions, attitudes and values that guide how members perceive, think and behave.",
+   "w": "Give at least one definition with its author, then list several characteristics."
+  },
+  {
+   "id": "mg4-w2",
+   "t": "Functions of culture",
+   "wr": true,
+   "q": "Explain the functions of organisational culture with an example of each.",
+   "a": "1. Gives members an organisational identity: a sense of togetherness (Starbucks).\n2. Facilitates collective commitment and shared culture (Zappos: autonomy and hiring for cultural fit).\n3. Promotes systems stability: lasting cooperation and standards (Google: collaboration and '20% time').\n4. Shapes behaviour by helping members make sense of their surroundings (Oman Air: hospitality, diversity and safety).\n5. Provides a boundary between organizations and acts as a control mechanism (Bank Muscat's core values).\n6. Helps members stick to conformity and the expected mode of behaviour (Apple's culture of secrecy).",
+   "d": "Functions of culture: what culture does for an organization and its members.",
+   "w": "The slides pair each function with a company example; use them to support your answer."
+  },
+  {
+   "id": "mg4-w3",
+   "t": "Levels of culture",
+   "wr": true,
+   "q": "Explain the three levels of organisational culture.",
+   "a": "1. Observable artifacts: visible, tangible symbols of culture, e.g. organisational heroes and role models, leadership styles, work ethics, and rites and rituals (National Day celebrations, company picnics, retirement parties).\n2. Shared values: principles, standards and goals linked with work: terminal values (end states such as freedom, happiness, equality) and instrumental values (behaviours such as hard work and responsibility).\n3. Common assumptions: deeply shared, often unnoticed beliefs about human nature and reality that shape behaviour (e.g. safety as a taken-for-granted priority at PDO Fahud camp).",
+   "d": "Levels of culture: artifacts, values and assumptions, from most visible to least visible.",
+   "w": "Move from what you can see (artifacts) to what people believe without noticing (assumptions)."
+  },
+  {
+   "id": "mg4-w4",
+   "t": "Levels of culture",
+   "wr": true,
+   "q": "Explain the difference between terminal and instrumental values, with examples.",
+   "a": "Terminal values:\n- Reflect the end state of existence; what the organization would like to achieve.\n- Examples: freedom, happiness, equality or fairness.\nInstrumental values:\n- The preferable modes of behaviour; the employee behaviours that help achieve the terminal values.\n- Examples: being hardworking, responsible, helping and supportive.\nLink: instrumental values are the means; terminal values are the ends.",
+   "d": "Shared values: principles, standards and goals linked with work.",
+   "w": "Think of terminal values as the destination and instrumental values as how you travel there."
+  },
+  {
+   "id": "mg4-w5",
+   "t": "Cultural change",
+   "wr": true,
+   "q": "Explain the four steps for creating cultural change in an organization.",
+   "a": "Step I, assess and understand the current culture: surveys, focus groups and interviews; analyse leadership, hiring and performance systems.\nStep II, define the desired future state: a clear vision and values, translated into specific, actionable behaviours.\nStep III, develop a comprehensive change plan: identify stakeholders and champion leaders, design communication strategies, and create a roadmap with milestones and responsibilities.\nStep IV, implement and reinforce the change: training and resources, recognise and reward people who show the new values, monitor progress and adapt.",
+   "d": "Cultural change: the intentional modification of shared beliefs, values and norms to align with the vision and strategy.",
+   "w": "The steps move from where we are, to where we want to be, to how we get there, to making it last."
+  },
+  {
+   "id": "mg4-w6",
+   "t": "Personal skills",
+   "wr": true,
+   "q": "Explain the personal skills that help you fit into an organisation's culture.",
+   "a": "1. Active listening and communication: pay attention, ask clarifying questions, and communicate clearly and concisely for the audience.\n2. Openness and adaptability: accept new ideas and adapt communication, dress and demeanour to the organization's norms.\n3. Teamwork and collaboration: be a team player and build strong relationships.\n4. Professionalism and emotional intelligence: dress appropriately, be punctual, act ethically, and manage emotions with empathy.\n5. Continuous learning: seek new skills and stay informed about industry trends.",
+   "d": "Learning to fit in: adapting to an organisation's culture while keeping your individuality.",
+   "w": "Five skill areas are listed on the slides; explain each briefly."
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "id": "fin-ch8",
+ "label": "Chapter 8",
+ "name": "Recent Developments and Contemporary Issues in Supply Chains",
+ "questions": [
+  {
+   "id": "f8-01",
+   "t": "Green supply chain",
+   "q": "Green supply chain management uses environmentally friendly inputs and turns them into outputs that can be:",
+   "o": [
+    "Reclaimed and re-used at the end of their life cycle",
+    "Sold only in local markets",
+    "Stored indefinitely",
+    "Disposed of more cheaply"
+   ],
+   "d": "Green supply chain management is the process of using environmentally friendly inputs and transforming them into outputs that can be reclaimed and re-used at the end of their life cycle, creating a sustainable supply chain."
+  },
+  {
+   "id": "f8-02",
+   "t": "CRM and SCM",
+   "q": "Which statement correctly contrasts SCM and CRM?",
+   "o": [
+    "SCM coordinates the flow of work from vendors to retailers; CRM makes sure customers get support and services, including after sales",
+    "SCM handles after-sales service; CRM handles suppliers",
+    "Both manage only suppliers",
+    "CRM reduces inventory; SCM handles customer complaints"
+   ],
+   "d": "SCM ensures the business has the materials, information and financial resources to produce on time, coordinating work from vendors to retailers. CRM staff interact with customers so they get support and services, including after sales."
+  },
+  {
+   "id": "f8-03",
+   "t": "7 Rs",
+   "q": "Which of these is NOT one of the 7 Rs of logistics?",
+   "o": [
+    "Right promotion",
+    "Right condition",
+    "Right customer",
+    "Right price"
+   ],
+   "d": "The 7 Rs: right product, right quantity, right condition, right place, right time, right customer and right price."
+  },
+  {
+   "id": "f8-04",
+   "t": "7 Rs",
+   "q": "Making sure goods are properly packed and shipped so they reach the customer undamaged relates mainly to:",
+   "o": [
+    "Right condition",
+    "Right quantity",
+    "Right place",
+    "Right time"
+   ],
+   "d": "Right condition: the product should reach the customer in good condition; procurement must ensure products are properly packed and shipped."
+  },
+  {
+   "id": "f8-05",
+   "t": "7 Rs",
+   "q": "Which R is described as determining the profit or loss a company makes?",
+   "o": [
+    "Right price",
+    "Right product",
+    "Right customer",
+    "Right quantity"
+   ],
+   "d": "Right price: pricing is crucial because it determines the profit or loss. Managers analyse industry dynamics and keep a record of costs so goods are sold at the correct price."
+  },
+  {
+   "id": "f8-06",
+   "t": "Oman 2040",
+   "q": "The Oman Logistics Strategy 2040 aims for the logistics sector to become:",
+   "o": [
+    "The second largest contributor to GDP after hydrocarbons",
+    "The largest contributor to GDP",
+    "The third largest employer after tourism",
+    "Oman's only non-oil sector"
+   ],
+   "d": "The Oman Logistics Strategy 2040 sets the aim for logistics to become the second largest contributor to GDP after hydrocarbons."
+  },
+  {
+   "id": "f8-07",
+   "t": "Oman 2040",
+   "q": "What was the initial target for the logistics sector's contribution to Oman's GDP by 2020?",
+   "o": [
+    "US$7.8 billion",
+    "US$2.1 billion",
+    "US$15 billion",
+    "US$28 billion"
+   ],
+   "d": "The initial target was a US$7.8 billion contribution to GDP by 2020, shown by the ambition of Oman's vision for its ports."
+  },
+  {
+   "id": "f8-08",
+   "t": "Oman 2040",
+   "q": "Oman's 2040 initiative and its Tanfeedh programme cite tourism and logistics as key growth areas mainly to:",
+   "o": [
+    "Diversify the economy away from dependence on diminishing natural resources",
+    "Increase oil production",
+    "Reduce the number of ports",
+    "Replace the private sector"
+   ],
+   "d": "Both cite tourism and logistics, among a handful of sectors, as key growth areas for diversifying the Sultanate's economy away from dependence on its diminishing natural resource reserves."
+  },
+  {
+   "id": "f8-09",
+   "t": "Trends and technology",
+   "q": "Which term means using high-level methods and tools to project future trends, events and behaviours from supply chain data?",
+   "o": [
+    "Advanced analytics",
+    "Blockchain",
+    "Supply Chain as a Service (SCaaS)",
+    "A circular supply chain"
+   ],
+   "d": "Advanced analytics uses high-level methods and tools to project future trends, events and behaviours based on supply chain data. Supply chain analytics in general means examining raw supply chain data to reach conclusions or make predictions."
+  },
+  {
+   "id": "f8-10",
+   "t": "Trends and technology",
+   "q": "Which technology creates decentralised, distributed, tamper-proof and unchangeable digital records of transactions?",
+   "o": [
+    "Blockchain",
+    "Internet of Things (IoT)",
+    "Augmented reality",
+    "Autonomous robots"
+   ],
+   "d": "Blockchains create decentralised, distributed and digital records of transactions that are anonymous, tamper-proof and unchangeable."
+  },
+  {
+   "id": "f8-11",
+   "t": "Trends and technology",
+   "q": "A company turns customer returns and waste into new or refurbished products. This is:",
+   "o": [
+    "A circular supply chain",
+    "Supply Chain as a Service",
+    "A green input policy only",
+    "Advanced analytics"
+   ],
+   "d": "A circular supply chain reuses or repurposes waste and customer returns into new or refurbished products, aiming to minimise raw material use and discarded waste."
+  },
+  {
+   "id": "f8-12",
+   "t": "Trends and technology",
+   "q": "Supply Chain as a Service (SCaaS) means:",
+   "o": [
+    "Outsourcing portions of the supply chain process to a third party",
+    "Selling the supply chain to customers",
+    "Running the supply chain without any software",
+    "Replacing suppliers with robots"
+   ],
+   "d": "SCaaS is a relatively new method in which portions of the supply chain process are outsourced to and supported by a third party. It can bring benefits but also significant challenges."
+  },
+  {
+   "id": "f8-13",
+   "t": "Trends and technology",
+   "q": "Attaching sensors to delivery vehicles to get live tracking updates is an example of:",
+   "o": [
+    "Internet of Things (IoT)",
+    "Blockchain",
+    "Virtual reality",
+    "Supply Chain as a Service"
+   ],
+   "d": "IoT improves supply chain visibility in production and inventory management, and live tracking updates can be gathered by attaching sensors to shipping and delivery vehicles."
+  },
+  {
+   "id": "f8-14",
+   "t": "SC of the future",
+   "q": "The supply chain trend 'focused towards customers' includes a move from:",
+   "o": [
+    "Push by the firm to pull by the customer",
+    "Pull by the customer to push by the firm",
+    "Personalised to mass-produced products",
+    "Global to purely local logistics"
+   ],
+   "d": "Trend (1), focused towards customers: a move from push (by the firm) to pull (by the customer), more personalised, with global coherence and reactivity."
+  },
+  {
+   "id": "f8-15",
+   "t": "SC of the future",
+   "q": "Under the 'partnership strategy' trend, which activities are outsourced as 'non-strategic'?",
+   "o": [
+    "Delivery, transport and storage",
+    "Brand and new product introduction",
+    "Core competencies",
+    "Customer focus"
+   ],
+   "d": "Trend (3), partnership strategy: a move from a risk-reduction approach to a balanced relationship, focusing on core competencies, brand, customers and new products, and outsourcing non-strategic activities such as delivery, transport and storage."
+  },
+  {
+   "id": "f8-16",
+   "t": "SC of the future",
+   "q": "In the supply chain of the future, the change 'from inventory to information' leads to:",
+   "o": [
+    "Demand-based replenishment and quick response systems",
+    "SC partnerships",
+    "Focus on markets and creation of customer value",
+    "Integral management of materials and goods flow"
+   ],
+   "d": "SC of the future: functions → processes (integral management of flows); profit → performance (key performance drivers); products → customers (markets and customer value); inventory → information (demand-based replenishment and quick response); transactions → relationships (SC partnerships)."
+  },
+  {
+   "id": "f8-17",
+   "t": "Trends and technology",
+   "tf": true,
+   "ans": false,
+   "q": "Autonomous technology in supply chains is limited to autonomous vehicles.",
+   "d": "The scope of autonomous technology is much wider than autonomous vehicles; for example, robots that move on their own in warehouse management systems."
+  },
+  {
+   "id": "f8-18",
+   "t": "Trends and technology",
+   "tf": true,
+   "ans": true,
+   "q": "IoT with 5G enables fast data signals and real-time information sharing in the supply chain.",
+   "d": "IoT with the help of 5G enables fast data signals and empowers sharing real-time information; a fast wireless network is becoming imperative in the supply chain."
+  },
+  {
+   "id": "f8-19",
+   "t": "SC of the future",
+   "tf": true,
+   "ans": true,
+   "q": "The change 'from transactions to relationships' leads to supply chain partnerships.",
+   "d": "In the SC of the future, moving from transactions to relationships leads to SC partnerships."
+  },
+  {
+   "id": "f8-20",
+   "t": "SC of the future",
+   "tf": true,
+   "ans": false,
+   "q": "The partnership strategy trend is a move from a balanced relationship toward a risk-reduction approach.",
+   "d": "It is the opposite: a move from a risk-reduction approach to a balanced relationship."
+  }
+ ]
+}

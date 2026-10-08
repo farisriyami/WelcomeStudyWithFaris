@@ -1,0 +1,427 @@
+{
+ "id": "mg-ch3",
+ "label": "Chapter 3",
+ "name": "Organizational Structure",
+ "questions": [
+  {
+   "id": "mg3-01",
+   "t": "Organizing",
+   "q": "According to Robbins and Coulter, organizing means determining:",
+   "o": [
+    "What tasks are done, who does them, how they are grouped, who reports to whom and where decisions are made",
+    "Only how much each employee is paid",
+    "Only the company's long-term strategy",
+    "How to advertise products"
+   ],
+   "d": "Organizing (Robbins & Coulter): determining tasks, who does them, how they are grouped, reporting relationships and where decisions are made.",
+   "w": "Organizing is about arranging work and authority, not pay, strategy or advertising."
+  },
+  {
+   "id": "mg3-02",
+   "t": "Organizing",
+   "q": "L.A. Allen's definition of organizing includes identifying and grouping work and:",
+   "o": [
+    "Defining and delegating responsibility and authority, and establishing relationships",
+    "Recruiting and training employees",
+    "Setting prices for products",
+    "Measuring actual performance"
+   ],
+   "d": "Organizing (L.A. Allen): identifying and grouping work, defining and delegating responsibility and authority, and establishing relationships so people work effectively together.",
+   "w": "Recruiting is staffing and measuring performance is controlling."
+  },
+  {
+   "id": "mg3-03",
+   "t": "Organization structure",
+   "q": "Organization structure is best described as:",
+   "o": [
+    "The outcome of the organizing process and a framework of decision-making authority",
+    "A list of the company's customers",
+    "The company's annual budget",
+    "A marketing plan"
+   ],
+   "d": "Organization structure: the outcome of organizing; a framework of decision-making authority and a system of relationships governing people's activities.",
+   "w": "It shows how authority and relationships are arranged to achieve goals."
+  },
+  {
+   "id": "mg3-04",
+   "t": "Organization structure",
+   "q": "What is the FIRST step in developing an organization structure?",
+   "o": [
+    "Clear definition of objectives",
+    "Determining the structure",
+    "Revising the system based on personnel and funds",
+    "Grouping activities"
+   ],
+   "d": "Steps: 1 define objectives clearly, 2 identify and group activities, 3 determine the structure, 4 revise based on personnel and funds.",
+   "w": "Objectives determine the type and basic characteristics of the organization, so they come first."
+  },
+  {
+   "id": "mg3-05",
+   "t": "Organization structure",
+   "q": "The span of supervision (span of control) is:",
+   "o": [
+    "The number of subordinates a manager can effectively manage",
+    "The number of departments in a company",
+    "The length of the chain of command",
+    "The company's geographic area"
+   ],
+   "d": "Span of control: the number of subordinates a manager can effectively manage; it decides whether the organization is flat or tall.",
+   "w": "A wide span gives a flat structure; a narrow span gives a tall one."
+  },
+  {
+   "id": "mg3-06",
+   "t": "Departmentation",
+   "q": "Departmentation is:",
+   "o": [
+    "The process of grouping activities into units for administration at all levels",
+    "Hiring staff for new departments",
+    "Closing unprofitable departments",
+    "Moving departments to new locations"
+   ],
+   "d": "Departmentation: grouping activities into units for administration, dividing personnel and functions into separate units.",
+   "w": "It is the 'grouping' part of organizing."
+  },
+  {
+   "id": "mg3-07",
+   "t": "Departmentation",
+   "q": "Putting similar and related activities under one department is which factor in departmentation?",
+   "o": [
+    "Specialization",
+    "Balance",
+    "Reduction of cost",
+    "Facilitating control"
+   ],
+   "d": "Factors in departmentation: specialization, facilitating control, facilitating coordination, balance, reduction of cost.",
+   "w": "Grouping similar activities builds specialised knowledge, which is specialization."
+  },
+  {
+   "id": "mg3-08",
+   "t": "Departmentation",
+   "q": "Grouping activities to avoid repetition and cut financial cost is which factor?",
+   "o": [
+    "Reduction of cost",
+    "Specialization",
+    "Balance",
+    "Facilitating coordination"
+   ],
+   "d": "Reduction of cost: activities grouped to best achieve objectives at lower cost, e.g. by avoiding repetition.",
+   "w": "Avoiding duplication saves money."
+  },
+  {
+   "id": "mg3-09",
+   "t": "Functional structure",
+   "q": "The most widely used form of departmentation is by:",
+   "o": [
+    "Functions",
+    "Products",
+    "Projects",
+    "Customers"
+   ],
+   "d": "Functional structure: groups activities into major functional departments; the most widely used.",
+   "w": "Basic functions are production, selling and financing, plus buying, accounting, personnel and research."
+  },
+  {
+   "id": "mg3-10",
+   "t": "Functional structure",
+   "q": "The basic functions in a functional structure are usually classified into:",
+   "o": [
+    "Production, selling and financing",
+    "Planning, organizing and controlling",
+    "Top, middle and lower management",
+    "Products, regions and customers"
+   ],
+   "d": "Functional structure: basic functions are production, selling and financing.",
+   "w": "Planning, organizing and controlling are management functions, not departments."
+  },
+  {
+   "id": "mg3-11",
+   "t": "Functional structure",
+   "q": "Which is an ADVANTAGE of a functional structure?",
+   "o": [
+    "It ensures specialization and coordination within each function",
+    "It is a good training ground for all-round managers",
+    "It speeds up all decisions through decentralization",
+    "It removes the need for coordination"
+   ],
+   "d": "Functional advantages: specialization, coordination within the function, adequate attention to basic activities; a time-proved method.",
+   "w": "A functional company is NOT a good training ground for all-round managers, and it tends to centralize decisions."
+  },
+  {
+   "id": "mg3-12",
+   "t": "Functional structure",
+   "q": "Which is a DISADVANTAGE of a functional structure?",
+   "o": [
+    "Excessive centralization delays decisions and the flow of information",
+    "Too much product knowledge",
+    "Two chains of command",
+    "High administrative cost from project teams"
+   ],
+   "d": "Functional disadvantages: excessive centralization causing delay, executives focused narrowly on their own function, poor training for all-round managers.",
+   "w": "Two chains of command and high administrative costs belong to the matrix structure."
+  },
+  {
+   "id": "mg3-13",
+   "t": "Divisional structure",
+   "q": "In a divisional (product) structure:",
+   "o": [
+    "One executive is in charge of all activities for a product or product line",
+    "Each employee serves only one specialist function",
+    "Every employee has two bosses",
+    "All decisions are made by the CEO"
+   ],
+   "d": "Divisional structure: activities for each product or product line are combined into integrated units, each led by an executive with extensive authority.",
+   "w": "The location of the product unit is irrelevant in this structure."
+  },
+  {
+   "id": "mg3-14",
+   "t": "Divisional structure",
+   "q": "Which is an ADVANTAGE of a divisional structure?",
+   "o": [
+    "Product lines can be compared, so unprofitable ones can be dropped and profitable ones expanded",
+    "It has no coordination problems at all",
+    "It always reduces costs",
+    "It gives every employee two chains of command"
+   ],
+   "d": "Divisional advantages: specialised product knowledge, motivated product managers, comparison of product lines, better coordination and customer service.",
+   "w": "Each product's results are separate, which makes comparison easy."
+  },
+  {
+   "id": "mg3-15",
+   "t": "Divisional structure",
+   "q": "Which is a DISADVANTAGE of a divisional structure?",
+   "o": [
+    "Top management may find it hard to monitor and control the various product departments",
+    "Too much centralization in functional departments",
+    "It cannot compare product lines",
+    "Product managers have no authority"
+   ],
+   "d": "Divisional disadvantages: coordination difficulties, control problems for top management, and reluctance to delegate decisions to departmental heads.",
+   "w": "Many semi-independent divisions are harder for top management to monitor."
+  },
+  {
+   "id": "mg3-16",
+   "t": "Matrix structure",
+   "q": "A matrix structure is a combination of:",
+   "o": [
+    "Functional and divisional structures, with vertical and horizontal chains of command",
+    "Line and staff only",
+    "Centralization and decentralization only",
+    "Top and middle management"
+   ],
+   "d": "Matrix structure: imposes horizontal divisional reporting on a hierarchical functional structure; two chains of command.",
+   "w": "Employees report both to a functional manager (vertical) and a project or product manager (horizontal)."
+  },
+  {
+   "id": "mg3-17",
+   "t": "Matrix structure",
+   "q": "The matrix structure is also known as:",
+   "o": [
+    "Grid organization or project/product management organization",
+    "Line organization",
+    "Tall organization",
+    "Functional organization"
+   ],
+   "d": "Matrix structure: also known as grid organization or project or product management organization.",
+   "w": "The grid shape comes from its two crossing lines of authority."
+  },
+  {
+   "id": "mg3-18",
+   "t": "Matrix structure",
+   "q": "Which is an ADVANTAGE of a matrix structure?",
+   "o": [
+    "Flexible use of manpower and other resources",
+    "Low administrative costs",
+    "Clear single line of authority",
+    "No interpersonal conflicts"
+   ],
+   "d": "Matrix advantages: decentralised decisions, better project coordination, better response to change, flexible use of resources.",
+   "w": "Matrix structures actually have high administrative costs and confusion over authority."
+  },
+  {
+   "id": "mg3-19",
+   "t": "Matrix structure",
+   "q": "Which is a DISADVANTAGE of a matrix structure?",
+   "o": [
+    "Confusion over authority and conflict about who reports to whom",
+    "Excessive centralization",
+    "No product coordination",
+    "Too little group decision-making"
+   ],
+   "d": "Matrix disadvantages: high administrative costs, confusion over authority and responsibility, interpersonal conflict, overemphasis on group decision-making.",
+   "w": "Two bosses can give conflicting instructions, causing power struggles."
+  },
+  {
+   "id": "mg3-20",
+   "t": "Centralization",
+   "q": "In a centralized organization, major decisions are made:",
+   "o": [
+    "At the top by the CEO and carried out by everyone below",
+    "By every employee individually",
+    "By customers",
+    "By managers at all levels for daily operations"
+   ],
+   "d": "Centralization: major decisions are made at the top. Decentralization: day-to-day decisions are made by managers at various levels.",
+   "w": "The essential difference between the two is where decisions are made."
+  },
+  {
+   "id": "mg3-21",
+   "t": "Centralization",
+   "q": "Which is a reason organizations need decentralization?",
+   "o": [
+    "To reduce the burden on top executives",
+    "To keep all power with the CEO",
+    "To slow down decision-making",
+    "To reduce managers' morale"
+   ],
+   "d": "Need for decentralization: reduce top executives' burden, diversify product lines, focus on product markets, develop future managers, raise morale, keep pace with technology.",
+   "w": "Sharing decisions frees top executives to focus on major issues."
+  },
+  {
+   "id": "mg3-22",
+   "t": "Line and staff",
+   "q": "Line functions are those that:",
+   "o": [
+    "Have direct responsibility for accomplishing the organization's objectives",
+    "Only give advice to other managers",
+    "Handle only office cleaning and security",
+    "Exist only in matrix structures"
+   ],
+   "d": "Line functions: direct responsibility for objectives. Staff: help the line work more effectively.",
+   "w": "For example, production and sales are line; legal advice or HR support are staff."
+  },
+  {
+   "id": "mg3-23",
+   "t": "Line and staff",
+   "q": "Which describes a STAFF manager?",
+   "o": [
+    "Assists others and provides specialised guidance and ideas to the line",
+    "Has veto power over decisions",
+    "Has final responsibility for achieving objectives",
+    "Takes operating decisions"
+   ],
+   "d": "Staff managers assist, investigate problems, solve special problems, make plans and provide ideas and specialised guidance.",
+   "w": "Veto power, final responsibility and operating decisions belong to line managers."
+  },
+  {
+   "id": "mg3-24",
+   "t": "Line and staff",
+   "q": "Which describes a LINE manager?",
+   "o": [
+    "A generalist who directs others and has final responsibility for achieving objectives",
+    "A specialist who only investigates problems",
+    "Someone who only supports others",
+    "Someone with no authority"
+   ],
+   "d": "Line managers: generalists who direct others, delegate authority, use sanctions, have veto power and final responsibility.",
+   "w": "The line has direct authority; staff supports it."
+  },
+  {
+   "id": "mg3-25",
+   "t": "Matrix structure",
+   "tf": true,
+   "ans": false,
+   "q": "A matrix structure has only one chain of command.",
+   "d": "Matrix structure: two chains of command, vertical (functional) and horizontal (divisional/project).",
+   "w": "Having two bosses is what makes the matrix structure different."
+  },
+  {
+   "id": "mg3-26",
+   "t": "Functional structure",
+   "tf": true,
+   "ans": false,
+   "q": "A functionally organized company is a good training ground for all-round promotable managers.",
+   "d": "A disadvantage of functional structure: it does not offer a good training ground for all-round managers.",
+   "w": "Managers specialise in one function, so they do not learn the whole business."
+  },
+  {
+   "id": "mg3-27",
+   "t": "Divisional structure",
+   "tf": true,
+   "ans": true,
+   "q": "In a divisional (product) structure, the place or location of the product unit is irrelevant.",
+   "d": "Divisional by product: activities are grouped by product; place or location is irrelevant.",
+   "w": "The grouping is based on products, not geography."
+  },
+  {
+   "id": "mg3-28",
+   "t": "Matrix structure",
+   "tf": true,
+   "ans": true,
+   "q": "Matrix structures require high administrative costs.",
+   "d": "Matrix disadvantages include high administrative costs.",
+   "w": "Running two lines of authority needs more managers and coordination."
+  },
+  {
+   "id": "mg3-29",
+   "t": "Centralization",
+   "tf": true,
+   "ans": true,
+   "q": "In decentralization, the CEO sets guidelines, but day-to-day decisions are made by managers at various levels.",
+   "d": "Decentralization: the CEO sets the tone and guidelines; managers at different levels make day-to-day decisions.",
+   "w": "This spreads decision-making down the organization."
+  },
+  {
+   "id": "mg3-30",
+   "t": "Organization structure",
+   "tf": true,
+   "ans": true,
+   "q": "Revising the system based on an assessment of personnel and funds is a step in developing an organization structure.",
+   "d": "Step 4: revise the system based on the capacities of available people and other resources.",
+   "w": "A structure must fit the people and money actually available."
+  },
+  {
+   "id": "mg3-w1",
+   "t": "Organizing",
+   "wr": true,
+   "q": "Define organizing and organization structure.",
+   "a": "Organizing (Robbins & Coulter): determining what tasks are to be done, who is to do them, how the tasks are grouped, who reports to whom, and where decisions are made.\nOrganizing (L.A. Allen): identifying and grouping work, defining and delegating responsibility and authority, and establishing relationships so people work effectively together.\nOrganization structure: the outcome of the organizing process; a framework of decision-making authority and a system of relationships that governs people's activities to achieve goals. Key executives determine it.",
+   "d": "Organizing is the process; organization structure is its outcome.",
+   "w": "Give a definition of each term and show how they are linked."
+  },
+  {
+   "id": "mg3-w2",
+   "t": "Organization structure",
+   "wr": true,
+   "q": "Explain the four steps in developing an organization structure.",
+   "a": "1. Clear definition of objectives: they determine the type and basic characteristics of the organization.\n2. Identifying the activities and grouping them: list the activities needed to achieve objectives, group them systematically and assign them to personnel.\n3. Determining the structure: decide the span of control (flat or tall), type of organization, basis of departmentation and pattern of authority.\n4. Revising the system: assess the capacities of the people available and other resources (funds) and adjust.",
+   "d": "Organization structure: a framework of authority and relationships.",
+   "w": "The steps move from purpose (objectives) to work, then to structure, then to fitting it to resources."
+  },
+  {
+   "id": "mg3-w3",
+   "t": "Functional structure",
+   "wr": true,
+   "q": "Explain the advantages and disadvantages of a functional structure.",
+   "a": "Functional structure: groups activities into major functional departments (production, selling, financing, plus buying, accounting, personnel, research). It is the most widely used.\nAdvantages:\n- Ensures specialization and specialised knowledge and skill.\n- Facilitates coordination within each function.\n- Gives adequate attention to the basic activities.\n- A time-proved method that management can justify.\nDisadvantages:\n- Excessive centralization delays decisions and information flow.\n- Executives become too focused on their own functional areas.\n- Not a good training ground for all-round promotable managers.",
+   "d": "Functional structure: departmentation by functions, where each employee serves a specialist role.",
+   "w": "Strength and weakness come from the same source: deep specialization within functions."
+  },
+  {
+   "id": "mg3-w4",
+   "t": "Divisional structure",
+   "wr": true,
+   "q": "Explain the divisional structure and its advantages and disadvantages.",
+   "a": "Divisional structure: activities for each product or product line are combined into integrated units, each led by an executive with authority over production, sales, development and service. Location is irrelevant.\nAdvantages:\n- Specialised product knowledge and coordination of product activities.\n- Product managers are motivated to expand and improve their product.\n- Product lines can be compared (drop unprofitable, expand profitable).\n- Better coordination, customer service and control of resources.\nDisadvantages:\n- Coordination difficulties.\n- Control problems for top management monitoring many product departments.\n- Top management may be unwilling to delegate decision-making to departmental heads.",
+   "d": "Divisional structure: departmentation by product or service.",
+   "w": "Each division works like a small business, which helps focus but makes central control harder."
+  },
+  {
+   "id": "mg3-w5",
+   "t": "Matrix structure",
+   "wr": true,
+   "q": "Explain the matrix structure with its advantages and disadvantages.",
+   "a": "Matrix structure: a combination of functional and divisional structures. It imposes horizontal divisional reporting on a vertical functional hierarchy, so employees have two chains of command. Also called grid, project or product management organization.\nAdvantages:\n- Decentralised decision-making.\n- Better project or product coordination.\n- Better monitoring of, and response to, environmental change.\n- Flexible use of manpower and other resources.\nDisadvantages:\n- High administrative costs.\n- Confusion over authority and responsibility (power struggles).\n- More interpersonal conflict (who reports to whom?).\n- Overemphasis on group decision-making.",
+   "d": "Matrix structure: two chains of command, vertical and horizontal.",
+   "w": "The double reporting line gives flexibility but also creates confusion and conflict."
+  },
+  {
+   "id": "mg3-w6",
+   "t": "Line and staff",
+   "wr": true,
+   "q": "Distinguish between line and staff managers.",
+   "a": "Line functions have direct responsibility for accomplishing objectives; staff help the line work more effectively.\nLine managers:\n- Generalists who direct others and delegate authority.\n- Train subordinates, use sanctions and exert control.\n- Have veto power and take operating decisions.\n- Have final responsibility for achieving objectives.\nStaff managers:\n- Specialists who assist others and serve authority.\n- Investigate and solve special problems and make plans.\n- Support the line and provide ideas.\n- Provide specialised guidance to achieve objectives.",
+   "d": "Line authority: direct command. Staff authority: advisory and supportive.",
+   "w": "Line managers decide and command; staff managers advise and support."
+  }
+ ]
+}
