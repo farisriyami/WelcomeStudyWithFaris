@@ -508,6 +508,64 @@ a.backlink { text-decoration: none; }
   .topics .bar { grid-column: 1 / -1; grid-row: 2; }
   .qrow { flex-wrap: wrap; }
 }
+/* Sign in */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.login .q-head { display: grid; gap: 14px; }
+.roles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.role-card {
+  font: inherit; color: var(--ink); text-align: left; display: grid; gap: 2px; padding: 14px 16px;
+  border-radius: 12px; border: 1.5px solid var(--line); background: var(--field); cursor: pointer;
+}
+.role-card.is-on { border-color: var(--accent); background: var(--accent-soft); }
+@media (hover: hover) { .role-card:hover { border-color: var(--accent); } }
+.role-title { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; }
+.role-sub { font-size: .85rem; color: var(--muted); }
+.timer { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.login-form { display: grid; gap: 12px; max-width: 440px; }
+.login-form .btn { justify-self: start; }
+.pw-form { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 240px; }
+.pw-form input[type="text"] { flex: 1 1 140px; width: auto; padding: 7px 10px; }
+@media (max-width: 600px) { .login-form .btn { justify-self: stretch; } }
+
+/* Course chat */
+.sub-tabs { width: fit-content; }
+.chat-log {
+  height: min(56vh, 460px); overflow-y: auto; overscroll-behavior: contain;
+  display: flex; flex-direction: column; gap: 10px; padding: 4px 24px 16px;
+}
+.chat-empty { margin: auto; color: var(--muted); text-align: center; }
+.msg {
+  align-self: flex-start; max-width: min(520px, 88%); display: grid; gap: 2px; padding: 8px 12px;
+  background: var(--field); border: 1px solid var(--line); border-radius: 12px 12px 12px 4px;
+}
+.msg.mine { align-self: flex-end; background: var(--accent-soft); border-color: transparent; border-radius: 12px 12px 4px 12px; }
+.msg.score { border-color: var(--good); }
+.msg-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; font-size: .8rem; color: var(--muted); }
+.msg-meta b { color: var(--ink); font-size: .9rem; }
+.msg-text { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.role-badge {
+  font-family: var(--font-mono); font-size: .62rem; letter-spacing: .06em; text-transform: uppercase;
+  padding: 1px 7px; border-radius: 999px; background: var(--accent); color: var(--accent-ink);
+}
+.role-badge.teacher { background: var(--warn); color: var(--surface); }
+.msg-del {
+  font: inherit; font-size: .78rem; color: var(--bad); background: none; border: 0; padding: 0; margin-left: auto;
+  cursor: pointer; text-decoration: underline; text-underline-offset: 2px;
+}
+.msg-system { align-self: center; margin: 0; font-size: .82rem; color: var(--muted); font-style: italic; text-align: center; }
+.chat-form { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; padding: 14px 24px 20px; border-top: 1px solid var(--line); }
+.chat-form textarea { min-height: 3.4em; }
+.chat-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 8px; }
+.chat-actions select {
+  font: inherit; font-size: .92rem; color: var(--ink); background: var(--field); min-width: 0; flex: 1 1 220px;
+  border: 1.5px solid var(--line); border-radius: 8px; padding: 8px 10px;
+}
+@media (max-width: 480px) {
+  .roles { grid-template-columns: 1fr; }
+  .chat-log { padding: 4px 16px 14px; }
+  .chat-form { padding: 12px 16px 16px; }
+  .chat-actions .btn { flex: 1 1 auto; }
+}
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
@@ -1564,7 +1622,7 @@ const LOCAL_ONLY_CODES = ["not_writer", "not_granted", "not_declared", "consent_
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const phoneMQ = window.matchMedia("(max-width: 600px)");
 // Tracking: paste the Google Apps Script web app URL between the quotes to turn on student tracking.
-const TRACK_URL = "";
+const TRACK_URL = "https://script.google.com/macros/s/AKfycbzMBSOn-ZsLvhNwdPRyb1XV_xB_Abj7RBkh_681fWaHqfXapPv-87Ugnle9r4APBsxSfw/exec";
 
 const lsGet = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
 const lsSet = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
@@ -1608,7 +1666,7 @@ let DATA = usingLocal ? parseData(localSaved.data) : SHARED;
 let OPS = [];       // unsaved changes: addQ, delQ, addCh, delCh
 let PROG = {};      // quiz progress per chapter id
 let RESULTS = {};   // last full-quiz score per chapter id
-let route = { course: null, chapter: null, view: "quiz" };
+let route = { course: null, chapter: null, view: "quiz", tab: "chapters" };
 let CH = null;      // the saved chapter being viewed
 let byId = new Map();
 let S = null;       // quiz progress for CH
@@ -1627,6 +1685,8 @@ const artifactP = (window.claude && typeof window.claude.use === "function")
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const pad = n => String(n).padStart(2, "0");
 const plural = (n, word) => `${n} ${word}${n === 1 ? "" : "s"}`;
+// Time in minutes and seconds, e.g. "4m 05s".
+const fmtDur = secs => { secs = Math.max(0, Math.round(Number(secs) || 0)); return Math.floor(secs / 60) + "m " + pad(secs % 60) + "s"; };
 const topicOf = q => q.t || DEFAULT_TOPIC;
 const topicList = qs => qs.reduce((a, q) => (a.includes(topicOf(q)) ? a : a.concat(topicOf(q))), []);
 const correctOf = q => (q.wr ? q.a : q.tf ? (q.ans ? "True" : "False") : q.o[0]);
@@ -1793,23 +1853,23 @@ function saveProgress() {
     if (S) PROG[CH.id] = S; else delete PROG[CH.id];
     if (W) WPROG[CH.id] = W; else delete WPROG[CH.id];
   }
-  lsSet(PROGRESS_KEY, JSON.stringify(PROG));
-  lsSet(WRITTEN_KEY, JSON.stringify(WPROG));
+  userSet(PROGRESS_KEY, JSON.stringify(PROG));
+  userSet(WRITTEN_KEY, JSON.stringify(WPROG));
 }
 function pruneStored() {
   Object.keys(PROG).forEach(id => { if (!findChapter(DATA, id)) delete PROG[id]; });
   Object.keys(RESULTS).forEach(id => { if (!findChapter(DATA, id)) delete RESULTS[id]; });
   Object.keys(WPROG).forEach(id => { if (!findChapter(DATA, id)) delete WPROG[id]; });
-  lsSet(WRITTEN_KEY, JSON.stringify(WPROG));
-  lsSet(PROGRESS_KEY, JSON.stringify(PROG));
-  lsSet(RESULTS_KEY, JSON.stringify(RESULTS));
+  userSet(WRITTEN_KEY, JSON.stringify(WPROG));
+  userSet(PROGRESS_KEY, JSON.stringify(PROG));
+  userSet(RESULTS_KEY, JSON.stringify(RESULTS));
 }
 // Remember the score of a finished full-length round for the chapter card.
 function recordResult() {
   if (!CH || !S || S.phase !== "results" || S.order.length !== allIds().length) return;
   const got = S.order.filter(isRight).length;
-  RESULTS[CH.id] = { pct: Math.round(got / S.order.length * 100), got, n: S.order.length, at: Date.now() };
-  lsSet(RESULTS_KEY, JSON.stringify(RESULTS));
+  RESULTS[CH.id] = { pct: Math.round(got / S.order.length * 100), got, n: S.order.length, at: Date.now(), secs: Math.round((S.ms || 0) / 1000) };
+  userSet(RESULTS_KEY, JSON.stringify(RESULTS));
 }
 
 /* ---------- Saving ---------- */
@@ -1885,8 +1945,8 @@ function renderTop() {
         <span class="eyebrow">Study quizzes${usingLocal ? " · your copy" : ""}</span>
         <h1 id="page-h" tabindex="-1">UTAS Course Quizzes</h1>
         <p class="intro">Pick a course, then a chapter. Every question shows its definition after you answer, and you get a percentage at the end.</p>
-        ${TRACK_URL && studentName ? `<p class="name-line muted">Studying as <b>${esc(studentName)}</b> · <button class="linkbtn" id="change-name">Change name</button></p>` : ""}
-        ${canEdit() ? `<p class="name-line muted"><b>Editing is on.</b> Only you can see the tools to add and delete chapters and questions. · <a href="#admin">Dashboard</a></p>` : ""}
+        ${me() ? `<p class="name-line muted">Signed in as <b>${esc(me().name)}</b> · ${ROLE_LABEL[me().role]} · <button class="linkbtn" id="logout">Log out</button>${isAdmin() ? ` · <a href="#admin">Dashboard</a>` : ""}</p>` : ""}
+        ${canEdit() ? `<p class="name-line muted"><b>Editing is on.</b> Only you can see the tools to add and delete chapters and questions.</p>` : ""}
       </header>
       <div class="tabs course-tabs" role="tablist" aria-label="Courses">
         ${eff.courses.map(c => `<button class="tab" role="tab" data-course="${esc(c.id)}" aria-selected="${c.id === route.course}">${esc(c.name)} <span class="count">${c.chapters.length}</span></button>`).join("")}
@@ -1903,9 +1963,9 @@ function renderTop() {
       <h1 id="page-h" tabindex="-1">${esc(ch.name)}</h1>
     </header>
     <div class="tabs" role="tablist" aria-label="Sections">
+      ${isAdmin() ? `<button class="tab" role="tab" data-view="manage" aria-selected="true">Questions <span class="count">${n + wn}</span></button>` : `
       <button class="tab" role="tab" data-view="quiz" aria-selected="${route.view === "quiz"}">Quiz</button>
-      ${wn ? `<button class="tab" role="tab" data-view="written" aria-selected="${route.view === "written"}">Written Q&amp;A</button>` : ""}
-      ${canEdit() ? `<button class="tab" role="tab" data-view="manage" aria-selected="${route.view === "manage"}">Manage <span class="count">${n + wn}</span></button>` : ""}
+      ${wn ? `<button class="tab" role="tab" data-view="written" aria-selected="${route.view === "written"}">Written Q&amp;A</button>` : ""}`}
     </div>`;
 }
 
@@ -1920,7 +1980,7 @@ function statusHTML(id) {
   }
   if (isObj(r) && typeof r.pct === "number") {
     const c = r.pct >= 75 ? "st-good" : r.pct >= 50 ? "st-warn" : "st-bad";
-    return `<span class="st ${c}">Last score ${r.pct}%</span>`;
+    return `<span class="st ${c}">Last score ${r.pct}%${r.secs != null ? " · " + fmtDur(r.secs) : ""}</span>`;
   }
   return `<span class="st st-none">Not started</span>`;
 }
@@ -1930,7 +1990,7 @@ function chapterCard(r, eff) {
   const n = quizQs(src).length, wn = writtenQs(src).length;
   const status = r.state === "new" ? `<span class="st st-prog">Not saved yet</span>`
     : r.state === "del" ? `<span class="st st-bad">Will be deleted</span>`
-    : statusHTML(ch.id);
+    : isAdmin() ? "" : statusHTML(ch.id);
   return `<li><button class="chapter-card${r.state ? " is-" + r.state : ""}" data-open="${esc(ch.id)}">
     <span class="cc-main">
       <span class="cc-label">${esc(ch.label || "Chapter")}</span>
@@ -1948,12 +2008,29 @@ function renderHome() {
   const saved = findCourse(DATA, course.id);
   const rows = (saved ? saved.chapters : []).map(ch => ({ ch, state: isDeletingChapter(ch.id) ? "del" : "" }))
     .concat(OPS.filter(o => o.op === "addCh" && o.course === course.id).map(o => ({ ch: o.ch, state: "new" })));
-  app.innerHTML = `
+  const tab = route.tab === "chat" ? "chat" : "chapters";
+  const head = `
     ${usingLocal ? localNotice() : ""}
     <section class="course-head">
       <h2>${esc(course.name)}</h2>
       ${course.sub ? `<p class="muted">${esc(course.sub)}</p>` : ""}
     </section>
+    <div class="tabs sub-tabs" role="tablist" aria-label="${esc(course.name)} sections">
+      <button class="tab" role="tab" data-tab="chapters" aria-selected="${tab === "chapters"}">Chapters <span class="count">${rows.length}</span></button>
+      <button class="tab" role="tab" data-tab="chat" aria-selected="${tab === "chat"}">Chat</button>
+    </div>`;
+  const foot = `<p class="site-foot">${TRACK_URL ? "Your name, role, quiz scores, study time and activity are shared with the site owner. · " : ""}<a href="#admin">Admin</a></p>`;
+  if (tab === "chat") {
+    if (CHAT.course !== course.id) resetChat(course.id);
+    app.innerHTML = head + chatHTML(course) + foot;
+    CHAT.sig = "";
+    updateChatView();
+    const ta = document.getElementById("chat-text");
+    if (ta) ta.value = CHAT.draft;
+    if (!CHAT.timer && TRACK_URL) startChat();
+    return;
+  }
+  app.innerHTML = `${head}
     ${rows.length ? `<ol class="chapters">${rows.map(r => chapterCard(r, eff)).join("")}</ol>` : `<p class="muted">No chapters yet.${canEdit() ? " Add the first one below." : ""}</p>`}
     ${canEdit() ? `<article class="card">
       <div class="q-head">
@@ -1968,7 +2045,7 @@ function renderHome() {
         <p class="form-msg" id="ch-msg" role="status"></p>
       </div>
     </article>` : ""}
-    <p class="site-foot">${TRACK_URL ? "Your name, quiz scores and activity are shared with the site owner. · " : ""}<a href="#admin">Admin</a></p>`;
+    ${foot}`;
 }
 
 /* ---------- Rendering: chapter quiz ---------- */
@@ -2019,7 +2096,7 @@ function renderQuiz() {
     <div class="status">
       ${ticksHTML()}
       <div class="status-row">
-        <span>Question <b>${S.idx + 1}</b> of ${n}</span>
+        <span>Question <b>${S.idx + 1}</b> of ${n} · <span class="timer" id="q-timer" title="Time on this quiz">${fmtDur((S.ms || 0) / 1000)}</span></span>
         <span class="status-right">
           <span>Score <b>${got}</b> / ${answered.length}${answered.length ? ` · <b>${pct}%</b>` : ""}</span>
           ${answered.length ? `<button class="linkbtn" id="restart">${restartArmed ? "Click again to restart" : "Start over"}</button>` : ""}
@@ -2082,7 +2159,7 @@ function renderResults() {
         <div class="score-row">
           <p class="pct ${bandCls}" id="qtext" tabindex="-1">${pct}<small>%</small></p>
           <div class="score-text">
-            <p class="score-line">You got <b>${got}</b> of ${n} right.</p>
+            <p class="score-line">You got <b>${got}</b> of ${n} right in <b>${fmtDur((S.ms || 0) / 1000)}</b>.</p>
             <p class="band-msg">${msg}</p>
           </div>
         </div>
@@ -2150,7 +2227,7 @@ function renderWritten() {
     <div class="status">
       ${wTicks()}
       <div class="status-row">
-        <span>Written question <b>${W.idx + 1}</b> of ${n}</span>
+        <span>Written question <b>${W.idx + 1}</b> of ${n} · <span class="timer" id="w-timer" title="Time on written practice">${fmtDur((W.ms || 0) / 1000)}</span></span>
         <span>Self-score <b>${got}</b> / ${marked.length}${marked.length ? ` · <b>${Math.round(got / marked.length * 100)}%</b>` : ""}</span>
       </div>
     </div>
@@ -2207,7 +2284,7 @@ function renderWrittenResults() {
         <div class="score-row">
           <p class="pct ${bandCls}" id="qtext" tabindex="-1">${pct}<small>%</small></p>
           <div class="score-text">
-            <p class="score-line">You marked <b>${got}</b> of ${n} answers as right.</p>
+            <p class="score-line">You marked <b>${got}</b> of ${n} answers as right, in <b>${fmtDur((W.ms || 0) / 1000)}</b>.</p>
             <p class="band-msg">${msg}</p>
           </div>
         </div>
@@ -2410,8 +2487,11 @@ function setBarMsg(msg, autoClear = true) {
 }
 
 function renderAll() {
-  if (adminMode) { renderAdmin(); return; }
+  if (adminMode) { stopChat(); renderAdmin(); return; }
+  if (!me()) { stopChat(); renderLogin(); return; }
   if (route.view === "manage" && !canEdit()) route.view = "quiz";
+  if (isAdmin() && route.chapter) route.view = "manage";
+  if (route.chapter || route.tab !== "chat") stopChat();
   renderTop();
   if (!route.chapter) renderHome();
   else if (route.view === "manage") renderManage();
@@ -2453,7 +2533,7 @@ function goHome() {
   focusHeading();
 }
 function setView(v) {
-  if (v === route.view || (v === "manage" && !canEdit())) return;
+  if (v === route.view || (v === "manage" && !canEdit()) || (isAdmin() && v !== "manage")) return;
   route.view = v;
   delChArmed = false;
   renderAll();
@@ -2465,7 +2545,8 @@ function choose(k) {
   const id = S.order[S.idx];
   if (S.answers[id] !== undefined) return;
   S.answers[id] = S.opts[id][k];
-  track("answer", Object.assign(chapterInfo(), { qid: id, correct: S.answers[id] === correct(id) }));
+  track("answer", Object.assign(chapterInfo(), { qid: id, correct: S.answers[id] === correct(id), secs: Math.round((S.qms || 0) / 1000) }));
+  S.qms = 0;
   restartArmed = false;
   renderQuizView(); renderSavebar(); saveProgress();
   revealFeedback();
@@ -2490,7 +2571,7 @@ function next() {
   else {
     S.phase = "results"; recordResult();
     const got = S.order.filter(isRight).length;
-    track("quiz_finish", Object.assign(chapterInfo(), { got, total: S.order.length, pct: Math.round(got / S.order.length * 100), round: S.label }));
+    track("quiz_finish", Object.assign(chapterInfo(), { got, total: S.order.length, pct: Math.round(got / S.order.length * 100), round: S.label, secs: Math.round((S.ms || 0) / 1000) }));
   }
   restartArmed = false;
   renderQuizView(); renderSavebar(); saveProgress();
@@ -2597,6 +2678,11 @@ function onClick(e) {
   if (b.dataset.open) { openChapter(b.dataset.open); return; }
   if (b.dataset.go === "home") { goHome(); return; }
   if (b.dataset.course) { route.course = b.dataset.course; renderAll(); return; }
+  if (b.dataset.role) { pickRole(b.dataset.role); return; }
+  if (b.dataset.mode) { pickMode(b.dataset.mode); return; }
+  if (b.dataset.pwfor) { ADMIN.pwFor = b.dataset.pwfor; ADMIN.pwMsg = ""; ADMIN.pwErr = ""; renderAdmin(); document.getElementById("pw-new")?.focus(); return; }
+  if (b.dataset.tab) { route.tab = b.dataset.tab === "chat" ? "chat" : "chapters"; renderAll(); if (route.tab === "chat") document.getElementById("chat-text")?.focus({ preventScroll: true }); return; }
+  if (b.dataset.msgdel) { onDeleteMessage(b); return; }
   if (b.dataset.view) { setView(b.dataset.view); return; }
   if (b.dataset.del) {
     const id = b.dataset.del;
@@ -2647,16 +2733,18 @@ function onClick(e) {
       else {
         W.phase = "results";
         const wGot = W.order.filter(i => W.marks[i] === true).length;
-        track("written_finish", Object.assign(chapterInfo(), { got: wGot, total: W.order.length, pct: Math.round(wGot / W.order.length * 100) }));
+        track("written_finish", Object.assign(chapterInfo(), { got: wGot, total: W.order.length, pct: Math.round(wGot / W.order.length * 100), secs: Math.round((W.ms || 0) / 1000) }));
       }
       renderWritten(); saveProgress();
       scrollToApp(); focusQuestion();
       break;
     case "w-again": W = newWritten(allWIds()); renderAll(); scrollToApp(); focusQuestion(); break;
     case "w-review": W = newWritten(W.order.filter(id => W.marks[id] !== true)); renderAll(); scrollToApp(); focusQuestion(); break;
-    case "change-name": askName(true); break;
+    case "logout": logout(); break;
+    case "pw-cancel": ADMIN.pwFor = ""; ADMIN.pwErr = ""; renderAdmin(); break;
+    case "chat-share": shareScore(); break;
     case "admin-refresh": ADMIN.rows = null; loadAdmin(ADMIN.key); break;
-    case "admin-logout": ADMIN.key = ""; ADMIN.rows = null; ADMIN.error = ""; ADMIN.student = null; ssDel("quizhub-admin-key"); OPS = []; renderAdmin(); break;
+    case "admin-logout": ADMIN.key = ""; ADMIN.rows = null; ADMIN.error = ""; ADMIN.student = null; ssDel("quizhub-admin-key"); OPS = []; LOGIN.role = null; renderAdmin(); break;
     case "admin-csv": downloadCSV(); break;
     case "use-shared": useShared(); break;
     case "save": saveChanges(); break;
@@ -2694,10 +2782,8 @@ function onKey(e) {
 const ssGet = k => { try { return sessionStorage.getItem(k); } catch (e) { return null; } };
 const ssSet = (k, v) => { try { sessionStorage.setItem(k, v); } catch (e) {} };
 const ssDel = k => { try { sessionStorage.removeItem(k); } catch (e) {} };
-const NAME_KEY = "quizhub-student-name";
 let VID = lsGet("quizhub-visitor-id");
 if (!VID) { VID = "v-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 8); lsSet("quizhub-visitor-id", VID); }
-let studentName = lsGet(NAME_KEY) || "";
 let adminMode = false;
 
 function chapterInfo() {
@@ -2705,102 +2791,476 @@ function chapterInfo() {
   return f ? { course: f.course.name, chapterId: f.chapter.id, chapter: (f.chapter.label ? f.chapter.label + ": " : "") + f.chapter.name } : {};
 }
 // Send one activity event to the tracking sheet. Fire-and-forget: the quiz never waits for it.
+// The admin's own activity is not tracked.
 function track(type, extra) {
-  if (!TRACK_URL) return;
-  const ev = Object.assign({ action: "log", vid: VID, name: studentName, type, device: phoneMQ.matches ? "phone" : "computer" }, extra || {});
+  if (!TRACK_URL || !IDENT || isAdmin()) return;
+  const ev = Object.assign({ action: "log", token: IDENT.token, vid: VID, type, device: phoneMQ.matches ? "phone" : "computer" }, extra || {});
   try {
     fetch(TRACK_URL, { method: "POST", mode: "no-cors", keepalive: true, headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(ev) }).catch(() => {});
   } catch (e) {}
 }
-function askName(force) {
-  if (!TRACK_URL || adminMode || (studentName && !force) || document.querySelector(".modal-back")) return;
-  const back = document.createElement("div");
-  back.className = "modal-back";
-  back.innerHTML = `
-    <form class="modal" id="name-form" novalidate aria-labelledby="name-title">
-      <h2 id="name-title">${studentName ? "Change your name" : "Welcome!"}</h2>
-      <p class="muted">Enter your name so your quiz scores are saved under it.</p>
-      <div class="field">
-        <label class="flabel" for="stu-name">Your name</label>
-        <input type="text" id="stu-name" maxlength="60" autocomplete="name" value="${esc(studentName)}">
-      </div>
-      <p class="form-msg" id="name-msg" role="status"></p>
-      <p class="muted small">Your name, quiz scores and activity on this site are shared with the site owner.</p>
-      <button class="btn primary" type="submit">${studentName ? "Save name" : "Start studying"}</button>
-    </form>`;
-  document.body.appendChild(back);
-  const input = back.querySelector("#stu-name");
-  setTimeout(() => input.focus(), 0);
-  back.querySelector("#name-form").addEventListener("submit", e => {
-    e.preventDefault();
-    const v = input.value.trim();
-    if (!v) {
-      const m = back.querySelector("#name-msg");
-      m.className = "form-msg is-error"; m.textContent = "Please enter your name.";
-      input.focus();
-      return;
+function trackVisit() {
+  if (!IDENT || isAdmin() || ssGet("quizhub-visit")) return;
+  ssSet("quizhub-visit", "1");
+  track("visit");
+}
+
+/* ---------- Study time: counts while the page is open and in use ---------- */
+const IDLE_MS = 5 * 60 * 1000;   // stop counting after 5 minutes without a tap, click, key or scroll
+let lastInput = Date.now(), unsentMs = 0;
+["pointerdown", "keydown", "scroll", "touchstart", "input"].forEach(t => window.addEventListener(t, () => { lastInput = Date.now(); }, { passive: true, capture: true }));
+function tick() {
+  if (document.visibilityState !== "visible" || Date.now() - lastInput > IDLE_MS || adminMode || !me() || isAdmin()) return;
+  unsentMs += 1000;
+  if (route.chapter && CH) {
+    if (route.view === "quiz" && S && S.phase === "quiz") {
+      S.ms = (S.ms || 0) + 1000;
+      if (S.answers[S.order[S.idx]] === undefined) S.qms = (S.qms || 0) + 1000;
+      const el = document.getElementById("q-timer");
+      if (el) el.textContent = fmtDur(S.ms / 1000);
+    } else if (route.view === "written" && W && W.phase === "write") {
+      W.ms = (W.ms || 0) + 1000;
+      const el = document.getElementById("w-timer");
+      if (el) el.textContent = fmtDur(W.ms / 1000);
     }
-    studentName = v;
-    lsSet(NAME_KEY, v);
-    track("set_name");
-    back.remove();
-    renderAll();
-  });
+  }
+  if (unsentMs >= IDLE_MS) flushTime();
+}
+// Report study time in chunks: when the page is hidden or closed, and every 5 minutes.
+function flushTime() {
+  if (unsentMs < 1000) return;
+  track("time", { secs: Math.round(unsentMs / 1000) });
+  unsentMs = 0;
+}
+
+/* ---------- Sign in: students and teachers use their own account, the admin uses the owner password ---------- */
+const ACCOUNT_KEY = "quizhub-account-v1";
+const ROLE_LABEL = { student: "Student", teacher: "Teacher", admin: "Admin" };
+const tidyName = v => String(v || "").replace(/\s+/g, " ").trim();
+// "" when the username is fine, otherwise what to fix. Letters from any alphabet, with spaces, hyphens, apostrophes and dots between.
+function nameProblem(v) {
+  const n = tidyName(v);
+  if (!n) return "Write your username.";
+  if (/\d/.test(n)) return "Usernames can't contain numbers.";
+  if (!/^[\p{L}\p{M}]+(?:[ '’.-]+[\p{L}\p{M}]+)*\.?$/u.test(n)) return "Use letters only.";
+  if (n.replace(/[^\p{L}]/gu, "").length < 2) return "Use at least 2 letters.";
+  if (n.length > 40) return "Keep it under 40 characters.";
+  return "";
+}
+let IDENT = (() => {
+  const v = lsJSON(ACCOUNT_KEY);
+  return isObj(v) && (v.role === "student" || v.role === "teacher") && typeof v.token === "string" && v.token && !nameProblem(v.name)
+    ? { role: v.role, name: tidyName(v.name), token: v.token } : null;
+})();
+lsDel("quizhub-identity-v1");   // the old name-only sign-in
+const LOGIN = { role: null, mode: "signin", name: "", error: "", info: "", loading: false };
+const isAdmin = () => !!(TRACK_URL && ADMIN.key);
+const me = () => (isAdmin() ? { role: "admin", name: "Admin" } : IDENT ? { role: IDENT.role, name: IDENT.name } : null);
+
+// Each person's quiz progress and scores are kept apart, even on a shared phone or computer.
+const userSlot = () => { const w = me(); return w ? (w.role === "admin" ? "admin" : "u:" + w.name.toLowerCase()) : ""; };
+const userSet = (base, v) => { if (userSlot()) lsSet(base + "|" + userSlot(), v); };
+function loadUserData() {
+  const get = base => (userSlot() ? lsJSON(base + "|" + userSlot()) : null);
+  const p = get(PROGRESS_KEY), r = get(RESULTS_KEY), wp = get(WRITTEN_KEY);
+  PROG = isObj(p) ? p : {}; RESULTS = isObj(r) ? r : {}; WPROG = isObj(wp) ? wp : {};
+  if (userSlot()) pruneStored();
+}
+
+function renderLogin() {
+  const dock = document.getElementById("dock");
+  dock.hidden = true; setDockVar();
+  topEl.innerHTML = `
+    <header>
+      <span class="eyebrow">Welcome</span>
+      <h1 id="page-h" tabindex="-1">UTAS Course Quizzes</h1>
+      <p class="intro">Sign in to start studying. Every question shows its definition after you answer, and you get a percentage and your time at the end.</p>
+    </header>`;
+  const r = LOGIN.role, busy = LOGIN.loading;
+  const card = (role, sub) => `<button class="role-card${r === role ? " is-on" : ""}" data-role="${role}" aria-pressed="${r === role}"><span class="role-title">${ROLE_LABEL[role]}</span><span class="role-sub">${sub}</span></button>`;
+  let form = "";
+  if (r && !TRACK_URL) {
+    form = `<p class="muted">Sign-in opens once the site is connected to its Google Sheet.</p>`;
+  } else if (r === "student" || r === "teacher") {
+    const create = LOGIN.mode === "create", who = ROLE_LABEL[r];
+    form = `
+      <div class="tabs sub-tabs" role="tablist" aria-label="${who} account">
+        <button class="tab" role="tab" data-mode="signin" aria-selected="${!create}">Sign in</button>
+        <button class="tab" role="tab" data-mode="create" aria-selected="${create}">Create account</button>
+      </div>
+      <form id="${create ? "signup-form" : "signin-form"}" class="login-form" novalidate>
+        <div class="field">
+          <label class="flabel" for="acc-name">${create ? "Choose a username" : "Username"}</label>
+          <input type="text" id="acc-name" maxlength="40" autocomplete="username" value="${esc(LOGIN.name)}" aria-describedby="login-msg">
+        </div>
+        <div class="field">
+          <label class="flabel" for="acc-pw">${create ? "Choose a password" : "Password"}</label>
+          <input type="password" id="acc-pw" maxlength="100" autocomplete="${create ? "new-password" : "current-password"}">
+        </div>
+        ${create ? `<div class="field">
+          <label class="flabel" for="acc-pw2">Type the password again</label>
+          <input type="password" id="acc-pw2" maxlength="100" autocomplete="new-password">
+        </div>` : ""}
+        <button class="btn primary" type="submit" ${busy ? "disabled" : ""}>${busy ? "Please wait…" : create ? `Create ${who.toLowerCase()} account` : "Sign in"}</button>
+      </form>
+      <p class="muted small">${create
+        ? "Usernames use letters only, no numbers, and each one belongs to one person. Passwords need at least 6 characters."
+        : "New here? Choose Create account. Forgot your password? Only the admin can reset it, so ask the site owner."}
+        Your username, quiz scores, study time and activity are shared with the site owner.</p>`;
+  } else if (r === "admin") {
+    form = `
+      <form id="login-admin" class="login-form" novalidate>
+        <div class="field"><label class="flabel" for="login-pw">Admin password</label><input type="password" id="login-pw" autocomplete="current-password"></div>
+        <button class="btn primary" type="submit" ${busy ? "disabled" : ""}>${busy ? "Checking…" : "Sign in"}</button>
+      </form>
+      <p class="muted small">Only the site owner can sign in as admin.</p>`;
+  }
+  const msg = LOGIN.error || LOGIN.info;
+  app.innerHTML = `
+    <article class="card login">
+      <div class="q-head">
+        <div class="meta"><span class="topic">Sign in</span></div>
+        <h2>Who are you?</h2>
+        <div class="roles" role="group" aria-label="Sign in as">
+          ${card("student", "Username and password")}
+          ${card("teacher", "Username and password")}
+          ${card("admin", "Owner password")}
+        </div>
+        ${form}
+        <p class="form-msg${LOGIN.error ? " is-error" : msg ? " is-ok" : ""}" id="login-msg" role="status">${esc(msg)}</p>
+      </div>
+    </article>`;
+  if (!busy) {
+    const first = ["acc-name", "acc-pw", "acc-pw2", "login-pw"].map(id => document.getElementById(id)).find(el => el && !el.value);
+    first?.focus();
+  }
+}
+function pickRole(role) {
+  if (!ROLE_LABEL[role]) return;
+  if (LOGIN.role !== role) LOGIN.mode = "signin";
+  LOGIN.role = role; LOGIN.error = ""; LOGIN.info = "";
+  renderAll();
+}
+function pickMode(mode) {
+  LOGIN.name = document.getElementById("acc-name")?.value ?? LOGIN.name;
+  LOGIN.mode = mode === "create" ? "create" : "signin";
+  LOGIN.error = ""; LOGIN.info = "";
+  renderAll();
+}
+function afterSignIn() {
+  Object.assign(LOGIN, { role: null, mode: "signin", name: "", error: "", info: "", loading: false });
+  loadUserData();
+  route.chapter = null; route.view = "quiz";
+  bindChapter();
+  renderAll(); window.scrollTo(0, 0); focusHeading();
+}
+async function accountSubmit(create) {
+  const name = document.getElementById("acc-name")?.value || "";
+  const pw = document.getElementById("acc-pw")?.value || "";
+  const pw2 = document.getElementById("acc-pw2")?.value || "";
+  LOGIN.name = name; LOGIN.info = "";
+  const fail = (m, id) => { LOGIN.error = m; renderAll(); const el = document.getElementById(id); if (el) el.focus(); };
+  const problem = nameProblem(name);
+  if (problem) return fail(problem, "acc-name");
+  if (!pw) return fail("Write your password.", "acc-pw");
+  if (create && pw.length < 6) return fail("Use at least 6 characters for the password.", "acc-pw");
+  if (create && pw !== pw2) return fail("The two passwords don't match. Type them again.", "acc-pw2");
+  const role = LOGIN.role === "teacher" ? "teacher" : "student";
+  LOGIN.loading = true; LOGIN.error = ""; renderAll();
+  try {
+    let d = await adminPost({ action: create ? "register" : "login", username: tidyName(name), password: pw, role });
+    if (create && d && d.error === "name taken") {
+      const again = await adminPost({ action: "login", username: tidyName(name), password: pw });
+      if (again && again.ok) d = again;
+    }
+    if (!d || !d.ok) throw new Error((d && d.error) || "error");
+    const got = d.role === "teacher" ? "teacher" : "student";
+    if (got !== role) throw new Error("role:" + got);
+    IDENT = { role: got, name: String(d.name), token: String(d.token) };
+    lsSet(ACCOUNT_KEY, JSON.stringify(IDENT));
+    afterSignIn();
+    track("login");
+    trackVisit();
+    return;
+  } catch (err) {
+    const m = (err && err.message) || "";
+    LOGIN.error = m === "name taken" ? "That username is already taken. Choose another one."
+      : m === "no account" ? "There's no account with that username. Check the spelling, or choose Create account."
+      : m === "wrong password" ? "That password is wrong. Forgot it? Ask the admin to reset it."
+      : m === "too many tries" ? "Too many wrong passwords. Wait 10 minutes, then try again."
+      : m === "bad name" ? "Usernames use letters only, no numbers."
+      : m === "bad password" ? "Use at least 6 characters for the password."
+      : m.startsWith("role:") ? `That's a ${m.slice(5)} account. Choose ${ROLE_LABEL[m.slice(5)]} above to sign in.`
+      : "Couldn't connect. Check your internet connection and try again.";
+  }
+  LOGIN.loading = false; renderAll();
+}
+function finishAdminLogin(pw) {
+  ADMIN.key = pw; ssSet("quizhub-admin-key", pw); ADMIN.rows = null; ADMIN.error = "";
+  if (!OPS.length) OPS = cleanOps(lsJSON(DRAFT_KEY));
+  afterSignIn();
+}
+const authError = m => m === "wrong password" ? "That password is wrong."
+  : m === "too many tries" ? "Too many wrong passwords. Wait 10 minutes, then try again."
+  : "Couldn't sign in. Check your connection and try again.";
+async function adminSignIn(pw) {
+  if (!pw) { LOGIN.error = "Enter the admin password."; renderAll(); return; }
+  LOGIN.loading = true; LOGIN.error = ""; LOGIN.info = ""; renderAll();
+  try {
+    const d = await adminPost({ action: "auth", key: pw });
+    if (!d || !d.ok) throw new Error((d && d.error) || "error");
+    finishAdminLogin(pw);
+    return;
+  } catch (err) {
+    LOGIN.error = authError(err && err.message);
+  }
+  LOGIN.loading = false; renderAll();
+}
+// Check the saved sign-in is still valid (it ends when the admin changes that person's password).
+async function verifyAccount() {
+  if (!IDENT || !TRACK_URL || isAdmin()) return;
+  try {
+    const d = await adminPost({ action: "whoami", token: IDENT.token });
+    if (d && d.ok) return;
+    if (d && d.error === "signed out") logout("Your sign-in has ended. Please sign in again.");
+  } catch (e) {}
+}
+function logout(msg) {
+  flushTime();
+  saveProgress();
+  if (ADMIN.key) { ADMIN.key = ""; ADMIN.rows = null; ADMIN.student = null; ADMIN.users = null; ssDel("quizhub-admin-key"); OPS = []; }
+  IDENT = null; lsDel(ACCOUNT_KEY); ssDel("quizhub-visit");
+  Object.assign(LOGIN, { role: null, mode: "signin", name: "", error: "", info: typeof msg === "string" ? msg : "", loading: false });
+  stopChat();
+  PROG = {}; RESULTS = {}; WPROG = {};
+  route.chapter = null; route.view = "quiz";
+  bindChapter();
+  renderAll(); window.scrollTo(0, 0); focusHeading();
+}
+
+/* ---------- Course chat ---------- */
+const CHAT = { course: null, msgs: [], closed: false, loading: false, error: "", sig: "", timer: null, busy: false, sending: false, draft: "", armed: "" };
+const CHAT_COMMANDS = ["#closed", "#close", "#open", "#del", "#delete"];
+// Proof of who is chatting: the owner password for the admin, the account's sign-in token for everyone else.
+const chatAuth = () => (isAdmin() ? { key: ADMIN.key } : { token: IDENT ? IDENT.token : "" });
+const fmtClock = t => {
+  const d = new Date(t);
+  if (isNaN(d)) return "";
+  const time = d.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" });
+  return d.toDateString() === new Date().toDateString() ? time : d.toLocaleDateString(undefined, { day: "numeric", month: "short" }) + " " + time;
+};
+function resetChat(courseId) {
+  stopChat();
+  Object.assign(CHAT, { course: courseId, msgs: [], closed: false, loading: true, error: "", sig: "", draft: "", armed: "" });
+}
+function startChat() {
+  stopChat();
+  pollChat();
+  CHAT.timer = setInterval(() => { if (document.visibilityState === "visible") pollChat(); }, 5000);
+}
+function stopChat() { if (CHAT.timer) { clearInterval(CHAT.timer); CHAT.timer = null; } }
+async function pollChat() {
+  if (!TRACK_URL || !CHAT.course || CHAT.busy || CHAT.sending) return;
+  const course = CHAT.course;
+  CHAT.busy = true;
+  try {
+    const d = await adminPost(Object.assign({ action: "chatList", course }, chatAuth()));
+    if (course !== CHAT.course) return;
+    if (!d || !d.ok) throw new Error((d && d.error) || "error");
+    setChat(d);
+  } catch (e) {
+    if (course === CHAT.course) { CHAT.loading = false; CHAT.error = "Couldn't load the chat. Check your connection."; updateChatView(); }
+  } finally { CHAT.busy = false; }
+}
+function setChat(d) {
+  CHAT.loading = false; CHAT.error = "";
+  CHAT.msgs = Array.isArray(d.messages) ? d.messages.filter(isObj) : [];
+  CHAT.closed = !!d.closed;
+  updateChatView();
+}
+function scoreChoices(course) {
+  return course.chapters.filter(ch => isObj(RESULTS[ch.id]) && typeof RESULTS[ch.id].pct === "number")
+    .sort((a, b) => (RESULTS[b.id].at || 0) - (RESULTS[a.id].at || 0));
+}
+function chatHTML(course) {
+  if (!TRACK_URL) return `
+    <article class="card"><div class="q-head">
+      <div class="meta"><span class="topic">${esc(course.name)} chat</span></div>
+      <h2>The chat isn't connected yet.</h2>
+      <p class="muted">It turns on once the site is connected to its Google Sheet.</p>
+    </div></article>`;
+  const admin = isAdmin(), locked = CHAT.closed && !admin;
+  const scores = scoreChoices(course);
+  const opts = scores.map(ch => { const r = RESULTS[ch.id]; return `<option value="${esc(ch.id)}">${esc((ch.label ? ch.label + ": " : "") + ch.name)} · ${r.pct}%</option>`; }).join("");
+  return `
+    <article class="card chat-card">
+      <div class="q-head">
+        <div class="meta"><span class="topic">${esc(course.name)} chat</span><span id="chat-state">${CHAT.closed ? "Closed" : "Open"}</span></div>
+        <p class="muted small">Share your scores and help each other. You can delete your own messages.</p>
+      </div>
+      <div class="chat-log" id="chat-log" role="log" aria-live="polite" aria-label="${esc(course.name)} messages"></div>
+      <form id="chat-form" class="chat-form" novalidate>
+        <label class="sr-only" for="chat-text">Message</label>
+        <textarea id="chat-text" rows="2" maxlength="500" placeholder="${locked ? "The admin has closed this chat." : "Write a message…"}" ${locked ? "disabled" : ""}></textarea>
+        <div class="chat-actions">
+          ${admin ? "" : scores.length ? `<select id="chat-score" aria-label="Score to share" ${locked ? "disabled" : ""}>${opts}</select>
+          <button type="button" class="btn secondary small" id="chat-share" ${locked ? "disabled" : ""}>Share score</button>` : `<span class="muted small">Finish a quiz in this course to share your score.</span>`}
+          <button class="btn primary small" type="submit" id="chat-send" ${locked ? "disabled" : ""}>Send</button>
+        </div>
+        <p class="form-msg" id="chat-msg" role="status"></p>
+        ${admin ? `<p class="muted small">Admin commands: <b>#closed</b> (or #close) closes this chat · <b>#open</b> opens it · <b>#del</b> deletes every message.</p>` : ""}
+      </form>
+    </article>`;
+}
+function chatLogHTML() {
+  if (CHAT.loading && !CHAT.msgs.length) return `<p class="chat-empty">Loading messages…</p>`;
+  if (CHAT.error && !CHAT.msgs.length) return `<p class="chat-empty">${esc(CHAT.error)}</p>`;
+  if (!CHAT.msgs.length) return `<p class="chat-empty">No messages yet. Say hello or share your score.</p>`;
+  const admin = isAdmin();
+  return CHAT.msgs.map(m => {
+    if (m.kind === "system") return `<p class="msg-system">${esc(m.text)} · ${esc(fmtClock(m.t))}</p>`;
+    const role = ROLE_LABEL[m.role] ? m.role : "student";
+    return `<div class="msg${m.mine ? " mine" : ""}${m.kind === "score" ? " score" : ""}">
+      <div class="msg-meta"><b>${esc(m.name)}</b>${role !== "student" ? `<span class="role-badge ${role}">${ROLE_LABEL[role]}</span>` : ""}<time>${esc(fmtClock(m.t))}</time>${admin || m.mine ? `<button class="msg-del" data-msgdel="${esc(m.id)}" aria-label="Delete message from ${esc(m.name)}">${CHAT.armed === m.id ? "Click again to delete" : "Delete"}</button>` : ""}</div>
+      <p class="msg-text">${m.kind === "score" ? "🎯 " : ""}${esc(m.text)}</p>
+    </div>`;
+  }).join("");
+}
+function updateChatView() {
+  const log = document.getElementById("chat-log");
+  if (!log) return;
+  const sig = JSON.stringify([CHAT.msgs.map(m => m.id), CHAT.closed, CHAT.error, CHAT.loading, CHAT.armed, isAdmin()]);
+  if (sig === CHAT.sig) return;
+  const first = !CHAT.sig;
+  const atBottom = first || log.scrollHeight - log.scrollTop - log.clientHeight < 80;
+  CHAT.sig = sig;
+  log.innerHTML = chatLogHTML();
+  if (atBottom) log.scrollTop = log.scrollHeight;
+  const st = document.getElementById("chat-state");
+  if (st) st.textContent = CHAT.closed ? "Closed" : "Open";
+  const locked = CHAT.closed && !isAdmin();
+  ["chat-text", "chat-send", "chat-share", "chat-score"].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = locked || (CHAT.sending && id !== "chat-text"); });
+  const ta = document.getElementById("chat-text");
+  if (ta) ta.placeholder = locked ? "The admin has closed this chat." : "Write a message…";
+}
+function chatSay(msg) {
+  const el = document.getElementById("chat-msg");
+  if (el) { el.className = "form-msg" + (msg ? " is-error" : ""); el.textContent = msg; }
+}
+async function sendChat(text, kind) {
+  const who = me();
+  if (!who || !CHAT.course || CHAT.sending || !TRACK_URL) return;
+  text = String(text || "").trim();
+  if (!text) { chatSay("Write a message first."); return; }
+  if (text.length > 500) { chatSay("Keep messages under 500 characters."); return; }
+  const isCmd = CHAT_COMMANDS.includes(text.toLowerCase());
+  if (isCmd && !isAdmin()) { chatSay("Only the admin can use chat commands."); return; }
+  if (!isCmd && isAdmin() && /^#\S+$/.test(text)) { chatSay("Unknown command. Use #closed, #open or #del."); return; }
+  if (CHAT.closed && !isAdmin()) { chatSay("The admin has closed this chat."); return; }
+  CHAT.sending = true; chatSay("");
+  updateChatView();
+  const send = document.getElementById("chat-send");
+  if (send) { send.disabled = true; send.textContent = "Sending…"; }
+  try {
+    const cid = Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+    const d = await adminPost(Object.assign({ action: "chatSend", course: CHAT.course, kind: kind === "score" ? "score" : "text", text, cid }, chatAuth()));
+    if (!d || !d.ok) throw new Error((d && d.error) || "error");
+    if (kind !== "score") { CHAT.draft = ""; const ta = document.getElementById("chat-text"); if (ta) ta.value = ""; }
+    CHAT.sig = "";
+    setChat(d);
+  } catch (err) {
+    const m = err && err.message;
+    if (m === "signed out") { CHAT.sending = false; logout("Your sign-in has ended. Please sign in again."); return; }
+    if (m === "closed") { CHAT.closed = true; CHAT.sig = ""; updateChatView(); }
+    chatSay(m === "closed" ? "The admin has closed this chat."
+      : m === "too fast" ? "You're sending too fast. Wait a moment, then send again."
+      : m === "not admin" ? "Only the admin can use chat commands."
+      : m === "unknown command" ? "Unknown command. Use #closed, #open or #del."
+      : m === "wrong password" ? "Your admin sign-in has ended. Log out and sign in again."
+      : "Couldn't send your message. Check your connection and try again.");
+  } finally {
+    CHAT.sending = false;
+    if (send) send.textContent = "Send";
+    CHAT.sig = CHAT.sig ? CHAT.sig + "~" : "";
+    updateChatView();
+  }
+}
+function shareScore() {
+  const course = findCourse(DATA, CHAT.course);
+  const sel = document.getElementById("chat-score");
+  const ch = course && sel ? course.chapters.find(c => c.id === sel.value) : null;
+  const r = ch && RESULTS[ch.id];
+  if (!r) { chatSay("Finish a quiz in this course first."); return; }
+  const where = (ch.label ? ch.label + ": " : "") + ch.name;
+  sendChat(`Scored ${r.pct}% (${r.got}/${r.n}) on ${where}${r.secs != null ? " in " + fmtDur(r.secs) : ""}`, "score");
+}
+async function onDeleteMessage(b) {
+  const id = b.dataset.msgdel;
+  if (CHAT.armed !== id) {
+    CHAT.armed = id; updateChatView();
+    setTimeout(() => { if (CHAT.armed === id) { CHAT.armed = ""; updateChatView(); } }, 4000);
+    return;
+  }
+  CHAT.armed = "";
+  b.disabled = true; b.textContent = "Deleting…";
+  try {
+    const d = await adminPost(Object.assign({ action: "chatDel", course: CHAT.course, id }, chatAuth()));
+    if (d && d.error === "not found") { CHAT.sig = CHAT.sig + "~"; pollChat(); return; }
+    if (!d || !d.ok) throw new Error((d && d.error) || "error");
+    CHAT.sig = CHAT.sig + "~";
+    setChat(d);
+  } catch (err) {
+    if (err && err.message === "signed out") { logout("Your sign-in has ended. Please sign in again."); return; }
+    chatSay(err && err.message === "not yours" ? "You can only delete your own messages." : "Couldn't delete that message. Try again.");
+    CHAT.sig = CHAT.sig + "~"; updateChatView();
+  }
 }
 
 /* ---------- Admin dashboard ---------- */
-const ADMIN = { key: ssGet("quizhub-admin-key") || "", rows: null, loading: false, error: "", filter: "all", student: null, setup: null };
+const ADMIN = { key: ssGet("quizhub-admin-key") || "", rows: null, users: null, loading: false, error: "", filter: "all", role: "all", student: null,
+  pwFor: "", pwMsg: "", pwErr: "", pwBusy: false };
 function parseRow(r) {
   const num = v => (v === "" || v == null || isNaN(Number(v)) ? null : Number(v));
   return {
-    t: new Date(r[0]), vid: String(r[1] || ""), name: String(r[2] || "").trim(), type: String(r[3] || ""),
-    course: String(r[4] || ""), chId: String(r[5] || ""), chapter: String(r[6] || ""), qid: String(r[7] || ""),
-    correct: r[8] === "" || r[8] == null ? null : Number(r[8]) === 1,
-    pct: num(r[9]), got: num(r[10]), total: num(r[11]), round: String(r[12] || ""), device: String(r[13] || "")
+    t: new Date(r[0]), vid: String(r[1] || ""), name: String(r[2] || "").trim(), role: r[3] === "teacher" ? "teacher" : "student", type: String(r[4] || ""),
+    course: String(r[5] || ""), chId: String(r[6] || ""), chapter: String(r[7] || ""), qid: String(r[8] || ""),
+    correct: r[9] === "" || r[9] == null ? null : Number(r[9]) === 1,
+    pct: num(r[10]), got: num(r[11]), total: num(r[12]), round: String(r[13] || ""), secs: num(r[14]), device: String(r[15] || "")
   };
 }
-async function adminPost(body) {
-  const res = await fetch(TRACK_URL, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(body) });
-  return res.json();
-}
-async function checkAdminSetup() {
-  ADMIN.loading = true; ADMIN.error = "";
-  renderAdmin();
-  try { const d = await adminPost({ action: "status" }); ADMIN.setup = !!(d && d.ok && !d.hasPassword); }
-  catch (err) { ADMIN.setup = false; }
-  ADMIN.loading = false;
-  renderAdmin();
-}
-async function createAdminPassword(pw, pw2) {
-  if (pw.length < 6) { ADMIN.error = "Use at least 6 characters."; renderAdmin(); return; }
-  if (pw !== pw2) { ADMIN.error = "The two passwords don't match. Type them again."; renderAdmin(); return; }
-  ADMIN.loading = true; ADMIN.error = "";
-  renderAdmin();
-  try {
-    const d = await adminPost({ action: "setup", key: pw });
-    if (!d || !d.ok) throw new Error((d && d.error) || "error");
-    ADMIN.setup = false; ADMIN.loading = false;
-    loadAdmin(pw);
-    return;
-  } catch (err) {
-    if (err && err.message === "already set") { ADMIN.setup = false; ADMIN.error = "An admin password already exists. Sign in with it."; }
-    else ADMIN.error = "Couldn't save the password. Check your internet connection, then try again.";
+// Talk to the Google Apps Script server. Google sometimes drops or delays an answer,
+// so wait at most 25 seconds and try up to 3 times.
+async function adminPost(body, tries = 3) {
+  let last = new Error("network");
+  for (let i = 0; i < tries; i++) {
+    if (i) await new Promise(r => setTimeout(r, 1000 * i));
+    const ctl = typeof AbortController === "function" ? new AbortController() : null;
+    const timer = ctl ? setTimeout(() => ctl.abort(), 25000) : 0;
+    try {
+      const res = await fetch(TRACK_URL, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(body), signal: ctl ? ctl.signal : undefined });
+      const d = await res.json();
+      if (d && d.error === "retry") { last = new Error("retry"); continue; }
+      return d;
+    } catch (err) {
+      last = err;
+    } finally {
+      clearTimeout(timer);
+    }
   }
-  ADMIN.loading = false;
-  renderAdmin();
+  throw last;
 }
 async function loadAdmin(key) {
   ADMIN.loading = true; ADMIN.error = "";
   renderAdmin();
   try {
-    const data = await adminPost({ action: "read", key });
+    const [data, acc] = await Promise.all([adminPost({ action: "read", key }), adminPost({ action: "users", key }).catch(() => null)]);
     if (!data || !data.ok) throw new Error((data && data.error) || "error");
+    ADMIN.users = acc && acc.ok && Array.isArray(acc.users) ? acc.users.filter(isObj) : [];
     ADMIN.key = key; ssSet("quizhub-admin-key", key);
     ADMIN.rows = (Array.isArray(data.rows) ? data.rows : []).map(parseRow).filter(r => !isNaN(r.t)).sort((a, b) => a.t - b.t);
   } catch (err) {
     ADMIN.rows = null;
-    if (err && err.message === "wrong password") { ADMIN.error = "That password is wrong."; ADMIN.key = ""; ssDel("quizhub-admin-key"); }
-    else if (err && err.message === "no password") { ADMIN.setup = true; ADMIN.key = ""; ssDel("quizhub-admin-key"); }
+    if (err && (err.message === "wrong password" || err.message === "too many tries")) { ADMIN.error = authError(err.message); ADMIN.key = ""; ssDel("quizhub-admin-key"); }
     else ADMIN.error = "Couldn't load the data. Check your internet connection, then try again.";
   }
   ADMIN.loading = false;
@@ -2810,24 +3270,78 @@ const fmtTime = d => (isNaN(d) ? "" : d.toLocaleString(undefined, { dateStyle: "
 const dayKey = d => d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
 const avgOf = a => (a.length ? Math.round(a.reduce((s, x) => s + x, 0) / a.length) : null);
 const pctText = v => (v == null ? "–" : v + "%");
+// Student and teacher accounts. Only the admin can change a password.
+function accountsHTML() {
+  const list = (ADMIN.users || []).filter(u => ADMIN.role === "all" || u.role === ADMIN.role)
+    .sort((a, b) => String(b.last || "").localeCompare(String(a.last || "")));
+  const when = t => (t ? fmtTime(new Date(t)) : "–");
+  const rows = list.map(u => `<tr>
+      <td>${esc(u.name)}</td>
+      <td>${ROLE_LABEL[u.role] || "Student"}</td>
+      <td class="nowrap">${esc(when(u.created))}</td>
+      <td class="nowrap">${esc(when(u.last))}</td>
+      <td>${ADMIN.pwFor === u.key ? `<form id="pw-form" class="pw-form" novalidate>
+          <label class="sr-only" for="pw-new">New password for ${esc(u.name)}</label>
+          <input type="text" id="pw-new" maxlength="100" autocomplete="off" spellcheck="false" placeholder="New password">
+          <button class="btn primary small" type="submit" ${ADMIN.pwBusy ? "disabled" : ""}>${ADMIN.pwBusy ? "Saving…" : "Save"}</button>
+          <button class="linkbtn" type="button" id="pw-cancel">Cancel</button>
+        </form>` : `<button class="btn secondary small" data-pwfor="${esc(u.key)}">Change password</button>`}</td>
+    </tr>`).join("");
+  return `
+    <article class="card" id="accounts">
+      <div class="q-head">
+        <div class="meta"><span class="topic">Accounts</span><span>${plural(list.length, "account")}</span></div>
+        <h2>Usernames and passwords</h2>
+        <p class="muted">Each username belongs to one person. Only you can change a password: choose an account, type the new password, then tell that person. Their old sign-ins stop working.</p>
+        ${ADMIN.pwMsg ? `<p class="form-msg is-ok" role="status">${esc(ADMIN.pwMsg)}</p>` : ""}
+        ${ADMIN.pwErr ? `<p class="form-msg is-error" role="status">${esc(ADMIN.pwErr)}</p>` : ""}
+      </div>
+      ${list.length ? `<div class="table-wrap"><table class="admin-table">
+        <thead><tr><th>Username</th><th>Role</th><th>Created</th><th>Last sign-in</th><th>Password</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>` : `<p class="empty-note">No accounts yet.</p>`}
+    </article>`;
+}
+async function setUserPassword() {
+  const u = (ADMIN.users || []).find(x => x.key === ADMIN.pwFor);
+  if (!u) return;
+  const pw = document.getElementById("pw-new")?.value || "";
+  if (pw.length < 6) { ADMIN.pwMsg = ""; ADMIN.pwErr = "Use at least 6 characters."; renderAdmin(); document.getElementById("pw-new")?.focus(); return; }
+  ADMIN.pwBusy = true; ADMIN.pwErr = ""; ADMIN.pwMsg = "";
+  renderAdmin();
+  try {
+    const d = await adminPost({ action: "setPassword", key: ADMIN.key, user: u.key, password: pw });
+    if (!d || !d.ok) throw new Error((d && d.error) || "error");
+    ADMIN.pwFor = "";
+    ADMIN.pwMsg = `Password changed for ${u.name}. Tell them the new password. Their old sign-ins have ended.`;
+  } catch (err) {
+    ADMIN.pwErr = err && err.message === "wrong password" ? "Your admin sign-in has ended. Sign out and sign in again." : "Couldn't change the password. Try again.";
+  }
+  ADMIN.pwBusy = false;
+  renderAdmin();
+  document.getElementById("accounts")?.scrollIntoView({ block: "nearest" });
+}
 const kpiHTML = (v, label) => `<div class="kpi"><b>${esc(v)}</b><span>${esc(label)}</span></div>`;
 function describeEvent(r) {
   const where = [r.course, r.chapter].filter(Boolean).join(" · ");
+  const took = r.secs != null ? " in " + fmtDur(r.secs) : "";
   if (r.type === "visit") return "Visited the site";
   if (r.type === "set_name") return "Entered their name";
+  if (r.type === "login") return `Signed in as ${r.role === "teacher" ? "a teacher" : "a student"}`;
+  if (r.type === "time") return "Studied for " + fmtDur(r.secs);
   if (r.type === "open_chapter") return "Opened " + where;
-  if (r.type === "quiz_finish") return `Finished the quiz in ${where}: ${pctText(r.pct)} (${r.got}/${r.total})`;
-  if (r.type === "written_finish") return `Finished written practice in ${where}: ${pctText(r.pct)} (${r.got}/${r.total})`;
-  if (r.type === "answer") return `Answered a question in ${where}: ${r.correct ? "correct" : "wrong"}`;
+  if (r.type === "quiz_finish") return `Finished the quiz in ${where}: ${pctText(r.pct)} (${r.got}/${r.total})${took}`;
+  if (r.type === "written_finish") return `Finished written practice in ${where}: ${pctText(r.pct)} (${r.got}/${r.total})${took}`;
+  if (r.type === "answer") return `Answered a question in ${where}: ${r.correct ? "correct" : "wrong"}${took}`;
   return r.type;
 }
 function downloadCSV() {
   if (!ADMIN.rows) return;
   const cell = v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
-  const head = ["time", "visitor", "name", "action", "course", "chapter", "question", "correct", "score %", "got", "total", "round", "device"];
+  const head = ["time", "visitor", "name", "role", "action", "course", "chapter", "question", "correct", "score %", "got", "total", "round", "seconds", "minutes and seconds", "device"];
   const lines = [head.map(cell).join(",")].concat(ADMIN.rows.map(r => [
-    isNaN(r.t) ? "" : r.t.toISOString(), r.vid, r.name, r.type, r.course, r.chapter, r.qid,
-    r.correct == null ? "" : r.correct ? 1 : 0, r.pct, r.got, r.total, r.round, r.device
+    isNaN(r.t) ? "" : r.t.toISOString(), r.vid, r.name, r.role, r.type, r.course, r.chapter, r.qid,
+    r.correct == null ? "" : r.correct ? 1 : 0, r.pct, r.got, r.total, r.round, r.secs, r.secs == null ? "" : fmtDur(r.secs), r.device
   ].map(cell).join(",")));
   const blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
   const a = document.createElement("a");
@@ -2856,33 +3370,6 @@ function renderAdmin() {
   }
   if (!ADMIN.rows) {
     if (ADMIN.key && !ADMIN.loading && !ADMIN.error) { loadAdmin(ADMIN.key); return; }
-    if (ADMIN.setup === null && !ADMIN.key) {
-      if (!ADMIN.loading) { checkAdminSetup(); return; }
-      app.innerHTML = `<article class="card"><div class="q-head"><p class="muted">Connecting to your student data…</p></div></article>`;
-      return;
-    }
-    if (ADMIN.setup) {
-      app.innerHTML = `
-      <article class="card"><div class="q-head">
-        <div class="meta"><span class="topic">First-time setup</span></div>
-        <h2>Create your admin password</h2>
-        <p class="muted">Only you should know it. You'll use it to open this dashboard on any phone or computer. Use at least 6 characters.</p>
-        <form id="admin-setup" class="addch" novalidate>
-          <div class="field">
-            <label class="flabel" for="admin-new">New password</label>
-            <input type="password" id="admin-new" autocomplete="new-password">
-          </div>
-          <div class="field">
-            <label class="flabel" for="admin-new2">Type it again</label>
-            <input type="password" id="admin-new2" autocomplete="new-password">
-          </div>
-          <button class="btn primary" type="submit" ${ADMIN.loading ? "disabled" : ""}>${ADMIN.loading ? "Saving…" : "Create password"}</button>
-        </form>
-        <p class="form-msg${ADMIN.error ? " is-error" : ""}" role="status">${esc(ADMIN.error)}</p>
-      </div></article>`;
-      if (!ADMIN.loading) document.getElementById("admin-new")?.focus();
-      return;
-    }
     app.innerHTML = `
       <article class="card"><div class="q-head">
         <div class="meta"><span class="topic">Admin sign in</span></div>
@@ -2895,7 +3382,7 @@ function renderAdmin() {
           <button class="btn primary" type="submit" ${ADMIN.loading ? "disabled" : ""}>${ADMIN.loading ? "Loading…" : "Open dashboard"}</button>
         </form>
         <p class="form-msg${ADMIN.error ? " is-error" : ""}" role="status">${esc(ADMIN.error)}</p>
-        <p class="muted">Forgot it? In your Google Sheet open Extensions → Apps Script → Project Settings, delete the <b>ADMIN_HASH</b> script property, then reload this page to create a new password.</p>
+        <p class="muted">Only the site owner can open the dashboard.</p>
       </div></article>`;
     if (!ADMIN.loading) document.getElementById("admin-pw")?.focus();
     return;
@@ -2907,40 +3394,44 @@ function renderDashboard() {
   const vidName = {};
   all.forEach(r => { if (r.name) vidName[r.vid] = r.name; });
   const nameOf = r => r.name || vidName[r.vid] || "";
-  const personKey = r => (nameOf(r) ? "n:" + nameOf(r).toLowerCase() : "v:" + r.vid);
+  const personKey = r => (nameOf(r) ? "n:" + r.role + ":" + nameOf(r).toLowerCase() : "v:" + r.vid);
   const inCourse = r => ADMIN.filter === "all" || r.course === ADMIN.filter;
-  const general = r => r.type === "visit" || r.type === "set_name";
+  const general = r => r.type === "visit" || r.type === "set_name" || r.type === "login" || r.type === "time";
+  const rows = all.filter(r => ADMIN.role === "all" || r.role === ADMIN.role);
+  const avgTime = a => (a.length ? fmtDur(a.reduce((x, y) => x + y, 0) / a.length) : "–");
 
-  const finishes = all.filter(r => r.type === "quiz_finish" && r.pct != null && inCourse(r));
+  const finishes = rows.filter(r => r.type === "quiz_finish" && r.pct != null && inCourse(r));
+  const studySecs = rows.filter(r => r.type === "time" && r.secs != null).reduce((x, r) => x + r.secs, 0);
   const now = new Date(), today = dayKey(now);
   const people = new Map();
-  all.forEach(r => {
+  rows.forEach(r => {
     const k = personKey(r);
     let p = people.get(k);
-    if (!p) { p = { key: k, name: nameOf(r) || "Visitor without a name", first: r.t, last: r.t, devices: new Set(), visits: 0, chapters: new Set(), quiz: [], written: [] }; people.set(k, p); }
+    if (!p) { p = { key: k, name: nameOf(r) || "Visitor without a name", role: r.role, first: r.t, last: r.t, devices: new Set(), visits: 0, secs: 0, chapters: new Set(), quiz: [], quizSecs: [], written: [] }; people.set(k, p); }
     if (nameOf(r)) p.name = nameOf(r);
     if (r.t > p.last) p.last = r.t;
     if (r.device) p.devices.add(r.device);
     if (r.type === "visit") p.visits++;
+    if (r.type === "time" && r.secs != null) p.secs += r.secs;
     if (general(r) || !inCourse(r)) return;
     if (r.type === "open_chapter" && r.chId) p.chapters.add(r.chId);
-    if (r.type === "quiz_finish" && r.pct != null) p.quiz.push(r.pct);
+    if (r.type === "quiz_finish" && r.pct != null) { p.quiz.push(r.pct); if (r.secs != null) p.quizSecs.push(r.secs); }
     if (r.type === "written_finish" && r.pct != null) p.written.push(r.pct);
   });
   const peopleList = [...people.values()].sort((a, b) => b.last - a.last);
-  const named = peopleList.filter(p => p.key.startsWith("n:")).length;
+  const countRole = role => peopleList.filter(p => p.key.startsWith("n:" + role + ":")).length;
 
   const days = [];
   for (let i = 13; i >= 0; i--) { const d = new Date(now); d.setDate(d.getDate() - i); days.push(dayKey(d)); }
-  const perDay = days.map(k => new Set(all.filter(r => dayKey(r.t) === k).map(r => r.vid)).size);
+  const perDay = days.map(k => new Set(rows.filter(r => dayKey(r.t) === k).map(r => r.vid)).size);
   const maxDay = Math.max(1, ...perDay);
 
   const chMap = new Map();
-  all.filter(r => r.chId && !general(r) && inCourse(r)).forEach(r => {
+  rows.filter(r => r.chId && !general(r) && inCourse(r)).forEach(r => {
     let c = chMap.get(r.chId);
-    if (!c) { c = { course: r.course, chapter: r.chapter, opens: 0, people: new Set(), quiz: [], written: [] }; chMap.set(r.chId, c); }
+    if (!c) { c = { course: r.course, chapter: r.chapter, opens: 0, people: new Set(), quiz: [], quizSecs: [], written: [] }; chMap.set(r.chId, c); }
     if (r.type === "open_chapter") { c.opens++; c.people.add(personKey(r)); }
-    if (r.type === "quiz_finish" && r.pct != null) c.quiz.push(r.pct);
+    if (r.type === "quiz_finish" && r.pct != null) { c.quiz.push(r.pct); if (r.secs != null) c.quizSecs.push(r.secs); }
     if (r.type === "written_finish" && r.pct != null) c.written.push(r.pct);
   });
   const chList = [...chMap.values()].sort((a, b) => (a.course + a.chapter).localeCompare(b.course + b.chapter, undefined, { numeric: true }));
@@ -2948,37 +3439,41 @@ function renderDashboard() {
   const qText = {};
   DATA.courses.forEach(c => c.chapters.forEach(ch => ch.questions.forEach(q => { qText[q.id] = q.q; })));
   const qMap = new Map();
-  all.filter(r => r.type === "answer" && r.qid && inCourse(r)).forEach(r => {
+  rows.filter(r => r.type === "answer" && r.qid && inCourse(r)).forEach(r => {
     let q = qMap.get(r.qid);
-    if (!q) { q = { id: r.qid, n: 0, right: 0, where: [r.course, r.chapter].filter(Boolean).join(" · ") }; qMap.set(r.qid, q); }
+    if (!q) { q = { id: r.qid, n: 0, right: 0, secs: [], where: [r.course, r.chapter].filter(Boolean).join(" · ") }; qMap.set(r.qid, q); }
     q.n++; if (r.correct) q.right++;
+    if (r.secs != null) q.secs.push(r.secs);
   });
   const hard = [...qMap.values()].filter(q => q.n >= 3).map(q => Object.assign(q, { rate: Math.round(q.right / q.n * 100) }))
     .sort((a, b) => a.rate - b.rate || b.n - a.n).slice(0, 10);
 
-  const feed = all.filter(r => r.type !== "answer" && (general(r) || inCourse(r))).slice(-40).reverse();
+  const showInFeed = r => r.type !== "answer" && r.type !== "time" && (general(r) || inCourse(r));
+  const feed = rows.filter(showInFeed).slice(-40).reverse();
 
   let detail = "";
   const sel = ADMIN.student && people.get(ADMIN.student);
   if (sel) {
-    const mine = all.filter(r => personKey(r) === sel.key);
+    const mine = rows.filter(r => personKey(r) === sel.key);
     const best = new Map();
     mine.filter(r => r.type === "quiz_finish" && r.pct != null && inCourse(r)).forEach(r => {
       const k = [r.course, r.chapter].filter(Boolean).join(" · ");
-      const b = best.get(k);
-      best.set(k, { best: Math.max(b ? b.best : 0, r.pct), tries: (b ? b.tries : 0) + 1 });
+      const b = best.get(k) || { best: 0, tries: 0, fastest: null, last: null };
+      b.best = Math.max(b.best, r.pct); b.tries++;
+      if (r.secs != null) { b.fastest = b.fastest == null ? r.secs : Math.min(b.fastest, r.secs); b.last = r.secs; }
+      best.set(k, b);
     });
-    const evs = mine.filter(r => r.type !== "answer" && (general(r) || inCourse(r))).reverse().slice(0, 100);
+    const evs = mine.filter(showInFeed).reverse().slice(0, 100);
     detail = `
       <article class="card">
         <div class="q-head">
-          <div class="meta"><span class="topic">Student</span><button class="linkbtn" data-student="">Close</button></div>
+          <div class="meta"><span class="topic">${ROLE_LABEL[sel.role] || "Student"}</span><button class="linkcell" data-student="">Close</button></div>
           <h2>${esc(sel.name)}</h2>
-          <p class="muted">First seen ${esc(fmtTime(sel.first))} · last active ${esc(fmtTime(sel.last))} · ${sel.visits} ${sel.visits === 1 ? "visit" : "visits"}</p>
+          <p class="muted">First seen ${esc(fmtTime(sel.first))} · last active ${esc(fmtTime(sel.last))} · ${sel.visits} ${sel.visits === 1 ? "visit" : "visits"} · studied for <b>${fmtDur(sel.secs)}</b></p>
         </div>
         ${best.size ? `<div class="table-wrap"><table class="admin-table">
-          <thead><tr><th>Chapter</th><th>Best quiz score</th><th>Attempts</th></tr></thead>
-          <tbody>${[...best].map(([k, v]) => `<tr><td>${esc(k)}</td><td>${v.best}%</td><td>${v.tries}</td></tr>`).join("")}</tbody>
+          <thead><tr><th>Chapter</th><th>Best quiz score</th><th>Attempts</th><th>Fastest time</th><th>Last time</th></tr></thead>
+          <tbody>${[...best].map(([k, v]) => `<tr><td>${esc(k)}</td><td>${v.best}%</td><td>${v.tries}</td><td>${v.fastest == null ? "–" : fmtDur(v.fastest)}</td><td>${v.last == null ? "–" : fmtDur(v.last)}</td></tr>`).join("")}</tbody>
         </table></div>` : `<p class="empty-note">No finished quizzes yet.</p>`}
         <div class="table-wrap"><table class="admin-table">
           <thead><tr><th>When</th><th>Action</th></tr></thead>
@@ -2989,23 +3484,29 @@ function renderDashboard() {
 
   const courseOpts = `<option value="all">All courses</option>` +
     DATA.courses.map(c => `<option value="${esc(c.name)}"${ADMIN.filter === c.name ? " selected" : ""}>${esc(c.name)}</option>`).join("");
+  const roleOpts = [["all", "Students and teachers"], ["student", "Students only"], ["teacher", "Teachers only"]]
+    .map(([v, l]) => `<option value="${v}"${ADMIN.role === v ? " selected" : ""}>${l}</option>`).join("");
   const avgAll = avgOf(finishes.map(r => r.pct));
 
   app.innerHTML = `
     <div class="admin-tools">
       <select id="admin-course" aria-label="Filter by course">${courseOpts}</select>
+      <select id="admin-role" aria-label="Filter by role">${roleOpts}</select>
       <button class="btn secondary small" id="admin-refresh">Refresh</button>
       <button class="btn secondary small" id="admin-csv">Download CSV</button>
       <a class="linkbtn" href="#">Edit quizzes</a>
       <button class="linkbtn" id="admin-logout">Sign out</button>
     </div>
     <div class="kpis">
-      ${kpiHTML(new Set(all.map(r => r.vid)).size, "Unique visitors")}
-      ${kpiHTML(all.filter(r => r.type === "visit").length, "Total visits")}
-      ${kpiHTML(new Set(all.filter(r => dayKey(r.t) === today).map(r => r.vid)).size, "Visitors today")}
-      ${kpiHTML(named, "Students with a name")}
+      ${kpiHTML((ADMIN.users || []).length, "Accounts")}
+      ${kpiHTML(new Set(rows.map(r => r.vid)).size, "Unique visitors")}
+      ${kpiHTML(new Set(rows.filter(r => dayKey(r.t) === today).map(r => r.vid)).size, "Visitors today")}
+      ${kpiHTML(countRole("student"), "Students")}
+      ${kpiHTML(countRole("teacher"), "Teachers")}
       ${kpiHTML(finishes.length, "Quizzes finished")}
       ${kpiHTML(avgAll == null ? "–" : avgAll + "%", "Average quiz score")}
+      ${kpiHTML(fmtDur(studySecs), "Total study time")}
+      ${kpiHTML(avgTime(finishes.filter(r => r.secs != null).map(r => r.secs)), "Average quiz time")}
     </div>
     ${detail}
     <article class="card">
@@ -3017,44 +3518,48 @@ function renderDashboard() {
     </article>
     <article class="card">
       <div class="q-head">
-        <div class="meta"><span class="topic">Students</span><span>${peopleList.length} ${peopleList.length === 1 ? "person" : "people"}</span></div>
-        <h2>Students and scores</h2>
-        <p class="muted">Select a name to see everything that student did.</p>
+        <div class="meta"><span class="topic">People</span><span>${peopleList.length} ${peopleList.length === 1 ? "person" : "people"}</span></div>
+        <h2>Students, teachers and scores</h2>
+        <p class="muted">Select a name to see everything that person did. Times are in minutes and seconds.</p>
       </div>
       ${peopleList.length ? `<div class="table-wrap"><table class="admin-table">
-        <thead><tr><th>Name</th><th>Last active</th><th>Visits</th><th>Chapters opened</th><th>Quizzes finished</th><th>Average quiz</th><th>Best quiz</th><th>Written average</th><th>Device</th></tr></thead>
+        <thead><tr><th>Name</th><th>Role</th><th>Last active</th><th>Visits</th><th>Study time</th><th>Chapters opened</th><th>Quizzes finished</th><th>Average quiz</th><th>Best quiz</th><th>Average quiz time</th><th>Written average</th><th>Device</th></tr></thead>
         <tbody>${peopleList.map(p => `<tr>
           <td><button class="linkcell" data-student="${esc(p.key)}">${esc(p.name)}</button></td>
+          <td>${ROLE_LABEL[p.role] || "Student"}</td>
           <td class="nowrap">${esc(fmtTime(p.last))}</td>
           <td>${p.visits}</td>
+          <td class="nowrap">${fmtDur(p.secs)}</td>
           <td>${p.chapters.size}</td>
           <td>${p.quiz.length}</td>
           <td>${pctText(avgOf(p.quiz))}</td>
           <td>${p.quiz.length ? Math.max(...p.quiz) + "%" : "–"}</td>
+          <td class="nowrap">${avgTime(p.quizSecs)}</td>
           <td>${pctText(avgOf(p.written))}</td>
           <td>${esc([...p.devices].join(", "))}</td>
         </tr>`).join("")}</tbody>
       </table></div>` : `<p class="empty-note">No visitors yet. Share the site link and activity will appear here.</p>`}
     </article>
+    ${accountsHTML()}
     <article class="card">
       <div class="q-head"><div class="meta"><span class="topic">Chapters</span></div><h2>Chapter performance</h2></div>
       ${chList.length ? `<div class="table-wrap"><table class="admin-table">
-        <thead><tr><th>Course</th><th>Chapter</th><th>Opened</th><th>Students</th><th>Quizzes finished</th><th>Average quiz</th><th>Written average</th></tr></thead>
-        <tbody>${chList.map(c => `<tr><td>${esc(c.course)}</td><td>${esc(c.chapter)}</td><td>${c.opens}</td><td>${c.people.size}</td><td>${c.quiz.length}</td><td>${pctText(avgOf(c.quiz))}</td><td>${pctText(avgOf(c.written))}</td></tr>`).join("")}</tbody>
+        <thead><tr><th>Course</th><th>Chapter</th><th>Opened</th><th>People</th><th>Quizzes finished</th><th>Average quiz</th><th>Average quiz time</th><th>Written average</th></tr></thead>
+        <tbody>${chList.map(c => `<tr><td>${esc(c.course)}</td><td>${esc(c.chapter)}</td><td>${c.opens}</td><td>${c.people.size}</td><td>${c.quiz.length}</td><td>${pctText(avgOf(c.quiz))}</td><td class="nowrap">${avgTime(c.quizSecs)}</td><td>${pctText(avgOf(c.written))}</td></tr>`).join("")}</tbody>
       </table></div>` : `<p class="empty-note">No chapters opened yet.</p>`}
     </article>
     <article class="card">
       <div class="q-head"><div class="meta"><span class="topic">Questions</span><span>At least 3 answers</span></div><h2>Hardest questions</h2></div>
       ${hard.length ? `<div class="table-wrap"><table class="admin-table">
-        <thead><tr><th>Question</th><th>Chapter</th><th>Answers</th><th>Correct</th></tr></thead>
-        <tbody>${hard.map(q => `<tr><td>${esc(qText[q.id] || q.id)}</td><td>${esc(q.where)}</td><td>${q.n}</td><td>${q.rate}%</td></tr>`).join("")}</tbody>
+        <thead><tr><th>Question</th><th>Chapter</th><th>Answers</th><th>Correct</th><th>Average time</th></tr></thead>
+        <tbody>${hard.map(q => `<tr><td>${esc(qText[q.id] || q.id)}</td><td>${esc(q.where)}</td><td>${q.n}</td><td>${q.rate}%</td><td class="nowrap">${avgTime(q.secs)}</td></tr>`).join("")}</tbody>
       </table></div>` : `<p class="empty-note">Not enough answers yet.</p>`}
     </article>
     <article class="card">
       <div class="q-head"><div class="meta"><span class="topic">Activity</span><span>Latest 40</span></div><h2>Recent activity</h2></div>
       ${feed.length ? `<div class="table-wrap"><table class="admin-table">
-        <thead><tr><th>When</th><th>Who</th><th>Action</th></tr></thead>
-        <tbody>${feed.map(r => `<tr><td class="nowrap">${esc(fmtTime(r.t))}</td><td>${esc(nameOf(r) || "Visitor without a name")}</td><td>${esc(describeEvent(r))}</td></tr>`).join("")}</tbody>
+        <thead><tr><th>When</th><th>Who</th><th>Role</th><th>Action</th></tr></thead>
+        <tbody>${feed.map(r => `<tr><td class="nowrap">${esc(fmtTime(r.t))}</td><td>${esc(nameOf(r) || "Visitor without a name")}</td><td>${ROLE_LABEL[r.role] || "Student"}</td><td>${esc(describeEvent(r))}</td></tr>`).join("")}</tbody>
       </table></div>` : `<p class="empty-note">No activity yet.</p>`}
     </article>`;
 }
@@ -3077,10 +3582,20 @@ function init() {
     if (e.target.id === "addform") { e.preventDefault(); onAdd(); }
     else if (e.target.id === "addch") { e.preventDefault(); onAddChapter(); }
     else if (e.target.id === "admin-login") { e.preventDefault(); const pw = document.getElementById("admin-pw").value; if (pw) loadAdmin(pw); }
-    else if (e.target.id === "admin-setup") { e.preventDefault(); createAdminPassword(document.getElementById("admin-new").value, document.getElementById("admin-new2").value); }
+    else if (e.target.id === "signin-form" || e.target.id === "signup-form") { e.preventDefault(); accountSubmit(e.target.id === "signup-form"); }
+    else if (e.target.id === "pw-form") { e.preventDefault(); setUserPassword(); }
+    else if (e.target.id === "login-admin") { e.preventDefault(); adminSignIn(document.getElementById("login-pw").value); }
+    else if (e.target.id === "chat-form") { e.preventDefault(); sendChat(document.getElementById("chat-text").value, "text"); }
+  });
+  root.addEventListener("keydown", e => {
+    // Enter sends a chat message on computers; Shift+Enter starts a new line.
+    if (e.target.id === "chat-text" && e.key === "Enter" && !e.shiftKey && !e.isComposing && !phoneMQ.matches) {
+      e.preventDefault(); sendChat(e.target.value, "text");
+    }
   });
   root.addEventListener("change", e => {
     if (e.target.id === "admin-course") { ADMIN.filter = e.target.value; renderAdmin(); return; }
+    if (e.target.id === "admin-role") { ADMIN.role = e.target.value; ADMIN.student = null; renderAdmin(); return; }
     if (e.target.name !== "f-type") return;
     const type = (app.querySelector('input[name="f-type"]:checked') || {}).value || "mc";
     app.querySelectorAll(".mc-only").forEach(el => { el.hidden = type !== "mc"; });
@@ -3089,6 +3604,13 @@ function init() {
   });
   root.addEventListener("input", e => {
     if (e.target.id === "q-search") { filterText = e.target.value; updateList(); }
+    else if (e.target.id === "chat-text") CHAT.draft = e.target.value;
+    else if (e.target.id === "acc-name") {
+      // Point out numbers as soon as they are typed.
+      const m = document.getElementById("login-msg");
+      const bad = /\d/.test(e.target.value);
+      if (m && (bad || m.textContent === "Usernames can't contain numbers.")) { m.className = "form-msg" + (bad ? " is-error" : ""); m.textContent = bad ? "Usernames can't contain numbers." : ""; }
+    }
     else if (e.target.id === "w-note" && W) { W.notes[W.order[W.idx]] = e.target.value; saveProgress(); }
   });
   document.addEventListener("keydown", onKey);
@@ -3098,16 +3620,12 @@ function init() {
 
   setRemote(lsJSON(REMOTE_KEY));
   if (!usingLocal) DATA = SHARED;
-  const p = lsJSON(PROGRESS_KEY); PROG = isObj(p) ? p : {};
-  const r = lsJSON(RESULTS_KEY); RESULTS = isObj(r) ? r : {};
-  const wp = lsJSON(WRITTEN_KEY); WPROG = isObj(wp) ? wp : {};
-  if (!PROG["tot-ch1"] && findChapter(DATA, "tot-ch1")) { const old = lsJSON(OLD_PROGRESS_KEY); if (isObj(old)) PROG["tot-ch1"] = old; }
-  pruneStored();
+  loadUserData();
   OPS = canEdit() ? cleanOps(lsJSON(DRAFT_KEY)) : [];
   saveDraft();
 
   const saved = lsJSON(ROUTE_KEY);
-  if (isObj(saved)) route = { course: str(saved.course) || null, chapter: str(saved.chapter) || null, view: saved.view === "manage" && canEdit() ? "manage" : "quiz" };
+  if (isObj(saved)) route = { course: str(saved.course) || null, chapter: str(saved.chapter) || null, view: saved.view === "manage" && canEdit() ? "manage" : "quiz", tab: saved.tab === "chat" ? "chat" : "chapters" };
   let hash = "";
   try { hash = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
   if (hash) {
@@ -3126,15 +3644,20 @@ function init() {
     if (a !== adminMode) {
       adminMode = a;
       if (!a && canEdit() && !OPS.length) OPS = cleanOps(lsJSON(DRAFT_KEY));
+      if (!a) { loadUserData(); bindChapter(); }
       window.scrollTo(0, 0); renderAll();
     }
   });
   renderAll();
   if (TRACK_URL) refreshContent();
-  if (!adminMode) {
-    if (!ssGet("quizhub-visit")) { ssSet("quizhub-visit", "1"); track("visit"); }
-    askName(false);
-  }
+  if (!adminMode) trackVisit();
+  verifyAccount();
+  setInterval(tick, 1000);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") { flushTime(); saveProgress(); }
+    else if (CHAT.timer) pollChat();
+  });
+  window.addEventListener("pagehide", () => { flushTime(); saveProgress(); });
 }
 init();
 })();
